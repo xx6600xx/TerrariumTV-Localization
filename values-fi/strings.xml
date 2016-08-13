@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Perinteinen kiina</string>
+    <string name="language_zh_cn">Yksinkertaistettu kiina</string>
+    <string name="language_en">Englanti</string>
+
+    <string name="action_settings">Asetukset</string>
+
+    <string name="no_data">Ei dataa</string>
+    <string name="no_internet">Ei internet-yhteyttä</string>
+    <string name="loading">Ladataan</string>
+    <string name="loading_more">Ladataan enemmänâ€¦</string>
+    <string name="action_search">Hae</string>
+    <string name="action_bookmark">Kirjanmerkit</string>
+    <string name="action_add_to_bookmark">Lisää kirjanmerkkeihin</string>
+    <string name="action_refresh">Päivitä</string>
+    <string name="action_stop">Pysäytä</string>
+    <string name="action_reverse">Käänteinen</string>
+    <string name="hint_tv_show_name">TV-sarjan nimi</string>
+    <string name="hint_movie_name">Elokuvan nimi</string>
+    <string name="subtitle">Tekstitykset</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="download_count">Latausten määrä :</string>
+
+    <string name="season">Kausi %1$d</string>
+    <string name="episode">Jakso %1$d</string>
+    <string name="season_episode">%1$s - Kausi %2$d Jakso %3$d</string>
+    <string name="season_special">Kauden erikoisjakso</string>
+    <string name="search_result_of">Tulos haulle \"%s\"</string>
+    <string name="getting_subtitle">Hankitaan tekstityksiäâ€¦ Odotaâ€¦</string>
+    <string name="downloading_subtitle_toast">Ladataan tekstityksiäâ€¦ Odotaâ€¦</string>
+    <string name="ready_to_play_toast">Video aloitetaan pianâ€¦</string>
+    <string name="searching_media">Haetaanâ€¦</string>
+    <string name="subtitle_language">Tekstityksen kieli: </string>
+    <string name="subtitle_download_failed">Tekstityksen lataus epäonnistuiâ€¦ Yritä toista tekstitystäâ€¦</string>
+    <string name="subtitle_extract_failed">Tekstityksen purkaminen epäonnistuiâ€¦ Yritä toista tekstitystäâ€¦</string>
+    <string name="permission_grant_toast">Paina \"Salli\" myöntääksesi käyttöoikeudet ja yritä uudelleen</string>
+    <string name="sorry">Pahoittelutâ€¦</string>
+    <string name="cant_be_opened_by_other_players">Tätä lähdettä ei voi avata tai katsoa muilla videosoittimilla. Pahoittelut vaivasta.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Peruuta</string>
+    <string name="close">Sulje</string>
+    <string name="install">Asenna</string>
+    <string name="mxplayer_not_installed">MXPlayer ei ole asennettu</string>
+    <string name="mxplayer_not_installed_message">MXPlayer ei ole asennettu laitteellesi. Terrarium tarvitsee MXPlayeriä näyttääkseen mediaa. Paina "Asenna" asentaaksesi MXPlayerin.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer ei kykene käynnistymään</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer ei kykene käynnistymään. Poista sen asennus ja yritä uudelleen.</string>
+    <string name="close_ad_to_play">Sulje mainos ensin katsoaksesi videon</string>
+
+    <string name="trending">Nousussa</string>
+    <string name="most_popular">Suosituimmat</string>
+    <string name="most_played">Katsotuimmat</string>
+    <string name="most_watched">Seuratuimmat</string>
+    <string name="recently_updated">Viimeksi päivitetyt</string>
+    <string name="new_shows">Uudet Sarjat</string>
+    <string name="premieres">Ensi-illat</string>
+    <string name="on_the_air">Lähetyksessä</string>
+    <string name="top_rated">Parhaat Arvostelut</string>
+    <string name="now_playing">Elokuvateattereissa</string>
+
+    <string name="genre_tv_action_adventure">Toiminta &amp; Seikkailu</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasia</string>
+    <string name="genre_tv_mystery">Mysteeri</string>
+    <string name="genre_tv_drama">Draama</string>
+    <string name="genre_tv_comedy">Komedia</string>
+    <string name="genre_tv_family">Perhe</string>
+    <string name="genre_tv_war_politics">Sota &amp; Politiikka</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Dokumentti</string>
+
+    <string name="genre_movie_action">Toiminta</string>
+    <string name="genre_movie_adventure">Seikkailu</string>
+    <string name="genre_movie_thriller">Trilleri</string>
+    <string name="genre_movie_sci">Sci-Fi</string>
+    <string name="genre_movie_fantasy">Fantasia</string>
+    <string name="genre_movie_mystery">Mysteeri</string>
+    <string name="genre_movie_horror">Kauhu</string>
+    <string name="genre_movie_crime">Rikos</string>
+    <string name="genre_movie_drama">Draama</string>
+    <string name="genre_movie_romance">Romantiikka</string>
+    <string name="genre_movie_comedy">Komedia</string>
+    <string name="genre_movie_family">Perhe</string>
+    <string name="genre_movie_animation">Animaatio</string>
+    <string name="genre_movie_history">Historia</string>
+    <string name="genre_movie_war">Sota</string>
+    <string name="genre_movie_documentary">Dokumentti</string>
+    <string name="genre_movie_music">Musiikki</string>
+
+    <string name="pref_general">Yleiset</string>
+    <string name="pref_ui">Käyttöliittymä</string>
+    <string name="pref_sources_and_resolvers">Tarjoajat and osoitteiden selvittäjät</string>
+    <string name="pref_subtitle">OpenSubtitles tekstityksien kieli</string>
+    <string name="pref_subtitle_chin">SubHD, Makedie ja Zimuku tekstityksien kieli</string>
+    <string name="pref_others">Muut</string>
+
+    <string name="pref_sub_down_path">Tekstityksien latauspolku</string>
+    <string name="pref_sub_down_path_des">Teksitykset ladataan ja tallennetaan tähän polkuun.</string>
+    <string name="pref_media_down_path">Median latauspolku(Vain Android Internal Download Managerille)</string>
+    <string name="pref_choose_media_down_manager">Valitse oletuslataustenhallintasovellusâ€¦</string>
+    <string name="pref_auto_check_update">Tarkista päivitykset automaattisesti</string>
+    <string name="pref_filter_out_non_english_shows">Suodata pois muut kuin englannin kieliset TV-sarjat</string>
+    <string name="pref_filter_out_dead_sources">Suodata pois kuolleet lähteet</string>
+    <string name="pref_filter_out_dead_sources_desc">Aiheuttaa lisää lähteiden latausaikaa</string>
+    <string name="pref_hide_unaired_season">Piilota esittämätön kausi</string>
+    <string name="pref_hide_unaired_episode">Piilota esittämätön jakso</string>
+    <string name="pref_subtitles_filter">Suodata pois täsmäämättömät tekstitykset</string>
+    <string name="pref_subtitles_choose_lang">Valitse tekstitysten kieli/kieletâ€¦</string>
+    <string name="pref_hide_season_image">Piilota kausien esikatselukuvat</string>
+    <string name="pref_hide_episode_image">Piilota jaksojen esikatsekuvat</string>
+    <string name="pref_show_menu_source">Näytä kontekstivalikko yhdellä painalluksella lähdelistassa</string>
+    <string name="pref_poster_size">Mediajulisteen koko</string>
+    <string name="pref_parallel_loading_sources">Rinnakkaisten lähteiden lataaminen</string>
+    <string name="pref_parallel_loading_sources_desc">Vahvasti suositeltu sallimaan. Nopeuta lähteiden latausnopeutta 500%. Voi kuitenkin aiheuttaa pakkosulkeutumisia tai kaatumisia joillakin matalatehoisilla laitteilla.</string>
+    <string name="pref_choose_default_nav">Valitse aloitussivuâ€¦</string>
+    <string name="pref_choose_default_category_tv_shows">Valitse oletuskategoria tai -genre TV-sarjoilleâ€¦</string>
+    <string name="pref_choose_default_category_movies">Valitse oletuskategoria tai -genre elokuvilleâ€¦</string>
+    <string name="pref_enabled_tv_shows_providers">Valitse TV-sarjojen tarjoajat, jotka sallitaanâ€¦</string>
+    <string name="pref_enabled_movies_providers">Valitse elokuvien tarjoajat, jotka sallitaanâ€¦</string>
+    <string name="pref_enabled_resolvers">Valitse osoitteiden selvittäjät, jotka sallitaanâ€¦</string>
+    <string name="pref_modern_ui">Käytä modernia käyttöliittymää</string>
+    <string name="pref_modern_ui_desc">Näytä mediajulisteet  bannereiden sijaan</string>
+    <string name="pref_choose_default_play_action">Valitse oletus play-painikkeen toimintaâ€¦</string>
+    <string name="restart_to_see_the_difference">Käynnistä Terrarium TV uudelleen nähdäksesi eron.</string>
+
+    <string name="download_manager_internal">Androidin sisäinen lataustenhallinta</string>
+    <string name="download_manager_external">Ulkoinen lataustenhallintasovellus</string>
+
+    <string name="action_play">Katso</string>
+    <string name="action_play_without_subtitle">Katso ilman tekstityksiä</string>
+    <string name="action_download">Lataa</string>
+    <string name="action_download_with_sub">Lataa tekstityksillä</string>
+    <string name="action_copy_link">Kopioi streamattava linkki</string>
+    <string name="action_play_via_other_players">Avaa sovelluksessaâ€¦</string>
+    <string name="choose_player">Valitse videosoitinâ€¦</string>
+    <string name="no_player_was_found">Yhtään videosoitinta ei löytynyt</string>
+    <string name="choose_external_download_manager">Valitse ulkoinen lataustenhallintasovellusâ€¦</string>
+    <string name="no_external_download_manager_was_found">Yhtään ulkoista lataustenhallintasovellusta ei löytynyt. Lataa ne Play Storesta tai käytä Androidin sisäistä lataustenhallintaa.</string>
+    <string name="download_started">Lataus aloitettuâ€¦</string>
+    <string name="download_path_error">Latauspolku täytyy olla sisäisellä muistilla. Valitse toinen polku.</string>
+    <string name="copied_link">Streamattava linkki kopioitu</string>
+    <string name="link_must_be_played_in_app">Pahoittelutâ€¦ Tämä linkki voidaan katsoa vain Terranium TV:ssäâ€¦</string>
+
+    <string name="update_title">Uusi versio löydetty : %s</string>
+    <string name="update_message">Versio %s : </string>
+    <string name="update_button">Päivitä</string>
+    <string name="update_downloading">Ladataan päivitystä %s</string>
+    <string name="update_failed">Päivitys epäonnistui tai keskeytettiin</string>
+    
+    <string name="subtitle_name">Tekstityksen nimi : </string>
+
+    <string name="facebook_page">Facebook-sivu</string>
+
+    <string name="changelog">Muutosloki</string>
+    <string name="choose_browser">Valitse selain</string>
+
+    <string name="disclaimer">Vastuuvapauslauseke</string>
+    <string name="accept">Hyväksy</string>
+    <string name="decline">Hylkää</string>
+
+    <string name="error">Tuntematon virhe. Yritä uudelleen.</string>
+    <string name="please_wait">Odotaâ€¦</string>
+
+    <string name="recaptcha_verify">Sinun täytyy vahvistaa reCaptcha saadaksesi lähteitä kohteesta %s</string>
+    <string name="verify">Vahvista</string>
+
+    <string name="size_large">Suuri</string>
+    <string name="size_normal">Normaali</string>
+    <string name="size_small">Pieni</string>
+
+    <string name="show_details_overview">YLEISKATSAUS</string>
+    <string name="show_details_season">KAUSI</string>
+    <string name="media_suggestion">Katso Myös</string>
+    <string name="no_synopsis">Ei tiivistelmää</string>
+    <string name="loading_ratings">Ladataan arvostelujaâ€¦</string>
+    <string name="no_ratings">Ei arvosteluja</string>
+    <string name="meta_in_production">Tuotannossa</string>
+    <string name="meta_returning_series">Palaava Sarja</string>
+    <string name="meta_ended">Päättynyt</string>
+
+    <string name="navigation_drawer_open">Avaa navigointilaatikko</string>
+    <string name="navigation_drawer_close">Sulje navigointilaatikko</string>
+
+    <string name="tv_shows">TV-sarjat</string>
+    <string name="movies">Elokuvat</string>
+
+    <string name="play_trailer">Katso Traileri</string>
+    
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
