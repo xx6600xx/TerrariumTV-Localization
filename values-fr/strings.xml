@@ -16,7 +16,7 @@
     <string name="action_refresh">Actualisation</string>
     <string name="action_stop">Arrêt</string>
     <string name="action_reverse">Renverser</string>
-    <string name="hint_tv_show_name">Titre d'émission de télévision</string>
+    <string name="hint_tv_show_name">Titre d\'émission de télévision</string>
     <string name="hint_movie_name">Titre de film</string>
     <string name="subtitle">Sous-titres</string>
     <string name="unknown">Inconnu</string>
@@ -27,13 +27,13 @@
     <string name="season_episode">%1$s - Saison %2$d Épisode %3$d</string>
     <string name="season_special">Saison Spéciale</string>
     <string name="search_result_of">Résultat de recherche \"%s\"</string>
-    <string name="getting_subtitle">Obtention des sous-titres… vieullez patienter s'il vous plait…</string>
-    <string name="downloading_subtitle_toast">Téléchargement des sous-titres… Veuillez patienter s'il vous plait…</string>
+    <string name="getting_subtitle">Obtention des sous-titres… vieullez patienter s\'il vous plait…</string>
+    <string name="downloading_subtitle_toast">Téléchargement des sous-titres… Veuillez patienter s\'il vous plait…</string>
     <string name="ready_to_play_toast">La vidéo commencera dans une seconds…</string>
     <string name="searching_media">Recherche…</string>
     <string name="subtitle_language">Language des sous-titres : </string>
     <string name="subtitle_download_failed">Échec du téléchargement des sous-titres… Essayez une autre source…</string>
-    <string name="subtitle_extract_failed">Échec de l'extration des sous-titres… Essayez une autre source…</string>
+    <string name="subtitle_extract_failed">Échec de l\'extration des sous-titres… Essayez une autre source…</string>
     <string name="permission_grant_toast">Appuyez sur \"Allow\" pour donner permission et réessayez</string>
     <string name="sorry">Désolé…</string>
     <string name="cant_be_opened_by_other_players">Cette source ne peut pas être ouverte ou jouée par un lecteur vidéo externe. Désolé pour cet inconvénient</string>
@@ -43,9 +43,9 @@
     <string name="close">Fermer</string>
     <string name="install">Installer</string>
     <string name="mxplayer_not_installed">MXPlayer non installé</string>
-    <string name="mxplayer_not_installed_message">MXPlayer n'est pas installé sur votre appareil. Terrarium requiert MXPlayer pour jouer certains fichiers multimédia. Appuyez "Install" pour installer MXPlayer.</string>
+    <string name="mxplayer_not_installed_message">MXPlayer n\'est pas installé sur votre appareil. Terrarium requiert MXPlayer pour jouer certains fichiers multimédia. Appuyez "Install" pour installer MXPlayer.</string>
     <string name="mxplayer_unable_to_start">MXPlayer est incapable de démarrer</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer est incapable de démarrer. Réinstallez l'application et réessayez</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer est incapable de démarrer. Réinstallez l\'application et réessayez</string>
     <string name="close_ad_to_play">Fermez la bande annonce pour commencer la vidéo.</string>
 
     <string name="trending">Tendances</string>
@@ -55,7 +55,7 @@
     <string name="recently_updated">Récément Ajoutés</string>
     <string name="new_shows">Nouvelle Émissions</string>
     <string name="premieres">Premières</string>
-    <string name="on_the_air">À l'antenne</string>
+    <string name="on_the_air">À l\'antenne</string>
     <string name="top_rated">Les mieux notées</string>
     <string name="now_playing">Dans les théâtres</string>
 
@@ -107,21 +107,21 @@
     <string name="pref_subtitles_filter">Filtrer les sous-titres incomparables</string>
     <string name="pref_subtitles_choose_lang">Choisir le(s) language(s) des sous-titres…</string>
     <string name="pref_hide_season_image">Cacher les vignettes de saison</string>
-    <string name="pref_hide_episode_image">Cacher les vignettes d'épisode</string>
+    <string name="pref_hide_episode_image">Cacher les vignettes d\'épisode</string>
     <string name="pref_show_menu_source">Afficher le menu contextuel avec un seul clique dans la liste des sources</string>
     <string name="pref_poster_size">Taille des Affiches</string>
     <string name="pref_parallel_loading_sources">Chargement des sources en parallèle</string>
-    <string name="pref_parallel_loading_sources_desc">Je suggère fortement de l'activer. Accélérer le chargement des sources d'environ 500%. Toutefois, il peut provoquer des instabilités sur des appareils failes.</string>
+    <string name="pref_parallel_loading_sources_desc">Je suggère fortement de l\'activer. Accélérer le chargement des sources d\'environ 500%. Toutefois, il peut provoquer des instabilités sur des appareils failes.</string>
     <string name="pref_choose_default_nav">Choisir la navigation par défaut…</string>
-    <string name="pref_choose_default_category_tv_shows">Choisir le genre ou catégorie d'émission de télé par défaut…</string>
+    <string name="pref_choose_default_category_tv_shows">Choisir le genre ou catégorie d\'émission de télé par défaut…</string>
     <string name="pref_choose_default_category_movies">Choisir le genre ou catégorie de film par défaut…</string>
-    <string name="pref_enabled_tv_shows_providers">Choisir les fournisseurs d'émission de télé à activer…</string>
+    <string name="pref_enabled_tv_shows_providers">Choisir les fournisseurs d\'émission de télé à activer…</string>
     <string name="pref_enabled_movies_providers">Choisir les fournisseurs de film à activer…</string>
     <string name="pref_enabled_resolvers">Choisir les résolveurs à activer…</string>
-    <string name="pref_modern_ui">Utiliser l'Interface Usager Moderne</string>
+    <string name="pref_modern_ui">Utiliser l\'Interface Usager Moderne</string>
     <string name="pref_modern_ui_desc">Afficher les médias en affiches au lieu de bannières</string>
-    <string name="pref_choose_default_play_action">Choisissez l'action par défaut…</string>
-    <string name="restart_to_see_the_difference">S'il vous plaît redémarrez Terrarium TV pour voir les changements.</string>
+    <string name="pref_choose_default_play_action">Choisissez l\'action par défaut…</string>
+    <string name="restart_to_see_the_difference">S\'il vous plaît redémarrez Terrarium TV pour voir les changements.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">External download manager(s)</string>
@@ -133,11 +133,11 @@
     <string name="action_copy_link">Copier le lien vidéo</string>
     <string name="action_play_via_other_players">Ouvrir avec…</string>
     <string name="choose_player">Choisissez un lecteur vidéo…</string>
-    <string name="no_player_was_found">Aucun lecteur vidéo n'a été trouvé</string>
+    <string name="no_player_was_found">Aucun lecteur vidéo n\'a été trouvé</string>
     <string name="choose_external_download_manager">Choisissez un gestionnaire de téléchargement externe…</string>
-    <string name="no_external_download_manager_was_found">Aucun gestionnaire de téléchargement externe n'a été trouvé. S'il vous plaît téléchargez en un sur le Play Store ou utilisez le gestionnaire de téléchargement interne de Android</string>
+    <string name="no_external_download_manager_was_found">Aucun gestionnaire de téléchargement externe n\'a été trouvé. S\'il vous plaît téléchargez en un sur le Play Store ou utilisez le gestionnaire de téléchargement interne de Android</string>
     <string name="download_started">Téléchargement commencé…</string>
-    <string name="download_path_error">L'emplacement de téléchargement doit être sur la mémoire interne. S'il vous plaît choisir un autre emplacement.</string>
+    <string name="download_path_error">L\'emplacement de téléchargement doit être sur la mémoire interne. S\'il vous plaît choisir un autre emplacement.</string>
     <string name="copied_link">Lien vidéo copié</string>
     <string name="link_must_be_played_in_app">Désolé… Ce lien ne peut être joué que dans Terrarium TV…</string>
 
