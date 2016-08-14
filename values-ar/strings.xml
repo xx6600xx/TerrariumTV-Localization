@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditional Chinese</string>
+    <string name="language_zh_cn">Simplified Chinese</string>
+    <string name="language_en">English</string>
+    
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="no_data">لا يوجد بيانات</string>
+    <string name="no_internet">لا اتصال بالانترنت</string>
+    <string name="loading">جاري التحميل</string>
+    <string name="loading_more">جاري تحميل المزيد… </string>
+    <string name="action_search">بحث</string>
+    <string name="action_bookmark">المفضلات</string>
+    <string name="action_add_to_bookmark">أضف إلى المفضلات</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_stop">إيقاف</string>
+    <string name="action_reverse">عكس</string>
+    <string name="hint_tv_show_name">اسم المسلسل</string>
+    <string name="hint_movie_name">اسم الفيلم</string>
+    <string name="subtitle">الترجمة</string>
+    <string name="unknown">غير معروف</string>
+    <string name="download_count">عدد التحميلات: </string>
+
+    <string name="season">الموسم %1$d</string>
+    <string name="episode">الحلقة %1$d</string>
+    <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
+    <string name="season_special">حلقة خاصة</string>
+    <string name="search_result_of">Search result of \"%s\"</string>
+    <string name="getting_subtitle">… جاري الحصول على الترجمات… انتظر قليلا</string>
+    <string name="downloading_subtitle_toast">… جاري تحميل الترجمة… انتظر قليلا. </string>
+    <string name="ready_to_play_toast">سيبدأ خلال ثوانٍ</string>
+    <string name="searching_media">جاري البحث</string>
+    <string name="subtitle_language">لغات الترجمة: </string>
+    <string name="subtitle_download_failed">فشل تحميل الترجمة… اختر ترجمة أخرى</string>
+    <string name="subtitle_extract_failed">فشل فك ضغط الترجمة.. اختر ترجمة أخرى</string>
+    <string name="permission_grant_toast">رجاء اكبس "سماح" وحاول مجدداً</string>
+    <string name="sorry">عذراً… </string>
+    <string name="cant_be_opened_by_other_players">لا يمكن تشغيل هذا المصدر بمشغل خارجي</string>
+
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="close">إغلاق</string>
+    <string name="install">تنزيل</string>
+    <string name="mxplayer_not_installed">MXPlayer ليس لديك</string>
+    <string name="mxplayer_not_installed_message">قم بتنزيل MXPlayer</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer is unabled to start. Please re-install it and try again.</string>
+    <string name="mxplayer_unable_to_start_message">قم بتنزيل MXPlayer مجدداً</string>
+    <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
+
+    <string name="trending">الأكثر تداولا</string>
+    <string name="most_popular">الأكثر شعبية</string>
+    <string name="most_played">الأكثر تشغيلا</string>
+    <string name="most_watched">الأكثر مشاهدة</string>
+    <string name="recently_updated">حدث مؤخرا</string>
+    <string name="new_shows">مسلسلات جديدة</string>
+    <string name="premieres">افتتاحيات</string>
+    <string name="on_the_air">يبث حاليا</string>
+    <string name="top_rated">الأعلى تقييما</string>
+    <string name="now_playing">في المسارح</string>
+
+    <string name="genre_tv_action_adventure">أكشن ومغامرة</string>
+    <string name="genre_tv_sci_fantasy">خيال علمي وخيال</string>
+    <string name="genre_tv_mystery">غموض</string>
+    <string name="genre_tv_drama">دراما</string>
+    <string name="genre_tv_comedy">كوميديا</string>
+    <string name="genre_tv_family">عائلي</string>
+    <string name="genre_tv_war_politics">حرب وسياسة</string>
+    <string name="genre_tv_reality">واقعي</string>
+    <string name="genre_tv_documentary">وثائقي</string>
+
+    <string name="genre_movie_action">أكشن</string>
+    <string name="genre_movie_adventure">مغامرة</string>
+    <string name="genre_movie_thriller">تشويق</string>
+    <string name="genre_movie_sci">خيال علمي</string>
+    <string name="genre_movie_fantasy">خيال</string>
+    <string name="genre_movie_mystery">غموض</string>
+    <string name="genre_movie_horror">رعب</string>
+    <string name="genre_movie_crime">جريمة</string>
+    <string name="genre_movie_drama">دراما</string>
+    <string name="genre_movie_romance">رومانسي</string>
+    <string name="genre_movie_comedy">كوميديا</string>
+    <string name="genre_movie_family">عائلي</string>
+    <string name="genre_movie_animation">إنميشن</string>
+    <string name="genre_movie_history">تاريخ</string>
+    <string name="genre_movie_war">حرب</string>
+    <string name="genre_movie_documentary">وثائقي</string>
+    <string name="genre_movie_music">موسيقا</string>
+
+    <string name="pref_general">عام</string>
+    <string name="pref_ui">واجهة المستخدم</string>
+    <string name="pref_sources_and_resolvers">المصادر والمزودات</string>
+    <string name="pref_subtitle">OpenSubtitles لغات الترجمة في موقع</string>
+    <string name="pref_subtitle_chin">لغات الترجمة في بقية المواقع</string>
+    <string name="pref_others">غير ذلك</string>
+
+    <string name="pref_sub_down_path">مسار تحميل الترجمات</string>
+    <string name="pref_sub_down_path_des">ستحفظ الترجمات في هذا المسار</string>
+    <string name="pref_media_down_path">مسار تحميل الأفلام والمسلسلات في حال استخدام مدير التحميل الداخلي</string>
+    <string name="pref_choose_media_down_manager">اختر مدير التحميل الافتراضي</string>
+    <string name="pref_auto_check_update">تحقق من وجود تحديثات تلقائياً</string>
+    <string name="pref_filter_out_non_english_shows">لا تظهر المسلسلات الغير أجنبية</string>
+    <string name="pref_filter_out_dead_sources">لا تظهر المصادر التي لا تعمل</string>
+    <string name="pref_filter_out_dead_sources_desc">قد يطول الوقت اللازم لتحميل المصادر </string>
+    <string name="pref_hide_unaired_season">أخفِ المواسم التي لم تبث</string>
+    <string name="pref_hide_unaired_episode">أخفِ الحلقات التي لم تبث</string>
+    <string name="pref_subtitles_filter">لا تظهر الترجمات غير المتطابقة</string>
+    <string name="pref_subtitles_choose_lang">اختر لغات الترجمة</string>
+    <string name="pref_hide_season_image">أخفِ صور المواسم</string>
+    <string name="pref_hide_episode_image">أخفِ صور الحلقات</string>
+    <string name="pref_show_menu_source">أظهر قائمة الخيارات بضغطة واحدة</string>
+    <string name="pref_poster_size">حجم البوستر</string>
+    <string name="pref_parallel_loading_sources">تحميل قائمة المصادر بتوازٍ</string>
+    <string name="pref_parallel_loading_sources_desc">يزيد من سرعة تحميل قائمة المصادر، ولكنه قد يسبب مشاكل في الاجهزة ضعيفة المواصفات</string>
+    <string name="pref_choose_default_nav">اختر الصفحة الرئيسية</string>
+    <string name="pref_choose_default_category_tv_shows">اختر صنف أو صفحة المسلسلات الرئيسية </string>
+    <string name="pref_choose_default_category_movies">اختر صنف أو صفحة الأفلام الرئيسية</string>
+    <string name="pref_enabled_tv_shows_providers">اختر مصادر المسلسلات</string>
+    <string name="pref_enabled_movies_providers">اختر مصادر الأفلام</string>
+    <string name="pref_enabled_resolvers">اختر المصادر والمزودات</string>
+    <string name="pref_modern_ui">استخدم الشكل الجديد</string>
+    <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
+    <string name="pref_choose_default_play_action">اختر الخيار الافتراضي</string>
+    <string name="restart_to_see_the_difference">أعد تشغيل البرنامج لتطبيق التغييرات</string>
+
+    <string name="download_manager_internal">مدير التحميل الأساسي</string>
+    <string name="download_manager_external">مدير تحميل خارجي</string>
+
+    <string name="action_play">مشاهدة</string>
+    <string name="action_play_without_subtitle">مشاهدة بدون ترجمة</string>
+    <string name="action_download">تحميل</string>
+    <string name="action_download_with_sub">تحميل مع ترجمة</string>
+    <string name="action_copy_link">انسخ الرابط</string>
+    <string name="action_play_via_other_players">فتح باستخدام</string>
+    <string name="choose_player">اختر برنامجاً</string>
+    <string name="no_player_was_found">لم نجد مشغلاً</string>
+    <string name="choose_external_download_manager">اختر مدير تحميل خارجي</string>
+    <string name="no_external_download_manager_was_found">ليس لديك مدير تحميل خارجي</string>
+    <string name="download_started">بدء التحميل</string>
+    <string name="download_path_error">يجب أن يكون مسار التحميل في الذاكرة الداخلية، اختر مسارا آخر</string>
+    <string name="copied_link">تم نسخ الرابط</string>
+    <string name="link_must_be_played_in_app">عذراً… لا يمكن تشغيل هذا المصدر</string>
+
+    <string name="update_title">%s نسخة جديدة</string>
+    <string name="update_message">%s :النسخة</string>
+    <string name="update_button">تحديث</string>
+    <string name="update_downloading">جاري تحميل التحديث</string>
+    <string name="update_failed">فشل التحميل أو ألغي</string>
+    
+    <string name="subtitle_name">اسم الترجمة </string>
+
+    <string name="facebook_page">صفحتنا على الفايسبوك</string>
+
+    <string name="changelog">سجل التغييرات</string>
+    <string name="choose_browser">اختر متصفحاً</string>
+
+    <string name="disclaimer">إخلاء مسؤولية</string>
+    <string name="accept">قبول</string>
+    <string name="decline">رفض</string>
+
+    <string name="error">خطأ غير معروف، حاول مجدداً</string>
+    <string name="please_wait">رجاءً انتظر</string>
+
+    <string name="recaptcha_verify">اكتب ما تراه حتى تستطيع التحميل من هذا المصدر </string>
+    <string name="verify">تحقق</string>
+
+    <string name="size_large">كبير</string>
+    <string name="size_normal">متوسط</string>
+    <string name="size_small">صغير</string>
+
+    <string name="show_details_overview">نظرة عامة</string>
+    <string name="show_details_season">المواسم</string>
+    <string name="media_suggestion">شاهد أيضاً</string>
+    <string name="no_synopsis">لا يوجد ملخص</string>
+    <string name="loading_ratings">جاري تحميل التقييم</string>
+    <string name="no_ratings">لا يوجد تقييم</string>
+    <string name="meta_in_production">قيد الانتاج</string>
+    <string name="meta_returning_series">مسلسل عائد</string>
+    <string name="meta_ended">منتهٍ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="tv_shows">المسلسلات</string>
+    <string name="movies">الأفلام</string>
+
+    <string name="play_trailer">شاهد الاعلان</string>
+    
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
