@@ -3,7 +3,7 @@
     <string name="language_zh_tw">Traditional Chinese</string>
     <string name="language_zh_cn">Simplified Chinese</string>
     <string name="language_en">English</string>
-	
+
     <string name="action_settings">Settings</string>
 
     <string name="no_data">Sin datos</string>
@@ -146,10 +146,10 @@
     <string name="update_button">Actualizar</string>
     <string name="update_downloading">Descargando actualización %s</string>
     <string name="update_failed">La actualización ha fallado o se interrumpa</string>
-    
+
     <string name="subtitle_name">Nombre de subtítulos : </string>
 
-    <string name="facebook_page">Pagina de Facebook</string>
+    <string name="facebook_page">Página de Facebook</string>
 
     <string name="changelog">Historial de cambios</string>
     <string name="choose_browser">Elija un navegador</string>
@@ -185,9 +185,9 @@
     <string name="movies">Películas</string>
 
     <string name="play_trailer">Ver trailer</string>
-    
+
     <string name="translators">Translators</string>
-    
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>

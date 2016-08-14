@@ -3,7 +3,7 @@
     <string name="language_zh_tw">Traditional Chinese</string>
     <string name="language_zh_cn">Simplified Chinese</string>
     <string name="language_en">English</string>
-    
+
     <string name="action_settings">الإعدادات</string>
 
     <string name="no_data">لا يوجد بيانات</string>
@@ -44,7 +44,7 @@
     <string name="install">تنزيل</string>
     <string name="mxplayer_not_installed">MXPlayer ليس لديك</string>
     <string name="mxplayer_not_installed_message">قم بتنزيل MXPlayer</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer is unabled to start. Please re-install it and try again.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
     <string name="mxplayer_unable_to_start_message">قم بتنزيل MXPlayer مجدداً</string>
     <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
 
@@ -146,7 +146,7 @@
     <string name="update_button">تحديث</string>
     <string name="update_downloading">جاري تحميل التحديث</string>
     <string name="update_failed">فشل التحميل أو ألغي</string>
-    
+
     <string name="subtitle_name">اسم الترجمة </string>
 
     <string name="facebook_page">صفحتنا على الفايسبوك</string>
@@ -185,9 +185,9 @@
     <string name="movies">الأفلام</string>
 
     <string name="play_trailer">شاهد الاعلان</string>
-    
+
     <string name="translators">Translators</string>
-    
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>

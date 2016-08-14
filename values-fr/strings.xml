@@ -146,7 +146,7 @@
     <string name="update_button">Mettre à jour</string>
     <string name="update_downloading">Téléchargement de mise à jour %s</string>
     <string name="update_failed">Mise à jour échouée ou arrêtée</string>
-    
+
     <string name="subtitle_name">Nom de sous-titres : </string>
 
     <string name="facebook_page">Page Facebook</string>
@@ -185,7 +185,7 @@
     <string name="movies">Films</string>
 
     <string name="play_trailer">Jouer bandes-annonces</string>
-    
+
     <string name="translators">Translators</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->

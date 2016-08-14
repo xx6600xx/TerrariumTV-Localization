@@ -44,8 +44,8 @@
     <string name="install">Install</string>
     <string name="mxplayer_not_installed">MXPlayer Not Installed</string>
     <string name="mxplayer_not_installed_message">MXPlayer is not installed on your device. Terrarium needs MXPlayer to play medias. Click "Install" to install MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Unabled To Start</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer is unabled to start. Please re-install it and try again.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer is unable to start. Please re-install it and try again.</string>
     <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
 
     <string name="trending">Trending</string>
@@ -185,7 +185,7 @@
     <string name="movies">Movies</string>
 
     <string name="play_trailer">Play Trailer</string>
-    
+
     <string name="translators">Translators</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
