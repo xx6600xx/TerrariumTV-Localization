@@ -111,7 +111,7 @@
     <string name="pref_show_menu_source">Afficher le menu contextuel avec un seul clique dans la liste des sources</string>
     <string name="pref_poster_size">Taille des Affiches</string>
     <string name="pref_parallel_loading_sources">Chargement des sources en parallèle</string>
-    <string name="pref_parallel_loading_sources_desc">Je suggère fortement de l\'activer. Accélérer le chargement des sources d\'environ 500%. Toutefois, il peut provoquer des instabilités sur des appareils failes.</string>
+    <string name="pref_parallel_loading_sources_desc">Je suggère fortement de l\'activer. Accélère le chargement des sources d\'environ 500%. Toutefois, il peut provoquer des instabilités sur les appareils faibles.</string>
     <string name="pref_choose_default_nav">Choisir la navigation par défaut…</string>
     <string name="pref_choose_default_category_tv_shows">Choisir le genre ou catégorie d\'émission de télé par défaut…</string>
     <string name="pref_choose_default_category_movies">Choisir le genre ou catégorie de film par défaut…</string>
