@@ -177,7 +177,7 @@
     <string name="meta_in_production">製作中</string>
     <string name="meta_returning_series">待續</string>
     <string name="meta_ended">已完結</string>
-    
+
     <string name="navigation_drawer_open">開啟</string>
     <string name="navigation_drawer_close">關閉</string>
 
@@ -186,6 +186,8 @@
 
     <string name="play_trailer">播放預告片</string>
     
+    <string name="translators">翻譯人員</string>
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影視</string>
     <string name="about_app_title">關於 Terrarium 影視</string>

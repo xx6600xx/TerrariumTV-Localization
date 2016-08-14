@@ -146,7 +146,7 @@
     <string name="update_button">Update</string>
     <string name="update_downloading">Downloading update %s</string>
     <string name="update_failed">Update failed or aborted</string>
-    
+
     <string name="subtitle_name">Subtitles Name : </string>
 
     <string name="facebook_page">Facebook Page</string>
@@ -186,6 +186,8 @@
 
     <string name="play_trailer">Play Trailer</string>
     
+    <string name="translators">Translators</string>
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>
