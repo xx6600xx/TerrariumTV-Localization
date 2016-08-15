@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="language_zh_tw">Traditional Chinese</string>
-    <string name="language_zh_cn">Simplified Chinese</string>
-    <string name="language_en">English</string>
+    <string name="language_zh_tw">صينية تقليدية</string>
+    <string name="language_zh_cn">صينية مبسطة</string>
+    <string name="language_en">انكليزية</string>
 
     <string name="action_settings">الإعدادات</string>
 
@@ -26,7 +26,7 @@
     <string name="episode">الحلقة %1$d</string>
     <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
     <string name="season_special">حلقة خاصة</string>
-    <string name="search_result_of">Search result of \"%s\"</string>
+    <string name="search_result_of">نتائج البحث عن \"%s\"</string>
     <string name="getting_subtitle">… جاري الحصول على الترجمات… انتظر قليلا</string>
     <string name="downloading_subtitle_toast">… جاري تحميل الترجمة… انتظر قليلا. </string>
     <string name="ready_to_play_toast">سيبدأ خلال ثوانٍ</string>
@@ -42,9 +42,9 @@
     <string name="cancel">إلغاء</string>
     <string name="close">إغلاق</string>
     <string name="install">تنزيل</string>
-    <string name="mxplayer_not_installed">MXPlayer ليس لديك</string>
+    <string name="mxplayer_not_installed">ليس لديك MXPlayer</string>
     <string name="mxplayer_not_installed_message">قم بتنزيل MXPlayer</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
+    <string name="mxplayer_unable_to_start">غير قادر على تشغيل MXPlayer</string>
     <string name="mxplayer_unable_to_start_message">قم بتنزيل MXPlayer مجدداً</string>
     <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
 
@@ -90,7 +90,7 @@
     <string name="pref_general">عام</string>
     <string name="pref_ui">واجهة المستخدم</string>
     <string name="pref_sources_and_resolvers">المصادر والمزودات</string>
-    <string name="pref_subtitle">OpenSubtitles لغات الترجمة في موقع</string>
+    <string name="pref_subtitle">لغات الترجمة في موقع OpenSubtitles</string>
     <string name="pref_subtitle_chin">لغات الترجمة في بقية المواقع</string>
     <string name="pref_others">غير ذلك</string>
 
@@ -119,7 +119,7 @@
     <string name="pref_enabled_movies_providers">اختر مصادر الأفلام</string>
     <string name="pref_enabled_resolvers">اختر المصادر والمزودات</string>
     <string name="pref_modern_ui">استخدم الشكل الجديد</string>
-    <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
+    <string name="pref_modern_ui_desc">اعرض بوستر المسلسل بدل الموسم</string>
     <string name="pref_choose_default_play_action">اختر الخيار الافتراضي</string>
     <string name="restart_to_see_the_difference">أعد تشغيل البرنامج لتطبيق التغييرات</string>
 
@@ -131,7 +131,7 @@
     <string name="action_download">تحميل</string>
     <string name="action_download_with_sub">تحميل مع ترجمة</string>
     <string name="action_copy_link">انسخ الرابط</string>
-    <string name="action_play_via_other_players">فتح باستخدام</string>
+    <string name="action_play_via_other_players">...فتح باستخدام</string>
     <string name="choose_player">اختر برنامجاً</string>
     <string name="no_player_was_found">لم نجد مشغلاً</string>
     <string name="choose_external_download_manager">اختر مدير تحميل خارجي</string>
@@ -141,8 +141,8 @@
     <string name="copied_link">تم نسخ الرابط</string>
     <string name="link_must_be_played_in_app">عذراً… لا يمكن تشغيل هذا المصدر</string>
 
-    <string name="update_title">%s نسخة جديدة</string>
-    <string name="update_message">%s :النسخة</string>
+    <string name="update_title">نسخة جديدة: \"%s\"</string>
+    <string name="update_message">النسخة: %s</string>
     <string name="update_button">تحديث</string>
     <string name="update_downloading">جاري تحميل التحديث</string>
     <string name="update_failed">فشل التحميل أو ألغي</string>
@@ -186,7 +186,7 @@
 
     <string name="play_trailer">شاهد الاعلان</string>
 
-    <string name="translators">Translators</string>
+    <string name="translators">المترجمون</string>
     
     <string name="pref_app_lang">App Language</string>
 
