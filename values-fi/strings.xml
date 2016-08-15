@@ -186,6 +186,10 @@
 
     <string name="play_trailer">Katso Traileri</string>
     
+    <string name="translators">Translators</string>
+    
+    <string name="pref_app_lang">App Language</string>
+    
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>
