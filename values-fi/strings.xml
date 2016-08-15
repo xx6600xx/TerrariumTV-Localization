@@ -186,9 +186,9 @@
 
     <string name="play_trailer">Katso Traileri</string>
     
-    <string name="translators">Translators</string>
+    <string name="translators">Kääntäjät</string>
     
-    <string name="pref_app_lang">App Language</string>
+    <string name="pref_app_lang">Sovelluksen kieli</string>
     
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
