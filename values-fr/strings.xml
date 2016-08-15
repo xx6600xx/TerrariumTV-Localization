@@ -46,17 +46,17 @@
     <string name="mxplayer_not_installed_message">MXPlayer n\'est pas installé sur votre appareil. Terrarium requiert MXPlayer pour jouer certains fichiers multimédia. Appuyez "Install" pour installer MXPlayer.</string>
     <string name="mxplayer_unable_to_start">MXPlayer est incapable de démarrer</string>
     <string name="mxplayer_unable_to_start_message">MXPlayer est incapable de démarrer. Réinstallez l\'application et réessayez</string>
-    <string name="close_ad_to_play">Fermez la bande annonce pour commencer la vidéo.</string>
+    <string name="close_ad_to_play">Fermez la bande-annonce pour commencer la vidéo.</string>
 
     <string name="trending">Tendances</string>
-    <string name="most_popular">Les plus Populaires</string>
-    <string name="most_played">Les plus Joués</string>
-    <string name="most_watched">Les plus Écoutés</string>
-    <string name="recently_updated">Récément Ajoutés</string>
-    <string name="new_shows">Nouvelle Émissions</string>
+    <string name="most_popular">Les plus populaires</string>
+    <string name="most_played">Les plus joués</string>
+    <string name="most_watched">Les plus écoutés</string>
+    <string name="recently_updated">Récément ajoutés</string>
+    <string name="new_shows">Nouvelles émissions</string>
     <string name="premieres">Premières</string>
     <string name="on_the_air">À l\'antenne</string>
-    <string name="top_rated">Les mieux notées</string>
+    <string name="top_rated">Les mieux notés</string>
     <string name="now_playing">Dans les théâtres</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Aventure</string>
@@ -99,7 +99,7 @@
     <string name="pref_media_down_path">Emplacement des Médias téléchargés (Uniquement pour la gestion des télécharmenents par Android)</string>
     <string name="pref_choose_media_down_manager">Choisir le gestionaire de téléchargement par défaut…</string>
     <string name="pref_auto_check_update">Recherche de mise à jour automatique</string>
-    <string name="pref_filter_out_non_english_shows">Filtrage des émission de télé non-Anglaises</string>
+    <string name="pref_filter_out_non_english_shows">Filtrage des émissions non-Anglaises</string>
     <string name="pref_filter_out_dead_sources">Filtrer les sources mortes</string>
     <string name="pref_filter_out_dead_sources_desc">Cela augmentera le temps de chargement</string>
     <string name="pref_hide_unaired_season">Cacher les saisons pas encore diffusées</string>
@@ -109,16 +109,16 @@
     <string name="pref_hide_season_image">Cacher les vignettes de saison</string>
     <string name="pref_hide_episode_image">Cacher les vignettes d\'épisode</string>
     <string name="pref_show_menu_source">Afficher le menu contextuel avec un seul clique dans la liste des sources</string>
-    <string name="pref_poster_size">Taille des Affiches</string>
+    <string name="pref_poster_size">Taille des affiches</string>
     <string name="pref_parallel_loading_sources">Chargement des sources en parallèle</string>
     <string name="pref_parallel_loading_sources_desc">Je suggère fortement de l\'activer. Accélère le chargement des sources d\'environ 500%. Toutefois, il peut provoquer des instabilités sur les appareils faibles.</string>
     <string name="pref_choose_default_nav">Choisir la navigation par défaut…</string>
-    <string name="pref_choose_default_category_tv_shows">Choisir le genre ou catégorie d\'émission de télé par défaut…</string>
+    <string name="pref_choose_default_category_tv_shows">Choisir le genre ou catégorie d\'émission par défaut…</string>
     <string name="pref_choose_default_category_movies">Choisir le genre ou catégorie de film par défaut…</string>
-    <string name="pref_enabled_tv_shows_providers">Choisir les fournisseurs d\'émission de télé à activer…</string>
-    <string name="pref_enabled_movies_providers">Choisir les fournisseurs de film à activer…</string>
-    <string name="pref_enabled_resolvers">Choisir les résolveurs à activer…</string>
-    <string name="pref_modern_ui">Utiliser l\'Interface Usager Moderne</string>
+    <string name="pref_enabled_tv_shows_providers">Choisir les fournisseurs d\'émissions à utiliser…</string>
+    <string name="pref_enabled_movies_providers">Choisir les fournisseurs de films à utiliser…</string>
+    <string name="pref_enabled_resolvers">Choisir les résolveurs à utiliser…</string>
+    <string name="pref_modern_ui">Utiliser l\'Interface usager moderne</string>
     <string name="pref_modern_ui_desc">Afficher les médias en affiches au lieu de bannières</string>
     <string name="pref_choose_default_play_action">Choisissez l\'action par défaut…</string>
     <string name="restart_to_see_the_difference">S\'il vous plaît redémarrez Terrarium TV pour voir les changements.</string>
@@ -146,7 +146,7 @@
     <string name="update_button">Mettre à jour</string>
     <string name="update_downloading">Téléchargement de mise à jour %s</string>
     <string name="update_failed">Mise à jour échouée ou arrêtée</string>
-
+    
     <string name="subtitle_name">Nom de sous-titres : </string>
 
     <string name="facebook_page">Page Facebook</string>
@@ -187,7 +187,7 @@
     <string name="play_trailer">Jouer bandes-annonces</string>
 
     <string name="translators">Translators</string>
-    
+
     <string name="pref_app_lang">App Language</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
