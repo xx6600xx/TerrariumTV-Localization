@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditioneel Chinees</string>
+    <string name="language_zh_cn">Vereenvoudigd Chinees</string>
+    <string name="language_en">Engels</string>
+
+    <string name="action_settings">Instellingen</string>
+
+    <string name="no_data">Geen Data</string>
+    <string name="no_internet">Geen Internetverbinding</string>
+    <string name="loading">Laden</string>
+    <string name="loading_more">Meer Laden…</string>
+    <string name="action_search">Zoeken</string>
+    <string name="action_bookmark">Favorieten</string>
+    <string name="action_add_to_bookmark">Toevoegen Aan Favorieten</string>
+    <string name="action_refresh">Verversen</string>
+    <string name="action_stop">Stoppen</string>
+    <string name="action_reverse">Verversen</string>
+    <string name="hint_tv_show_name">Naam TV-serie</string>
+    <string name="hint_movie_name">Filmnaam</string>
+    <string name="subtitle">Ondertiteling</string>
+    <string name="unknown">Onbekend</string>
+    <string name="download_count">Aantal Downloads :</string>
+
+    <string name="season">Seizoen %1$d</string>
+    <string name="episode">Aflevering %1$d</string>
+    <string name="season_episode">%1$s - Seizoen %2$d Aflevering %3$d</string>
+    <string name="season_special">Bijzonder Seizoen</string>
+    <string name="search_result_of">Zoekresultaat van \"%s\"</string>
+    <string name="getting_subtitle">Ondertiteling zoeken… Even geduld alstublieft…</string>
+    <string name="downloading_subtitle_toast">Ondertiteling downloaden… Even geduld alstublieft…</string>
+    <string name="ready_to_play_toast">De video wordt in enkele seconden gestart…</string>
+    <string name="searching_media">Zoeken…</string>
+    <string name="subtitle_language">Ondertitelingstaal : </string>
+    <string name="subtitle_download_failed">Downloaden van ondertiteling mislukt… Probeer een andere ondertiteling…</string>
+    <string name="subtitle_extract_failed">Openen van ondertiteling mislukt… Probeer een andere ondertiteling…</string>
+    <string name="permission_grant_toast">Klik op \"Toestaan\" om toestemming te geven en probeer het opnieuw.</string>
+    <string name="sorry">Sorry…</string>
+    <string name="cant_be_opened_by_other_players">Deze bron kan niet door andere videospelers worden geopend of afgespeeld. Excuses voor het ongemak.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="close">Sluiten</string>
+    <string name="install">Installeren</string>
+    <string name="mxplayer_not_installed">MXPlayer is niet geïnstalleerd</string>
+    <string name="mxplayer_not_installed_message">MXPlayer is niet op uw apparaat geïnstalleerd. Terrarium TV heeft MXPlayer nodig om media af te spelen. Klik "Installeren" om MXPlayer te installeren.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer kan niet worden gestart</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer kan niet worden gestart. Herinstalleer en probeer het opnieuw.</string>
+    <string name="close_ad_to_play">Sluit de advertentie om de video af te spelen.</string>
+
+    <string name="trending">Trends</string>
+    <string name="most_popular">Meest Populair</string>
+    <string name="most_played">Meest Afgespeeld</string>
+    <string name="most_watched">Meest Bekeken</string>
+    <string name="recently_updated">Recent Geüpdatet</string>
+    <string name="new_shows">Nieuwe Series</string>
+    <string name="premieres">Premières</string>
+    <string name="on_the_air">Momenteel op TV</string>
+    <string name="top_rated">Best Beoordeeld</string>
+    <string name="now_playing">Nu In De Bioscoop</string>
+
+    <string name="genre_tv_action_adventure">Actie &amp; Avontuur</string>
+    <string name="genre_tv_sci_fantasy">Scifi &amp; Fantasie</string>
+    <string name="genre_tv_mystery">Mysterie</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komedie</string>
+    <string name="genre_tv_family">Familie</string>
+    <string name="genre_tv_war_politics">Oorlog &amp; Politiek</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Documentaire</string>
+
+    <string name="genre_movie_action">Actie</string>
+    <string name="genre_movie_adventure">Avontuur</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Scifi</string>
+    <string name="genre_movie_fantasy">Fantasie</string>
+    <string name="genre_movie_mystery">Mysterie</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Misdaad</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romantiek</string>
+    <string name="genre_movie_comedy">Komedie</string>
+    <string name="genre_movie_family">Familie</string>
+    <string name="genre_movie_animation">Animatie</string>
+    <string name="genre_movie_history">Historisch</string>
+    <string name="genre_movie_war">Oorlog</string>
+    <string name="genre_movie_documentary">Documentaire</string>
+    <string name="genre_movie_music">Muziek</string>
+
+    <string name="pref_general">Algemeen</string>
+    <string name="pref_ui">Gebruikersomgeving</string>
+    <string name="pref_sources_and_resolvers">Bronnen en aanbieders</string>
+    <string name="pref_subtitle">Ondertitelingstaal van OpenSubtitles</string>
+    <string name="pref_subtitle_chin">Ondertitelingstaal van SubHD, Makedie and Zimuku</string>
+    <string name="pref_others">Overig</string>
+
+    <string name="pref_sub_down_path">Downloadlocatie voor ondertiteling</string>
+    <string name="pref_sub_down_path_des">Ondertiteling zal gedownload en op deze locatie opgeslagen worden.</string>
+    <string name="pref_media_down_path">Downloadlocatie voor media (Alleen bij Android intern downloadbeheer)</string>
+    <string name="pref_choose_media_down_manager">Kies een standaard app voor downloadbeheer…</string>
+    <string name="pref_auto_check_update">Automatisch Op Updates Controleren</string>
+    <string name="pref_filter_out_non_english_shows">Niet-Engelse TV-series filteren</string>
+    <string name="pref_filter_out_dead_sources">Dode bronnen filteren</string>
+    <string name="pref_filter_out_dead_sources_desc">Leidt tot een langere laadtijd van bronnen.</string>
+    <string name="pref_hide_unaired_season">Nog niet uitgezonden seizoen verbergen</string>
+    <string name="pref_hide_unaired_episode">Nog niet uitgezonden aflevering verbergen</string>
+    <string name="pref_subtitles_filter">Afwijkende ondertiteling filteren</string>
+    <string name="pref_subtitles_choose_lang">Ondertitelingstaal kiezen…</string>
+    <string name="pref_hide_season_image">Seizoensminiaturen verbergen</string>
+    <string name="pref_hide_episode_image">Afleveringsminiaturen verbergen</string>
+    <string name="pref_show_menu_source">Contextmenu bij een enkele klik in de bronnenlijst tonen</string>
+    <string name="pref_poster_size">Formaat van mediaposters</string>
+    <string name="pref_parallel_loading_sources">Parallel bronnen laden</string>
+    <string name="pref_parallel_loading_sources_desc">Aanbevolen om deze optie in te schakelen. Het versnelt de laadtijd van bronnen met 500%. Echter kan het bij apparaten met lage specificaties tot crashes leiden.</string>
+    <string name="pref_choose_default_nav">Standaard beginscherm kiezen…</string>
+    <string name="pref_choose_default_category_tv_shows">Standaard categorie of genre voor TV-series kiezen…</string>
+    <string name="pref_choose_default_category_movies">Standaard categorie of genre voor films kiezen…</string>
+    <string name="pref_enabled_tv_shows_providers">Bronnen voor TV-series selecteren…</string>
+    <string name="pref_enabled_movies_providers">Bronnen voor films selecteren…</string>
+    <string name="pref_enabled_resolvers">Aanbieders selecteren…</string>
+    <string name="pref_modern_ui">Moderne UI gebruiken</string>
+    <string name="pref_modern_ui_desc">Mediaposters in plaats van banners tonen</string>
+    <string name="pref_choose_default_play_action">Standaard voor afspelen kiezen…</string>
+    <string name="restart_to_see_the_difference">Herstart Terrarium TV om de aanpassingen te zien.</string>
+
+    <string name="download_manager_internal">Android intern downloadbeheer</string>
+    <string name="download_manager_external">Extern downloadbeheer</string>
+
+    <string name="action_play">Afspelen</string>
+    <string name="action_play_without_subtitle">Afspelen Zonder Ondertiteling</string>
+    <string name="action_download">Downloaden</string>
+    <string name="action_download_with_sub">Downloaden Zonder Ondertiteling</string>
+    <string name="action_copy_link">Streamlink Kopieren</string>
+    <string name="action_play_via_other_players">Openen Met…</string>
+    <string name="choose_player">Videospeler Kiezen…</string>
+    <string name="no_player_was_found">Kan geen videospeler vinden</string>
+    <string name="choose_external_download_manager">Extern downloadbeheer kiezen…</string>
+    <string name="no_external_download_manager_was_found">Kan geen extern downloadbeheer vinden. Download uit de Play Store of gebruik Android Intern Downloadbeheer</string>
+    <string name="download_started">Downloaden gestart…</string>
+    <string name="download_path_error">Downloadlocatie moet in de interne opslagruimte zijn. Kies een andere locatie.</string>
+    <string name="copied_link">Streamlink gekopieerd</string>
+    <string name="link_must_be_played_in_app">Sorry… Deze link kan alleen worden afgespeeld in Terrarium TV…</string>
+
+    <string name="update_title">Nieuwe versie beschikbaar : %s</string>
+    <string name="update_message">Versie %s : </string>
+    <string name="update_button">Updaten</string>
+    <string name="update_downloading">Update Downloaden %s</string>
+    <string name="update_failed">Update mislukt of onderbroken</string>
+
+    <string name="subtitle_name">Ondertitelingsnaam : </string>
+
+    <string name="facebook_page">Facebook Pagina</string>
+
+    <string name="changelog">Changelog</string>
+    <string name="choose_browser">Browser Kiezen</string>
+
+    <string name="disclaimer">Disclaimer</string>
+    <string name="accept">Accepteren</string>
+    <string name="decline">Afwijzen</string>
+
+    <string name="error">Onbekende fout. Probeer het opnieuw.</string>
+    <string name="please_wait">Even geduld alstublieft…</string>
+
+    <string name="recaptcha_verify">U moet een reCaptcha verifiëren om bronnen te krijgen van %s</string>
+    <string name="verify">Verifiëren</string>
+
+    <string name="size_large">Groot</string>
+    <string name="size_normal">Normaal</string>
+    <string name="size_small">Klein</string>
+
+    <string name="show_details_overview">OVERZICHT</string>
+    <string name="show_details_season">SEIZOEN</string>
+    <string name="media_suggestion">Zie Ook</string>
+    <string name="no_synopsis">Geen Samenvatting</string>
+    <string name="loading_ratings">Beoordelingen Laden…</string>
+    <string name="no_ratings">Geen Beoordelingen</string>
+    <string name="meta_in_production">In Productie</string>
+    <string name="meta_returning_series">Terugkerende Series</string>
+    <string name="meta_ended">Beëindigd</string>
+
+    <string name="navigation_drawer_open">Navigatiemenu openen</string>
+    <string name="navigation_drawer_close">Navigatiemenu sluiten</string>
+
+    <string name="tv_shows">TV-series</string>
+    <string name="movies">Films</string>
+
+    <string name="play_trailer">Trailer afspelen</string>
+
+    <string name="translators">Vertalers</string>
+    
+    <string name="pref_app_lang">App Taal</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
