@@ -144,7 +144,7 @@
     <string name="update_title">نسخة جديدة: \"%s\"</string>
     <string name="update_message">النسخة: %s</string>
     <string name="update_button">تحديث</string>
-    <string name="update_downloading">جاري تحميل التحديث</string>
+    <string name="update_downloading">%s جاري تحميل التحديث</string>
     <string name="update_failed">فشل التحميل أو ألغي</string>
 
     <string name="subtitle_name">اسم الترجمة </string>
@@ -161,7 +161,7 @@
     <string name="error">خطأ غير معروف، حاول مجدداً</string>
     <string name="please_wait">رجاءً انتظر</string>
 
-    <string name="recaptcha_verify">اكتب ما تراه حتى تستطيع التحميل من هذا المصدر </string>
+    <string name="recaptcha_verify">%s اكتب ما تراه حتى تستطيع التحميل من</string>
     <string name="verify">تحقق</string>
 
     <string name="size_large">كبير</string>
