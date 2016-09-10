@@ -90,7 +90,7 @@
     <string name="pref_general">General</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
-    <string name="pref_subtitle">Subtitles Language of OpenSubtitles</string>
+    <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
     <string name="pref_others">Others</string>
 
@@ -187,7 +187,7 @@
     <string name="play_trailer">Play Trailer</string>
 
     <string name="translators">Translators</string>
-    
+
     <string name="pref_app_lang">App Language</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
