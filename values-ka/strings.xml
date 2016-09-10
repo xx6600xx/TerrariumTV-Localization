@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">ტრადიციული ჩინური</string>
+    <string name="language_zh_cn">გამარტივებული ჩინური</string>
+    <string name="language_en">ინგლისური</string>
+
+    <string name="action_settings">პარამეტრები</string>
+
+    <string name="no_data">მონაცემები არ არის</string>
+    <string name="no_internet">ინტერნეტთან კავშირი არ არის</string>
+    <string name="loading">იტვირთება</string>
+    <string name="loading_more">იტვირთება მეტი…</string>
+    <string name="action_search">ძებნა</string>
+    <string name="action_bookmark">რჩეული</string>
+    <string name="action_add_to_bookmark">რჩეულებში დამატება</string>
+    <string name="action_refresh">განახლება</string>
+    <string name="action_stop">გაჩერება</string>
+    <string name="action_reverse">საწინააღმდეგო</string>
+    <string name="hint_tv_show_name">სერიალის სახელი</string>
+    <string name="hint_movie_name">ფილმის სახელი</string>
+    <string name="subtitle">სუბტიტრები</string>
+    <string name="unknown">უცნობია</string>
+    <string name="download_count">გადმოწერის დათვლა :</string>
+
+    <string name="season">სეზონი %1$d</string>
+    <string name="episode">სერია %1$d</string>
+    <string name="season_episode">%1$s - სეზონი %2$d სერია %3$d</string>
+    <string name="season_special">დამატებითი სეზონი</string>
+    <string name="search_result_of">ძიების რეზულტატი \"%s\"</string>
+    <string name="getting_subtitle">ვეძებთ სუბტიტრებს…გთხოვთ მოითმინეთ…</string>
+    <string name="downloading_subtitle_toast">ვიწერ სუბტიტრებს…გთხოვთ მოითმინეთ</string>
+    <string name="ready_to_play_toast">ეს ვიდეო ჩაირთვება რამოდენიმე წამში…</string>
+    <string name="searching_media">ეძებს…</string>
+    <string name="subtitle_language">სუბტიტრის ენა : </string>
+    <string name="subtitle_download_failed">სუბტიტრის გადმოწერა ვერ მოხერხდა…სცადეთ სხვა სუბტიტრი…</string>
+    <string name="subtitle_extract_failed">სუბტიტრის მოპოვება ვერ მოხერხდა… სცადეთ სხვა სუბტიტრი…</string>
+    <string name="permission_grant_toast">გთხოვთ დააჭირეთ \"დაშვება\" ნება რომ დავრთოთ და ვცადოთ ხელახლა</string>
+    <string name="sorry">უკაცრავად…</string>
+    <string name="cant_be_opened_by_other_players">ამ წყაროს ვერ ხსნის ან რთავს სხვა ვიდეო პლეიერი. ბოდიშს გიხდით ხარვეზისთვის.</string>
+
+    <string name="ok">ოკ</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="close">დახურვა</string>
+    <string name="install">დაინსტალირება</string>
+    <string name="mxplayer_not_installed">MXPlayer არ არის დაინსტალირებული</string>
+    <string name="mxplayer_not_installed_message">MXPlayer არ არის დაინსტალირებული თქვენს აპარატზე. Terrarium-ს სჭირდება MXPlayer რომ გაუშვას მედია. დააჭირეთ „ინსტალაციას“ რომ დააინსტალიროს MXPlayer.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer ვერ ჩაირთო</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer ვერ ჩაირთო. გთხოვთ თავიდან დააინსტალიროთ და ხელახლა სცადეთ.</string>
+    <string name="close_ad_to_play">გთხოვთ ჯერ რეკლამა დახურეთ, რომ ჩართოთ ვიდეო </string>
+
+    <string name="trending">ტრენდული</string>
+    <string name="most_popular">ყველაზე პოპულარული</string>
+    <string name="most_played">ყველაზე მეტჯერ ნათამაშები</string>
+    <string name="most_watched">ყველაზე მეტჯერ ნანახი</string>
+    <string name="recently_updated">ბოლო პერიოდში განახლებული</string>
+    <string name="new_shows">ახალი სერიალები</string>
+    <string name="premieres">პრემიერები</string>
+    <string name="on_the_air">მიმდინარე</string>
+    <string name="top_rated">ყველაზე რეიტინგული</string>
+    <string name="now_playing">კინოთეატრებში</string>
+
+    <string name="genre_tv_action_adventure">მძაფრ-სიუჟეტიანი &amp; სათავგადასავლო</string>
+    <string name="genre_tv_sci_fantasy">ფანტასტიკა &amp; ფენტეზი</string>
+    <string name="genre_tv_mystery">მისტიკა</string>
+    <string name="genre_tv_drama">დრამა</string>
+    <string name="genre_tv_comedy">კომედია</string>
+    <string name="genre_tv_family">საოჯახო</string>
+    <string name="genre_tv_war_politics">საომარი &amp; პოლიტიკა</string>
+    <string name="genre_tv_reality">რეალითი</string>
+    <string name="genre_tv_documentary">დოკუმენტური</string>
+
+    <string name="genre_movie_action">მძაფრ-სიუჟეტიანი</string>
+    <string name="genre_movie_adventure">სათავგადასავლო</string>
+    <string name="genre_movie_thriller">თრილერი</string>
+    <string name="genre_movie_sci">ფანტასტიკა</string>
+    <string name="genre_movie_fantasy">ფენტეზი</string>
+    <string name="genre_movie_mystery">მისტიკა</string>
+    <string name="genre_movie_horror">საშინელებათა</string>
+    <string name="genre_movie_crime">კრიმინალური</string>
+    <string name="genre_movie_drama">დრამა</string>
+    <string name="genre_movie_romance">რომანტიკა</string>
+    <string name="genre_movie_comedy">კომედია</string>
+    <string name="genre_movie_family">საოჯახო</string>
+    <string name="genre_movie_animation">ანიმაცია</string>
+    <string name="genre_movie_history">ისტორიული</string>
+    <string name="genre_movie_war">საომარი</string>
+    <string name="genre_movie_documentary">დოკუმენტური</string>
+    <string name="genre_movie_music">მუსიკა</string>
+
+    <string name="pref_general">ზოგადი</string>
+    <string name="pref_ui">მომხმარებლის ინტერფეისი</string>
+    <string name="pref_sources_and_resolvers">პროვაიდერები და გამხსნელები</string>
+    <string name="pref_subtitle">OpenSubtitles და Subscene-ის სუბტიტრების ენა</string>
+    <string name="pref_subtitle_chin">SubHD, Makedie და Zimuku-ის სუბტიტრების ენა</string>
+    <string name="pref_others">სხვები</string>
+
+    <string name="pref_sub_down_path">სუბტიტრების გადმოწერის ადგილი</string>
+    <string name="pref_sub_down_path_des">სუბტიტრები გადმოიწერება და შეინახება მითითებულ ადგილზე.</string>
+    <string name="pref_media_down_path">მედიის გადმოწერის ადგილი (მხოლოდ ანდროიდის Internal Download Manager-ისთვის)</string>
+    <string name="pref_choose_media_down_manager">აირჩიეთ ძირითადი ჩამოტვირთვის მენეჯერი…</string>
+    <string name="pref_auto_check_update">შეამოწმეთ განახლება ავტომატურად</string>
+    <string name="pref_filter_out_non_english_shows">გავფილტროთ არა-ინგლისური სერიალები</string>
+    <string name="pref_filter_out_dead_sources">გავფილტროთ მკვდარი წყაროები</string>
+    <string name="pref_filter_out_dead_sources_desc">ეს გამოიწვევს დამატებითი წყაროების ჩატვირთვის დროს</string>
+    <string name="pref_hide_unaired_season">დამალე ჯერ არ გამოსული სეზონი</string>
+    <string name="pref_hide_unaired_episode">დამალე ჯერ არ გამოსული სერია</string>
+    <string name="pref_subtitles_filter">გავფილტროთ შეუსაბამი სუბტიტრები</string>
+    <string name="pref_subtitles_choose_lang">აირჩიეთ სიბტიტრების ენა…</string>
+    <string name="pref_hide_season_image">დამალეთ სეზონის გამოსახულება</string>
+    <string name="pref_hide_episode_image">დამალეთ სერიის გამოსახულება</string>
+    <string name="pref_show_menu_source">კონტექსტური მენიუს ჩვენება ერთი დაჭერით წყაროების სიაში</string>
+    <string name="pref_poster_size">მედიის პოსტერის ზომა</string>
+    <string name="pref_parallel_loading_sources">პარალელური წყაროები იტვირთება</string>
+    <string name="pref_parallel_loading_sources_desc">რეკომენდირებულია ჩართვა. დააჩქარე წყაროების ჩატვირთა 500%-ით. თუმცა შეიძლება გამოიწვიოს FC ან გაითიშოს დაბალი მონაცემების მქონე აპარატებში.</string>
+    <string name="pref_choose_default_nav">აირჩიეთ ძირითადი ნავიგაცია…</string>
+    <string name="pref_choose_default_category_tv_shows">აირჩიეთ სერიალის ძირითადი კატეგორია ან ჟანრი…</string>
+    <string name="pref_choose_default_category_movies">აირჩიეთ ფილმის ძირითადი კატეგორია ან ჟანრი…</string>
+    <string name="pref_enabled_tv_shows_providers">აირჩიეთ სერიალის პროვაიდერები რომ გამოჩნდეს…</string>
+    <string name="pref_enabled_movies_providers">აირჩიეთ ფილმის პროვაიდერები რომ გამოჩნდეს…</string>
+    <string name="pref_enabled_resolvers">აირჩიეთ გამხსნელები რომ გააქტიურდეს…</string>
+    <string name="pref_modern_ui">გამოიყენე თანამედროვე ინტერფეისი</string>
+    <string name="pref_modern_ui_desc">აჩვენე მედიის პოსტერები ბანერების ნაცვლად</string>
+    <string name="pref_choose_default_play_action">აირჩიეთ ძირითადი ჩართვის მოქმედება…</string>
+    <string name="restart_to_see_the_difference">გთხოვთ დაარესტარტეთ Terrarium TV რომ ნახოთ განსხვავება.</string>
+
+    <string name="download_manager_internal">ანდროიდის შინაგანი გადმოწერის მენეჯერი</string>
+    <string name="download_manager_external">გარეგანი გადმოწერის მენეჯერი(ები)</string>
+
+    <string name="action_play">ჩართვა</string>
+    <string name="action_play_without_subtitle">ჩართვა სუბტიტრების გარეშე</string>
+    <string name="action_download">გადმოწერა</string>
+    <string name="action_download_with_sub">გადმოწერა სუბტიტრებით</string>
+    <string name="action_copy_link">დააკოპირე დინების ლინკი</string>
+    <string name="action_play_via_other_players">გახსენით…</string>
+    <string name="choose_player">აირჩიეთ ვიდეო პლეიერი…</string>
+    <string name="no_player_was_found">ვიდეო პლეიერი ვერ მოიძებნა</string>
+    <string name="choose_external_download_manager">აირჩიეთ გარეგანი გადმოწერის მენეჯერი…</string>
+    <string name="no_external_download_manager_was_found">გარეგანი გადმოწერის მენეჯერი ვერ მოიძებნა. გთხოვთ გადმოწერეთ Play Store-დან ან გამოიყენეთ ანდროიდის შინაგანი გადმოწერის მენეჯერი.</string>
+    <string name="download_started">გადმოწერა დაწყებულია…</string>
+    <string name="download_path_error">გადმოწერის ადგილი იქნება შინაგანი მეხსიერება. გთხოვთ აირჩიოთ სხვა ადგილი.</string>
+    <string name="copied_link">დაკოპირებულია დინების ლინკი</string>
+    <string name="link_must_be_played_in_app">ბოდიშით… ლინკის ჩართვა შესაძლებელია მხოლოდ Terrarium TV-ში…</string>
+
+    <string name="update_title">ახალი ვერსია არის ნაპოვნი : %s</string>
+    <string name="update_message">ვერსია %s : </string>
+    <string name="update_button">განახლება</string>
+    <string name="update_downloading">იწერება განახლება %s</string>
+    <string name="update_failed">განახლება ვერ მოხერხდა ან შეწყდა</string>
+
+    <string name="subtitle_name">სუბტიტრის სახელი : </string>
+
+    <string name="facebook_page">Facebook-ის გვერდი</string>
+
+    <string name="changelog">ცვლილებები</string>
+    <string name="choose_browser">აირჩიეთ ბროუზერი</string>
+
+    <string name="disclaimer">პასუხისმგებლობის შეზღუდვის განაცხადი</string>
+    <string name="accept">თანხმობა</string>
+    <string name="decline">უარყოფა</string>
+
+    <string name="error">უცნობი შეცდომა. გთხოვთ ხელახლა სცადეთ.</string>
+    <string name="please_wait">გთხოვთ დაიცადეთ…</string>
+
+    <string name="recaptcha_verify">საჭიროა რომ დაადასტუროთ reCaptcha რომ მიიღოთ წყაროები %s</string>
+    <string name="verify">დასტური</string>
+
+    <string name="size_large">დიდი</string>
+    <string name="size_normal">ნორმალური</string>
+    <string name="size_small">პატარა</string>
+
+    <string name="show_details_overview">მიმოხილვა</string>
+    <string name="show_details_season">სეზონი</string>
+    <string name="media_suggestion">ნახეთ აგრეთვე</string>
+    <string name="no_synopsis">არ არის შინაარსი</string>
+    <string name="loading_ratings">იტვირთება რეიტინგები…</string>
+    <string name="no_ratings">რეიტინგები არ არის</string>
+    <string name="meta_in_production">წარმოების პროცესშია</string>
+    <string name="meta_returning_series">განახლებული სერიალი</string>
+    <string name="meta_ended">დასრულდა</string>
+
+    <string name="navigation_drawer_open">გახსენით ნავიგაციის უჯრა</string>
+    <string name="navigation_drawer_close">დახურეთ ნავიგაციის უჯრა</string>
+
+    <string name="tv_shows">სერიალები</string>
+    <string name="movies">ფილმები</string>
+
+    <string name="play_trailer">ჩართეთ ტრეილერი</string>
+
+    <string name="translators">მთარგმნელები</string>
+
+    <string name="pref_app_lang">აპლიკაციის ენა</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
