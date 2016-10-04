@@ -16,6 +16,8 @@
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
     <string name="action_reverse">反轉排序</string>
+    <string name="action_set_watched">設為已觀看</string>
+    <string name="action_remove_watched">移除已觀看</string>
     <string name="hint_tv_show_name">劇集名稱</string>
     <string name="hint_movie_name">電影名稱</string>
     <string name="subtitle">字幕</string>
