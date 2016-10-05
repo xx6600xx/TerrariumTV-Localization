@@ -52,7 +52,7 @@
 
     <string name="trending">Tendencias</string>
     <string name="most_popular">Mais populares</string>
-    <string name="most_played">Mais tocados</string>
+    <string name="most_played">Mais reproduzidos</string>
     <string name="most_watched">Mais assistidos</string>
     <string name="recently_updated">Com episodios recentes</string>
     <string name="new_shows">Novidades</string>
@@ -65,8 +65,8 @@
     <string name="genre_tv_sci_fantasy">Ficção Científica &amp; Fantasia</string>
     <string name="genre_tv_mystery">Mistério</string>
     <string name="genre_tv_drama">Drama</string>
-    <string name="genre_tv_comedy">Comedia</string>
-    <string name="genre_tv_family">Familia</string>
+    <string name="genre_tv_comedy">Comédia</string>
+    <string name="genre_tv_family">Família</string>
     <string name="genre_tv_war_politics">Guerras &amp; Conflitos Políticos</string>
     <string name="genre_tv_reality">Reality Show</string>
     <string name="genre_tv_documentary">Documentário</string>
@@ -106,7 +106,7 @@
     <string name="pref_filter_out_dead_sources_desc">Pode causar lentidão na busca de fontes</string>
     <string name="pref_hide_unaired_season">Esconder temporadas que ainda não foram ao ar</string>
     <string name="pref_hide_unaired_episode">Esconder episódios que ainda não foram ao ar</string>
-    <string name="pref_subtitles_filter">Filtrar legendas incompatíveis</string>
+    <string name="pref_subtitles_filter">Ocultar legendas incompatíveis</string>
     <string name="pref_subtitles_choose_lang">Escolher idiomas da legenda(s)…</string>
     <string name="pref_hide_season_image">Ocultar miniatura da temporada</string>
     <string name="pref_hide_episode_image">Ocultar miniatura do episódio</string>
