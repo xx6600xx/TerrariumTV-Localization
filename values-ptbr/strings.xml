@@ -11,7 +11,7 @@
     <string name="loading">Carregando</string>
     <string name="loading_more">Carregando mais…</string>
     <string name="action_search">Buscar</string>
-    <string name="action_bookmark">Favorito</string>
+    <string name="action_bookmark">Favoritos</string>
     <string name="action_add_to_bookmark">Adicionar aos favoritos</string>
     <string name="action_refresh">Atualizar</string>
     <string name="action_stop">Parar</string>
@@ -117,9 +117,9 @@
     <string name="pref_choose_default_nav">Escolher guia padrão…</string>
     <string name="pref_choose_default_category_tv_shows">Escolher gênero padrão do programas de TV…</string>
     <string name="pref_choose_default_category_movies">Escolher gênero padrão dos filmes…</string>
-    <string name="pref_enabled_tv_shows_providers">Choose TV shows providers to be enabled…</string>
-    <string name="pref_enabled_movies_providers">Choose movies providers to be enabled…</string>
-    <string name="pref_enabled_resolvers">Choose resolvers to be enabled…</string>
+    <string name="pref_enabled_tv_shows_providers">Escolher Provedores de Programs de TV…</string>
+    <string name="pref_enabled_movies_providers">Escolher Provedores de Filmes…</string>
+    <string name="pref_enabled_resolvers">Escolher resolvedores ativos…</string>
     <string name="pref_modern_ui">Usar Interface moderna</string>
     <string name="pref_modern_ui_desc">Show Miniaturas em vez de Banners</string>
     <string name="pref_choose_default_play_action">Escolher ação padrão…</string>
@@ -140,7 +140,7 @@
     <string name="no_external_download_manager_was_found">Nenhum gerenciador de download externo foi encontrado. Por favor baixe algum da Play Store ou use o Gerenciador padrão do Android</string>
     <string name="download_started">Download iniciado…</string>
     <string name="download_path_error">Pasta de Download deve estar na mémoria interna. Por favor selecione outra pasta.</string>
-    <string name="copied_link">link copiado</string>
+    <string name="copied_link">Link copiado</string>
     <string name="link_must_be_played_in_app">Desculpe… Esse link só pode ser reproduzido no Terrarium TV…</string>
 
     <string name="update_title">Nova versão encontrada : %s</string>
@@ -180,8 +180,8 @@
     <string name="meta_returning_series">Retornando</string>
     <string name="meta_ended">Finalizada</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
 
     <string name="tv_shows">Programas de TV</string>
     <string name="movies">Filmes</string>
