@@ -6,7 +6,7 @@
 
     <string name="action_settings">Configurações</string>
 
-    <string name="no_data">No Data</string>
+    <string name="no_data">Sem resultados</string>
     <string name="no_internet">Sem conexão com a Internet</string>
     <string name="loading">Carregando</string>
     <string name="loading_more">Carregando mais…</string>
@@ -34,11 +34,11 @@
     <string name="ready_to_play_toast">O video começará em um instante…</string>
     <string name="searching_media">Buscando…</string>
     <string name="subtitle_language">Idioma das Legendas : </string>
-    <string name="subtitle_download_failed">Subtitles download failed… Please try another subtitles…</string>
-    <string name="subtitle_extract_failed">Subtitles extraction failed… Please try another subtitles…</string>
-    <string name="permission_grant_toast">Please press \"Allow\" to grant permission and try again</string>
-    <string name="sorry">Sorry…</string>
-    <string name="cant_be_opened_by_other_players">This source can\'t be opened or played by other video players. Sorry for the inconvenience.</string>
+    <string name="subtitle_download_failed">Não foi possível baixar a legenda, por favor escolha outra...</string>
+    <string name="subtitle_extract_failed">Não foi possível extrair a legenda, por favor escolha outra...</string>
+    <string name="permission_grant_toast">Por favor selecione \"Permitir\" para liberar a permissão e tente novamente.</string>
+    <string name="sorry">Desculpe…</string> 
+    <string name="cant_be_opened_by_other_players">Videos dessa fonte não podem ser abertos ou tocados por outros aplicativos. Desculpe o inconveniente.</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
@@ -46,30 +46,30 @@
     <string name="install">Instalar</string>
     <string name="mxplayer_not_installed">MXPlayer não está instalado</string>
     <string name="mxplayer_not_installed_message">MXPlayer não está instalado nesse aparelho. Terrarium precisa do MXPlayer para reproduzir os videos. Clique em "Instalar" para instalar o MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer is unable to start. Please re-install it and try again.</string>
-    <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
+    <string name="mxplayer_unable_to_start">Não foi possível iniciar o MXPlayer</string>
+    <string name="mxplayer_unable_to_start_message">Não foi possível iniciar o MXPlayer. Por favor re-instale e tente novamente.</string>
+    <string name="close_ad_to_play">Feche o anúncio para iniciar a reprodução.</string>
 
-    <string name="trending">Trending</string>
-    <string name="most_popular">Most Popular</string>
-    <string name="most_played">Most Played</string>
-    <string name="most_watched">Most Watched</string>
-    <string name="recently_updated">Recently Updated</string>
-    <string name="new_shows">New Shows</string>
-    <string name="premieres">Premieres</string>
-    <string name="on_the_air">On The Air</string>
-    <string name="top_rated">Top Rated</string>
-    <string name="now_playing">In Theaters</string>
+    <string name="trending">Tendencias</string>
+    <string name="most_popular">Mais populares</string>
+    <string name="most_played">Mais tocados</string>
+    <string name="most_watched">Mais assistidos</string>
+    <string name="recently_updated">Com episodios recentes</string>
+    <string name="new_shows">Novidades</string>
+    <string name="premieres">Premiums</string>
+    <string name="on_the_air">Ainda no ar</string>
+    <string name="top_rated">Melhores avaliados</string>
+    <string name="now_playing">Ainda nos cinemas</string>
 
-    <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
+    <string name="genre_tv_action_adventure">Ação &amp; Aventura</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
     <string name="genre_tv_mystery">Mystery</string>
     <string name="genre_tv_drama">Drama</string>
-    <string name="genre_tv_comedy">Comedy</string>
-    <string name="genre_tv_family">Family</string>
-    <string name="genre_tv_war_politics">War &amp; Politics</string>
-    <string name="genre_tv_reality">Reality</string>
-    <string name="genre_tv_documentary">Documentary</string>
+    <string name="genre_tv_comedy">Comedia</string>
+    <string name="genre_tv_family">Familia</string>
+    <string name="genre_tv_war_politics">Guerras &amp; Conflitos Políticos</string>
+    <string name="genre_tv_reality">Reality Show</string>
+    <string name="genre_tv_documentary">Documentário</string>
 
     <string name="genre_movie_action">Ação</string>
     <string name="genre_movie_adventure">Aventura</string>
@@ -86,32 +86,32 @@
     <string name="genre_movie_animation">Animação</string>
     <string name="genre_movie_history">Historia</string>
     <string name="genre_movie_war">Guerra</string>
-    <string name="genre_movie_documentary">Documentarios</string>
+    <string name="genre_movie_documentary">Documentario</string>
     <string name="genre_movie_music">Musical</string>
 
-    <string name="pref_general">General</string>
-    <string name="pref_ui">User Interface</string>
-    <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
-    <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
-    <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
-    <string name="pref_others">Others</string>
+    <string name="pref_general">Configurações Gerais</string>
+    <string name="pref_ui">Configurações Visuais</string>
+    <string name="pref_sources_and_resolvers">Fontes and Resolvedores</string>
+    <string name="pref_subtitle">Idiomas da legenda - OpenSubtitles and Subscene</string>
+    <string name="pref_subtitle_chin">Idiomas da legenda - SubHD, Makedie and Zimuku</string>
+    <string name="pref_others">Outros</string>
 
-    <string name="pref_sub_down_path">Subtitles download path</string>
-    <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
-    <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
-    <string name="pref_choose_media_down_manager">Choose default download manager…</string>
-    <string name="pref_auto_check_update">Check Update Automatically</string>
-    <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
+    <string name="pref_sub_down_path">Pasta onde serão salvas as legendas</string>
+    <string name="pref_sub_down_path_des">Legendas serão baixadas para esta pasta.</string>
+    <string name="pref_media_down_path">Pasta onde serão salvos os vídeos (Somente Android Internal Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Escolha o download manager padrão…</string>
+    <string name="pref_auto_check_update">Procurar atualizações automaticamente</string>
+    <string name="pref_filter_out_non_english_shows">Filtrar non-English TV shows</string>
     <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
-    <string name="pref_hide_unaired_season">Hide unaired season</string>
-    <string name="pref_hide_unaired_episode">Hide unaired episode</string>
-    <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
-    <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
-    <string name="pref_hide_season_image">Hide season thumbnails</string>
-    <string name="pref_hide_episode_image">Hide episode thumbnails</string>
-    <string name="pref_show_menu_source">Show context menu on single click in source list</string>
-    <string name="pref_poster_size">Media poster size</string>
+    <string name="pref_hide_unaired_season">Esconder temporadas que ainda não foram ao ar</string>
+    <string name="pref_hide_unaired_episode">Esconder episódios que ainda não foram ao ar</string>
+    <string name="pref_subtitles_filter">Filtrar legendas incompatíveis</string>
+    <string name="pref_subtitles_choose_lang">Escolher idiomas da legenda(s)…</string>
+    <string name="pref_hide_season_image">Esconder miniatura da temporada</string>
+    <string name="pref_hide_episode_image">Esconder miniatura do episódio</string>
+    <string name="pref_show_menu_source">Mostrar menu de contexto com clique único na lista de fontes</string>
+    <string name="pref_poster_size">Tamanho das miniaturas</string>
     <string name="pref_parallel_loading_sources">Parallel sources loading</string>
     <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 500%. However it may causes FC or crash on some low spec devices.</string>
     <string name="pref_choose_default_nav">Choose default navigation…</string>
@@ -128,13 +128,13 @@
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">External download manager(s)</string>
 
-    <string name="action_play">Play</string>
-    <string name="action_play_without_subtitle">Play Without Subtitles</string>
-    <string name="action_download">Download</string>
-    <string name="action_download_with_sub">Download With Subtitles</string>
-    <string name="action_copy_link">Copy Streamable Link</string>
-    <string name="action_play_via_other_players">Open With…</string>
-    <string name="choose_player">Choose a video player…</string>
+    <string name="action_play">Reproduzir</string>
+    <string name="action_play_without_subtitle">Reproduzir sem legendas</string>
+    <string name="action_download">Baixar</string>
+    <string name="action_download_with_sub">Baixar com legendas</string>
+    <string name="action_copy_link">Copiar Link do video</string>
+    <string name="action_play_via_other_players">Abrir com…</string>
+    <string name="choose_player">Escolhar o tocador…</string>
     <string name="no_player_was_found">No video player was found</string>
     <string name="choose_external_download_manager">Choose an external download manager…</string>
     <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
@@ -143,13 +143,13 @@
     <string name="copied_link">Copied streamable link</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
 
-    <string name="update_title">New version found : %s</string>
-    <string name="update_message">Version %s : </string>
-    <string name="update_button">Update</string>
-    <string name="update_downloading">Downloading update %s</string>
-    <string name="update_failed">Update failed or aborted</string>
+    <string name="update_title">Nova versão encontrada : %s</string>
+    <string name="update_message">Versão %s : </string>
+    <string name="update_button">Atualizar</string>
+    <string name="update_downloading">Baixando atualização %s</string>
+    <string name="update_failed">Atualização falhou ou foi cancelada</string>
 
-    <string name="subtitle_name">Subtitles Name : </string>
+    <string name="subtitle_name">Título da legenda : </string>
 
     <string name="facebook_page">Facebook Page</string>
 
@@ -157,40 +157,40 @@
     <string name="choose_browser">Choose a browser</string>
 
     <string name="disclaimer">Disclaimer</string>
-    <string name="accept">Accept</string>
-    <string name="decline">Decline</string>
+    <string name="accept">Aceitar</string>
+    <string name="decline">Rejeitar</string>
 
-    <string name="error">Unknown error. Please try again.</string>
-    <string name="please_wait">Please wait…</string>
+    <string name="error">Erro desconhecido. Por favor tente novamente.</string>
+    <string name="please_wait">Por favor aguarde…</string>
 
     <string name="recaptcha_verify">You need to verify a reCaptcha to get sources from %s</string>
-    <string name="verify">Verify</string>
+    <string name="verify">Verificar</string>
 
-    <string name="size_large">Large</string>
-    <string name="size_normal">Normal</string>
-    <string name="size_small">Small</string>
+    <string name="size_large">Grande</string>
+    <string name="size_normal">Médio</string>
+    <string name="size_small">Pequeno</string>
 
-    <string name="show_details_overview">OVERVIEW</string>
-    <string name="show_details_season">SEASON</string>
-    <string name="media_suggestion">See Also</string>
-    <string name="no_synopsis">No synopsis</string>
-    <string name="loading_ratings">Loading ratings…</string>
-    <string name="no_ratings">No Ratings</string>
-    <string name="meta_in_production">In Production</string>
-    <string name="meta_returning_series">Returning Series</string>
-    <string name="meta_ended">Ended</string>
+    <string name="show_details_overview">VISÃO GERAL</string>
+    <string name="show_details_season">TEMPORADAS</string>
+    <string name="media_suggestion">RELACIONADOS</string>
+    <string name="no_synopsis">Sinopse não disponível</string>
+    <string name="loading_ratings">Carregando avaliações…</string>
+    <string name="no_ratings">Sem avaliações</string>
+    <string name="meta_in_production">Em Produção</string>
+    <string name="meta_returning_series">Retornando</string>
+    <string name="meta_ended">Finalizada</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="tv_shows">TV Shows</string>
-    <string name="movies">Movies</string>
+    <string name="tv_shows">Programas de TV</string>
+    <string name="movies">Filmes</string>
 
-    <string name="play_trailer">Play Trailer</string>
+    <string name="play_trailer">Reproduzir Trailer</string>
 
-    <string name="translators">Translators</string>
+    <string name="translators">Tradutores</string>
 
-    <string name="pref_app_lang">App Language</string>
+    <string name="pref_app_lang">Idioma do Aplicativo</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
