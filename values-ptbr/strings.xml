@@ -2,7 +2,7 @@
 <resources>
     <string name="language_zh_tw">Chines tradicional</string>
     <string name="language_zh_cn">Chines simplificado</string>
-    <string name="language_en">Ingles</string>
+    <string name="language_en">Inglês</string>
 
     <string name="action_settings">Configurações</string>
 
@@ -17,12 +17,12 @@
     <string name="action_stop">Parar</string>
     <string name="action_reverse">Inverter</string>
     <string name="action_set_watched">Marcar como Assistido</string>
-    <string name="action_remove_watched">Remover como Assistido</string>
+    <string name="action_remove_watched">Remover de Assistido</string>
     <string name="hint_tv_show_name">Nome do programa</string>
     <string name="hint_movie_name">Nome do Filme</string>
     <string name="subtitle">Legendas</string>
     <string name="unknown">Desconhecido</string>
-    <string name="download_count">Numero de Downloads :</string>
+    <string name="download_count">Número de Downloads :</string>
 
     <string name="season">Temporada %1$d</string>
     <string name="episode">Episódio %1$d</string>
@@ -56,14 +56,14 @@
     <string name="most_watched">Mais assistidos</string>
     <string name="recently_updated">Com episodios recentes</string>
     <string name="new_shows">Novidades</string>
-    <string name="premieres">Premiums</string>
+    <string name="premieres">Estreiando</string>
     <string name="on_the_air">Ainda no ar</string>
     <string name="top_rated">Melhores avaliados</string>
     <string name="now_playing">Ainda nos cinemas</string>
 
     <string name="genre_tv_action_adventure">Ação &amp; Aventura</string>
-    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
-    <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_sci_fantasy">Ficção Científica &amp; Fantasia</string>
+    <string name="genre_tv_mystery">Mistério</string>
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Comedia</string>
     <string name="genre_tv_family">Familia</string>
@@ -84,7 +84,7 @@
     <string name="genre_movie_comedy">Comédia</string>
     <string name="genre_movie_family">Família</string>
     <string name="genre_movie_animation">Animação</string>
-    <string name="genre_movie_history">Historia</string>
+    <string name="genre_movie_history">História</string>
     <string name="genre_movie_war">Guerra</string>
     <string name="genre_movie_documentary">Documentario</string>
     <string name="genre_movie_music">Musical</string>
@@ -92,56 +92,56 @@
     <string name="pref_general">Configurações Gerais</string>
     <string name="pref_ui">Configurações Visuais</string>
     <string name="pref_sources_and_resolvers">Fontes and Resolvedores</string>
-    <string name="pref_subtitle">Idiomas da legenda - OpenSubtitles and Subscene</string>
-    <string name="pref_subtitle_chin">Idiomas da legenda - SubHD, Makedie and Zimuku</string>
+    <string name="pref_subtitle">Idiomas da legenda - OpenSubtitles e Subscene</string>
+    <string name="pref_subtitle_chin">Idiomas da legenda - SubHD, Makedie e Zimuku</string>
     <string name="pref_others">Outros</string>
 
     <string name="pref_sub_down_path">Pasta onde serão salvas as legendas</string>
     <string name="pref_sub_down_path_des">Legendas serão baixadas para esta pasta.</string>
-    <string name="pref_media_down_path">Pasta onde serão salvos os vídeos (Somente Android Internal Download Manager)</string>
-    <string name="pref_choose_media_down_manager">Escolha o download manager padrão…</string>
+    <string name="pref_media_down_path">Pasta onde serão salvos os vídeos (Somente Gerenciador de Downloads do Android)</string>
+    <string name="pref_choose_media_down_manager">Escolha o Gerenciador de Download padrão…</string>
     <string name="pref_auto_check_update">Procurar atualizações automaticamente</string>
-    <string name="pref_filter_out_non_english_shows">Filtrar non-English TV shows</string>
-    <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
-    <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
+    <string name="pref_filter_out_non_english_shows">Ocultar Programas não-inglês</string>
+    <string name="pref_filter_out_dead_sources">Ocultar fontes desativadas</string>
+    <string name="pref_filter_out_dead_sources_desc">Pode causar lentidão na busca de fontes</string>
     <string name="pref_hide_unaired_season">Esconder temporadas que ainda não foram ao ar</string>
     <string name="pref_hide_unaired_episode">Esconder episódios que ainda não foram ao ar</string>
     <string name="pref_subtitles_filter">Filtrar legendas incompatíveis</string>
     <string name="pref_subtitles_choose_lang">Escolher idiomas da legenda(s)…</string>
-    <string name="pref_hide_season_image">Esconder miniatura da temporada</string>
-    <string name="pref_hide_episode_image">Esconder miniatura do episódio</string>
+    <string name="pref_hide_season_image">Ocultar miniatura da temporada</string>
+    <string name="pref_hide_episode_image">Ocultar miniatura do episódio</string>
     <string name="pref_show_menu_source">Mostrar menu de contexto com clique único na lista de fontes</string>
     <string name="pref_poster_size">Tamanho das miniaturas</string>
-    <string name="pref_parallel_loading_sources">Parallel sources loading</string>
-    <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 500%. However it may causes FC or crash on some low spec devices.</string>
-    <string name="pref_choose_default_nav">Choose default navigation…</string>
-    <string name="pref_choose_default_category_tv_shows">Choose default TV shows category or genre…</string>
-    <string name="pref_choose_default_category_movies">Choose default movies category or genre…</string>
+    <string name="pref_parallel_loading_sources">Download de fontes em paralelo</string>
+    <string name="pref_parallel_loading_sources_desc">Altamente recomendável. Acelera o carregamento de fontes em 500%. Contudo, isto pode causar lentidão ou fechamentos em aparelhos antigos.</string>
+    <string name="pref_choose_default_nav">Escolher guia padrão…</string>
+    <string name="pref_choose_default_category_tv_shows">Escolher gênero padrão do programas de TV…</string>
+    <string name="pref_choose_default_category_movies">Escolher gênero padrão dos filmes…</string>
     <string name="pref_enabled_tv_shows_providers">Choose TV shows providers to be enabled…</string>
     <string name="pref_enabled_movies_providers">Choose movies providers to be enabled…</string>
     <string name="pref_enabled_resolvers">Choose resolvers to be enabled…</string>
-    <string name="pref_modern_ui">Use modern UI</string>
+    <string name="pref_modern_ui">Usar Interface moderna</string>
     <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
-    <string name="pref_choose_default_play_action">Choose default play action…</string>
-    <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
+    <string name="pref_choose_default_play_action">Escolher ação padrão…</string>
+    <string name="restart_to_see_the_difference">Por favor reinicie para ver as mudanças.</string>
 
-    <string name="download_manager_internal">Android Internal Download Manager</string>
-    <string name="download_manager_external">External download manager(s)</string>
+    <string name="download_manager_internal">Gerenciador de Downloads do Android</string>
+    <string name="download_manager_external">Gerenciadores de Downloads externos</string>
 
     <string name="action_play">Reproduzir</string>
     <string name="action_play_without_subtitle">Reproduzir sem legendas</string>
-    <string name="action_download">Baixar</string>
-    <string name="action_download_with_sub">Baixar com legendas</string>
+    <string name="action_download">Fazer Download</string>
+    <string name="action_download_with_sub">Fazer Download com legendas</string>
     <string name="action_copy_link">Copiar Link do video</string>
     <string name="action_play_via_other_players">Abrir com…</string>
-    <string name="choose_player">Escolhar o tocador…</string>
-    <string name="no_player_was_found">No video player was found</string>
-    <string name="choose_external_download_manager">Choose an external download manager…</string>
-    <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
-    <string name="download_started">Download started…</string>
-    <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
-    <string name="copied_link">Copied streamable link</string>
-    <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
+    <string name="choose_player">Escolher Reprodutor de video…</string>
+    <string name="no_player_was_found">Nenhum reprodutor de video foi encontrado</string>
+    <string name="choose_external_download_manager">Escolher um gerenciador de donwload externo…</string>
+    <string name="no_external_download_manager_was_found">Nenhum gerenciador de download externo foi encontrado. Por favor baixe algum da Play Store ou use o Gerenciador padrão do Android</string>
+    <string name="download_started">Download iniciado…</string>
+    <string name="download_path_error">Pasta de Download deve estar na mémoria interna. Por favor selecione outra pasta.</string>
+    <string name="copied_link">link copiado</string>
+    <string name="link_must_be_played_in_app">Desculpe… Esse link só pode ser reproduzido no Terrarium TV…</string>
 
     <string name="update_title">Nova versão encontrada : %s</string>
     <string name="update_message">Versão %s : </string>
@@ -151,19 +151,19 @@
 
     <string name="subtitle_name">Título da legenda : </string>
 
-    <string name="facebook_page">Facebook Page</string>
+    <string name="facebook_page">Página do Facebook</string>
 
-    <string name="changelog">Changelog</string>
-    <string name="choose_browser">Choose a browser</string>
+    <string name="changelog">Novidades</string>
+    <string name="choose_browser">Escolha um navegador</string>
 
-    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer">Aviso legal</string>
     <string name="accept">Aceitar</string>
     <string name="decline">Rejeitar</string>
 
     <string name="error">Erro desconhecido. Por favor tente novamente.</string>
     <string name="please_wait">Por favor aguarde…</string>
 
-    <string name="recaptcha_verify">You need to verify a reCaptcha to get sources from %s</string>
+    <string name="recaptcha_verify">Você precisa verificar o reCaptcha para obter fontes de %s</string>
     <string name="verify">Verificar</string>
 
     <string name="size_large">Grande</string>
