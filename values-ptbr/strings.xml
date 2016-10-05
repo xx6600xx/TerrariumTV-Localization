@@ -121,7 +121,7 @@
     <string name="pref_enabled_movies_providers">Escolher Provedores de Filmes…</string>
     <string name="pref_enabled_resolvers">Escolher resolvedores ativos…</string>
     <string name="pref_modern_ui">Usar Interface moderna</string>
-    <string name="pref_modern_ui_desc">Show Miniaturas em vez de Banners</string>
+    <string name="pref_modern_ui_desc">Mostrar Miniaturas em vez de Banners</string>
     <string name="pref_choose_default_play_action">Escolher ação padrão…</string>
     <string name="restart_to_see_the_difference">Por favor reinicie para ver as mudanças.</string>
 
