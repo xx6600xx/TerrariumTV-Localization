@@ -38,7 +38,7 @@
     <string name="subtitle_extract_failed">Não foi possível extrair a legenda, por favor escolha outra...</string>
     <string name="permission_grant_toast">Por favor selecione \"Permitir\" para liberar a permissão e tente novamente.</string>
     <string name="sorry">Desculpe…</string> 
-    <string name="cant_be_opened_by_other_players">Videos dessa fonte não podem ser abertos ou tocados por outros aplicativos. Desculpe o inconveniente.</string>
+    <string name="cant_be_opened_by_other_players">Videos dessa fonte não podem ser abertos ou reproduzidos por outros aplicativos. Desculpe o inconveniente.</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
@@ -56,7 +56,7 @@
     <string name="most_watched">Mais assistidos</string>
     <string name="recently_updated">Com episodios recentes</string>
     <string name="new_shows">Novidades</string>
-    <string name="premieres">Estreiando</string>
+    <string name="premieres">Estréias</string>
     <string name="on_the_air">Ainda no ar</string>
     <string name="top_rated">Melhores avaliados</string>
     <string name="now_playing">Ainda nos cinemas</string>
@@ -86,7 +86,7 @@
     <string name="genre_movie_animation">Animação</string>
     <string name="genre_movie_history">História</string>
     <string name="genre_movie_war">Guerra</string>
-    <string name="genre_movie_documentary">Documentario</string>
+    <string name="genre_movie_documentary">Documentário</string>
     <string name="genre_movie_music">Musical</string>
 
     <string name="pref_general">Configurações Gerais</string>
@@ -121,7 +121,7 @@
     <string name="pref_enabled_movies_providers">Choose movies providers to be enabled…</string>
     <string name="pref_enabled_resolvers">Choose resolvers to be enabled…</string>
     <string name="pref_modern_ui">Usar Interface moderna</string>
-    <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
+    <string name="pref_modern_ui_desc">Show Miniaturas em vez de Banners</string>
     <string name="pref_choose_default_play_action">Escolher ação padrão…</string>
     <string name="restart_to_see_the_difference">Por favor reinicie para ver as mudanças.</string>
 
