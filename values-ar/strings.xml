@@ -16,6 +16,8 @@
     <string name="action_refresh">تحديث</string>
     <string name="action_stop">إيقاف</string>
     <string name="action_reverse">عكس</string>
+    <string name="action_set_watched">شوهد</string>
+    <string name="action_remove_watched">لم يشاهد</string>
     <string name="hint_tv_show_name">اسم المسلسل</string>
     <string name="hint_movie_name">اسم الفيلم</string>
     <string name="subtitle">الترجمة</string>
@@ -90,7 +92,7 @@
     <string name="pref_general">عام</string>
     <string name="pref_ui">واجهة المستخدم</string>
     <string name="pref_sources_and_resolvers">المصادر والمزودات</string>
-    <string name="pref_subtitle">لغات الترجمة في موقع OpenSubtitles</string>
+    <string name="pref_subtitle">لغات الترجمة في موقع OpenSubtitles وSubscene</string>
     <string name="pref_subtitle_chin">لغات الترجمة في بقية المواقع</string>
     <string name="pref_others">غير ذلك</string>
 
