@@ -16,6 +16,8 @@
     <string name="action_refresh">Päivitä</string>
     <string name="action_stop">Pysäytä</string>
     <string name="action_reverse">Käänteinen</string>
+    <string name="action_set_watched">Set Watched</string>
+    <string name="action_remove_watched">Remove Watched</string>
     <string name="hint_tv_show_name">TV-sarjan nimi</string>
     <string name="hint_movie_name">Elokuvan nimi</string>
     <string name="subtitle">Tekstitykset</string>

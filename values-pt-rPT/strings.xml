@@ -16,6 +16,8 @@
     <string name="action_refresh">Refrescar</string>
     <string name="action_stop">Parar</string>
     <string name="action_reverse">Inverter</string>
+    <string name="action_set_watched">Set Watched</string>
+    <string name="action_remove_watched">Remove Watched</string>
     <string name="hint_tv_show_name">Nome Série TV</string>
     <string name="hint_movie_name">Nome Filme</string>
     <string name="subtitle">Legendas</string>

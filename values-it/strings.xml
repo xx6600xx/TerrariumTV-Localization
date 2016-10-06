@@ -11,16 +11,18 @@
     <string name="loading">Caricamento</string>
     <string name="loading_more">Caricando Ancora…</string>
     <string name="action_search">Cerca</string>
-    <string name="action_bookmark">Preferiti</string>
-    <string name="action_add_to_bookmark">Aggiungi ai preferiti</string>
+    <string name="action_bookmark">Segnalibri</string>
+    <string name="action_add_to_bookmark">Aggiungi ai segnalibri</string>
     <string name="action_refresh">Ricarica</string>
     <string name="action_stop">Stop</string>
     <string name="action_reverse">Inverso</string>
-    <string name="hint_tv_show_name">Nome della Serie TV</string>
+    <string name="action_set_watched">Set Watched</string>
+    <string name="action_remove_watched">Remove Watched</string>
+    <string name="hint_tv_show_name">Nome della serie TV</string>
     <string name="hint_movie_name">Nome del Film</string>
     <string name="subtitle">Sottotitoli</string>
     <string name="unknown">Sconosciuto</string>
-    <string name="download_count">Conteggio dei donwload:</string>
+    <string name="download_count">Conteggio dei donwload :</string>
 
     <string name="season">Stagione %1$d</string>
     <string name="episode">Episodio %1$d</string>
@@ -31,11 +33,11 @@
     <string name="downloading_subtitle_toast">Scaricando i sottotitoli…Aspetta…</string>
     <string name="ready_to_play_toast">Il video partirà in pochi secondi…</string>
     <string name="searching_media">Cercando…</string>
-    <string name="subtitle_language">Lingua dei sottotitoli:</string>
-    <string name="subtitle_download_failed">Scaricamento dei sottotitoli fallito. Per favore prova altri sottotitoli</string>
-    <string name="subtitle_extract_failed">Estrazione dei sottotitoli fallita. Per favore prova altri sottotitoli</string>
+    <string name="subtitle_language">Lingua dei sottotitoli : </string>
+    <string name="subtitle_download_failed">Scaricamento dei sottotitoli fallito… Per favore prova altri sottotitoli…</string>
+    <string name="subtitle_extract_failed">Estrazione dei sottotitoli fallita… Per favore prova altri sottotitoli…</string>
     <string name="permission_grant_toast">Per favore premi \"Consenti\" per concedere l\'autorizzazione e riprova</string>
-    <string name="sorry">Scusa</string>
+    <string name="sorry">Scusa…</string>
     <string name="cant_be_opened_by_other_players">Questa fonte non puà essere aperta o vista da altri lettori video. Scusa per l\'inconveniente.</string>
 
     <string name="ok">OK</string>
@@ -48,16 +50,16 @@
     <string name="mxplayer_unable_to_start_message">Impossibile avviare MXPlayer. Per favore re-installa e prova di nuovo.</string>
     <string name="close_ad_to_play">Per favore chiudi l\'ad in primo luogo per riprodurre il video</string>
 
-    <string name="trending">Di Tendenza</string>
+    <string name="trending">Tendenza</string>
     <string name="most_popular">I più Popolari</string>
-    <string name="most_played">I più Riprodotti</string>
+    <string name="most_played">I più riprodotti</string>
     <string name="most_watched">I più Visti</string>
     <string name="recently_updated">Recentemente Aggiornati</string>
-    <string name="new_shows">Nuove Serie TV</string>
+    <string name="new_shows">Nuovi spettacoli</string>
     <string name="premieres">Prima</string>
     <string name="on_the_air">In Onda</string>
-    <string name="top_rated">I più Votati</string>
-    <string name="now_playing">Nei Cinema</string>
+    <string name="top_rated">I più votati</string>
+    <string name="now_playing">Nei teatri</string>
 
     <string name="genre_tv_action_adventure">Azione &amp; Avventura</string>
     <string name="genre_tv_sci_fantasy">Fantascienza &amp; Fantasia</string>
@@ -105,22 +107,22 @@
     <string name="pref_hide_unaired_season">Nascondi la stagione non trasmessa</string>
     <string name="pref_hide_unaired_episode">Nascondi l\'episodio non trasmesso</string>
     <string name="pref_subtitles_filter">Elimina dai filtri i sottotitoli che non combaciano</string>
-    <string name="pref_subtitles_choose_lang">Scegli la lingua dei sottotitoli</string>
+    <string name="pref_subtitles_choose_lang">Scegli la lingua dei sottotitoli…</string>
     <string name="pref_hide_season_image">Nascondi le miniature della stagione</string>
     <string name="pref_hide_episode_image">Nascondi le miniature degli episodi</string>
     <string name="pref_show_menu_source">Mostra il menù contestuale sul singolo click nella lista sorgente</string>
     <string name="pref_poster_size">Dimensione dei poster</string>
     <string name="pref_parallel_loading_sources">Caricamento fonti parallele</string>
     <string name="pref_parallel_loading_sources_desc">Fortememente consigliato di abilitarlo. Accelera la velocità di caricamento da %. Tuttavia può causare FC o crash in alcuni vecchi dispositivi.</string>
-    <string name="pref_choose_default_nav">Scegli navigazione preferita</string>
-    <string name="pref_choose_default_category_tv_shows">Scegli categorie e generi predefiniti degli spettacoli televisivi</string>
-    <string name="pref_choose_default_category_movies">Scegli categorie e generi predefiniti dei film</string>
-    <string name="pref_enabled_tv_shows_providers">Scegli i fornitori dei spettacoli televisivi da abilitare</string>
-    <string name="pref_enabled_movies_providers">Scegli i fornitori dei film da abilitare</string>
-    <string name="pref_enabled_resolvers">Scegli risolvere per abilitarlo</string>
-    <string name="pref_modern_ui">Usa una intefaccia utente moderna</string>
+    <string name="pref_choose_default_nav">Scegli navigazione preferita…</string>
+    <string name="pref_choose_default_category_tv_shows">Scegli categorie e generi predefiniti degli spettacoli televisivi…</string>
+    <string name="pref_choose_default_category_movies">Scegli categorie e generi predefiniti dei film…</string>
+    <string name="pref_enabled_tv_shows_providers">Scegli i fornitori dei spettacoli televisivi da abilitare....</string>
+    <string name="pref_enabled_movies_providers">Scegli i fornitori dei film da abilitare…</string>
+    <string name="pref_enabled_resolvers">Scegli risolvere per abilitarlo…</string>
+    <string name="pref_modern_ui">Usa una moderna UI</string>
     <string name="pref_modern_ui_desc">Mostra i poster invece dei banner</string>
-    <string name="pref_choose_default_play_action">Scegli un metodo di visione predefinito</string>
+    <string name="pref_choose_default_play_action">Scegli un metodo di visione predefinito…</string>
     <string name="restart_to_see_the_difference">Per favore riapri Terrarium TV per vedere la differenza.</string>
 
     <string name="download_manager_internal">File manager interno di Android</string>
@@ -131,10 +133,10 @@
     <string name="action_download">Scarica</string>
     <string name="action_download_with_sub">Scarica con i sottotitoli</string>
     <string name="action_copy_link">Copia il Link di Streamable</string>
-    <string name="action_play_via_other_players">Apri Con</string>
-    <string name="choose_player">Scegli un lettore video</string>
+    <string name="action_play_via_other_players">Apri Con…</string>
+    <string name="choose_player">Scegli un lettore video…</string>
     <string name="no_player_was_found">Nessun lettore video è stato trovato</string>
-    <string name="choose_external_download_manager">Scegli un file manager esterno</string>
+    <string name="choose_external_download_manager">Scegli un file manager esterno…</string>
     <string name="no_external_download_manager_was_found">Nessun file manager esterno è stato trovato. Per favore scaricalo dal Play Store o usa il file manager interno di Android</string>
     <string name="download_started">Download partito…</string>
     <string name="download_path_error">Il percorso di download deve essere nella memoria interna. Per favore scegli un altro percorso.</string>
@@ -142,12 +144,12 @@
     <string name="link_must_be_played_in_app">Mi dispiace…Questo collegamento può essere riprodotto solo su Terrarium TV…</string>
 
     <string name="update_title">Nuova versione trovata : %s</string>
-    <string name="update_message">Versione %s:</string>
+    <string name="update_message">Versione %s : </string>
     <string name="update_button">Aggiornare</string>
     <string name="update_downloading">Scaricando l\'aggiornamento %s</string>
     <string name="update_failed">Aggiornamento non riuscito o interrotto</string>
 
-    <string name="subtitle_name">Nome dei sottotitoli:</string>
+    <string name="subtitle_name">Nome dei sottotitoli : </string>
 
     <string name="facebook_page">Pagina Facebook</string>
 
@@ -158,10 +160,10 @@
     <string name="accept">Accetta</string>
     <string name="decline">Declina</string>
 
-    <string name="error">Errore sconosciuto. Riprova ancora</string>
+    <string name="error">Errore sconosciuto. Riprova ancora.</string>
     <string name="please_wait">Aspetta…</string>
 
-    <string name="recaptcha_verify">Devi verificare con una reCaptcha per ottenere le fonti da %s</string>
+    <string name="recaptcha_verify">Devi verificare una reCaptcha per ottenere le fondi da %s</string>
     <string name="verify">Verifica</string>
 
     <string name="size_large">Grande</string>

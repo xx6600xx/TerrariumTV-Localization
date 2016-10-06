@@ -16,6 +16,8 @@
     <string name="action_refresh">Refrescar</string>
     <string name="action_stop">Pausar</string>
     <string name="action_reverse">Deshacer</string>
+    <string name="action_set_watched">Set Watched</string>
+    <string name="action_remove_watched">Remove Watched</string>
     <string name="hint_tv_show_name">Nombre de la Serie</string>
     <string name="hint_movie_name">Nombre de la Película</string>
     <string name="subtitle">Subtítulos</string>
