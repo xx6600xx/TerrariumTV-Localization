@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditional Chinese</string>
+    <string name="language_zh_cn">Simplified Chinese</string>
+    <string name="language_en">English</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="no_data">कोई आकड़ा उपलब्ध नहीं है</string>
+    <string name="no_internet">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="loading">लोड हो रहा है</string>
+    <string name="loading_more">लोड हो रहा है अधिक…</string>
+    <string name="action_search">खोज</string>
+    <string name="action_bookmark">बुकमार्क</string>
+    <string name="action_add_to_bookmark">बुकमार्क में जोड़े</string>
+    <string name="action_refresh">नया करना</string>
+    <string name="action_stop">रुकें</string>
+    <string name="action_reverse">उलटा</string>
+    <string name="action_set_watched">Set Watched</string>
+    <string name="action_remove_watched">Remove Watched</string>
+    <string name="hint_tv_show_name">टीवी शो के नाम</string>
+    <string name="hint_movie_name">फिल्म का नाम</string>
+    <string name="subtitle">उपशीर्षक</string>
+    <string name="unknown">अनजान</string>
+    <string name="download_count">डाउनलोड गिनती :</string>
+
+    <string name="season">सीज़न %1$d</string>
+    <string name="episode">इपसोड %1$d</string>
+    <string name="season_episode">%1$s - सीज़न %2$d इपसोड %3$d</string>
+    <string name="season_special">सीज़न  विशेष</string>
+    <string name="search_result_of">के खोज परिणाम \"%s\"</string>
+    <string name="getting_subtitle">हो रही उपशीर्षक… कृपया प्रतीक्षा करें…</string>
+    <string name="downloading_subtitle_toast">डाउनलोड करने के उपशीर्षक… कृपया प्रतीक्षा करें…</string>
+    <string name="ready_to_play_toast">वीडियो जल्द ही शुरू होगा…</string>
+    <string name="searching_media">खोज कर…</string>
+    <string name="subtitle_language">उपशीर्षक भाषा : </string>
+    <string name="subtitle_download_failed">उपशीर्षक डाउनलोड असफल… एक और उपशीर्षक प्रयास करें…</string>
+    <string name="subtitle_extract_failed">उपशीर्षक निकासी असफल रहा… एक और उपशीर्षक प्रयास करें…</string>
+    <string name="permission_grant_toast">अनुमति देने और फिर से कोशिश करने के लिए प्रेस कृपया \ "की अनुमति दें \"</string>
+    <string name="sorry">माफ़ कीजिये…</string>
+    <string name="cant_be_opened_by_other_players">इस स्रोत  \'टी खोला या अन्य वीडियो खिलाड़ियों द्वारा खेला जा सकता है | असुविधा के लिए क्षमा करें |</string>
+
+    <string name="ok">ठीक</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="close">बंद करे</string>
+    <string name="install">इंस्टॉल करें</string>
+    <string name="mxplayer_not_installed">एमएक्स प्लेयर स्थापित नहीं</string>
+    <string name="mxplayer_not_installed_message">एमएक्स प्लेयर अपने डिवाइस पर स्थापित नहीं है|टेरारियम एमएक्स प्लेयर की जरूरत है मीडिया खेलने के लिए.एमएक्स प्लेयर स्थापित करने के लिए "स्थापित करें" क्लिक करें|</string>
+    <string name="mxplayer_unable_to_start">एमएक्स प्लेयर प्रारंभ करने में अक्षम</string>
+    <string name="mxplayer_unable_to_start_message">|कृपया इसे पुन: स्थापित करें और फिर कोशिश करें|</string>
+    <string name="close_ad_to_play">आदेश में वीडियो खेलने के लिए पहला विज्ञापन को बंद करें</string>
+
+    <string name="trending">रुझान</string>
+    <string name="most_popular">सबसे लोकप्रिय</string>
+    <string name="most_played">ज्यादा खेला फिल्म</string>
+    <string name="most_watched">सबसे ज्यादा देखा गया</string>
+    <string name="recently_updated">हाल ही में अद्यतित</string>
+    <string name="new_shows">नए शो</string>
+    <string name="premieres">प्रीमियर</string>
+    <string name="on_the_air">On The Air</string>
+    <string name="top_rated">टॉप रेटेड</string>
+    <string name="now_playing">सिनेमाघरों में</string>
+
+    <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
+    <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Comedy</string>
+    <string name="genre_tv_family">Family</string>
+    <string name="genre_tv_war_politics">War &amp; Politics</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Documentary</string>
+
+    <string name="genre_movie_action">मार पिटाई</string>
+    <string name="genre_movie_adventure">साहसिक</string>
+    <string name="genre_movie_thriller">थ्रिलर</string>
+    <string name="genre_movie_sci">विज्ञान - फंतासी </string>
+    <string name="genre_movie_fantasy">कल्पना</string>
+    <string name="genre_movie_mystery">रहस्य</string>
+    <string name="genre_movie_horror">डरावनी</string>
+    <string name="genre_movie_crime">अपराध</string>
+    <string name="genre_movie_drama">नाटक</string>
+    <string name="genre_movie_romance">रोमांस</string>
+    <string name="genre_movie_comedy">कॉमेडी</string>
+    <string name="genre_movie_family">परिवार</string>
+    <string name="genre_movie_animation">एनीमेशन</string>
+    <string name="genre_movie_history">इतिहास</string>
+    <string name="genre_movie_war">युद्ध</string>
+    <string name="genre_movie_documentary">दस्तावेज़ी</string>
+    <string name="genre_movie_music">संगीत</string>
+
+    <string name="pref_general">सामान्य</string>
+    <string name="pref_ui">प्रयोक्ता इंटरफ़ेस</string>
+    <string name="pref_sources_and_resolvers">प्रदाताओं और रिसोल्वर</string>
+    <string name="pref_subtitle">Open Subtitles और Subscene के उपशीर्षक भाषा</string>
+    <string name="pref_subtitle_chin"> SubHD, Makedie और Zimuku के उपशीर्षक भाषा</string>
+    <string name="pref_others">अन्य </string>
+
+    <string name="pref_sub_down_path">उपशीर्षक डाउनलोड पथ</string>
+    <string name="pref_sub_down_path_des">उपशीर्षक डाउनलोड किया जाएगा और इस रास्ते को बचाया जा.</string>
+    <string name="pref_media_down_path">मीडिया डाउनलोड पथ (केवल एंड्रॉयड के लिए आंतरिक डाउनलोड प्रबंधक)</string>
+    <string name="pref_choose_media_down_manager">डिफ़ॉल्ट डाउनलोड प्रबंधक चुनें…</string>
+    <string name="pref_auto_check_update">स्वचालित रूप से अपडेट जांच</string>
+    <string name="pref_filter_out_non_english_shows">फिल्टर गैर अंग्रेजी शो</string>
+    <string name="pref_filter_out_dead_sources">मृत सूत्रों बाहर फिल्टर</string>
+    <string name="pref_filter_out_dead_sources_desc">यह समय लोड अतिरिक्त सूत्रों का कारण होगा</string>
+    <string name="pref_hide_unaired_season">unaired सीज़न छुपाएं</string>
+    <string name="pref_hide_unaired_episode"> unaired इपसोड छुपाएं </string>
+    <string name="pref_subtitles_filter">बाहर फिल्टर बेजोड़ उपशीर्षक</string>
+    <string name="pref_subtitles_choose_lang">उपशीर्षक भाषा चयन(s)…</string>
+    <string name="pref_hide_season_image">सीज़न थंबनेल छिपाने</string>
+    <string name="pref_hide_episode_image">इपसोड थंबनेल छिपाने</string>
+    <string name="pref_show_menu_source">पर स्रोत सूची में एकल क्लिक करें संदर्भ मेनू दिखाएँ</string>
+    <string name="pref_poster_size">मध्यम पोस्टर आकार</string>
+    <string name="pref_parallel_loading_sources">लोड हो रहा है समानांतर स्रोतों</string>
+    <string name="pref_parallel_loading_sources_desc">सक्षम करने के लिए दृढ़ता से सुझाव दिया। लोड हो रहा है 500% की गति स्रोतों को गति। हालांकि यह हो सकता है एफसी या दुर्घटना पर कुछ कम कल्पना डिवाइस का कारण बनता है</string>
+    <string name="pref_choose_default_nav">डिफ़ॉल्ट नेविगेशन का चयन…</string>
+    <string name="pref_choose_default_category_tv_shows">चुनें डिफ़ॉल्ट श्रेणी या शैली टी वी दिखाता है…</string>
+    <string name="pref_choose_default_category_movies">डिफ़ॉल्ट श्रेणी या शैली फिल्मों का चयन…</string>
+    <string name="pref_enabled_tv_shows_providers">सक्षम करने के लिए प्रदाताओं टीवी शो चुनें…</string>
+    <string name="pref_enabled_movies_providers">सक्षम करने के लिए फिल्में प्रदाताओं का चयन…</string>
+    <string name="pref_enabled_resolvers">Resolvers सक्षम करने के लिए चुनें…</string>
+    <string name="pref_modern_ui">आधुनिक UI का उपयोग करें</string>
+    <string name="pref_modern_ui_desc">पोस्टर के बजाय मीडिया स्रोत दिखाएँ</string>
+    <string name="pref_choose_default_play_action">डिफ़ॉल्ट खेल क्रिया चुनें…</string>
+    <string name="restart_to_see_the_difference">टेरारियम टीवी पुनः प्रारंभ करें अंतर देखने के लिए.</string>
+
+    <string name="download_manager_internal">एंड्रॉयड आंतरिक डाउनलोड प्रबंधक</string>
+    <string name="download_manager_external">बाहरी डाउनलोड प्रबंधक(s)</string>
+
+    <string name="action_play">प्ले</string>
+    <string name="action_play_without_subtitle">उपशीर्षक के बिना खेलना</string>
+    <string name="action_download">डाउनलोड</string>
+    <string name="action_download_with_sub">डाउनलोड उपशीर्षक के साथ</string>
+    <string name="action_copy_link">कॉपी streamable लिंक</string>
+    <string name="action_play_via_other_players">के साथ खोलें…</string>
+    <string name="choose_player">एक वीडियो प्लेयर का चयन…</string>
+    <string name="no_player_was_found">कोई वीडियो प्लेयर नहीं मिला</string>
+    <string name="choose_external_download_manager">एक बाहरी डाउनलोड प्रबंधक चुनें…</string>
+    <string name="no_external_download_manager_was_found">कोई बाहरी डाउनलोड प्रबंधक मिला था। उन्हें प्ले स्टोर से डाउनलोड या एंड्रॉयड आंतरिक डाउनलोड प्रबंधक का उपयोग करें</string>
+    <string name="download_started">डाउनलोड शुरू कर दिया है…</string>
+    <string name="download_path_error">डाउनलोड पथ आंतरिक भंडारण में होना चाहिए। कृपया किसी अन्य रास्ता चुनते हैं।</string>
+    <string name="copied_link">की नकल की streamable लिंक</string>
+    <string name="link_must_be_played_in_app">क्षमा करें … इस लिंक केवल टेरारियम टीवी में खेला जा सकता है…</string>
+
+    <string name="update_title">नया संस्करण उपलब्ध है : %s</string>
+    <string name="update_message">संस्करण %s : </string>
+    <string name="update_button">अद्यतन</string>
+    <string name="update_downloading">अपडेट डाउनलोड हो रहा %s</string>
+    <string name="update_failed">अद्यतन असफल रहा या निरस्त</string>
+
+    <string name="subtitle_name">उपशीर्षक का नाम : </string>
+
+    <string name="facebook_page">फेसबुक पेज</string>
+
+    <string name="changelog">चैंज</string>
+    <string name="choose_browser">एक ब्राउज़र चुनें</string>
+
+    <string name="disclaimer">अस्वीकरण</string>
+    <string name="accept">स्वीकार करना</string>
+    <string name="decline">पतन</string>
+
+    <string name="error">अज्ञात त्रुटि। कृपया पुन: प्रयास करें।</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें…</string>
+
+    <string name="recaptcha_verify">आप एक reCAPTCHA स्रोतों से प्राप्त करने के लिए सत्यापित करने की आवश्यकता %s</string>
+    <string name="verify">सत्यापित करें</string>
+
+    <string name="size_large">बड़ा</string>
+    <string name="size_normal">साधारण</string>
+    <string name="size_small">छोटा</string>
+
+    <string name="show_details_overview">अवलोकन</string>
+    <string name="show_details_season">सीज़न</string>
+    <string name="media_suggestion">यह भी देखें\</string>
+    <string name="no_synopsis">सारांश उपलब्ध नहीं</string>
+    <string name="loading_ratings">लोड हो रहा है … रेटिंग्स</string>
+    <string name="no_ratings">उपलब्ध नहीं रेटिंग</string>
+    <string name="meta_in_production">उत्पादन में</string>
+    <string name="meta_returning_series">वापस आ रहें सीरीज</string>
+    <string name="meta_ended">समाप्त</string>
+
+    <string name="navigation_drawer_open">ओपन नेविगेशन दराज</string>
+    <string name="navigation_drawer_close">बंद नेविगेशन दराज</string>
+
+    <string name="tv_shows">टीवी शो</string>
+    <string name="movies">फ़िल्म</string>
+
+    <string name="play_trailer">ट्रेलर वीडियो</string>
+
+    <string name="translators">अनुवादकों</string>
+
+    <string name="pref_app_lang">एप्लिकेशन भाषा</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
