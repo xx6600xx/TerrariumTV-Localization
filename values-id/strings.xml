@@ -48,7 +48,7 @@
     <string name="mxplayer_not_installed_message">MXPlayer tidak diinstal pada perangkat Anda. Terrarium memerlukan MXPlayer untuk memutar media. Klik "Install" untuk menginstal MXPlayer.</string>
     <string name="mxplayer_unable_to_start"> MXPlayer Tidak Dapat Memulai</string>
     <string name="mxplayer_unable_to_start_message">MXPlayer tidak dapat memulai. Silahkan install ulang dan coba lagi.</string>
-    <string name="close_ad_to_play"Silakan menutup iklan dahulu untuk memutar video</string>
+    <string name="close_ad_to_play">Silakan menutup iklan dahulu untuk memutar video</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Paling Populer</string>
@@ -92,14 +92,14 @@
     <string name="pref_general">Umum</string>
     <string name="pref_ui">Tampilan Muka</string>
     <string name="pref_sources_and_resolvers">Penyedia dan Resolver</string>
-    <string name="pref_subtitle"Alih Bahasa oleh opensubtitles dan Subscene</string>
+    <string name="pref_subtitle">Alih Bahasa oleh opensubtitles dan Subscene</string>
     <string name="pref_subtitle_chin">Teks Bahasa SubHD, Makedie dan Zimuku</string>
     <string name="pref_others">Lainnya</string>
 
     <string name="pref_sub_down_path">Direktori Unduh Subtitles</string>
     <string name="pref_sub_down_path_des">Subtitle akan diunduh dan disimpan ke direktori ini.</string>
     <string name="pref_media_down_path"> Media Download path (Hanya untuk Android internal Download Manager)</string>
-    <string name="pref_choose_media_down_manager">Pilihlah Download manager utama...</string>
+    <string name="pref_choose_media_down_manager">Pilihlah Download manager utama…</string>
     <string name="pref_auto_check_update">Otomatis Cek Pembaharuan</string>
     <string name="pref_filter_out_non_english_shows">Saring TV-Show non-English</string>
     <string name="pref_filter_out_dead_sources">Saring Sumber yang mati</string>
@@ -168,7 +168,7 @@
 
     <string name="size_large">Besar</string>
     <string name="size_normal">Normal</string>
-    <string name="size_small">Kecil/string>
+    <string name="size_small">Kecil</string>
 
     <string name="show_details_overview">OVERVIEW</string>
     <string name="show_details_season">SEASON</string>
