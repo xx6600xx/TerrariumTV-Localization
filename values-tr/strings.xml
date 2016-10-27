@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Geleneksel Çince</string>
+    <string name="language_zh_cn">Basitleştirilmiş Çince</string>
+    <string name="language_en">İngilizce</string>
+
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="no_data">Veri yok</string>
+    <string name="no_internet">İnternet bağlantısı yok</string>
+    <string name="loading">Yükleniyor</string>
+    <string name="loading_more">Daha fazla yükleniyor…</string>
+    <string name="action_search">Ara</string>
+    <string name="action_bookmark">Favoriler</string>
+    <string name="action_add_to_bookmark">Favorilere ekle</string>
+    <string name="action_refresh">Yenile</string> 
+    <string name="action_stop">Durdur</string> 
+    <string name="action_reverse">Tersten</string> <!-- unsure. need to see the action on app -->
+    <string name="action_set_watched">İzlendi olarak işaretle</string>
+    <string name="action_remove_watched">İzlenmedi olarak işaretle</string>
+    <string name="hint_tv_show_name">Dizi Adı</string>
+    <string name="hint_movie_name">Film Adı</string>
+    <string name="subtitle">Altyazı</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="download_count">İndirme sayısı :</string>
+
+    <string name="season">%1$d\. Sezon</string>  <!-- In Turkish we have to add dot after the number such as 5th Season = 5. Sezon -->
+    <string name="episode">%1$d\. Bölüm</string> <!-- In Turkish we have to add dot after the number such as 5th Season = 5. Sezon -->
+    <string name="season_episode">%1$s - Sezon %2$d Bölüm %3$d</string>
+    <string name="season_special">Özel Bölüm</string>
+    <string name="search_result_of">Arama sonuçları: \"%s\"</string>
+    <string name="getting_subtitle">Altyazı bulunuyor… Lütfen bekleyiniz…</string>
+    <string name="downloading_subtitle_toast">Altyazı indiriliyor… Lütfen bekleyiniz…</string>
+    <string name="ready_to_play_toast">Vidyo başlatılıyor…</string>
+    <string name="searching_media">Aranıyor…</string>
+    <string name="subtitle_language">Altyazı dili : </string>
+    <string name="subtitle_download_failed">Altyazı indirme başarısız… Başka altyazı deneyiniz…</string>
+    <string name="subtitle_extract_failed">Altyazı çıkarma başarısız… Başka altyazı deneyiniz…</string>
+    <string name="permission_grant_toast">Lütfen \"İzin ver\" butonuna basıp tekrar deneyin…</string>
+    <string name="sorry">Üzgünüm…</string>
+    <string name="cant_be_opened_by_other_players">Bu kaynaktan vidyo diğer medya oynatıcılarla açılamadı ya da başlatılamadı. Rahatsızlıktan dolayı özür dilerim.</string>
+
+    <string name="ok">Tamam</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="close">Kapat</string>
+    <string name="install">Yükle</string>
+    <string name="mxplayer_not_installed">MXPlayer yüklü değil</string>
+    <string name="mxplayer_not_installed_message">MXPlayer cihazınızda yüklü değil. Terrarium'da medyaları oynatmak için MXPlayer gereklidir. MXPlayer yüklemek için "Yükle" tuşuna basınız.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer Başlatılamadı</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
+    <string name="close_ad_to_play">Vidyoyu oynatmak için önce reklamı kapatın</string>
+
+    <string name="trending">Trendler</string>
+    <string name="most_popular">Popüler</string>
+    <string name="most_played">En Çok Oynatılan</string>
+    <string name="most_watched">En Çok İzlenen</string>
+    <string name="recently_updated">Güncel</string>
+    <string name="new_shows">Yeni Diziler</string>
+    <string name="premieres">Prömiyer</string>
+    <string name="on_the_air">Bugün Yayınlanan</string>
+    <string name="top_rated">En Çok Oy Alan</string>
+    <string name="now_playing">Vizyondakiler</string>
+
+    <string name="genre_tv_action_adventure">Aksiyon &amp; Macera</string>
+    <string name="genre_tv_sci_fantasy">Bilim Kurgu &amp; Fantazi</string>
+    <string name="genre_tv_mystery">Gizem</string>
+    <string name="genre_tv_drama">Dram</string>
+    <string name="genre_tv_comedy">Komedi</string>
+    <string name="genre_tv_family">Aile</string>
+    <string name="genre_tv_war_politics">Savaş &amp; Politika</string>
+    <string name="genre_tv_reality">Realite</string>
+    <string name="genre_tv_documentary">Belgesel</string>
+
+    <string name="genre_movie_action">Aksyion</string>
+    <string name="genre_movie_adventure">Macera</string>
+    <string name="genre_movie_thriller">Gerilim</string>
+    <string name="genre_movie_sci">Bilim Kurgu</string>
+    <string name="genre_movie_fantasy">Fantazi</string>
+    <string name="genre_movie_mystery">Gizem</string>
+    <string name="genre_movie_horror">Korku</string>
+    <string name="genre_movie_crime">Suç</string>
+    <string name="genre_movie_drama">Dram</string>
+    <string name="genre_movie_romance">Romantik</string>
+    <string name="genre_movie_comedy">Komedi</string>
+    <string name="genre_movie_family">Aile</string>
+    <string name="genre_movie_animation">Animasyon</string>
+    <string name="genre_movie_history">Tarih</string>
+    <string name="genre_movie_war">Savaş</string>
+    <string name="genre_movie_documentary">Belgesel</string>
+    <string name="genre_movie_music">Müzik</string>
+
+    <string name="pref_general">Genel</string>
+    <string name="pref_ui">Kullanıcı Arayüzü</string>
+    <string name="pref_sources_and_resolvers">Sağlayıcılar ve Çözücüler</string>
+    <string name="pref_subtitle">Altyazı Dili (OpenSubtitles ve Subscene için)</string>
+    <string name="pref_subtitle_chin">Altyazı Dili (SubHD, Makedie ve Zimuku için)</string>
+    <string name="pref_others">Diğer</string>
+
+    <string name="pref_sub_down_path">Altyazı klasörü</string>
+    <string name="pref_sub_down_path_des">Altyazılar bu klasöre indirilecek.</string>
+    <string name="pref_media_down_path">Medya indirme klasörü (Sadece Dahili Android İndirici için)</string>
+    <string name="pref_choose_media_down_manager">Varsayılan indirme aracını seç…</string>
+    <string name="pref_auto_check_update">Otomatik güncelle</string>
+    <string name="pref_filter_out_non_english_shows">İngilizce olmayan dizileri dahil etme</string>
+    <string name="pref_filter_out_dead_sources">Ölü kaynakları dahil etme</string>
+    <string name="pref_filter_out_dead_sources_desc">Kaynak yükleme süresini uzatacaktır…</string>
+    <string name="pref_hide_unaired_season">Yayınlanmayan sezonları gösterme</string>
+    <string name="pref_hide_unaired_episode">Yayınlanmayan bölümleri gösterme</string>
+    <string name="pref_subtitles_filter">Uyumsuz altyazıları dahil etme</string>
+    <string name="pref_subtitles_choose_lang">Altyazı dil(ler)ini seçiniz…</string>
+    <string name="pref_hide_season_image">Sezon resmini gösterme</string>
+    <string name="pref_hide_episode_image">Bölüm resmini gösterme</string>
+    <string name="pref_show_menu_source">Kaynaklara tek tıklamayla içerik menüsünü göster</string>
+    <string name="pref_poster_size">Medya poster boyutu</string>
+    <string name="pref_parallel_loading_sources">Paralel kaynak yüklemesi</string>
+    <string name="pref_parallel_loading_sources_desc">Aktif olması önerilir. Kaynak yükleme hızını %500 artırır. Fakat düşük özellikli cihazlarda çökmelere neden olabilir.</string>
+    <string name="pref_choose_default_nav">Açılış ekranını seç…</string>
+    <string name="pref_choose_default_category_tv_shows">Varsayılan dizi tür/kategori belirle…</string>
+    <string name="pref_choose_default_category_movies">Varsayılan film tür/kategori belirle…</string>
+    <string name="pref_enabled_tv_shows_providers">Aktif dizi sağlayıcılarını belirle…</string>
+    <string name="pref_enabled_movies_providers">Aktif film sağlayıcıları belirle…</string>
+    <string name="pref_enabled_resolvers">Aktif çözücüleri belirle…</string>
+    <string name="pref_modern_ui">Modern arayüzü kullan</string>
+    <string name="pref_modern_ui_desc">Medya afişleri yerine medya posterlerini kullan.</string>
+    <string name="pref_choose_default_play_action">Varsayılan "Oynat" eylemini belirle…</string>
+    <string name="restart_to_see_the_difference">Değişikliklerin aktif olması için Terrrarium TV'yi yeniden başlatın.</string>
+
+    <string name="download_manager_internal">Android Dahili İndirme Yöneticisi</string>
+    <string name="download_manager_external">Harici İndirme Yönetici(leri)</string>
+
+    <string name="action_play">Oynat</string>
+    <string name="action_play_without_subtitle">Altyazı olmadan oynat</string>
+    <string name="action_download">İndir</string>
+    <string name="action_download_with_sub">Altyazı ile indir</string>
+    <string name="action_copy_link">Kaynak adresini kopyala</string>
+    <string name="action_play_via_other_players">Birlikte aç…</string>
+    <string name="choose_player">Medya oynatıcı seç…</string>
+    <string name="no_player_was_found">Medya oynatıcı bulunamadı</string>
+    <string name="choose_external_download_manager">Harici indirme yöneticisi seç…</string>
+    <string name="no_external_download_manager_was_found">Harici indirme yöneticisi bulunamadı. Play Store'dan indirebilir ya da Android Dahili İndirme Yöneticisini kullanabilirsiniz.</string>
+    <string name="download_started">İndirme başlatıldı…</string>
+    <string name="download_path_error">İndirme yolu dahili hafızada olmalı. Lütfen farklı bir indirme yolu seçiniz.</string>
+    <string name="copied_link">Kaynak adresi kopyalandı</string>
+    <string name="link_must_be_played_in_app">Üzgünüm… Bu adres sadece Terrarium TV üzerinden oynatılabilir…</string>
+
+    <string name="update_title">Yeni versiyon bulundu : %s</string>
+    <string name="update_message">Versiyon %s : </string>
+    <string name="update_button">Güncelle</string>
+    <string name="update_downloading">Güncelleme indiriliyor %s</string>
+    <string name="update_failed">Güncelleme başarısız</string>
+
+    <string name="subtitle_name">Altyazı Adı : </string>
+
+    <string name="facebook_page">Facebook Sayfası</string>
+
+    <string name="changelog">Değişim Günlüğü</string>
+    <string name="choose_browser">Tarayıcı seç</string>
+
+    <string name="disclaimer">Yasal Uyarı</string>
+    <string name="accept">Kabul et</string>
+    <string name="decline">Reddet</string>
+
+    <string name="error">Bilinmeyen hata. Lütfen tekrar deneyin.</string>
+    <string name="please_wait">Lütfen bekleyiniz…</string>
+
+    <string name="recaptcha_verify">%s adresinden kaynaklara ulaşabilmek için reCaptcha onaylamanız gerekiyor.</string>
+    <string name="verify">Onayla</string>
+
+    <string name="size_large">Büyük</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Küçük</string>
+
+    <string name="show_details_overview">TANITIM</string>
+    <string name="show_details_season">SEZON</string>
+    <string name="media_suggestion">DAHA FAZLA</string>
+    <string name="no_synopsis">Özet bulunamadı</string>
+    <string name="loading_ratings">Ratingler yükleniyor…</string>
+    <string name="no_ratings">Rating yok</string>
+    <string name="meta_in_production">Yapım Aşamasında</string>
+    <string name="meta_returning_series">Geri Dönen Diziler</string>
+    <string name="meta_ended">Bitti</string>
+
+    <string name="navigation_drawer_open">Navigasyon arayüzünü aç</string>
+    <string name="navigation_drawer_close">Navigasyon arayüzünü kapat</string>
+
+    <string name="tv_shows">Diziler</string>
+    <string name="movies">Filmler</string>
+
+    <string name="play_trailer">Fragmanı Oynat</string>
+
+    <string name="translators">Çevirmenler</string>
+
+    <string name="pref_app_lang">Uyguluma Dili</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">http://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
