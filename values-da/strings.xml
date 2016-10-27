@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditionelt Kinesisk</string>
+    <string name="language_zh_cn">Simplificeret Kinesisk</string>
+    <string name="language_en">Engelsk</string>
+
+    <string name="action_settings">Indstillinger</string>
+
+    <string name="no_data">Ingen data</string>
+    <string name="no_internet">Inen internet forbindelse</string>
+    <string name="loading">Indlæser</string>
+    <string name="loading_more">Indlæser mere…</string>
+    <string name="action_search">Søg</string>
+    <string name="action_bookmark">Bogmærke</string>
+    <string name="action_add_to_bookmark">Tilføj bogmærke</string>
+    <string name="action_refresh">Genopfrisk</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_reverse">Baglæns</string>
+    <string name="action_set_watched">Tilføj Set</string>
+    <string name="action_remove_watched">Fjern Set</string>
+    <string name="hint_tv_show_name">TV show navn</string>
+    <string name="hint_movie_name">Filmtitel</string>
+    <string name="subtitle">Undertekst/string>
+    <string name="unknown">Ukendt</string>
+    <string name="download_count">Download tæller :</string>
+
+    <string name="season">Sæson %1$d</string>
+    <string name="episode">Episode %1$d</string>
+    <string name="season_episode">%1$s - Sæson %2$d Episode %3$d</string>
+    <string name="season_special">Sæson Special</string>
+    <string name="search_result_of">Søge resultat for \"%s\"</string>
+    <string name="getting_subtitle">Finder undertekster… Vent venligst…</string>
+    <string name="downloading_subtitle_toast">Henter undertekster… Vent venligst…</string>
+    <string name="ready_to_play_toast">Videoen starter om et øjeblik…</string>
+    <string name="searching_media">Søger…</string>
+    <string name="subtitle_language">Undertekst sprog : </string>
+    <string name="subtitle_download_failed">Hentning af undertekster fejlede… Prøv venligst en anden undertekst-fil…</string>
+    <string name="subtitle_extract_failed">Udpakning af undertekster fejlede… Prøv venligst en anden undertekst-fil…</string>
+    <string name="permission_grant_toast">Tryk venligst \"Tillad\" for at give tilladelse og prøv igen</string>
+    <string name="sorry">Undskyld…</string>
+    <string name="cant_be_opened_by_other_players">Denne kilde kan ikke blive åbnet eller afspillet af andre afspillere. Beklager ulejligheden.This source can\'t be opened or played by other video players.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Annuller</string>
+    <string name="close">Luk</string>
+    <string name="install">Installer</string>
+    <string name="mxplayer_not_installed">MXPlayer ikke installeret</string>
+    <string name="mxplayer_not_installed_message">MXPlayer er ikke installeret på din enhed. Terrarium har brug for MXPlayer for at afspille medier. Klik "Installer" for at installere MXPlayer.</string>
+    <string name="mxplayer_unable_to_start">MXPlayer kan ikke starte</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer kan ikke starte. Geninstaller den venligst og prøv igen.</string>
+    <string name="close_ad_to_play">Luk venligst reklamen først for at afspille videoen</string>
+
+    <string name="trending">Trending</string>
+    <string name="most_popular">Mest populære</string>
+    <string name="most_played">Mest fremviste</string>
+    <string name="most_watched">Most fremviste</string>
+    <string name="recently_updated">Opdateret for nyligt</string>
+    <string name="new_shows">Nye shows</string>
+    <string name="premieres">Premierer</string>
+    <string name="on_the_air">På TV i dag</string>
+    <string name="top_rated">Højeste rating</string>
+    <string name="now_playing">I biograferne</string>
+
+    <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
+    <string name="genre_tv_mystery">Mysterie</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komedie</string>
+    <string name="genre_tv_family">Familie</string>
+    <string name="genre_tv_war_politics">Krig &amp; Politik</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Dokumentar</string>
+
+    <string name="genre_movie_action">Action</string>
+    <string name="genre_movie_adventure">Adventure</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Sci-Fi</string>
+    <string name="genre_movie_fantasy">Fantasy</string>
+    <string name="genre_movie_mystery">Mysterie</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Kriminalitet</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romantik</string>
+    <string name="genre_movie_comedy">Komedie</string>
+    <string name="genre_movie_family">Familie</string>
+    <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_history">Historie</string>
+    <string name="genre_movie_war">Krig</string>
+    <string name="genre_movie_documentary">Dokumentar</string>
+    <string name="genre_movie_music">Musik</string>
+
+    <string name="pref_general">Generelt</string>
+    <string name="pref_ui">Brugerflade</string>
+    <string name="pref_sources_and_resolvers">Udbydere og resolvere</string>
+    <string name="pref_subtitle">Undertekstsprog på OpenSubtitles og Subscene</string>
+    <string name="pref_subtitle_chin">Undertekstsprog på SubHD, Makedie og Zimuku</string>
+    <string name="pref_others">Andre</string>
+
+    <string name="pref_sub_down_path">Underteksters download-sti</string>
+    <string name="pref_sub_down_path_des">Undertekster bliver downloadet og gemt til denne sti.</string>
+    <string name="pref_media_down_path">Medie download-sti (Kun for Androids interne download-håndtering)</string>
+    <string name="pref_choose_media_down_manager">Vælg standard download-håndtering…</string>
+    <string name="pref_auto_check_update">Tjek for opdateringer automatisk</string>
+    <string name="pref_filter_out_non_english_shows">Filtrer ikke-engelske TV shows fra</string>
+    <string name="pref_filter_out_dead_sources">Filtrer døde kilder fra</string>
+    <string name="pref_filter_out_dead_sources_desc">Det vil foråsage længere indlæsningstid for kilder</string>
+    <string name="pref_hide_unaired_season">Skjul ikke viste sæsoner</string>
+    <string name="pref_hide_unaired_episode">Skjul ikke viste episoder</string>
+    <string name="pref_subtitles_filter">Filtrer ikke matchede undertekster fra</string>
+    <string name="pref_subtitles_choose_lang">Vælg undertekst sprog…</string>
+    <string name="pref_hide_season_image">Skjul sæson thumbnails</string>
+    <string name="pref_hide_episode_image">Skjul episode thumbnails</string>
+    <string name="pref_show_menu_source">Vis kontekst menu ved enkeltklik på listen over kilder</string>
+    <string name="pref_poster_size">Medie plakat størrelse</string>
+    <string name="pref_parallel_loading_sources">Parallel kildeindlæsning</string>
+    <string name="pref_parallel_loading_sources_desc">Stækt anbefalet at slå til. Gør indlæsningen af kilder 500% hurtigere. Det kan dog forårsage nedbrud på hardware med begrænset ydelse.</string>
+    <string name="pref_choose_default_nav">Vælg standard navigering…</string>
+    <string name="pref_choose_default_category_tv_shows">Vælg standard TV show kategori eller genre…</string>
+    <string name="pref_choose_default_category_movies">Vælg standard film kategori eller genre…</string>
+    <string name="pref_enabled_tv_shows_providers">Vælg hvilke TV show udbydere der skal slås til…</string>
+    <string name="pref_enabled_movies_providers">Vælg hvilke film udbydere der skal slås til…</string>
+    <string name="pref_enabled_resolvers">Vælg resolvere der skal slås til…</string>
+    <string name="pref_modern_ui">Brug modere UI</string>
+    <string name="pref_modern_ui_desc">Vis medie plakater i stedet for bannere</string>
+    <string name="pref_choose_default_play_action">Vælg standard afspilningshandling…</string>
+    <string name="restart_to_see_the_difference">Genstart venligst Terrarium TV for at se ændringen.</string>
+
+    <string name="download_manager_internal">Android interne downloadhåndtering</string>
+    <string name="download_manager_external">Eksterne download håndtering(er)</string>
+
+    <string name="action_play">Afspil</string>
+    <string name="action_play_without_subtitle">Afspil uden undertekster</string>
+    <string name="action_download">Download</string>
+    <string name="action_download_with_sub">Download med undertekster</string>
+    <string name="action_copy_link">Kopier stream-bart link</string>
+    <string name="action_play_via_other_players">Åbn med…</string>
+    <string name="choose_player">Vælg en video afspiller…</string>
+    <string name="no_player_was_found">Ingen video afspiller blev fundet</string>
+    <string name="choose_external_download_manager">Væg en ekstern download håndtering…</string>
+    <string name="no_external_download_manager_was_found">Ingen eksterne download håndteringer fundet. Brug venligst Androids interne download håndtering eller installer en fra Play Butikken</string>
+    <string name="download_started">Download påbegyndt…</string>
+    <string name="download_path_error">Download sti skal være på det interne lager. Brug venligst en anden sti.</string>
+    <string name="copied_link">Kopierede stream-bare link</string>
+    <string name="link_must_be_played_in_app">Beklager… Dette link kan kun afspilles i Terrarium TV…</string>
+
+    <string name="update_title">Ny version fundet : %s</string>
+    <string name="update_message">Version %s : </string>
+    <string name="update_button">Opdater</string>
+    <string name="update_downloading">Downloader opdatering %s</string>
+    <string name="update_failed">Opdatering fejlede eller blev afbrudt</string>
+
+    <string name="subtitle_name">Undertekst navn : </string>
+
+    <string name="facebook_page">Facebook Side</string>
+
+    <string name="changelog">Ændringslog</string>
+    <string name="choose_browser">Vælg en browser</string>
+
+    <string name="disclaimer">Ansvarsfraskrivelse</string>
+    <string name="accept">Acceptér</string>
+    <string name="decline">Afvis</string>
+
+    <string name="error">Ukendt fejl. Prøv venligst igen.</string>
+    <string name="please_wait">Vent venligst…</string>
+
+    <string name="recaptcha_verify">Du skal verificere en reCaptcha for at få kilder fra %s</string>
+    <string name="verify">Verificer</string>
+
+    <string name="size_large">Stor</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Lille</string>
+
+    <string name="show_details_overview">OVERSIGT</string>
+    <string name="show_details_season">SÆSON</string>
+    <string name="media_suggestion">Se også</string>
+    <string name="no_synopsis">Ingen synopsis</string>
+    <string name="loading_ratings">Indlæser ratings…</string>
+    <string name="no_ratings">Ingen ratings</string>
+    <string name="meta_in_production">Under Produktion</string>
+    <string name="meta_returning_series">Fortættende serie</string>
+    <string name="meta_ended">Afsluttet</string>
+
+    <string name="navigation_drawer_open">Åbn navigations skuffe</string>
+    <string name="navigation_drawer_close">Luk navigations skuffe</string>
+
+    <string name="tv_shows">TV shows</string>
+    <string name="movies">Film</string>
+
+    <string name="play_trailer">Afspil trailer</string>
+
+    <string name="translators">Oversættere</string>
+
+    <string name="pref_app_lang">App Sprog</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">http://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
