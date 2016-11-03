@@ -44,30 +44,30 @@
     <string name="cancel">Peruuta</string>
     <string name="close">Sulje</string>
     <string name="install">Asenna</string>
-    <string name="mxplayer_not_installed">MXPlayer ei ole asennettu</string>
-    <string name="mxplayer_not_installed_message">MXPlayer ei ole asennettu laitteellesi. Terrarium tarvitsee MXPlayeriä näyttääkseen mediaa. Paina "Asenna" asentaaksesi MXPlayerin.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer ei kykene käynnistymään</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer ei kykene käynnistymään. Poista sen asennus ja yritä uudelleen.</string>
-    <string name="close_ad_to_play">Sulje mainos ensin katsoaksesi videon</string>
+    <string name="mxplayer_not_installed">MX Player ei ole asennettu</string>
+    <string name="mxplayer_not_installed_message">MX Player ei ole asennettu laitteellesi. Terrarium tarvitsee MX Playeriä näyttääkseen mediaa. Paina "Asenna" asentaaksesi MX Playerin.</string>
+    <string name="mxplayer_unable_to_start">MX Player ei pysty käynnistymään</string>
+    <string name="mxplayer_unable_to_start_message">MX Player ei pysty käynnistymään. Poista sen asennus ja yritä uudelleen.</string>
+    <string name="close_ad_to_play">Sulje mainos katsoaksesi videon</string>
 
     <string name="trending">Nousussa</string>
     <string name="most_popular">Suosituimmat</string>
     <string name="most_played">Katsotuimmat</string>
     <string name="most_watched">Seuratuimmat</string>
     <string name="recently_updated">Viimeksi päivitetyt</string>
-    <string name="new_shows">Uudet Sarjat</string>
+    <string name="new_shows">Uudet sarjat</string>
     <string name="premieres">Ensi-illat</string>
     <string name="on_the_air">Lähetyksessä</string>
-    <string name="top_rated">Parhaat Arvostelut</string>
+    <string name="top_rated">Parhaat arvostelut</string>
     <string name="now_playing">Elokuvateattereissa</string>
 
-    <string name="genre_tv_action_adventure">Toiminta &amp; Seikkailu</string>
-    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasia</string>
+    <string name="genre_tv_action_adventure">Toiminta &amp; seikkailu</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; fantasia</string>
     <string name="genre_tv_mystery">Mysteeri</string>
     <string name="genre_tv_drama">Draama</string>
     <string name="genre_tv_comedy">Komedia</string>
     <string name="genre_tv_family">Perhe</string>
-    <string name="genre_tv_war_politics">Sota &amp; Politiikka</string>
+    <string name="genre_tv_war_politics">Sota &amp; politiikka</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Dokumentti</string>
 
@@ -98,22 +98,22 @@
 
     <string name="pref_sub_down_path">Tekstityksien latauspolku</string>
     <string name="pref_sub_down_path_des">Teksitykset ladataan ja tallennetaan tähän polkuun.</string>
-    <string name="pref_media_down_path">Median latauspolku(Vain Android Internal Download Managerille)</string>
+    <string name="pref_media_down_path">Median latauspolku (Vain Androidin sisäiselle lataustenhallinnalle)</string>
     <string name="pref_choose_media_down_manager">Valitse oletuslataustenhallintasovellus…</string>
     <string name="pref_auto_check_update">Tarkista päivitykset automaattisesti</string>
-    <string name="pref_filter_out_non_english_shows">Suodata pois muut kuin englannin kieliset TV-sarjat</string>
-    <string name="pref_filter_out_dead_sources">Suodata pois kuolleet lähteet</string>
+    <string name="pref_filter_out_non_english_shows">Suodata ei-englanninkieliset TV-sarjat</string>
+    <string name="pref_filter_out_dead_sources">Suodata kuolleet lähteet</string>
     <string name="pref_filter_out_dead_sources_desc">Aiheuttaa lisää lähteiden latausaikaa</string>
     <string name="pref_hide_unaired_season">Piilota esittämätön kausi</string>
     <string name="pref_hide_unaired_episode">Piilota esittämätön jakso</string>
-    <string name="pref_subtitles_filter">Suodata pois täsmäämättömät tekstitykset</string>
+    <string name="pref_subtitles_filter">Suodata täsmäämättömät tekstitykset</string>
     <string name="pref_subtitles_choose_lang">Valitse tekstitysten kieli/kielet…</string>
     <string name="pref_hide_season_image">Piilota kausien esikatselukuvat</string>
     <string name="pref_hide_episode_image">Piilota jaksojen esikatsekuvat</string>
     <string name="pref_show_menu_source">Näytä kontekstivalikko yhdellä painalluksella lähdelistassa</string>
     <string name="pref_poster_size">Mediajulisteen koko</string>
     <string name="pref_parallel_loading_sources">Rinnakkaisten lähteiden lataaminen</string>
-    <string name="pref_parallel_loading_sources_desc">Vahvasti suositeltu sallimaan. Nopeuta lähteiden latausnopeutta 500%. Voi kuitenkin aiheuttaa pakkosulkeutumisia tai kaatumisia joillakin matalatehoisilla laitteilla.</string>
+    <string name="pref_parallel_loading_sources_desc">Vahvasti suositeltua sallimaan. Nopeuttaa lähteiden latausnopeutta 500%. Voi kuitenkin aiheuttaa pakkosulkeutumisia tai kaatumisia joillakin matalatehoisilla laitteilla.</string>
     <string name="pref_choose_default_nav">Valitse aloitussivu…</string>
     <string name="pref_choose_default_category_tv_shows">Valitse oletuskategoria tai -genre TV-sarjoille…</string>
     <string name="pref_choose_default_category_movies">Valitse oletuskategoria tai -genre elokuville…</string>
@@ -123,7 +123,7 @@
     <string name="pref_modern_ui">Käytä modernia käyttöliittymää</string>
     <string name="pref_modern_ui_desc">Näytä mediajulisteet  bannereiden sijaan</string>
     <string name="pref_choose_default_play_action">Valitse oletus play-painikkeen toiminta…</string>
-    <string name="restart_to_see_the_difference">Käynnistä Terrarium TV uudelleen nähdäksesi eron.</string>
+    <string name="restart_to_see_the_difference">Käynnistä Terrarium TV uudelleen nähdäksesi muutoksen.</string>
 
     <string name="download_manager_internal">Androidin sisäinen lataustenhallinta</string>
     <string name="download_manager_external">Ulkoinen lataustenhallintasovellus</string>
