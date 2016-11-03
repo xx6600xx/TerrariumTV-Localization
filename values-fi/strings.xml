@@ -16,8 +16,8 @@
     <string name="action_refresh">Päivitä</string>
     <string name="action_stop">Pysäytä</string>
     <string name="action_reverse">Käänteinen</string>
-    <string name="action_set_watched">Set Watched</string>
-    <string name="action_remove_watched">Remove Watched</string>
+    <string name="action_set_watched">Katsottu</string>
+    <string name="action_remove_watched">Poista katsottu</string>
     <string name="hint_tv_show_name">TV-sarjan nimi</string>
     <string name="hint_movie_name">Elokuvan nimi</string>
     <string name="subtitle">Tekstitykset</string>
@@ -121,7 +121,7 @@
     <string name="pref_enabled_movies_providers">Valitse elokuvien tarjoajat, jotka sallitaan…</string>
     <string name="pref_enabled_resolvers">Valitse osoitteiden selvittäjät, jotka sallitaan…</string>
     <string name="pref_modern_ui">Käytä modernia käyttöliittymää</string>
-    <string name="pref_modern_ui_desc">Näytä mediajulisteet  bannereiden sijaan</string>
+    <string name="pref_modern_ui_desc">Näytä mediajulisteet bannereiden sijaan</string>
     <string name="pref_choose_default_play_action">Valitse oletus play-painikkeen toiminta…</string>
     <string name="restart_to_see_the_difference">Käynnistä Terrarium TV uudelleen nähdäksesi muutoksen.</string>
 
@@ -177,7 +177,7 @@
     <string name="loading_ratings">Ladataan arvosteluja…</string>
     <string name="no_ratings">Ei arvosteluja</string>
     <string name="meta_in_production">Tuotannossa</string>
-    <string name="meta_returning_series">Palaava Sarja</string>
+    <string name="meta_returning_series">Palaava sarja</string>
     <string name="meta_ended">Päättynyt</string>
 
     <string name="navigation_drawer_open">Avaa navigointilaatikko</string>
@@ -186,7 +186,7 @@
     <string name="tv_shows">TV-sarjat</string>
     <string name="movies">Elokuvat</string>
 
-    <string name="play_trailer">Katso Traileri</string>
+    <string name="play_trailer">Katso traileri</string>
 
     <string name="translators">Kääntäjät</string>
 
