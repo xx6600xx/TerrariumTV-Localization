@@ -45,7 +45,7 @@
     <string name="close">Kapat</string>
     <string name="install">Yükle</string>
     <string name="mxplayer_not_installed">MXPlayer yüklü değil</string>
-    <string name="mxplayer_not_installed_message">MXPlayer cihazınızda yüklü değil. Terrarium'da medyaları oynatmak için MXPlayer gereklidir. MXPlayer yüklemek için "Yükle" tuşuna basınız.</string>
+    <string name="mxplayer_not_installed_message">MXPlayer cihazınızda yüklü değil. Terrarium\'da medyaları oynatmak için MXPlayer gereklidir. MXPlayer yüklemek için "Yükle" tuşuna basınız.</string>
     <string name="mxplayer_unable_to_start">MXPlayer Başlatılamadı</string>
     <string name="mxplayer_unable_to_start_message">MXPlayer başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
     <string name="close_ad_to_play">Vidyoyu oynatmak için önce reklamı kapatın</string>
@@ -123,7 +123,7 @@
     <string name="pref_modern_ui">Modern arayüzü kullan</string>
     <string name="pref_modern_ui_desc">Medya afişleri yerine medya posterlerini kullan.</string>
     <string name="pref_choose_default_play_action">Varsayılan "Oynat" eylemini belirle…</string>
-    <string name="restart_to_see_the_difference">Değişikliklerin aktif olması için Terrrarium TV'yi yeniden başlatın.</string>
+    <string name="restart_to_see_the_difference">Değişikliklerin aktif olması için Terrrarium TV\'yi yeniden başlatın.</string>
 
     <string name="download_manager_internal">Android Dahili İndirme Yöneticisi</string>
     <string name="download_manager_external">Harici İndirme Yönetici(leri)</string>
@@ -137,7 +137,7 @@
     <string name="choose_player">Medya oynatıcı seç…</string>
     <string name="no_player_was_found">Medya oynatıcı bulunamadı</string>
     <string name="choose_external_download_manager">Harici indirme yöneticisi seç…</string>
-    <string name="no_external_download_manager_was_found">Harici indirme yöneticisi bulunamadı. Play Store'dan indirebilir ya da Android Dahili İndirme Yöneticisini kullanabilirsiniz.</string>
+    <string name="no_external_download_manager_was_found">Harici indirme yöneticisi bulunamadı. Play Store\'dan indirebilir ya da Android Dahili İndirme Yöneticisini kullanabilirsiniz.</string>
     <string name="download_started">İndirme başlatıldı…</string>
     <string name="download_path_error">İndirme yolu dahili hafızada olmalı. Lütfen farklı bir indirme yolu seçiniz.</string>
     <string name="copied_link">Kaynak adresi kopyalandı</string>
