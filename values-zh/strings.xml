@@ -44,10 +44,10 @@
     <string name="cancel">取消</string>
     <string name="close">關閉</string>
     <string name="install">安裝</string>
-    <string name="mxplayer_not_installed">MXPlayer 沒有安裝</string>
-    <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MXPlayer，Terrarium 需要 MXPlayer 來播放劇集， 按 "安裝" 來安裝 MXPlayer</string>
-    <string name="mxplayer_unable_to_start">MXPlayer 無法啟動</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer 無法正常啟動，請重新安裝後再試~</string>
+    <string name="mxplayer_not_installed">MX Player 沒有安裝</string>
+    <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MX Player，Terrarium 需要 MX Player 來播放劇集， 按 "安裝" 來安裝 MX Player</string>
+    <string name="mxplayer_unable_to_start">MX Player 無法啟動</string>
+    <string name="mxplayer_unable_to_start_message">MX Player 無法正常啟動，請重新安裝後再試~</string>
     <string name="close_ad_to_play">請先關閉廣告以便開始影片播放</string>
 
     <string name="trending">人們在看</string>
@@ -191,6 +191,8 @@
     <string name="translators">翻譯人員</string>
 
     <string name="pref_app_lang">App 語言</string>
+
+    <string name="learn_more">了解更多</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影視</string>

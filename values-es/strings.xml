@@ -3,6 +3,7 @@
     <string name="language_zh_tw">Chino Tradicional</string>
     <string name="language_zh_cn">Chino Simplificado</string>
     <string name="language_en">Inglés</string>
+    
     <string name="action_settings">Opciones</string>
     <string name="no_data">No hay datos disponibles</string>
     <string name="no_internet">No hay conexión a Internet</string>
@@ -21,6 +22,7 @@
     <string name="subtitle">Subtítulos</string>
     <string name="unknown">Desconocido</string>
     <string name="download_count">Número de descargas:</string>
+    
     <string name="season">Temporada %1$d</string>
     <string name="episode">Episodio %1$d</string>
     <string name="season_episode">%1$s - Temporada %2$d Episodio %3$d</string>
@@ -36,6 +38,7 @@
     <string name="permission_grant_toast">Por favor, pulse \"Allow\" para volver a intentar</string>
     <string name="sorry">Lo Sentimos…</string>
     <string name="cant_be_opened_by_other_players">Este enlace no puede reproducirse con otros reproductores de vídeo. Sentimos las inconveniencias</string>
+    
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
     <string name="close">Cerrar</string>
@@ -45,6 +48,7 @@
     <string name="mxplayer_unable_to_start">MXPlayer no ha podido iniciar</string>
     <string name="mxplayer_unable_to_start_message">MXPlayer no ha podido arrancar. Por favor, reinstálelo y vuelve a intentar</string>
     <string name="close_ad_to_play">Por favor, cierre el anuncio para poder reproducir el vídeo</string>
+    
     <string name="trending">De Moda</string>
     <string name="most_popular">Lo más popular</string>
     <string name="most_played">Lo más reproducido</string>
@@ -55,6 +59,7 @@
     <string name="on_the_air">En televisión</string>
     <string name="top_rated">Lo mejor valorado</string>
     <string name="now_playing">En cines</string>
+    
     <string name="genre_tv_action_adventure">Acción &amp; Aventura</string>
     <string name="genre_tv_sci_fantasy">Fantasía &amp; Ciencia Ficción</string>
     <string name="genre_tv_mystery">Misterio</string>
@@ -81,12 +86,14 @@
     <string name="genre_movie_war">Guerra</string>
     <string name="genre_movie_documentary">Documentales</string>
     <string name="genre_movie_music">Música</string>
+    
     <string name="pref_general">General</string>
     <string name="pref_ui">Interfaz</string>
     <string name="pref_sources_and_resolvers">Proveedores y Fuentes</string>
     <string name="pref_subtitle">Lenguaje de subtítulos para OpenSubtitles y Subscene</string>
     <string name="pref_subtitle_chin">Lenguaje de subtítulos para SubHD, Makedie y Zimuku</string>
     <string name="pref_others">Otros</string>
+    
     <string name="pref_sub_down_path">Ruta de descarga de subtítulos</string>
     <string name="pref_sub_down_path_des">Los subtítulos se descargarán y se guardarán en esta ruta</string>
     <string name="pref_media_down_path">Ruta de descarga de los vídeos (Solo para la aplicación de descargas de Android)</string>
@@ -115,8 +122,10 @@
     <string name="pref_modern_ui_desc">Mostrar posters en vez de miniaturas</string>
     <string name="pref_choose_default_play_action">Escoger acción por defecto…</string>
     <string name="restart_to_see_the_difference">Por favor reinicie Terrarium TV para ver los cambios.</string>
+    
     <string name="download_manager_internal">Aplicación de descarga de Android</string>
     <string name="download_manager_external">Aplicaciones de descarga externas</string>
+    
     <string name="action_play">Ver</string>
     <string name="action_play_without_subtitle">Ver sin subtítulos</string>
     <string name="action_download">Descargar</string>
@@ -131,25 +140,33 @@
     <string name="download_path_error">Error. El lugar de descarga debe estar en la memoria interna del dispositivo. Por favor busque otro lugar de descarga.</string>
     <string name="copied_link">Enlace reproducible copiado</string>
     <string name="link_must_be_played_in_app">Lo sentimos… Este link solo se puede reproducir en Terrarium TV…</string>
+    
     <string name="update_title">Nueva Versión Disponible : %s</string>
     <string name="update_message">Versión %s : </string>
     <string name="update_button">Actualizar</string>
     <string name="update_downloading">Descargando Actualización %s</string>
     <string name="update_failed">Actualización fallida o abortada</string>
+    
     <string name="subtitle_name">Nombre de los subtítulos: </string>
     <string name="facebook_page">Página de Facebook</string>
+    
     <string name="changelog">Registro de cambios</string>
     <string name="choose_browser">Escoger un Navegador</string>
+    
     <string name="disclaimer">Aviso</string>
     <string name="accept">Acepto</string>
     <string name="decline">No Acepto</string>
+    
     <string name="error">Error Desconocido. Por favor vuelve a intentarlo.</string>
     <string name="please_wait">Please wait…</string>
+    
     <string name="recaptcha_verify">Tienes que verificar una reCaptcha para obtener fuentes de %s</string>
     <string name="verify">Verificar</string>
+    
     <string name="size_large">Grande</string>
     <string name="size_normal">Normal</string>
     <string name="size_small">Pequeño</string>
+    
     <string name="show_details_overview">RESUMEN</string>
     <string name="show_details_season">TEMPORADAS</string>
     <string name="media_suggestion">Ver También</string>
@@ -159,13 +176,20 @@
     <string name="meta_in_production">En Producción</string>
     <string name="meta_returning_series">Serie de vuelta</string>
     <string name="meta_ended">Serie finalizada</string>
+    
     <string name="navigation_drawer_open">Abrir la pestaña de navegación</string>
     <string name="navigation_drawer_close">Cerrar la pestaña de navegación</string>
+    
     <string name="tv_shows">Series</string>
     <string name="movies">Películas</string>
+    
     <string name="play_trailer">Ver tráiler</string>
+    
     <string name="translators">Traductores</string>
     <string name="pref_app_lang">Lenguaje de la aplicación</string>
+    
+    <string name="learn_more">Learn More</string>
+    
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>

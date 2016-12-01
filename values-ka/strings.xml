@@ -44,10 +44,10 @@
     <string name="cancel">გაუქმება</string>
     <string name="close">დახურვა</string>
     <string name="install">დაინსტალირება</string>
-    <string name="mxplayer_not_installed">MXPlayer არ არის დაინსტალირებული</string>
-    <string name="mxplayer_not_installed_message">MXPlayer არ არის დაინსტალირებული თქვენს აპარატზე. Terrarium-ს სჭირდება MXPlayer რომ გაუშვას მედია. დააჭირეთ „ინსტალაციას“ რომ დააინსტალიროს MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer ვერ ჩაირთო</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer ვერ ჩაირთო. გთხოვთ თავიდან დააინსტალიროთ და ხელახლა სცადეთ.</string>
+    <string name="mxplayer_not_installed">MX Player არ არის დაინსტალირებული</string>
+    <string name="mxplayer_not_installed_message">MX Player არ არის დაინსტალირებული თქვენს აპარატზე. Terrarium-ს სჭირდება MX Player რომ გაუშვას მედია. დააჭირეთ „ინსტალაციას“ რომ დააინსტალიროს MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player ვერ ჩაირთო</string>
+    <string name="mxplayer_unable_to_start_message">MX Player ვერ ჩაირთო. გთხოვთ თავიდან დააინსტალიროთ და ხელახლა სცადეთ.</string>
     <string name="close_ad_to_play">გთხოვთ ჯერ რეკლამა დახურეთ, რომ ჩართოთ ვიდეო </string>
 
     <string name="trending">ტრენდული</string>
@@ -191,6 +191,8 @@
     <string name="translators">მთარგმნელები</string>
 
     <string name="pref_app_lang">აპლიკაციის ენა</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

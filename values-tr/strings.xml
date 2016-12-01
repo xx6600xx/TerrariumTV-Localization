@@ -13,8 +13,8 @@
     <string name="action_search">Ara</string>
     <string name="action_bookmark">Favoriler</string>
     <string name="action_add_to_bookmark">Favorilere ekle</string>
-    <string name="action_refresh">Yenile</string> 
-    <string name="action_stop">Durdur</string> 
+    <string name="action_refresh">Yenile</string>
+    <string name="action_stop">Durdur</string>
     <string name="action_reverse">Tersten</string> <!-- unsure. need to see the action on app -->
     <string name="action_set_watched">İzlendi olarak işaretle</string>
     <string name="action_remove_watched">İzlenmedi olarak işaretle</string>
@@ -44,10 +44,10 @@
     <string name="cancel">Vazgeç</string>
     <string name="close">Kapat</string>
     <string name="install">Yükle</string>
-    <string name="mxplayer_not_installed">MXPlayer yüklü değil</string>
-    <string name="mxplayer_not_installed_message">MXPlayer cihazınızda yüklü değil. Terrarium\'da medyaları oynatmak için MXPlayer gereklidir. MXPlayer yüklemek için "Yükle" tuşuna basınız.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Başlatılamadı</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
+    <string name="mxplayer_not_installed">MX Player yüklü değil</string>
+    <string name="mxplayer_not_installed_message">MX Player cihazınızda yüklü değil. Terrarium\'da medyaları oynatmak için MX Player gereklidir. MX Player yüklemek için "Yükle" tuşuna basınız.</string>
+    <string name="mxplayer_unable_to_start">MX Player Başlatılamadı</string>
+    <string name="mxplayer_unable_to_start_message">MX Player başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
     <string name="close_ad_to_play">Vidyoyu oynatmak için önce reklamı kapatın</string>
 
     <string name="trending">Trendler</string>
@@ -191,6 +191,8 @@
     <string name="translators">Çevirmenler</string>
 
     <string name="pref_app_lang">Uyguluma Dili</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

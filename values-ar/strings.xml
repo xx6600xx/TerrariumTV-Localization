@@ -44,10 +44,10 @@
     <string name="cancel">إلغاء</string>
     <string name="close">إغلاق</string>
     <string name="install">تنزيل</string>
-    <string name="mxplayer_not_installed">ليس لديك MXPlayer</string>
-    <string name="mxplayer_not_installed_message">قم بتنزيل MXPlayer</string>
-    <string name="mxplayer_unable_to_start">غير قادر على تشغيل MXPlayer</string>
-    <string name="mxplayer_unable_to_start_message">قم بتنزيل MXPlayer مجدداً</string>
+    <string name="mxplayer_not_installed">ليس لديك MX Player</string>
+    <string name="mxplayer_not_installed_message">قم بتنزيل MX Player</string>
+    <string name="mxplayer_unable_to_start">غير قادر على تشغيل MX Player</string>
+    <string name="mxplayer_unable_to_start_message">قم بتنزيل MX Player مجدداً</string>
     <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
 
     <string name="trending">الأكثر تداولا</string>
@@ -191,6 +191,8 @@
     <string name="translators">المترجمون</string>
 
     <string name="pref_app_lang">لغة البرنامج</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

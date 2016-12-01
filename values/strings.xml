@@ -11,8 +11,8 @@
     <string name="loading">Loading</string>
     <string name="loading_more">Loading More…</string>
     <string name="action_search">Search</string>
-    <string name="action_bookmark">Bookmark</string>
-    <string name="action_add_to_bookmark">Add to Bookmark</string>
+    <string name="action_bookmark">Favourites</string>
+    <string name="action_add_to_bookmark">Add to favourites</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stop</string>
     <string name="action_reverse">Reverse</string>
@@ -44,10 +44,10 @@
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
     <string name="install">Install</string>
-    <string name="mxplayer_not_installed">MXPlayer Not Installed</string>
-    <string name="mxplayer_not_installed_message">MXPlayer is not installed on your device. Terrarium needs MXPlayer to play medias. Click "Install" to install MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer is unable to start. Please re-install it and try again.</string>
+    <string name="mxplayer_not_installed">MX Player Not Installed</string>
+    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium needs MX Player to play medias. Click "Install" to install MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
+    <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
     <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
 
     <string name="trending">Trending</string>
@@ -191,6 +191,8 @@
     <string name="translators">Translators</string>
 
     <string name="pref_app_lang">App Language</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

@@ -44,10 +44,10 @@
     <string name="cancel">Atšaukti</string>
     <string name="close">Uždaryti</string>
     <string name="install">Diegti</string>
-    <string name="mxplayer_not_installed">MXPlayer neįdiegtas</string>
-    <string name="mxplayer_not_installed_message">MXPlayer neįdiegtas jūsų įrenginyje. TerrariumTV reikalauja MXPlayer, kad būtų rodomi vaizdo įrašai. Spauskite "Diegti", kad įdiegtumėte MXPlayer.</string>
+    <string name="mxplayer_not_installed">MX Player neįdiegtas</string>
+    <string name="mxplayer_not_installed_message">MX Player neįdiegtas jūsų įrenginyje. TerrariumTV reikalauja MX Player, kad būtų rodomi vaizdo įrašai. Spauskite "Diegti", kad įdiegtumėte MX Player.</string>
     <string name="mxplayer_unable_to_start">Nepavyko paleisti MXPlayer</string>
-    <string name="mxplayer_unable_to_start_message">Nepavyksta palesti MXPlayer. Prašome įdiegti jį iš naujo ir bandykite dar kartą.</string>
+    <string name="mxplayer_unable_to_start_message">Nepavyksta palesti MX Player. Prašome įdiegti jį iš naujo ir bandykite dar kartą.</string>
     <string name="close_ad_to_play">Prašome uždaryti reklamą, kad būtų rodomas vaizdo įrašas</string>
 
     <string name="trending">Tendencijos</string>
@@ -191,6 +191,8 @@
     <string name="translators">Vertėjai</string>
 
     <string name="pref_app_lang">Aplikacijos kalba</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

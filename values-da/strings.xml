@@ -44,10 +44,10 @@
     <string name="cancel">Annuller</string>
     <string name="close">Luk</string>
     <string name="install">Installer</string>
-    <string name="mxplayer_not_installed">MXPlayer ikke installeret</string>
-    <string name="mxplayer_not_installed_message">MXPlayer er ikke installeret på din enhed. Terrarium har brug for MXPlayer for at afspille medier. Klik "Installer" for at installere MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer kan ikke starte</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer kan ikke starte. Geninstaller den venligst og prøv igen.</string>
+    <string name="mxplayer_not_installed">MX Player ikke installeret</string>
+    <string name="mxplayer_not_installed_message">MX Player er ikke installeret på din enhed. Terrarium har brug for MX Player for at afspille medier. Klik "Installer" for at installere MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player kan ikke starte</string>
+    <string name="mxplayer_unable_to_start_message">MX Player kan ikke starte. Geninstaller den venligst og prøv igen.</string>
     <string name="close_ad_to_play">Luk venligst reklamen først for at afspille videoen</string>
 
     <string name="trending">Trending</string>
@@ -113,7 +113,7 @@
     <string name="pref_show_menu_source">Vis kontekst menu ved enkeltklik på listen over kilder</string>
     <string name="pref_poster_size">Medie plakat størrelse</string>
     <string name="pref_parallel_loading_sources">Parallel kildeindlæsning</string>
-    <string name="pref_parallel_loading_sources_desc">Stækt anbefalet at slå til. Gør indlæsningen af kilder 500% hurtigere. Det kan dog forårsage nedbrud på hardware med begrænset ydelse.</string>
+    <string name="pref_parallel_loading_sources_desc">Stækt anbefalet at slå til. Gør indlæsningen af kilder 500&#37; hurtigere. Det kan dog forårsage nedbrud på hardware med begrænset ydelse.</string>
     <string name="pref_choose_default_nav">Vælg standard navigering…</string>
     <string name="pref_choose_default_category_tv_shows">Vælg standard TV show kategori eller genre…</string>
     <string name="pref_choose_default_category_movies">Vælg standard film kategori eller genre…</string>
@@ -191,6 +191,8 @@
     <string name="translators">Oversættere</string>
 
     <string name="pref_app_lang">App Sprog</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>

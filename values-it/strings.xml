@@ -44,10 +44,10 @@
     <string name="cancel">Cancella</string>
     <string name="close">Chiudi</string>
     <string name="install">Installa</string>
-    <string name="mxplayer_not_installed">MXPlayer non è installato</string>
-    <string name="mxplayer_not_installed_message">MXPlayer non è installato sul tuo dispositivo. Terrarium ha bisogno di MXPlayer per guardare i contenuti. Clicca "Installa" per installare MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">Impossibile avviare MXPlayer</string>
-    <string name="mxplayer_unable_to_start_message">Impossibile avviare MXPlayer. Per favore re-installa e prova di nuovo.</string>
+    <string name="mxplayer_not_installed">MX Player non è installato</string>
+    <string name="mxplayer_not_installed_message">MX Player non è installato sul tuo dispositivo. Terrarium ha bisogno di MX Player per guardare i contenuti. Clicca "Installa" per installare MX Player.</string>
+    <string name="mxplayer_unable_to_start">Impossibile avviare MX Player</string>
+    <string name="mxplayer_unable_to_start_message">Impossibile avviare MX Player. Per favore re-installa e prova di nuovo.</string>
     <string name="close_ad_to_play">Per favore chiudi l\'ad in primo luogo per riprodurre il video</string>
 
     <string name="trending">Tendenza</string>
@@ -191,6 +191,8 @@
     <string name="translators">Traduttori</string>
 
     <string name="pref_app_lang">Lingua dell\'App</string>
+
+    <string name="learn_more">Learn More</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
