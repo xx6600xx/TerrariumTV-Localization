@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Mandarin Tradisional </string>
+    <string name="language_zh_cn">Mandarin Ringkas</string>
+    <string name="language_en">Inggeris</string>
+
+    <string name="action_settings">Tetapan</string>
+
+    <string name="no_data">Tiada Data</string>
+    <string name="no_internet">Tiada Sambungan Internet</string>
+    <string name="loading">Memuat</string>
+    <string name="loading_more">Muat Yang Lain…</string>
+    <string name="action_search">Cari</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_add_to_bookmark">Tambah Ke Bookmark</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_stop">Berhenti</string>
+    <string name="action_reverse">Undur</string>
+    <string name="action_set_watched">Setkan Watched</string>
+    <string name="action_remove_watched">Buang Watched</string>
+    <string name="hint_tv_show_name">Nama Rancangan TV</string>
+    <string name="hint_movie_name">Nama Filem</string>
+    <string name="subtitle">Sarikata</string>
+    <string name="unknown">Tidak Diketahui</string>
+    <string name="download_count">Jumlah Muat Turun :</string>
+
+    <string name="season">Musim %1$d</string>
+    <string name="episode">Episod %1$d</string>
+    <string name="season_episode">%1$s - Musim %2$d Episod %3$d</string>
+    <string name="season_special">Musim Istmewa</string>
+    <string name="search_result_of">Hasil pencarian dari \"%s\"</string>
+    <string name="getting_subtitle">Sedang Mencari Sarikata… Harap Bersabar…</string>
+    <string name="downloading_subtitle_toast">Sedang Memuat Turun Sarikata… Harap Bersabar…</string>
+    <string name="ready_to_play_toast">Video akan dimainkan sebentar lagi…</string>
+    <string name="searching_media">Mencari…</string>
+    <string name="subtitle_language">Bahasa Sarikata : </string>
+    <string name="subtitle_download_failed">Muat Turun Sarikata Gagal… Sila Muat Turun Sarikata Yang Lain…</string>
+    <string name="subtitle_extract_failed">Pengekstakan Sarikata Gagal… Sila Cuba Sarikata Yang Lain…</string>
+    <string name="permission_grant_toast">Sila Tekan \"Izinkan\" untuk memberi permission dan sila cuba sekali lagi</string>
+    <string name="sorry">Maaf…</string>
+    <string name="cant_be_opened_by_other_players"> Sumber ini tidak dapat \'t dibuka atau dimainkan oleh pemain video yang lain. Maaf atas kesulitan ini.</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Batal</string>
+    <string name="close">Tutup</string>
+    <string name="install">instal</string>
+    <string name="mxplayer_not_installed">MXPlayer Tidak di instal</string>
+    <string name="mxplayer_not_installed_message">MXPlayer tidak di instal pada peranti Anda. Terrarium memerlukan MXPlayer untuk memainkan media. Klik "Instal" untuk menginstal MXPlayer.</string>
+    <string name="mxplayer_unable_to_start"> MXPlayer Tidak Dapat Dimulakan</string>
+    <string name="mxplayer_unable_to_start_message">MXPlayer tidak dapat dimulakan. Sila instal semula dan cuba lagi.</string>
+    <string name="close_ad_to_play">Sila tutup iklan dahulu untuk memainkan video</string>
+
+    <string name="trending">Trending</string>
+    <string name="most_popular">Paling Popular</string>
+    <string name="most_played">Paling Banyak Dimainkan</string>
+    <string name="most_watched">Paling Banyak Ditonton</string>
+    <string name="recently_updated">Baru Dikemaskini</string>
+    <string name="new_shows">Program Baru</string>
+    <string name="premieres">Premieres</string>
+    <string name="on_the_air">On The Air</string>
+    <string name="top_rated">Rating Tertinggi</string>
+    <string name="now_playing">Sekarang Di Pawagam</string>
+
+    <string name="genre_tv_action_adventure">Aksi &amp; Adventure</string>
+    <string name="genre_tv_sci_fantasy">Sains Fiksyen &amp; Fantasi</string>
+    <string name="genre_tv_mystery">Misteri</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komedi</string>
+    <string name="genre_tv_family">Keluarga</string>
+    <string name="genre_tv_war_politics">Perang &amp; Politik</string>
+    <string name="genre_tv_reality">Realiti</string>
+    <string name="genre_tv_documentary">Dokumentari</string>
+
+    <string name="genre_movie_action">Aksi</string>
+    <string name="genre_movie_adventure">Pengembaraan</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Sains Fiksyen</string>
+    <string name="genre_movie_fantasy">Fantasi</string>
+    <string name="genre_movie_mystery">Misteri</string>
+    <string name="genre_movie_horror">Seram</string>
+    <string name="genre_movie_crime">Jenayah</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romantik</string>
+    <string name="genre_movie_comedy">Komedi</string>
+    <string name="genre_movie_family">Keluarga</string>
+    <string name="genre_movie_animation">Animasi</string>
+    <string name="genre_movie_history">Sejarah</string>
+    <string name="genre_movie_war">Perang</string>
+    <string name="genre_movie_documentary">Dokumentari</string>
+    <string name="genre_movie_music">Muzik</string>
+
+    <string name="pref_general">Umum</string>
+    <string name="pref_ui">Tampilan Muka</string>
+    <string name="pref_sources_and_resolvers">Penyedia dan Resolver</string>
+    <string name="pref_subtitle">Sarikata oleh opensubtitles dan Subscene</string>
+    <string name="pref_subtitle_chin">Sarikata SubHD, Makedie dan Zimuku</string>
+    <string name="pref_others">Lain-Lain</string>
+
+    <string name="pref_sub_down_path">Direktori Muat Turun Sarikata</string>
+    <string name="pref_sub_down_path_des">Sarikata akan dimuat turun dan disimpan di dalam direktori ini.</string>
+    <string name="pref_media_down_path"> Media Download path (Hanya untuk Android internal Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Pilihlah Download manager utama…</string>
+    <string name="pref_auto_check_update">Check Update Secara Automatik</string>
+    <string name="pref_filter_out_non_english_shows">Tapis TV-Show Bukan Inggeris</string>
+    <string name="pref_filter_out_dead_sources">Tapis Sumber yang tidak boleh digunakan</string>
+    <string name="pref_filter_out_dead_sources_desc">akan menyebabkan tambahan waktu loading</string>
+    <string name="pref_hide_unaired_season">Sembunyikan musim yang belum ditayangkan</string>
+    <string name="pref_hide_unaired_episode">Sembunyikan episod yang belum ditayangkan</string>
+    <string name="pref_subtitles_filter">Tapis sarikata yang tidak sesuai</string>
+    <string name="pref_subtitles_choose_lang">Pilih bahasa sarikata…</string>
+    <string name="pref_hide_season_image">Sembunyikan thumbnails musim</string>
+    <string name="pref_hide_episode_image">Sembunyikan thumbnails episod</string>
+    <string name="pref_show_menu_source">Tampilkan konteks menu dalam 1 kali klik dalam senarai sumber</string>
+    <string name="pref_poster_size">saiz poster media</string>
+    <string name="pref_parallel_loading_sources">Loading sumber secara parallel</string>
+    <string name="pref_parallel_loading_sources_desc">Sangat disarankan untuk mengaktifkan. Mempercepat sumber memuat dengan 500%. Namun akan menyebabkan FC atau crash pada sebahagin peranti berspesifikasi rendah.</string>
+    <string name="pref_choose_default_nav">Pilih navigasi utama…</string>
+    <string name="pref_choose_default_category_tv_shows">Pilih kategori atau genre rancangan tv utama…</string>
+    <string name="pref_choose_default_category_movies">Pilih kategori atau genre filem utama…</string>
+    <string name="pref_enabled_tv_shows_providers">Pilih provider rancangan TV yang aktif…</string>
+    <string name="pref_enabled_movies_providers">Pilih provider Filem yang aktif…</string>
+    <string name="pref_enabled_resolvers">Pilih resolver yang aktif…</string>
+    <string name="pref_modern_ui">Gunakan Tampak Muka yang Moden</string>
+    <string name="pref_modern_ui_desc">Gunakan poster daripada banner</string>
+    <string name="pref_choose_default_play_action">Pilih default play action…</string>
+    <string name="restart_to_see_the_difference">Mohon restart Terrarium TV untuk melihat perubahan.</string>
+
+    <string name="download_manager_internal">Android Internal Download Manager</string>
+    <string name="download_manager_external">External download manager(s)</string>
+
+    <string name="action_play">Main</string>
+    <string name="action_play_without_subtitle">Main tanpa sarikata</string>
+    <string name="action_download">Muat Turun</string>
+    <string name="action_download_with_sub">Muat turun dengan sarikata</string>
+    <string name="action_copy_link">Salin link streaming</string>
+    <string name="action_play_via_other_players">Main Dengan…</string>
+    <string name="choose_player">Pilih pemain video…</string>
+    <string name="no_player_was_found">Tiada Pemain Video Dijumpai</string>
+    <string name="choose_external_download_manager">Pilih external download manager…</string>
+    <string name="no_external_download_manager_was_found">Tidak menemui download manager external . Sila muat turun dari Play Store atau gunakan Android Internal Download Manager.</string>
+    <string name="download_started">Muat turun bermula…</string>
+    <string name="download_path_error">Direktori muat turun harus terletak di internal storage. Sila pilih direktori lain.</string>
+    <string name="copied_link">Pautan streaming sudah disalin di clipboard</string>
+    <string name="link_must_be_played_in_app">Maaf… Pautan ini hanya dapat dimainkan di Terrarium TV…</string>
+
+    <string name="update_title">Versi baru dijumpai : %s</string>
+    <string name="update_message">Versi %s : </string>
+    <string name="update_button">Kemas kini</string>
+    <string name="update_downloading">Memuat turun kemas kini baru %s</string>
+    <string name="update_failed">Kemas kini gagal atau dihentikan</string>
+
+    <string name="subtitle_name">Nama Sarikata : </string>
+
+    <string name="facebook_page">Laman Facebook</string>
+
+    <string name="changelog">Changelog</string>
+    <string name="choose_browser">Pilih browser</string>
+
+    <string name="disclaimer">Disclaimer</string>
+    <string name="accept">Setuju</string>
+    <string name="decline">Tidak Setuju</string>
+
+    <string name="error">kesalahan tidak diketahui. Sila cuba lagi.</string>
+    <string name="please_wait">Sila Tunggu,Harap Bersabar…</string>
+
+    <string name="recaptcha_verify">Anda peru mengesahkan reCaptcha untuk mendapatkan sumber dari %s</string>
+    <string name="verify">Sahkan</string>
+
+    <string name="size_large">Besar</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Kecil</string>
+
+    <string name="show_details_overview">OVERVIEW</string>
+    <string name="show_details_season">Musim</string>
+    <string name="media_suggestion">Lihat Juga</string>
+    <string name="no_synopsis">Tidak ada sinopsis</string>
+    <string name="loading_ratings">Memuat rating…</string>
+    <string name="no_ratings">Tidak ada rating</string>
+    <string name="meta_in_production">Masih Di Tahap Produksi</string>
+    <string name="meta_returning_series">Returning Series</string>
+    <string name="meta_ended">Berakhir</string>
+
+    <string name="navigation_drawer_open">Buka Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Navigasi</string>
+
+    <string name="tv_shows">Rancangan TV</string>
+    <string name="movies">Filem</string>
+
+    <string name="play_trailer">Mainkan Trailer</string>
+
+    <string name="translators">Penterjemah</string>
+
+    <string name="pref_app_lang">Bahasa App</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
