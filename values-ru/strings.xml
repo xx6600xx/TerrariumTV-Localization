@@ -61,13 +61,13 @@
     <string name="top_rated">Топ Рейтинг</string>
     <string name="now_playing">В Кинотеатрах</string>
 
-    <string name="genre_tv_action_adventure">Экшн & Приключения</string>
-    <string name="genre_tv_sci_fantasy">Sci-Fi & Фэнтези</string>
+    <string name="genre_tv_action_adventure">Экшн &amp; Приключения</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Фэнтези</string>
     <string name="genre_tv_mystery">Мистика</string>
     <string name="genre_tv_drama">Драма</string>
     <string name="genre_tv_comedy">Комедия</string>
     <string name="genre_tv_family">Семейный</string>
-    <string name="genre_tv_war_politics">Военный & Политика</string>
+    <string name="genre_tv_war_politics">Военный &amp; Политика</string>
     <string name="genre_tv_reality">Реалити-Шоу</string>
     <string name="genre_tv_documentary">Документальный</string>
 
