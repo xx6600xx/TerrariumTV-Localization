@@ -35,10 +35,10 @@
     <string name="searching_media">Suche…</string>
     <string name="subtitle_language">Untertitelsprache : </string>
     <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
-    <string name="subtitle_extract_failed">Auspacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
-    <string name="permission_grant_toast">Drücke bite auf \"Zulassen\" um Zugriff zu gestatten</string>
+    <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="permission_grant_toast">Drücke bitte auf \"Zulassen\" um Zugriff zu gestatten</string>
     <string name="sorry">Sorry…</string>
-    <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden. Entschuldigung für die Unannehmlichkeiten.</string>
+    <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden.</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Abbrechen</string>
@@ -57,7 +57,7 @@
     <string name="recently_updated">Kürzlich aktualisiert</string>
     <string name="new_shows">Neue Serien</string>
     <string name="premieres">Premieren</string>
-    <string name="on_the_air">Starten heute</string>
+    <string name="on_the_air">Momentan am laufen</string>
     <string name="top_rated">Am besten bewertet</string>
     <string name="now_playing">Im Kino</string>
 
@@ -97,13 +97,13 @@
     <string name="pref_others">Andere</string>
 
     <string name="pref_sub_down_path">Speicherort der Untertiteln</string>
-    <string name="pref_sub_down_path_des">Untertiteln werden runtergeladen und an diesem Ort gespeichert.</string>
+    <string name="pref_sub_down_path_des">Untertitel werden runtergeladen und an diesem Ort gespeichert.</string>
     <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
     <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
     <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
-    <string name="pref_filter_out_non_english_shows">Nicht-Englischsprachige Serien ausblenden</string>
+    <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
     <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
-    <string name="pref_filter_out_dead_sources_desc">Es verursacht erhöhte Ladezeiten</string>
+    <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
     <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
@@ -131,7 +131,7 @@
     <string name="action_play">Abspielen</string>
     <string name="action_play_without_subtitle">Ohne Untertitel abspielen</string>
     <string name="action_download">Download</string>
-    <string name="action_download_with_sub">Mit Untertitel downloaden</string>
+    <string name="action_download_with_sub">Mit Untertitel laden</string>
     <string name="action_copy_link">Link zum Stream kopieren</string>
     <string name="action_play_via_other_players">Öffnen mit…</string>
     <string name="choose_player">Einen Video Player wählen…</string>
@@ -139,14 +139,14 @@
     <string name="choose_external_download_manager">Wähle einen externen Download Manager…</string>
     <string name="no_external_download_manager_was_found">Keinen externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Internal Download Manager</string>
     <string name="download_started">Download gestartet…</string>
-    <string name="download_path_error">Download Speicherort muss im intern Speicher sein. Bitte wählen einen anderen Pfad.</string>
+    <string name="download_path_error">Speicherort muss im intern Speicher sein. Bitte wählen einen anderen Pfad.</string>
     <string name="copied_link">Link zum Stream kopiert</string>
-    <string name="link_must_be_played_in_app">Sorry… Diese Link can nicht in Terrarium TV abgespielt werden…</string>
+    <string name="link_must_be_played_in_app">Sorry… Dieser Link kann nicht in Terrarium TV abgespielt werden…</string>
 
     <string name="update_title">Neue Version gefunden : %s</string>
     <string name="update_message">Version %s : </string>
     <string name="update_button">Updaten</string>
-    <string name="update_downloading">Updaten downloaden %s</string>
+    <string name="update_downloading">Update laden %s</string>
     <string name="update_failed">Update fehlgeschlagen oder abgebrochen</string>
 
     <string name="subtitle_name">Untertitel : </string>
