@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Chinesisch (traditionell)</string>
+    <string name="language_zh_cn">Chinesisch (vereinfach)</string>
+    <string name="language_en">Englisch</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="no_data">Keine Daten</string>
+    <string name="no_internet">Keine Internetverbindung</string>
+    <string name="loading">Lädt</string>
+    <string name="loading_more">Lädt mehr…</string>
+    <string name="action_search">Suchen</string>
+    <string name="action_bookmark">Favoriten</string>
+    <string name="action_add_to_bookmark">Zu Favoriten hinzufügen</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_stop">Anhalten</string>
+    <string name="action_reverse">Rückgängig machen</string>
+    <string name="action_set_watched">Als gesehen markieren</string>
+    <string name="action_remove_watched">Als nicht gesehen markieren</string>
+    <string name="hint_tv_show_name">Serientitel</string>
+    <string name="hint_movie_name">Filmtitel</string>
+    <string name="subtitle">Untertitel</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="download_count">Downloads :</string>
+
+    <string name="season">Staffel %1$d</string>
+    <string name="episode">Episode %1$d</string>
+    <string name="season_episode">%1$s - Staffel %2$d Episode %3$d</string>
+    <string name="season_special">Staffel Special</string>
+    <string name="search_result_of">Suchergebnisse für \"%s\"</string>
+    <string name="getting_subtitle">Suche Untertitel… Bitte warten…</string>
+    <string name="downloading_subtitle_toast">Lade Untertitel… Bitte warten…</string>
+    <string name="ready_to_play_toast">Das Video startet in wenigen Sekunden…</string>
+    <string name="searching_media">Suche…</string>
+    <string name="subtitle_language">Untertitelsprache : </string>
+    <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="subtitle_extract_failed">Auspacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="permission_grant_toast">Drücke bite auf \"Zulassen\" um Zugriff zu gestatten</string>
+    <string name="sorry">Sorry…</string>
+    <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden. Entschuldigung für die Unannehmlichkeiten.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+    <string name="install">Installieren</string>
+    <string name="mxplayer_not_installed">MX Player ist nicht installiert</string>
+    <string name="mxplayer_not_installed_message">MX Player ist nicht auf deinem Geräte installiert. Terrarium benötigt MX Player um Medien abzuspielen. Klick auf "Installieren" um MX Player zu installieren.</string>
+    <string name="mxplayer_unable_to_start">MX Player öffnet sich nicht</string>
+    <string name="mxplayer_unable_to_start_message">MX Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
+    <string name="close_ad_to_play">Um das Video abzuspielen muss die Werbung zuerst geschlossen werden</string>
+
+    <string name="trending">Aufsteigend</string>
+    <string name="most_popular">Größte Beliebtheit</string>
+    <string name="most_played">Am meisten abgespielt</string>
+    <string name="most_watched">Am meisten angesehen</string>
+    <string name="recently_updated">Kürzlich aktualisiert</string>
+    <string name="new_shows">Neue Serien</string>
+    <string name="premieres">Premieren</string>
+    <string name="on_the_air">Starten heute</string>
+    <string name="top_rated">Am besten bewertet</string>
+    <string name="now_playing">Im Kino</string>
+
+    <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
+    <string name="genre_tv_sci_fantasy">Science-Fiction &amp; Fantasy</string>
+    <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komödie</string>
+    <string name="genre_tv_family">Family</string>
+    <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Dokumentar</string>
+
+    <string name="genre_movie_action">Action</string>
+    <string name="genre_movie_adventure">Abenteuer</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Science-Fiction</string>
+    <string name="genre_movie_fantasy">Fantasy</string>
+    <string name="genre_movie_mystery">Mystery</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Krimi</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romanze</string>
+    <string name="genre_movie_comedy">Komödie</string>
+    <string name="genre_movie_family">Family</string>
+    <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_history">Geschichte</string>
+    <string name="genre_movie_war">Krieg</string>
+    <string name="genre_movie_documentary">Dokumentar</string>
+    <string name="genre_movie_music">Musical</string>
+
+    <string name="pref_general">Allgemein</string>
+    <string name="pref_ui">Oberfläche</string>
+    <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
+    <string name="pref_subtitle">Untertitelsprache von OpenSubtitels und Subscene</string>
+    <string name="pref_subtitle_chin">Untertitelsprache von SubHD, Makedie und Zimuku</string>
+    <string name="pref_others">Andere</string>
+
+    <string name="pref_sub_down_path">Speicherort der Untertiteln</string>
+    <string name="pref_sub_down_path_des">Untertiteln werden runtergeladen und an diesem Ort gespeichert.</string>
+    <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
+    <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
+    <string name="pref_filter_out_non_english_shows">Nicht-Englischsprachige Serien ausblenden</string>
+    <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
+    <string name="pref_filter_out_dead_sources_desc">Es verursacht erhöhte Ladezeiten</string>
+    <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
+    <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
+    <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
+    <string name="pref_subtitles_choose_lang">Wähle Untertitelsprache(n)…</string>
+    <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
+    <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
+    <string name="pref_show_menu_source">Zeige Menü nach Quellenwahl</string>
+    <string name="pref_poster_size">Plakatgröße</string>
+    <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
+    <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um bis zu 500%. Könnte auf bestimmten Geräten Fehler verursachen.</string>
+    <string name="pref_choose_default_nav">Wähle Startbildschirm…</string>
+    <string name="pref_choose_default_category_tv_shows">Wähle Standardgenre für Serien…</string>
+    <string name="pref_choose_default_category_movies">Wähle Standardgenre für Filme…</string>
+    <string name="pref_enabled_tv_shows_providers">Wähle Quellen für Serien…</string>
+    <string name="pref_enabled_movies_providers">Wähle Quellen für Filme…</string>
+    <string name="pref_enabled_resolvers">Wähle Hosts…</string>
+    <string name="pref_modern_ui">Aktiviere moderne Oberfläche</string>
+    <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
+    <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
+    <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
+
+    <string name="download_manager_internal">Android Download Manager</string>
+    <string name="download_manager_external">Externer Download Manager(s)</string>
+
+    <string name="action_play">Abspielen</string>
+    <string name="action_play_without_subtitle">Ohne Untertitel abspielen</string>
+    <string name="action_download">Download</string>
+    <string name="action_download_with_sub">Mit Untertitel downloaden</string>
+    <string name="action_copy_link">Link zum Stream kopieren</string>
+    <string name="action_play_via_other_players">Öffnen mit…</string>
+    <string name="choose_player">Einen Video Player wählen…</string>
+    <string name="no_player_was_found">Kein Video Player gefunden</string>
+    <string name="choose_external_download_manager">Wähle einen externen Download Manager…</string>
+    <string name="no_external_download_manager_was_found">Keinen externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Internal Download Manager</string>
+    <string name="download_started">Download gestartet…</string>
+    <string name="download_path_error">Download Speicherort muss im intern Speicher sein. Bitte wählen einen anderen Pfad.</string>
+    <string name="copied_link">Link zum Stream kopiert</string>
+    <string name="link_must_be_played_in_app">Sorry… Diese Link can nicht in Terrarium TV abgespielt werden…</string>
+
+    <string name="update_title">Neue Version gefunden : %s</string>
+    <string name="update_message">Version %s : </string>
+    <string name="update_button">Updaten</string>
+    <string name="update_downloading">Updaten downloaden %s</string>
+    <string name="update_failed">Update fehlgeschlagen oder abgebrochen</string>
+
+    <string name="subtitle_name">Untertitel : </string>
+
+    <string name="facebook_page">Facebook Page</string>
+
+    <string name="changelog">Changelog</string>
+    <string name="choose_browser">Browser wählen</string>
+
+    <string name="disclaimer">Disclaimer</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="decline">Ablehnen</string>
+
+    <string name="error">Unbekannter Fehler. Bitte erneut versuchen.</string>
+    <string name="please_wait">Bitte warten…</string>
+
+    <string name="recaptcha_verify">Das reCaptcha muss bestätigt werden damit die Quellen von %s geladen werden</string>
+    <string name="verify">Bestätigen</string>
+
+    <string name="size_large">Groß</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Klein</string>
+
+    <string name="show_details_overview">ÜBERSICHT</string>
+    <string name="show_details_season">STAFFEL</string>
+    <string name="media_suggestion">Empfehlungen</string>
+    <string name="no_synopsis">Keine Zusammenfassung</string>
+    <string name="loading_ratings">Wertungen werden geladen…</string>
+    <string name="no_ratings">Keine Wertungen</string>
+    <string name="meta_in_production">Wird gedreht</string>
+    <string name="meta_returning_series">Wiederkehrende Serien</string>
+    <string name="meta_ended">Abgeschlossen</string>
+
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+
+    <string name="tv_shows">Serien</string>
+    <string name="movies">Filme</string>
+
+    <string name="play_trailer">Trailer abspielen</string>
+
+    <string name="translators">Übersetzer</string>
+
+    <string name="pref_app_lang">Sprache</string>
+
+    <string name="learn_more">Mehr erfahren</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
+    <string name="official_website">http://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
