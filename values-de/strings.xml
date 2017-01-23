@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="language_zh_tw">Chinesisch (traditionell)</string>
-    <string name="language_zh_cn">Chinesisch (vereinfach)</string>
+    <string name="language_zh_cn">Chinesisch (vereinfacht)</string>
     <string name="language_en">Englisch</string>
 
     <string name="action_settings">Einstellungen</string>
@@ -45,7 +45,7 @@
     <string name="close">Schließen</string>
     <string name="install">Installieren</string>
     <string name="mxplayer_not_installed">MX Player ist nicht installiert</string>
-    <string name="mxplayer_not_installed_message">MX Player ist nicht auf deinem Geräte installiert. Terrarium benötigt MX Player um Medien abzuspielen. Klick auf "Installieren" um MX Player zu installieren.</string>
+    <string name="mxplayer_not_installed_message">MX Player ist nicht auf deinem Gerät installiert. Terrarium benötigt MX Player um Medien abzuspielen. Klick auf "Installieren" um MX Player zu installieren.</string>
     <string name="mxplayer_unable_to_start">MX Player öffnet sich nicht</string>
     <string name="mxplayer_unable_to_start_message">MX Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
     <string name="close_ad_to_play">Um das Video abzuspielen muss die Werbung zuerst geschlossen werden</string>
@@ -59,7 +59,7 @@
     <string name="premieres">Premieren</string>
     <string name="on_the_air">Momentan am laufen</string>
     <string name="top_rated">Am besten bewertet</string>
-    <string name="now_playing">Im Kino</string>
+    <string name="now_playing">Aktuell im Kino</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
     <string name="genre_tv_sci_fantasy">Science-Fiction &amp; Fantasy</string>
@@ -92,12 +92,12 @@
     <string name="pref_general">Allgemein</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
-    <string name="pref_subtitle">Untertitelsprache von OpenSubtitels und Subscene</string>
-    <string name="pref_subtitle_chin">Untertitelsprache von SubHD, Makedie und Zimuku</string>
+    <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
+    <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
     <string name="pref_others">Andere</string>
 
-    <string name="pref_sub_down_path">Speicherort der Untertiteln</string>
-    <string name="pref_sub_down_path_des">Untertitel werden runtergeladen und an diesem Ort gespeichert.</string>
+    <string name="pref_sub_down_path">Speicherort der Untertitel</string>
+    <string name="pref_sub_down_path_des">Untertitel werden heruntergeladen und an diesem Ort gespeichert.</string>
     <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
     <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
     <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
@@ -110,7 +110,7 @@
     <string name="pref_subtitles_choose_lang">Wähle Untertitelsprache(n)…</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
-    <string name="pref_show_menu_source">Zeige Menü nach Quellenwahl</string>
+    <string name="pref_show_menu_source">Zeige Menü nach tap auf Quellenliste</string>
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
     <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um bis zu 500%. Könnte auf bestimmten Geräten Fehler verursachen.</string>
@@ -120,13 +120,13 @@
     <string name="pref_enabled_tv_shows_providers">Wähle Quellen für Serien…</string>
     <string name="pref_enabled_movies_providers">Wähle Quellen für Filme…</string>
     <string name="pref_enabled_resolvers">Wähle Hosts…</string>
-    <string name="pref_modern_ui">Aktiviere moderne Oberfläche</string>
+    <string name="pref_modern_ui">Moderne Oberfläche benutzen</string>
     <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
     <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
     <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
-    <string name="download_manager_external">Externer Download Manager(s)</string>
+    <string name="download_manager_external">Externer Download Manager</string>
 
     <string name="action_play">Abspielen</string>
     <string name="action_play_without_subtitle">Ohne Untertitel abspielen</string>
@@ -137,16 +137,16 @@
     <string name="choose_player">Einen Video Player wählen…</string>
     <string name="no_player_was_found">Kein Video Player gefunden</string>
     <string name="choose_external_download_manager">Wähle einen externen Download Manager…</string>
-    <string name="no_external_download_manager_was_found">Keinen externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Internal Download Manager</string>
+    <string name="no_external_download_manager_was_found">Keinen externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Download Manager</string>
     <string name="download_started">Download gestartet…</string>
-    <string name="download_path_error">Speicherort muss im intern Speicher sein. Bitte wählen einen anderen Pfad.</string>
+    <string name="download_path_error">Speicherort muss im internen Speicher liegen. Bitte wählen einen anderen Pfad.</string>
     <string name="copied_link">Link zum Stream kopiert</string>
     <string name="link_must_be_played_in_app">Sorry… Dieser Link kann nicht in Terrarium TV abgespielt werden…</string>
 
     <string name="update_title">Neue Version gefunden : %s</string>
     <string name="update_message">Version %s : </string>
-    <string name="update_button">Updaten</string>
-    <string name="update_downloading">Update laden %s</string>
+    <string name="update_button">Update laden</string>
+    <string name="update_downloading">Update lädt %s</string>
     <string name="update_failed">Update fehlgeschlagen oder abgebrochen</string>
 
     <string name="subtitle_name">Untertitel : </string>
@@ -172,10 +172,10 @@
 
     <string name="show_details_overview">ÜBERSICHT</string>
     <string name="show_details_season">STAFFEL</string>
-    <string name="media_suggestion">Empfehlungen</string>
+    <string name="media_suggestion">Vorschläge</string>
     <string name="no_synopsis">Keine Zusammenfassung</string>
-    <string name="loading_ratings">Wertungen werden geladen…</string>
-    <string name="no_ratings">Keine Wertungen</string>
+    <string name="loading_ratings">Bewertungen werden geladen…</string>
+    <string name="no_ratings">Keine Bewertungen</string>
     <string name="meta_in_production">Wird gedreht</string>
     <string name="meta_returning_series">Wiederkehrende Serien</string>
     <string name="meta_ended">Abgeschlossen</string>
