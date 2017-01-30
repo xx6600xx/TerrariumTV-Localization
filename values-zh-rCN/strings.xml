@@ -48,7 +48,7 @@
     <string name="mxplayer_not_installed_message">你的设备上没有安装 MX Player，Terrarium 需要 MX Player 来播放剧集， 按 "安装" 来安装 MX Player</string>
     <string name="mxplayer_unable_to_start">MX Player 无法启动</string>
     <string name="mxplayer_unable_to_start_message">MX Player 无法正常启动，请重新安装后再试~</string>
-    <string name="close_ad_to_play">请先关闭广告以便开始影片播放</string>
+    <string name="close_ad_to_play">请先关闭广告以便开始播放影片</string>
 
     <string name="trending">人们在看</string>
     <string name="most_popular">人气热门</string>
@@ -114,7 +114,7 @@
     <string name="pref_show_menu_source">片源列表单击显示菜单</string>
     <string name="pref_poster_size">剧集海报大小</string>
     <string name="pref_parallel_loading_sources">开启并行加载片源</string>
-    <string name="pref_parallel_loading_sources_desc">强烈建议开启! 开后片源载入速度提升 5 倍，但有机会在低配置设备造成崩溃</string>
+    <string name="pref_parallel_loading_sources_desc">强烈建议开启! 开后片源载入速度提升 5 倍，但有可能在低配置设备造成崩溃</string>
     <string name="pref_choose_default_nav">选择默认导航…</string>
     <string name="pref_choose_default_category_tv_shows">选择默认剧集分类…</string>
     <string name="pref_choose_default_category_movies">选择默认电影分类…</string>
@@ -143,7 +143,7 @@
     <string name="download_path_error">下载路径必需在内置存储, 请重新指定下载路径</string>
     <string name="copied_link">已复制流媒体链接到剪贴板</string>
     <string name="link_must_be_played_in_app">很抱歉… 这流媒体链接只能在 Terrarium 影视 播放…</string>
-    <string name="mxplayer_crashed_unexpectedly">MX Player 非預期地崩溃，請使用其他影片播放器来播放这条链结</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player 意外地崩溃，请使用其他播放器来播放这个视频</string>
 
     <string name="update_title">发现新版本 : %s</string>
     <string name="update_message">版本 %s : </string>
