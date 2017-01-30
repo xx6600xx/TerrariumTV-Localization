@@ -9,7 +9,7 @@
     <string name="no_data">Keine Daten</string>
     <string name="no_internet">Keine Internetverbindung</string>
     <string name="loading">Lädt</string>
-    <string name="loading_more">Lädt mehr…</string>
+    <string name="loading_more">Mehr laden…</string>
     <string name="action_search">Suchen</string>
     <string name="action_bookmark">Favoriten</string>
     <string name="action_add_to_bookmark">Zu Favoriten hinzufügen</string>
@@ -37,7 +37,7 @@
     <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
     <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
     <string name="permission_grant_toast">Drücke bitte auf \"Zulassen\" um Zugriff zu gestatten</string>
-    <string name="sorry">Sorry…</string>
+    <string name="sorry">Verzeihung…</string>
     <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden.</string>
 
     <string name="ok">OK</string>
@@ -70,6 +70,7 @@
     <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Dokumentar</string>
+    <string name="genre_tv_animation">Animation</string>
 
     <string name="genre_movie_action">Action</string>
     <string name="genre_movie_adventure">Abenteuer</string>
@@ -113,7 +114,7 @@
     <string name="pref_show_menu_source">Zeige Menü nach tap auf Quellenliste</string>
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
-    <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um bis zu 500%. Könnte auf bestimmten Geräten Fehler verursachen.</string>
+    <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um das Fünffache. Könnte auf bestimmten Geräten Fehler verursachen.</string>
     <string name="pref_choose_default_nav">Wähle Startbildschirm…</string>
     <string name="pref_choose_default_category_tv_shows">Wähle Standardgenre für Serien…</string>
     <string name="pref_choose_default_category_movies">Wähle Standardgenre für Filme…</string>
@@ -142,21 +143,22 @@
     <string name="download_path_error">Speicherort muss im internen Speicher liegen. Bitte wählen einen anderen Pfad.</string>
     <string name="copied_link">Link zum Stream kopiert</string>
     <string name="link_must_be_played_in_app">Sorry… Dieser Link kann nicht in Terrarium TV abgespielt werden…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player ist abgestürtzt. Probiere das Video mit einem anderen Player abzuspielen.</string>
 
     <string name="update_title">Neue Version gefunden : %s</string>
     <string name="update_message">Version %s : </string>
     <string name="update_button">Update laden</string>
-    <string name="update_downloading">Update lädt %s</string>
+    <string name="update_downloading">Lade Update %s</string>
     <string name="update_failed">Update fehlgeschlagen oder abgebrochen</string>
 
     <string name="subtitle_name">Untertitel : </string>
 
     <string name="facebook_page">Facebook Page</string>
 
-    <string name="changelog">Changelog</string>
+    <string name="changelog">Änderungsprotokoll</string>
     <string name="choose_browser">Browser wählen</string>
 
-    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer">Haftungsauschluss</string>
     <string name="accept">Akzeptieren</string>
     <string name="decline">Ablehnen</string>
 
