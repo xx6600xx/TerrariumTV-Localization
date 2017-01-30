@@ -70,6 +70,7 @@
     <string name="genre_tv_war_politics">戰爭/政治</string>
     <string name="genre_tv_reality">真人Show</string>
     <string name="genre_tv_documentary">紀錄片</string>
+    <string name="genre_tv_animation">動畫</string>
 
     <string name="genre_movie_action">動作</string>
     <string name="genre_movie_adventure">冒險</string>
