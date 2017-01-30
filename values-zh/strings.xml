@@ -48,7 +48,7 @@
     <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MX Player，Terrarium 需要 MX Player 來播放劇集， 按 "安裝" 來安裝 MX Player</string>
     <string name="mxplayer_unable_to_start">MX Player 無法啟動</string>
     <string name="mxplayer_unable_to_start_message">MX Player 無法正常啟動，請重新安裝後再試~</string>
-    <string name="close_ad_to_play">請先關閉廣告以便開始影片播放</string>
+    <string name="close_ad_to_play">請先關閉廣告以便開始播放影片</string>
 
     <string name="trending">人們在看</string>
     <string name="most_popular">人氣熱門</string>
@@ -143,7 +143,7 @@
     <string name="download_path_error">下載路徑必需在內置儲存裝置, 請重新指定下載路徑</string>
     <string name="copied_link">已複製串流連結到剪貼板</string>
     <string name="link_must_be_played_in_app">很抱歉… 這串流連結只能在 Terrarium 影視 播放…</string>
-    <string name="mxplayer_crashed_unexpectedly">MX Player 非預期地崩潰，請使用其他影片播放器來播放這鏈結</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player 意外地崩潰，請使用其他影片播放器來播放此影片</string>
 
     <string name="update_title">發現新版本 : %s</string>
     <string name="update_message">版本 %s : </string>
