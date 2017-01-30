@@ -142,6 +142,7 @@
     <string name="download_path_error">下载路径必需在内置存储, 请重新指定下载路径</string>
     <string name="copied_link">已复制流媒体链接到剪贴板</string>
     <string name="link_must_be_played_in_app">很抱歉… 这流媒体链接只能在 Terrarium 影视 播放…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player 非預期地崩溃，請使用其他影片播放器来播放这条链结</string>
 
     <string name="update_title">发现新版本 : %s</string>
     <string name="update_message">版本 %s : </string>

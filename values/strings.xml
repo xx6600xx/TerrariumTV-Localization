@@ -143,6 +143,7 @@
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
     <string name="copied_link">Copied streamable link</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player crashed unexpectedly. Please try to use another video player to play the video.</string>
 
     <string name="update_title">New version found : %s</string>
     <string name="update_message">Version %s : </string>

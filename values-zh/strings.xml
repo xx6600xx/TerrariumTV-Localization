@@ -143,6 +143,7 @@
     <string name="download_path_error">下載路徑必需在內置儲存裝置, 請重新指定下載路徑</string>
     <string name="copied_link">已複製串流連結到剪貼板</string>
     <string name="link_must_be_played_in_app">很抱歉… 這串流連結只能在 Terrarium 影視 播放…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player 非預期地崩潰，請使用其他影片播放器來播放這鏈結</string>
 
     <string name="update_title">發現新版本 : %s</string>
     <string name="update_message">版本 %s : </string>
