@@ -38,7 +38,7 @@
     <string name="subtitle_extract_failed">Udpakning af undertekster fejlede… Prøv venligst en anden undertekst-fil…</string>
     <string name="permission_grant_toast">Tryk venligst \"Tillad\" for at give tilladelse og prøv igen</string>
     <string name="sorry">Undskyld…</string>
-    <string name="cant_be_opened_by_other_players">Denne kilde kan ikke blive åbnet eller afspillet af andre afspillere. Beklager ulejligheden.This source can\'t be opened or played by other video players.</string>
+    <string name="cant_be_opened_by_other_players">Denne kilde kan ikke blive åbnet eller afspillet af andre afspillere. Beklager ulejligheden.</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Annuller</string>
@@ -52,8 +52,8 @@
 
     <string name="trending">Trending</string>
     <string name="most_popular">Mest populære</string>
-    <string name="most_played">Mest fremviste</string>
-    <string name="most_watched">Most fremviste</string>
+    <string name="most_played">Mest afspillede</string>
+    <string name="most_watched">Mest sete</string>
     <string name="recently_updated">Opdateret for nyligt</string>
     <string name="new_shows">Nye shows</string>
     <string name="premieres">Premierer</string>
@@ -192,7 +192,7 @@
 
     <string name="pref_app_lang">App Sprog</string>
 
-    <string name="learn_more">Learn More</string>
+    <string name="learn_more">Få mere at vide</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
