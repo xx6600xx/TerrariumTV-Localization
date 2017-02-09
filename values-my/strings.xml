@@ -44,11 +44,17 @@
     <string name="cancel">Batal</string>
     <string name="close">Tutup</string>
     <string name="install">instal</string>
-    <string name="mxplayer_not_installed">MXPlayer Tidak di instal</string>
-    <string name="mxplayer_not_installed_message">MXPlayer tidak di instal pada peranti Anda. Terrarium memerlukan MXPlayer untuk memainkan media. Klik "Instal" untuk menginstal MXPlayer.</string>
-    <string name="mxplayer_unable_to_start"> MXPlayer Tidak Dapat Dimulakan</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer tidak dapat dimulakan. Sila instal semula dan cuba lagi.</string>
     <string name="close_ad_to_play">Sila tutup iklan dahulu untuk memainkan video</string>
+
+    <string name="mxplayer_not_installed">MX Player Tidak di instal</string>
+    <string name="mxplayer_not_installed_message">MX Player tidak di instal pada peranti Anda. Terrarium memerlukan MX Player untuk memainkan media. Klik "Instal" untuk menginstal MX Player.</string>
+    <string name="mxplayer_unable_to_start"> MX Player Tidak Dapat Dimulakan</string>
+    <string name="mxplayer_unable_to_start_message">MX Player tidak dapat dimulakan. Sila instal semula dan cuba lagi.</string>
+
+    <string name="vlc_player_not_installed">VLC Player Tidak di instal</string>
+    <string name="vlc_player_not_installed_message">VLC Player tidak di instal pada peranti Anda. Terrarium memerlukan VLC Player untuk memainkan media. Klik "Instal" untuk menginstal VLC Player.</string>
+    <string name="vlc_player_unable_to_start"> VLC Player Tidak Dapat Dimulakan</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player tidak dapat dimulakan. Sila instal semula dan cuba lagi.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Paling Popular</string>

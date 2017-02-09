@@ -44,11 +44,17 @@
     <string name="cancel">Avbryt</string>
     <string name="close">Stäng</string>
     <string name="install">Installera</string>
+    <string name="close_ad_to_play">Stäng reklamen för att visa videon</string>
+
     <string name="mxplayer_not_installed">MX Player är ej installerad</string>
     <string name="mxplayer_not_installed_message">MX Player är ej installerad på din enhet. Terrarium kräver MX Player för att spela media. Tryck på "Installera" för att installera MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player kunde inte startas</string>
     <string name="mxplayer_unable_to_start_message">MX Player kunde inte startas. Ominstallera och prova igen.</string>
-    <string name="close_ad_to_play">Stäng reklamen för att visa videon</string>
+
+    <string name="vlc_player_not_installed">VLC Player är ej installerad</string>
+    <string name="vlc_player_not_installed_message">VLC Player är ej installerad på din enhet. Terrarium kräver VLC Player för att spela media. Tryck på "Installera" för att installera VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player kunde inte startas</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player kunde inte startas. Ominstallera och prova igen.</string>
 
     <string name="trending">Trender</string>
     <string name="most_popular">Populäraste</string>

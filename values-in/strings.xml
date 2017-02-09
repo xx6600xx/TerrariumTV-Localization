@@ -44,11 +44,17 @@
     <string name="cancel">Batal</string>
     <string name="close">Tutup</string>
     <string name="install">Pasang</string>
+    <string name="close_ad_to_play">Silakan menutup iklan dahulu untuk memutar video</string>
+
     <string name="mxplayer_not_installed">MX Player Tidak Terinstal</string>
     <string name="mxplayer_not_installed_message">MX Player tidak diinstal pada perangkat Anda. Terrarium memerlukan MX Player untuk memutar media. Klik "Install" untuk menginstal MX Player.</string>
     <string name="mxplayer_unable_to_start"> MX Player Tidak Dapat Memulai</string>
     <string name="mxplayer_unable_to_start_message">MX Player tidak dapat memulai. Silahkan install ulang dan coba lagi.</string>
-    <string name="close_ad_to_play">Silakan menutup iklan dahulu untuk memutar video</string>
+
+    <string name="vlc_player_not_installed">VLC Player Tidak Terinstal</string>
+    <string name="vlc_player_not_installed_message">VLC Player tidak diinstal pada perangkat Anda. Terrarium memerlukan VLC Player untuk memutar media. Klik "Install" untuk menginstal VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player Tidak Dapat Memulai</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player tidak dapat memulai. Silahkan install ulang dan coba lagi.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Paling Populer</string>

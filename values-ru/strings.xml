@@ -44,11 +44,17 @@
     <string name="cancel">Отмена</string>
     <string name="close">Закрыть</string>
     <string name="install">Установить</string>
+    <string name="close_ad_to_play">Пожалуйста, закройте рекламу, чтобы начать смотреть видео.</string>
+
     <string name="mxplayer_not_installed">MX Player Не Установлен</string>
     <string name="mxplayer_not_installed_message">MX Player не установлен на вашем устройстве. Terrarium требует MX Player для того чтобы проигрывать медиа. Нажмите "Установить" чтобы установить MX Player.</string>
     <string name="mxplayer_unable_to_start">Не удалось запустить MX Player</string>
     <string name="mxplayer_unable_to_start_message">Не удалось запустить MX Player. Пожалуйста, переустановите его и попробуйте снова.</string>
-    <string name="close_ad_to_play">Пожалуйста, закройте рекламу, чтобы начать смотреть видео.</string>
+
+    <string name="vlc_player_not_installed">VLC Player Не Установлен</string>
+    <string name="vlc_player_not_installed_message">VLC Player не установлен на вашем устройстве. Terrarium требует VLC Player для того чтобы проигрывать медиа. Нажмите "Установить" чтобы установить VLC Player.</string>
+    <string name="vlc_player_unable_to_start">Не удалось запустить VLC Player</string>
+    <string name="vlc_player_unable_to_start_message">Не удалось запустить VLC Player. Пожалуйста, переустановите его и попробуйте снова.</string>
 
     <string name="trending">В Тренде</string>
     <string name="most_popular">Самые Популярные</string>

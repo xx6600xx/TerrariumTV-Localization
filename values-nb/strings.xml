@@ -44,11 +44,17 @@
     <string name="cancel">Annuller</string>
     <string name="close">Lukk</string>
     <string name="install">Installer</string>
-    <string name="mxplayer_not_installed">MXPlayer ikke installert</string>
-    <string name="mxplayer_not_installed_message">MXPlayer er ikke installert på din enhet. Terrarium har bruk for MXPlayer for å spille av medier. Trykk "Installer" for å installere MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer kan ikke starte</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer kan ikke starte. Reinstaller den vennligst og prøv igen.</string>
     <string name="close_ad_to_play">Vennligst lukk reklamen først for at avspille videoen</string>
+
+    <string name="mxplayer_not_installed">MX Player ikke installert</string>
+    <string name="mxplayer_not_installed_message">MX Player er ikke installert på din enhet. Terrarium har bruk for MX Player for å spille av medier. Trykk "Installer" for å installere MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player kan ikke starte</string>
+    <string name="mxplayer_unable_to_start_message">MX Player kan ikke starte. Reinstaller den vennligst og prøv igen.</string>
+
+    <string name="vlc_player_not_installed">VLC Player ikke installert</string>
+    <string name="vlc_player_not_installed_message">VLC Player er ikke installert på din enhet. Terrarium har bruk for VLC Player for å spille av medier. Trykk "Installer" for å installere VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player kan ikke starte</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player kan ikke starte. Reinstaller den vennligst og prøv igen.</string>
 
     <string name="trending">Aktuelle serier</string>
     <string name="most_popular">Mest populære</string>

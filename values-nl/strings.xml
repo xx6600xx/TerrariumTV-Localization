@@ -44,11 +44,17 @@
     <string name="cancel">Annuleren</string>
     <string name="close">Sluiten</string>
     <string name="install">Installeren</string>
+    <string name="close_ad_to_play">Sluit de advertentie om de video af te spelen.</string>
+
     <string name="mxplayer_not_installed">MX Player is niet geïnstalleerd</string>
     <string name="mxplayer_not_installed_message">MX Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft MX Player nodig om media af te spelen. Klik "Installeren" om MX Player te installeren.</string>
     <string name="mxplayer_unable_to_start">MX Player kan niet worden gestart</string>
     <string name="mxplayer_unable_to_start_message">MX Player kan niet worden gestart. Herinstalleer en probeer het opnieuw.</string>
-    <string name="close_ad_to_play">Sluit de advertentie om de video af te spelen.</string>
+
+    <string name="vlc_player_not_installed">VLC Player is niet geïnstalleerd</string>
+    <string name="vlc_player_not_installed_message">VLC Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft VLC Player nodig om media af te spelen. Klik "Installeren" om VLC Player te installeren.</string>
+    <string name="vlc_player_unable_to_start">VLC Player kan niet worden gestart</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player kan niet worden gestart. Herinstalleer en probeer het opnieuw.</string>
 
     <string name="trending">Trends</string>
     <string name="most_popular">Meest Populair</string>

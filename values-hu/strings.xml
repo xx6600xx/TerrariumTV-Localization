@@ -44,11 +44,17 @@
     <string name="cancel">Vissza</string>
     <string name="close">Bezár</string>
     <string name="install">Telepítés</string>
+    <string name="close_ad_to_play">Kérjük, zárja be az első reklámot, hogy a videót lejátsza</string>
+
     <string name="mxplayer_not_installed">MX Player nincs telepitve</string>
     <string name="mxplayer_not_installed_message">MX Player nincs telepitve az eszközre. Terrarium csak az MX Player lejátszóval müködik. Kattints "Telepítés"-re, hogy feltelepitse az MX Player-t.</string>
     <string name="mxplayer_unable_to_start">MX Player nem tud elindulni</string>
     <string name="mxplayer_unable_to_start_message">MX Player nem tud elindulni. Kérem telepitse újra és probálja meg mégegyszer.</string>
-    <string name="close_ad_to_play">Kérjük, zárja be az első reklámot, hogy a videót lejátsza</string>
+
+    <string name="vlc_player_not_installed">VLC Player nincs telepitve</string>
+    <string name="vlc_player_not_installed_message">VLC Player nincs telepitve az eszközre. Terrarium csak az VLC Player lejátszóval müködik. Kattints "Telepítés"-re, hogy feltelepitse az VLC Player-t.</string>
+    <string name="vlc_player_unable_to_start">VLC Player nem tud elindulni</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player nem tud elindulni. Kérem telepitse újra és probálja meg mégegyszer.</string>
 
     <string name="trending">Felkapott</string>
     <string name="most_popular">Legnépszerübb</string>

@@ -44,11 +44,17 @@
     <string name="cancel">取消</string>
     <string name="close">关闭</string>
     <string name="install">安装</string>
+    <string name="close_ad_to_play">请先关闭广告以便开始播放影片</string>
+
     <string name="mxplayer_not_installed">MX Player 没有安装</string>
     <string name="mxplayer_not_installed_message">你的设备上没有安装 MX Player，Terrarium 需要 MX Player 来播放剧集， 按 "安装" 来安装 MX Player</string>
     <string name="mxplayer_unable_to_start">MX Player 无法启动</string>
     <string name="mxplayer_unable_to_start_message">MX Player 无法正常启动，请重新安装后再试~</string>
-    <string name="close_ad_to_play">请先关闭广告以便开始播放影片</string>
+
+    <string name="vlc_player_not_installed">VLC Player 没有安装</string>
+    <string name="vlc_player_not_installed_message">你的设备上没有安装 VLC Player，Terrarium 需要 VLC Player 来播放剧集， 按 "安装" 来安装 VLC Player</string>
+    <string name="vlc_player_unable_to_start">VLC Player 无法启动</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player 无法正常启动，请重新安装后再试~</string>
 
     <string name="trending">人们在看</string>
     <string name="most_popular">人气热门</string>
@@ -89,6 +95,8 @@
     <string name="genre_movie_war">战争</string>
     <string name="genre_movie_documentary">纪录片</string>
     <string name="genre_movie_music">音乐</string>
+
+    <string name="filter_year">年份</string>
 
     <string name="pref_general">一般设置</string>
     <string name="pref_ui">用户界面</string>
@@ -143,7 +151,7 @@
     <string name="download_path_error">下载路径必需在内置存储, 请重新指定下载路径</string>
     <string name="copied_link">已复制流媒体链接到剪贴板</string>
     <string name="link_must_be_played_in_app">很抱歉… 这流媒体链接只能在 Terrarium 影视 播放…</string>
-    <string name="mxplayer_crashed_unexpectedly">MX Player 意外地崩溃，请使用其他播放器来播放这个视频</string>
+    <string name="video_player_crashed_unexpectedly">播放器意外地崩溃，请使用其他播放器来播放这个视频</string>
 
     <string name="update_title">发现新版本 : %s</string>
     <string name="update_message">版本 %s : </string>

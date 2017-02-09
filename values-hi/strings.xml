@@ -44,11 +44,17 @@
     <string name="cancel">रद्द करना</string>
     <string name="close">बंद करे</string>
     <string name="install">इंस्टॉल करें</string>
+    <string name="close_ad_to_play">आदेश में वीडियो खेलने के लिए पहला विज्ञापन को बंद करें</string>
+
     <string name="mxplayer_not_installed">एमएक्स प्लेयर स्थापित नहीं</string>
     <string name="mxplayer_not_installed_message">एमएक्स प्लेयर अपने डिवाइस पर स्थापित नहीं है|टेरारियम एमएक्स प्लेयर की जरूरत है मीडिया खेलने के लिए.एमएक्स प्लेयर स्थापित करने के लिए "स्थापित करें" क्लिक करें|</string>
     <string name="mxplayer_unable_to_start">एमएक्स प्लेयर प्रारंभ करने में अक्षम</string>
     <string name="mxplayer_unable_to_start_message">|कृपया इसे पुन: स्थापित करें और फिर कोशिश करें|</string>
-    <string name="close_ad_to_play">आदेश में वीडियो खेलने के लिए पहला विज्ञापन को बंद करें</string>
+
+    <string name="vlc_player_not_installed">VLC Player Not Installed</string>
+    <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play medias. Click "Install" to install VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
 
     <string name="trending">रुझान</string>
     <string name="most_popular">सबसे लोकप्रिय</string>

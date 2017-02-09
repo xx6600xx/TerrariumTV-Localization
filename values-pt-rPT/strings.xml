@@ -44,11 +44,17 @@
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
     <string name="install">Instalar</string>
+    <string name="close_ad_to_play">Por favor feche o anúncio para começar a ver o vídeo</string>
+
     <string name="mxplayer_not_installed">MX Player Não Instalado</string>
     <string name="mxplayer_not_installed_message">O MX Player não está instalado no seu aparelho. O Terrarium precisa do MX Player para ler vídeo. Carregue em \"Instalar\" para instalar o MX Player.</string>
     <string name="mxplayer_unable_to_start">Erro de iniciação no MX Player</string>
     <string name="mxplayer_unable_to_start_message">Erro de iniciação no MX Player. Por favor re-instale a aplicação e tente novamente.</string>
-    <string name="close_ad_to_play">Por favor feche o anúncio para começar a ver o vídeo</string>
+
+    <string name="vlc_player_not_installed">VLC Player Não Instalado</string>
+    <string name="vlc_player_not_installed_message">O VLC Player não está instalado no seu aparelho. O Terrarium precisa do VLC Player para ler vídeo. Carregue em \"Instalar\" para instalar o VLC Player.</string>
+    <string name="vlc_player_unable_to_start">Erro de iniciação no VLC Player</string>
+    <string name="vlc_player_unable_to_start_message">Erro de iniciação no VLC Player. Por favor re-instale a aplicação e tente novamente.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Mais Popular</string>

@@ -44,11 +44,17 @@
     <string name="cancel">გაუქმება</string>
     <string name="close">დახურვა</string>
     <string name="install">დაინსტალირება</string>
+    <string name="close_ad_to_play">გთხოვთ ჯერ რეკლამა დახურეთ, რომ ჩართოთ ვიდეო </string>
+
     <string name="mxplayer_not_installed">MX Player არ არის დაინსტალირებული</string>
     <string name="mxplayer_not_installed_message">MX Player არ არის დაინსტალირებული თქვენს აპარატზე. Terrarium-ს სჭირდება MX Player რომ გაუშვას მედია. დააჭირეთ „ინსტალაციას“ რომ დააინსტალიროს MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player ვერ ჩაირთო</string>
     <string name="mxplayer_unable_to_start_message">MX Player ვერ ჩაირთო. გთხოვთ თავიდან დააინსტალიროთ და ხელახლა სცადეთ.</string>
-    <string name="close_ad_to_play">გთხოვთ ჯერ რეკლამა დახურეთ, რომ ჩართოთ ვიდეო </string>
+
+    <string name="vlc_player_not_installed">VLC Player არ არის დაინსტალირებული</string>
+    <string name="vlc_player_not_installed_message">VLC Player არ არის დაინსტალირებული თქვენს აპარატზე. Terrarium-ს სჭირდება VLC Player რომ გაუშვას მედია. დააჭირეთ „ინსტალაციას“ რომ დააინსტალიროს VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player ვერ ჩაირთო</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player ვერ ჩაირთო. გთხოვთ თავიდან დააინსტალიროთ და ხელახლა სცადეთ.</string>
 
     <string name="trending">ტრენდული</string>
     <string name="most_popular">ყველაზე პოპულარული</string>

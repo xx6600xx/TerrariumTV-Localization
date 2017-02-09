@@ -44,11 +44,17 @@
     <string name="cancel">Annuler</string>
     <string name="close">Fermer</string>
     <string name="install">Installer</string>
+    <string name="close_ad_to_play">Fermez la bande-annonce pour commencer la vidéo.</string>
+
     <string name="mxplayer_not_installed">MX Player non installé</string>
     <string name="mxplayer_not_installed_message">MX Player n\'est pas installé sur votre appareil. Terrarium requiert MX Player pour jouer certains fichiers multimédia. Appuyez "Install" pour installer MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player est incapable de démarrer</string>
     <string name="mxplayer_unable_to_start_message">MX Player est incapable de démarrer. Réinstallez l\'application et réessayez</string>
-    <string name="close_ad_to_play">Fermez la bande-annonce pour commencer la vidéo.</string>
+
+    <string name="vlc_player_not_installed">VLC Player non installé</string>
+    <string name="vlc_player_not_installed_message">VLC Player n\'est pas installé sur votre appareil. Terrarium requiert VLC Player pour jouer certains fichiers multimédia. Appuyez "Install" pour installer VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player est incapable de démarrer</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player est incapable de démarrer. Réinstallez l\'application et réessayez</string>
 
     <string name="trending">Tendances</string>
     <string name="most_popular">Les plus populaires</string>

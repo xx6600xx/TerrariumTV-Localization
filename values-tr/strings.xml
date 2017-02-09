@@ -44,11 +44,17 @@
     <string name="cancel">Vazgeç</string>
     <string name="close">Kapat</string>
     <string name="install">Yükle</string>
+    <string name="close_ad_to_play">Vidyoyu oynatmak için önce reklamı kapatın</string>
+
     <string name="mxplayer_not_installed">MX Player yüklü değil</string>
     <string name="mxplayer_not_installed_message">MX Player cihazınızda yüklü değil. Terrarium\'da medyaları oynatmak için MX Player gereklidir. MX Player yüklemek için "Yükle" tuşuna basınız.</string>
     <string name="mxplayer_unable_to_start">MX Player Başlatılamadı</string>
     <string name="mxplayer_unable_to_start_message">MX Player başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
-    <string name="close_ad_to_play">Vidyoyu oynatmak için önce reklamı kapatın</string>
+
+    <string name="vlc_player_not_installed">VLC Player yüklü değil</string>
+    <string name="vlc_player_not_installed_message">VLC Player cihazınızda yüklü değil. Terrarium\'da medyaları oynatmak için VLC Player gereklidir. VLC Player yüklemek için "Yükle" tuşuna basınız.</string>
+    <string name="vlc_player_unable_to_start">VLC Player Başlatılamadı</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player başlatılamıyor. Lütfen tekrar yükleyip deneyin.</string>
 
     <string name="trending">Trendler</string>
     <string name="most_popular">Popüler</string>

@@ -44,11 +44,17 @@
     <string name="cancel">取消</string>
     <string name="close">關閉</string>
     <string name="install">安裝</string>
+    <string name="close_ad_to_play">請先關閉廣告以便開始播放影片</string>
+
     <string name="mxplayer_not_installed">MX Player 沒有安裝</string>
     <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MX Player，Terrarium 需要 MX Player 來播放劇集， 按 "安裝" 來安裝 MX Player</string>
     <string name="mxplayer_unable_to_start">MX Player 無法啟動</string>
     <string name="mxplayer_unable_to_start_message">MX Player 無法正常啟動，請重新安裝後再試~</string>
-    <string name="close_ad_to_play">請先關閉廣告以便開始播放影片</string>
+
+    <string name="vlc_player_not_installed">VLC Player 沒有安裝</string>
+    <string name="vlc_player_not_installed_message">你的裝置上沒有安裝 VLC Player，Terrarium 需要 VLC Player 來播放劇集， 按 "安裝" 來安裝 VLC Player</string>
+    <string name="vlc_player_unable_to_start">VLC Player 無法啟動</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player 無法正常啟動，請重新安裝後再試~</string>
 
     <string name="trending">人們在看</string>
     <string name="most_popular">人氣熱門</string>
@@ -90,6 +96,8 @@
     <string name="genre_movie_documentary">紀錄片</string>
     <string name="genre_movie_music">音樂</string>
 
+    <string name="filter_year">年份</string>
+
     <string name="pref_general">一般設定</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
@@ -124,6 +132,9 @@
     <string name="pref_modern_ui">使用新 UI</string>
     <string name="pref_modern_ui_desc">顯示劇集海報取代劇集橫幅</string>
     <string name="pref_choose_default_play_action">選擇預設播放選項…</string>
+    <string name="pref_force_tv_mode">強制使用 Android TV 模式</string>
+    <string name="pref_force_tv_mode_desc">強制顯示 Android TV 介面</string>
+    <string name="pref_choose_default_player">選擇預設影片播放器…</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
 
     <string name="download_manager_internal">Android 內置下載管理員</string>
@@ -143,7 +154,8 @@
     <string name="download_path_error">下載路徑必需在內置儲存裝置, 請重新指定下載路徑</string>
     <string name="copied_link">已複製串流連結到剪貼板</string>
     <string name="link_must_be_played_in_app">很抱歉… 這串流連結只能在 Terrarium 影視 播放…</string>
-    <string name="mxplayer_crashed_unexpectedly">MX Player 意外地崩潰，請使用其他影片播放器來播放此影片</string>
+    <string name="video_player_crashed_unexpectedly">播放器意外地崩潰，請使用其他影片播放器來播放此影片</string>
+    <string name="choose_subtitles_file">請選擇一個字幕檔案…</string>
 
     <string name="update_title">發現新版本 : %s</string>
     <string name="update_message">版本 %s : </string>

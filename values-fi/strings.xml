@@ -44,11 +44,17 @@
     <string name="cancel">Peruuta</string>
     <string name="close">Sulje</string>
     <string name="install">Asenna</string>
+    <string name="close_ad_to_play">Sulje mainos katsoaksesi videon</string>
+
     <string name="mxplayer_not_installed">MX Player ei ole asennettu</string>
     <string name="mxplayer_not_installed_message">MX Player ei ole asennettu laitteellesi. Terrarium tarvitsee MX Playeriä näyttääkseen mediaa. Paina "Asenna" asentaaksesi MX Playerin.</string>
     <string name="mxplayer_unable_to_start">MX Player ei pysty käynnistymään</string>
     <string name="mxplayer_unable_to_start_message">MX Player ei pysty käynnistymään. Poista sen asennus ja yritä uudelleen.</string>
-    <string name="close_ad_to_play">Sulje mainos katsoaksesi videon</string>
+
+    <string name="vlc_player_not_installed">VLC Player ei ole asennettu</string>
+    <string name="vlc_player_not_installed_message">VLC Player ei ole asennettu laitteellesi. Terrarium tarvitsee VLC Playeriä näyttääkseen mediaa. Paina "Asenna" asentaaksesi VLC Playerin.</string>
+    <string name="vlc_player_unable_to_start">VLC Player ei pysty käynnistymään</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player ei pysty käynnistymään. Poista sen asennus ja yritä uudelleen.</string>
 
     <string name="trending">Nousussa</string>
     <string name="most_popular">Suosituimmat</string>

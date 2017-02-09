@@ -44,11 +44,17 @@
     <string name="cancel">إلغاء</string>
     <string name="close">إغلاق</string>
     <string name="install">تنزيل</string>
+    <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
+
     <string name="mxplayer_not_installed">ليس لديك MX Player</string>
     <string name="mxplayer_not_installed_message">قم بتنزيل MX Player</string>
     <string name="mxplayer_unable_to_start">غير قادر على تشغيل MX Player</string>
     <string name="mxplayer_unable_to_start_message">قم بتنزيل MX Player مجدداً</string>
-    <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
+
+    <string name="vlc_player_not_installed">ليس لديك VLC Player</string>
+    <string name="vlc_player_not_installed_message">قم بتنزيل VLC Player</string>
+    <string name="vlc_player_unable_to_start">غير قادر على تشغيل VLC Player</string>
+    <string name="vlc_player_unable_to_start_message">قم بتنزيل VLC Player مجدداً</string>
 
     <string name="trending">الأكثر تداولا</string>
     <string name="most_popular">الأكثر شعبية</string>

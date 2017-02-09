@@ -44,11 +44,17 @@
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
     <string name="install">Instalar</string>
+    <string name="close_ad_to_play">Feche o anúncio para iniciar a reprodução.</string>
+
     <string name="mxplayer_not_installed">MX Player não está instalado</string>
     <string name="mxplayer_not_installed_message">MX Player não está instalado nesse aparelho. Terrarium precisa do MX Player para reproduzir os videos. Clique em "Instalar" para instalar o MX Player.</string>
     <string name="mxplayer_unable_to_start">Não foi possível iniciar o MX Player</string>
     <string name="mxplayer_unable_to_start_message">Não foi possível iniciar o MX Player. Por favor re-instale e tente novamente.</string>
-    <string name="close_ad_to_play">Feche o anúncio para iniciar a reprodução.</string>
+
+    <string name="vlc_player_not_installed">VLC Player não está instalado</string>
+    <string name="vlc_player_not_installed_message">VLC Player não está instalado nesse aparelho. Terrarium precisa do VLC Player para reproduzir os videos. Clique em "Instalar" para instalar o VLC Player.</string>
+    <string name="vlc_player_unable_to_start">Não foi possível iniciar o VLC Player</string>
+    <string name="vlc_player_unable_to_start_message">Não foi possível iniciar o VLC Player. Por favor re-instale e tente novamente.</string>
 
     <string name="trending">Tendências</string>
     <string name="most_popular">Mais populares</string>
