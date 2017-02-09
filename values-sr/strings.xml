@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Tradicionalni Kineski</string>
+    <string name="language_zh_cn">Pojednostavljeni Kineski</string>
+    <string name="language_en">Engleski</string>
+
+    <string name="action_settings">Postavke</string>
+
+    <string name="no_data">Bez podataka</string>
+    <string name="no_internet">Nema internet konekcije</string>
+    <string name="loading">Učitavanje</string>
+    <string name="loading_more">Učitaj više…</string>
+    <string name="action_search">Pretraži</string>
+    <string name="action_bookmark">Omiljeni</string>
+    <string name="action_add_to_bookmark">Dodaj u omiljene</string>
+    <string name="action_refresh">Osveži</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_reverse">Vrati</string>
+    <string name="action_set_watched">Označi kao odgledano</string>
+    <string name="action_remove_watched">Ukloni odgledano</string>
+    <string name="hint_tv_show_name">Naziv TV Serije</string>
+    <string name="hint_movie_name">Naziv Filma</string>
+    <string name="subtitle">Prevod</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="download_count">Broj Preuzimanja :</string>
+
+    <string name="season">Sezona %1$d</string>
+    <string name="episode">Epizoda %1$d</string>
+    <string name="season_episode">%1$s - Sezona %2$d Epizoda %3$d</string>
+    <string name="season_special">Specijal Sezone</string>
+    <string name="search_result_of">Rezultat pretrage od \"%s\"</string>
+    <string name="getting_subtitle">Dobijanje prevoda… Molim Vas sačekajte…</string>
+    <string name="downloading_subtitle_toast">Preuzimanje prevoda… Molim Vas sačekajte…</string>
+    <string name="ready_to_play_toast">Video će početi ubrzo…</string>
+    <string name="searching_media">Traženje…</string>
+    <string name="subtitle_language">Jezik prevoda : </string>
+    <string name="subtitle_download_failed">Greška u preuzimanju prevoda… Molim Vas probajte drugi prevod…</string>
+    <string name="subtitle_extract_failed">Greška u izdvajanju prevoda… Molim Vas probajte drugi prevod…</string>
+    <string name="permission_grant_toast">Molim Vas pritisnite \"Dozvoli\" da dobijem dozvolu i pokušam ponovo</string>
+    <string name="sorry">Izvinite…</string>
+    <string name="cant_be_opened_by_other_players">Ovaj izvor ne može biti otvoren niti pustan na drugim video plejerima. Izvinite zbog neprijatnosti..</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Otkazati</string>
+    <string name="close">Izaći</string>
+    <string name="install">Instalirati</string>
+    <string name="mxplayer_not_installed">MX Player nije instaliran</string>
+    <string name="mxplayer_not_installed_message">MX Player nije instaliran na tvoj uređaj. Terrarium-u je potreban MX Player da bi pustao medije. Pritisni "Instalirati" da bi instalirao MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player nije moguće pokrenuti</string>
+    <string name="mxplayer_unable_to_start_message">MX Player nije moguće pokrenuti. Molim Vas instalirajte ga ponovo i probajte pokrenuti.</string>
+    <string name="close_ad_to_play">Zatvorite oglas prvo kako bi pustali video</string>
+
+    <string name="trending">U trendu</string>
+    <string name="most_popular">Najpopularnije</string>
+    <string name="most_played">Najviše pustano</string>
+    <string name="most_watched">Najgledanije</string>
+    <string name="recently_updated">Nedavno ažurirano</string>
+    <string name="new_shows">Nove Serije</string>
+    <string name="premieres">Premijere</string>
+    <string name="on_the_air">Emituje se danas</string>
+    <string name="top_rated">Najviše ocenjeno</string>
+    <string name="now_playing">U Kinima</string>
+
+    <string name="genre_tv_action_adventure">Akcija &amp; Avantura</string>
+    <string name="genre_tv_sci_fantasy">Naučna Fantastika &amp; Fantazija</string>
+    <string name="genre_tv_mystery">Misterija</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komedija</string>
+    <string name="genre_tv_family">Porodični</string>
+    <string name="genre_tv_war_politics">Ratni &amp; Politički</string>
+    <string name="genre_tv_reality">Reality emisije</string>
+    <string name="genre_tv_documentary">Documentarci</string>
+    <string name="genre_tv_animation">Animacije</string>
+
+    <string name="genre_movie_action">Akcija</string>
+    <string name="genre_movie_adventure">Avantura</string>
+    <string name="genre_movie_thriller">Triler</string>
+    <string name="genre_movie_sci">Naučna Fantastika</string>
+    <string name="genre_movie_fantasy">Fantazija</string>
+    <string name="genre_movie_mystery">Misterija</string>
+    <string name="genre_movie_horror">Horor</string>
+    <string name="genre_movie_crime">Krimi</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romansa</string>
+    <string name="genre_movie_comedy">Komedija</string>
+    <string name="genre_movie_family">Porodični</string>
+    <string name="genre_movie_animation">Animacija</string>
+    <string name="genre_movie_history">Istorijski</string>
+    <string name="genre_movie_war">Ratni</string>
+    <string name="genre_movie_documentary">Dokumentarac</string>
+    <string name="genre_movie_music">Muzički</string>
+
+    <string name="pref_general">Opšte</string>
+    <string name="pref_ui">Korisnički interfejs</string>
+    <string name="pref_sources_and_resolvers">Provajderi i Resolveri</string>
+    <string name="pref_subtitle">Jezik prevoda na OpenSubtitles i Subscene</string>
+    <string name="pref_subtitle_chin">Jezik prevoda na SubHD, Makedie i Zimuku</string>
+    <string name="pref_others">Drugi</string>
+
+    <string name="pref_sub_down_path">Putanja za preuzimanje prevoda</string>
+    <string name="pref_sub_down_path_des">Prevodi će se preuzimati i sačuvati u ovu putanju.</string>
+    <string name="pref_media_down_path">Putanja za preuzimanje medija (Jedino za Android Internal Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Izaberite podrazumevani Download Manager…</string>
+    <string name="pref_auto_check_update">Potraži Ažuriranja Automatski</string>
+    <string name="pref_filter_out_non_english_shows">Filtriraj ne-Engleski TV Serije</string>
+    <string name="pref_filter_out_dead_sources">Filtriraj mrtve izvore</string>
+    <string name="pref_filter_out_dead_sources_desc">Prouzrokovaće vremenski dodatno učitavanje</string>
+    <string name="pref_hide_unaired_season">Sakrij ne-emitovanu sezonu</string>
+    <string name="pref_hide_unaired_episode">Sakrij ne-emitovanu epizodu</string>
+    <string name="pref_subtitles_filter">Filtriraj neodgovarajuće prevode</string>
+    <string name="pref_subtitles_choose_lang">Izaberi jezike prevoda…</string>
+    <string name="pref_hide_season_image">Sakrij sličice sezona</string>
+    <string name="pref_hide_episode_image">Sakrij sličice epizoda</string>
+    <string name="pref_show_menu_source">Prikaži meni sadržaja jednim klikom u listi izvora</string>
+    <string name="pref_poster_size">Veličina postera</string>
+    <string name="pref_parallel_loading_sources">Učitavanje paralelnih izvora</string>
+    <string name="pref_parallel_loading_sources_desc">Predlažem da se omogući. Ubrzaj učitavanje izvora za 5x. Ovo će možda zaustaviti rad aplikacije na starijim uređajima.</string>
+    <string name="pref_choose_default_nav">Izaberite podrazumevanu navigaciju…</string>
+    <string name="pref_choose_default_category_tv_shows">Izaberite podrazumevanu kategoriju ili žanr TV Serija…</string>
+    <string name="pref_choose_default_category_movies">Izaberite podrazumevanu kategoriju ili žanr Filmova…</string>
+    <string name="pref_enabled_tv_shows_providers">Izaberite koji će provajderi biti uključeni za TV Serije…</string>
+    <string name="pref_enabled_movies_providers">Izaberite koji će provajderi biti uključeni za Filmove…</string>
+    <string name="pref_enabled_resolvers">Izaberite koji će resolveri biti uključeni…</string>
+    <string name="pref_modern_ui">Koristi moderni UI</string>
+    <string name="pref_modern_ui_desc">Prikaži postere za medije umesto banera</string>
+    <string name="pref_choose_default_play_action">Izaberi podrazumevano pustanje medija…</string>
+    <string name="restart_to_see_the_difference">Molim Vas restartujte Terrarium TV da bi videli razliku.</string>
+
+    <string name="download_manager_internal">Android Unutrašnji Manadzeri za preuzimanje</string>
+    <string name="download_manager_external">Spoljašnji manadzeri za preuzimanje</string>
+
+    <string name="action_play">Počni</string>
+    <string name="action_play_without_subtitle">Pusti bez prevoda</string>
+    <string name="action_download">Preuzmi</string>
+    <string name="action_download_with_sub">Preuzmi sa prevodom</string>
+    <string name="action_copy_link">Kopiraj link za strimovanje</string>
+    <string name="action_play_via_other_players">Otvori sa…</string>
+    <string name="choose_player">Izaberi video player…</string>
+    <string name="no_player_was_found">Video player nije pronađen</string>
+    <string name="choose_external_download_manager">Izaberi spoljašnji menadžer za preuzimanje…</string>
+    <string name="no_external_download_manager_was_found">Spoljašnji menadžer za preuzimanje nije pronađen. Molim Vas preuzmite ga sa Play Store-a ili koristi Android Unutrašnji Menadžer za preuzimanja</string>
+    <string name="download_started">Preuzimanje je počelo…</string>
+    <string name="download_path_error">Putanja za preuzimanje mora biti u unutrašnjoj memoriji. Molim Vas izaberite drugu putanju.</string>
+    <string name="copied_link">Link za strimovanje je kopiran</string>
+    <string name="link_must_be_played_in_app">Izvinte… Ovaj link moze biti pustan samo u Terrarium TV…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player neočekivano prestao da radi. Molim Vas koristite drugi video player da bi pustali video.</string>
+
+    <string name="update_title">Pronađena je nova verzija : %s</string>
+    <string name="update_message">Verzija %s : </string>
+    <string name="update_button">Ažuriraj</string>
+    <string name="update_downloading">Preuzimanje ažuriranja %s</string>
+    <string name="update_failed">Ažuriranje nije uspelo ili je prekinuto</string>
+
+    <string name="subtitle_name">Ime Prevoda : </string>
+
+    <string name="facebook_page">Facebook Stranica</string>
+
+    <string name="changelog">Dnevnik Izmena</string>
+    <string name="choose_browser">Izaberi Pretraživač</string>
+
+    <string name="disclaimer">Izjava o odgovornosti</string>
+    <string name="accept">Prihvati</string>
+    <string name="decline">Odbij</string>
+
+    <string name="error">Nepoznata greška. Molim Vas pokušajte ponovo.</string>
+    <string name="please_wait">Molim Vas sačekajte…</string>
+
+    <string name="recaptcha_verify">Moraš da verifikuješ reCaptcha da bi dobio izvor sa %s</string>
+    <string name="verify">Verifikuj</string>
+
+    <string name="size_large">Veliko</string>
+    <string name="size_normal">Normalno</string>
+    <string name="size_small">Malo</string>
+
+    <string name="show_details_overview">PREGLED</string>
+    <string name="show_details_season">SEZONA</string>
+    <string name="media_suggestion">Vidi još</string>
+    <string name="no_synopsis">Nema sadržaja</string>
+    <string name="loading_ratings">Učitavanje ocena…</string>
+    <string name="no_ratings">Nema ocena</string>
+    <string name="meta_in_production">U Proizvodnji</string>
+    <string name="meta_returning_series">Povratak Serija</string>
+    <string name="meta_ended">Završeno</string>
+
+    <string name="navigation_drawer_open">Otvori navigacioni crtač</string>
+    <string name="navigation_drawer_close">Zatvori navigacioni crtač</string>
+
+    <string name="tv_shows">TV Serije</string>
+    <string name="movies">Filmovi</string>
+
+    <string name="play_trailer">Pusti Trailer</string>
+
+    <string name="translators">Prevodioci</string>
+
+    <string name="pref_app_lang">Jezik Aplikacije</string>
+
+    <string name="learn_more">Saznaj Više</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website">http://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
