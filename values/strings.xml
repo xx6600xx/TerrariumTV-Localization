@@ -28,7 +28,7 @@
     <string name="episode">Episode %1$d</string>
     <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
     <string name="season_special">Season Special</string>
-    <string name="search_result_of">Search result of \"%s\"</string>
+    <string name="search_result_of">Search results of \"%s\"</string>
     <string name="getting_subtitle">Getting subtitles… Please wait…</string>
     <string name="downloading_subtitle_toast">Downloading subtitles… Please wait…</string>
     <string name="ready_to_play_toast">The video will be started in a second…</string>
@@ -44,11 +44,17 @@
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
     <string name="install">Install</string>
+    <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
+
     <string name="mxplayer_not_installed">MX Player Not Installed</string>
-    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium needs MX Player to play medias. Click "Install" to install MX Player.</string>
+    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium TV needs MX Player to play medias. Click "Install" to install MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
     <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
-    <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
+
+    <string name="vlc_player_not_installed">VLC Player Not Installed</string>
+    <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play medias. Click "Install" to install VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Most Popular</string>
@@ -90,6 +96,8 @@
     <string name="genre_movie_documentary">Documentary</string>
     <string name="genre_movie_music">Music</string>
 
+    <string name="filter_year">Year</string>
+
     <string name="pref_general">General</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
@@ -124,6 +132,9 @@
     <string name="pref_modern_ui">Use modern UI</string>
     <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
     <string name="pref_choose_default_play_action">Choose default play action…</string>
+    <string name="pref_force_tv_mode">Force Android TV mode</string>
+    <string name="pref_force_tv_mode_desc">Display Android TV layout forcibly</string>
+    <string name="pref_choose_default_player">Choose default video player…</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
@@ -143,7 +154,8 @@
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
     <string name="copied_link">Copied streamable link</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
-    <string name="mxplayer_crashed_unexpectedly">MX Player crashed unexpectedly. Please try to use another video player to play the video.</string>
+    <string name="video_player_crashed_unexpectedly">Player crashed unexpectedly. Please try to use another video player to play the video.</string>
+    <string name="choose_subtitles_file">Choose a subtitles file…</string>
 
     <string name="update_title">New version found : %s</string>
     <string name="update_message">Version %s : </string>
