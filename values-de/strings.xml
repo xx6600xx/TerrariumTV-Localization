@@ -56,16 +56,16 @@
     <string name="vlc_player_unable_to_start">VLC Player öffnet sich nicht</string>
     <string name="vlc_player_unable_to_start_message">VLC Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
 
-    <string name="trending">Aufsteigend</string>
-    <string name="most_popular">Größte Beliebtheit</string>
-    <string name="most_played">Am meisten abgespielt</string>
-    <string name="most_watched">Am meisten angesehen</string>
-    <string name="recently_updated">Kürzlich aktualisiert</string>
-    <string name="new_shows">Neue Serien</string>
+    <string name="trending">Im Trend</string>
+    <string name="most_popular">Beliebt</string>
+    <string name="most_played">Meist gespielt</string>
+    <string name="most_watched">Meist gesehen</string>
+    <string name="recently_updated">Aktualisiert</string>
+    <string name="new_shows">Brandneu</string>
     <string name="premieres">Premieren</string>
-    <string name="on_the_air">Momentan am laufen</string>
-    <string name="top_rated">Am besten bewertet</string>
-    <string name="now_playing">Aktuell im Kino</string>
+    <string name="on_the_air">Laufend</string>
+    <string name="top_rated">Bestbewertet</string>
+    <string name="now_playing">Im Kino</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
     <string name="genre_tv_sci_fantasy">Science-Fiction &amp; Fantasy</string>
@@ -117,7 +117,7 @@
     <string name="pref_subtitles_choose_lang">Wähle Untertitelsprache(n)…</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
-    <string name="pref_show_menu_source">Zeige Menü nach tap auf Quellenliste</string>
+    <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
     <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um das Fünffache. Könnte auf bestimmten Geräten Fehler verursachen.</string>
@@ -144,7 +144,7 @@
     <string name="choose_player">Einen Video Player wählen…</string>
     <string name="no_player_was_found">Kein Video Player gefunden</string>
     <string name="choose_external_download_manager">Wähle einen externen Download Manager…</string>
-    <string name="no_external_download_manager_was_found">Keinen externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Download Manager</string>
+    <string name="no_external_download_manager_was_found">Kein externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Download Manager</string>
     <string name="download_started">Download gestartet…</string>
     <string name="download_path_error">Speicherort muss im internen Speicher liegen. Bitte wählen einen anderen Pfad.</string>
     <string name="copied_link">Link zum Stream kopiert</string>
@@ -161,10 +161,10 @@
 
     <string name="facebook_page">Facebook Page</string>
 
-    <string name="changelog">Änderungsprotokoll</string>
+    <string name="changelog">Änderungen</string>
     <string name="choose_browser">Browser wählen</string>
 
-    <string name="disclaimer">Haftungsauschluss</string>
+    <string name="disclaimer">Haftungsausschluss</string>
     <string name="accept">Akzeptieren</string>
     <string name="decline">Ablehnen</string>
 
@@ -185,7 +185,7 @@
     <string name="loading_ratings">Bewertungen werden geladen…</string>
     <string name="no_ratings">Keine Bewertungen</string>
     <string name="meta_in_production">Wird gedreht</string>
-    <string name="meta_returning_series">Wiederkehrende Serien</string>
+    <string name="meta_returning_series">Nicht abgeschlossen</string>
     <string name="meta_ended">Abgeschlossen</string>
 
     <string name="navigation_drawer_open">Navigation öffnen</string>
