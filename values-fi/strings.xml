@@ -115,7 +115,7 @@
     <string name="pref_subtitles_filter">Suodata täsmäämättömät tekstitykset</string>
     <string name="pref_subtitles_choose_lang">Valitse tekstitysten kieli/kielet…</string>
     <string name="pref_hide_season_image">Piilota kausien esikatselukuvat</string>
-    <string name="pref_hide_episode_image">Piilota jaksojen esikatsekuvat</string>
+    <string name="pref_hide_episode_image">Piilota jaksojen esikatselukuvat</string>
     <string name="pref_show_menu_source">Näytä kontekstivalikko yhdellä painalluksella lähdelistassa</string>
     <string name="pref_poster_size">Mediajulisteen koko</string>
     <string name="pref_parallel_loading_sources">Rinnakkaisten lähteiden lataaminen</string>
@@ -123,9 +123,9 @@
     <string name="pref_choose_default_nav">Valitse aloitussivu…</string>
     <string name="pref_choose_default_category_tv_shows">Valitse oletuskategoria tai -genre TV-sarjoille…</string>
     <string name="pref_choose_default_category_movies">Valitse oletuskategoria tai -genre elokuville…</string>
-    <string name="pref_enabled_tv_shows_providers">Valitse TV-sarjojen tarjoajat, jotka sallitaan…</string>
-    <string name="pref_enabled_movies_providers">Valitse elokuvien tarjoajat, jotka sallitaan…</string>
-    <string name="pref_enabled_resolvers">Valitse osoitteiden selvittäjät, jotka sallitaan…</string>
+    <string name="pref_enabled_tv_shows_providers">Valitse sallitut TV-sarjojen tarjoajat…</string>
+    <string name="pref_enabled_movies_providers">Valitse sallitut elokuvien tarjoajat…</string>
+    <string name="pref_enabled_resolvers">Valitse sallitut osoitteiden selvittäjät…</string>
     <string name="pref_modern_ui">Käytä modernia käyttöliittymää</string>
     <string name="pref_modern_ui_desc">Näytä mediajulisteet bannereiden sijaan</string>
     <string name="pref_choose_default_play_action">Valitse oletus play-painikkeen toiminta…</string>
@@ -147,7 +147,7 @@
     <string name="download_started">Lataus aloitettu…</string>
     <string name="download_path_error">Latauspolku täytyy olla sisäisellä muistilla. Valitse toinen polku.</string>
     <string name="copied_link">Streamattava linkki kopioitu</string>
-    <string name="link_must_be_played_in_app">Pahoittelut… Tämä linkki voidaan katsoa vain Terranium TV:ssä…</string>
+    <string name="link_must_be_played_in_app">Pahoittelut… Tämä linkki voidaan katsoa vain Terrarium TV:ssä…</string>
 
     <string name="update_title">Uusi versio löydetty : %s</string>
     <string name="update_message">Versio %s : </string>
@@ -191,14 +191,13 @@
 
     <string name="tv_shows">TV-sarjat</string>
     <string name="movies">Elokuvat</string>
-
     <string name="play_trailer">Katso traileri</string>
 
     <string name="translators">Kääntäjät</string>
 
     <string name="pref_app_lang">Sovelluksen kieli</string>
 
-    <string name="learn_more">Learn More</string>
+    <string name="learn_more">Lisätietoa</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
