@@ -32,7 +32,7 @@
     <string name="getting_subtitle">उपशीर्षक की खोज हो रही है… कृपया प्रतीक्षा करें…</string>
     <string name="downloading_subtitle_toast">उपशीर्षक डाउनलोड हो रहे है… कृपया प्रतीक्षा करें…</string>
     <string name="ready_to_play_toast">वीडियो जल्द ही शुरू होगा…</string>
-    <string name="searching_media">खोज चल रही है...</string>
+    <string name="searching_media">खोज चल रही हैै…</string>
     <string name="subtitle_language">उपशीर्षक भाषा : </string>
     <string name="subtitle_download_failed">उपशीर्षक डाउनलोड असफल… कोई और उपशीर्षक प्रयास करें…</string>
     <string name="subtitle_extract_failed">उपशीर्षक निकालना असफल रहा… कोई और उपशीर्षक प्रयास करें…</string>
