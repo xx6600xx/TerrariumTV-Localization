@@ -135,6 +135,8 @@
     <string name="pref_force_tv_mode">Force Android TV mode</string>
     <string name="pref_force_tv_mode_desc">Display Android TV layout forcibly</string>
     <string name="pref_choose_default_player">Choose default video player…</string>
+    <string name="pref_show_hd_sources_only">Show HD links only</string>
+    <string name="pref_show_season_special">Show season special</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>

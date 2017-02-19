@@ -135,6 +135,8 @@
     <string name="pref_force_tv_mode">強制使用 Android TV 模式</string>
     <string name="pref_force_tv_mode_desc">強制顯示 Android TV 介面</string>
     <string name="pref_choose_default_player">選擇預設影片播放器…</string>
+    <string name="pref_show_hd_sources_only">只顯示高清片源</string>
+    <string name="pref_show_season_special">顯示特別季度</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
 
     <string name="download_manager_internal">Android 內置下載管理員</string>

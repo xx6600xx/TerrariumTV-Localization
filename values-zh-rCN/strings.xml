@@ -132,6 +132,8 @@
     <string name="pref_modern_ui">使用新 UI</string>
     <string name="pref_modern_ui_desc">显示剧集海报取代剧集横幅</string>
     <string name="pref_choose_default_play_action">选择默认播放选项…</string>
+    <string name="pref_show_hd_sources_only">只显示高清片源</string>
+    <string name="pref_show_season_special">显示特别季度</string>
     <string name="restart_to_see_the_difference">请立即重开 Terrarium 影视 来查看效果</string>
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
