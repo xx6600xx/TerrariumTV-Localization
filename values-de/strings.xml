@@ -27,7 +27,7 @@
     <string name="season">Staffel %1$d</string>
     <string name="episode">Episode %1$d</string>
     <string name="season_episode">%1$s - Staffel %2$d Episode %3$d</string>
-    <string name="season_special">Staffel Special</string>
+    <string name="season_special">Staffelspezial</string>
     <string name="search_result_of">Suchergebnisse für \"%s\"</string>
     <string name="getting_subtitle">Suche Untertitel… Bitte warten…</string>
     <string name="downloading_subtitle_toast">Lade Untertitel… Bitte warten…</string>
@@ -68,7 +68,7 @@
     <string name="now_playing">Im Kino</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
-    <string name="genre_tv_sci_fantasy">Science-Fiction &amp; Fantasy</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
     <string name="genre_tv_mystery">Mystery</string>
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komödie</string>
@@ -130,6 +130,11 @@
     <string name="pref_modern_ui">Moderne Oberfläche benutzen</string>
     <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
     <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
+    <string name="pref_force_tv_mode">Benutze Android TV Modus</string>
+    <string name="pref_force_tv_mode_desc">Forciert die Darstellung der App im Android TV Layout</string>
+    <string name="pref_choose_default_player">Standard video player wählen…</string>
+    <string name="pref_show_hd_sources_only">Nur HD links anzeigen</string>
+    <string name="pref_show_season_special">Staffelspezial zeigen</string>
     <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
@@ -201,11 +206,4 @@
     <string name="pref_app_lang">Sprache</string>
 
     <string name="learn_more">Mehr erfahren</string>
-
-    <!-- DO NOT EDIT THE STRINGS BELOW -->
-    <string name="app_name">Terrarium TV</string>
-    <string name="about_app_title">About Terrarium TV</string>
-    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
-    <string name="official_website">http://terrariumtv.com</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
