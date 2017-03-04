@@ -99,6 +99,7 @@
     <string name="filter_year">年份</string>
 
     <string name="pref_general">一般設定</string>
+    <string name="pref_performance">性能</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
@@ -117,6 +118,7 @@
     <string name="pref_hide_unaired_episode">隱藏未推出集數</string>
     <string name="pref_subtitles_filter">過濾不吻合字幕</string>
     <string name="pref_subtitles_choose_lang">選擇字幕語言…</string>
+    <string name="pref_synopsis_choose_lang">選擇摘要語言…</string>
     <string name="pref_hide_season_image">隱藏季度圖片</string>
     <string name="pref_hide_episode_image">隱藏集數圖片</string>
     <string name="pref_show_menu_source">片源列表單擊顯示選單</string>
@@ -137,6 +139,16 @@
     <string name="pref_choose_default_player">選擇預設影片播放器…</string>
     <string name="pref_show_hd_sources_only">只顯示高清片源</string>
     <string name="pref_show_season_special">顯示特別季度</string>
+    <string name="pref_backup_settings">備份設定</string>
+    <string name="pref_restore_settings">還原設定</string>
+    <string name="backup_settings_path">備份設定到 %s</string>
+    <string name="restore_settings_path">從 %s 還原設定</string>
+    <string name="backup_settings_success">備份設定成功!</string>
+    <string name="restore_settings_success">還原設定成功!</string>
+    <string name="failed_to_backup_settings">備份設定失敗</string>
+    <string name="failed_to_restore_settings">還原設定失敗</string>
+    <string name="pref_resolve_all_links_immediately">立即解析連結</string>
+    <string name="pref_resolve_all_links_immediately_desc">立即把連結解析成可播放的連結。關閉此選項後，Terrarium 影視 只有在當你按下連結的時候才會解析該連結。 (Terrarium 影視 運行不順暢時請關閉此選項！)</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
 
     <string name="download_manager_internal">Android 內置下載管理員</string>
@@ -209,6 +221,26 @@
     <string name="pref_app_lang">App 語言</string>
 
     <string name="learn_more">了解更多</string>
+
+    <string name="resolving">正在解析</string>
+    <string name="resolving_links">解析連結中…</string>
+    <string name="failed_to_resolve_link">連結解析失敗，請嘗試另一條連結</string>
+    <string name="no_streamlink_is_available">對不起… 暫時沒有能夠播放的串流連結…</string>
+    <string name="link_cant_be_resolved">對不起… 無法解析此連結…</string>
+
+    <string name="low_end_device_detected">偵測到正在使用低階裝置</string>
+    <string name="resolve_all_links_immediately_disabled">偵測到你正在使用低階裝置運行 Terrarium 影視。為了提升效能和用戶體驗，\"立即解析連結\"功能已被關閉。雖然部分連結的檔案大小會被隱藏，但 Terrarium 影視 將不會再崩潰和變得卡頓。如果你希望看到所有連結的檔案大小，你可以到\"設定\"頁面中重新啟用此功能。</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影視 發生了未知錯誤並崩潰，已回報此問題。\n\n如此問題持續發生，請調整 \"設定\" 頁面中的 \"效能\" 設置。</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">未知錯誤</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新開啟 Terrarium 影視</string>
+    <string name="customactivityoncrash_error_activity_close_app">關閉 Terrarium 影視</string>
+    <string name="customactivityoncrash_error_activity_error_details">詳細資料</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">詳細資料</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">關閉</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">複製到剪貼簿</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已複製到剪貼簿</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">錯誤資訊</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影視</string>

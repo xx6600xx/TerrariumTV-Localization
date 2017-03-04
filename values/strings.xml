@@ -99,6 +99,7 @@
     <string name="filter_year">Year</string>
 
     <string name="pref_general">General</string>
+    <string name="pref_performance">Performance</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
@@ -117,6 +118,7 @@
     <string name="pref_hide_unaired_episode">Hide unaired episode</string>
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
     <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
+    <string name="pref_synopsis_choose_lang">Choose synopsis language…</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
     <string name="pref_hide_episode_image">Hide episode thumbnails</string>
     <string name="pref_show_menu_source">Show context menu on single click in source list</string>
@@ -137,6 +139,16 @@
     <string name="pref_choose_default_player">Choose default video player…</string>
     <string name="pref_show_hd_sources_only">Show HD links only</string>
     <string name="pref_show_season_special">Show season special</string>
+    <string name="pref_backup_settings">Backup settings</string>
+    <string name="pref_restore_settings">Restore settings</string>
+    <string name="backup_settings_path">Backup settings to \"%s\"</string>
+    <string name="restore_settings_path">Restore settings from \"%s\"</string>
+    <string name="backup_settings_success">Successfully backed up settings!</string>
+    <string name="restore_settings_success">Successfully restored settings!</string>
+    <string name="failed_to_backup_settings">Failed to backup settings</string>
+    <string name="failed_to_restore_settings">Failed to restore settings</string>
+    <string name="pref_resolve_all_links_immediately">Resolve all links immediately</string>
+    <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
@@ -209,6 +221,26 @@
     <string name="pref_app_lang">App Language</string>
 
     <string name="learn_more">Learn More</string>
+
+    <string name="resolving">Resolving</string>
+    <string name="resolving_links">Resolving links…</string>
+    <string name="failed_to_resolve_link">Failed to resolve this link. Please try another link instead.</string>
+    <string name="no_streamlink_is_available">Sorry… No stream link is available now…</string>
+    <string name="link_cant_be_resolved">Sorry… This link can\'t be resolved…</string>
+
+    <string name="low_end_device_detected">Low-end device detected</string>
+    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" feature is disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable that option.</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name" translatable="false">Terrarium TV</string>
