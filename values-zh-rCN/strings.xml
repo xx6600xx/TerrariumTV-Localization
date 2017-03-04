@@ -33,7 +33,7 @@
     <string name="downloading_subtitle_toast">字幕下载中… 请稍候…</string>
     <string name="ready_to_play_toast">即将开始播放…</string>
     <string name="searching_media">搜索中…</string>
-    <string name="subtitle_language">字幕语言 : </string>
+    <string name="subtitle_language">字幕语言 :</string>
     <string name="subtitle_download_failed">字幕下载失败… 请尝试另一个字幕…</string>
     <string name="subtitle_extract_failed">字幕解压失败… 请尝试另一个字幕…</string>
     <string name="permission_grant_toast">请在允许权限后再试一次</string>
@@ -99,6 +99,7 @@
     <string name="filter_year">年份</string>
 
     <string name="pref_general">一般设置</string>
+    <string name="pref_performance">性能</string>
     <string name="pref_ui">用户界面</string>
     <string name="pref_sources_and_resolvers">片源与连接解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕语言</string>
@@ -117,6 +118,7 @@
     <string name="pref_hide_unaired_episode">隐藏未推出集数</string>
     <string name="pref_subtitles_filter">过滤不匹配字幕</string>
     <string name="pref_subtitles_choose_lang">选择字幕语言…</string>
+    <string name="pref_synopsis_choose_lang">选择摘要语言…</string>
     <string name="pref_hide_season_image">隐藏季度图片</string>
     <string name="pref_hide_episode_image">隐藏集数图片</string>
     <string name="pref_show_menu_source">片源列表单击显示菜单</string>
@@ -132,8 +134,21 @@
     <string name="pref_modern_ui">使用新 UI</string>
     <string name="pref_modern_ui_desc">显示剧集海报取代剧集横幅</string>
     <string name="pref_choose_default_play_action">选择默认播放选项…</string>
+    <string name="pref_force_tv_mode">强制使用 Android TV 模式</string>
+    <string name="pref_force_tv_mode_desc">强制显示 Android TV 界面</string>
+    <string name="pref_choose_default_player">选择预设播放器…</string>
     <string name="pref_show_hd_sources_only">只显示高清片源</string>
     <string name="pref_show_season_special">显示特别季度</string>
+    <string name="pref_backup_settings">备份设置</string>
+    <string name="pref_restore_settings">还原设置</string>
+    <string name="backup_settings_path">备份设置到 %s</string>
+    <string name="restore_settings_path">从 %s 还原设置</string>
+    <string name="backup_settings_success">备份设置成功!</string>
+    <string name="restore_settings_success">还原设置成功!</string>
+    <string name="failed_to_backup_settings">备份设置失败!</string>
+    <string name="failed_to_restore_settings">还原设置失败!</string>
+    <string name="pref_resolve_all_links_immediately">立即解析链接</string>
+    <string name="pref_resolve_all_links_immediately_desc">立即把链接解析成可播放的链接。关闭此选项后，Terrarium 影视 只有在你按下链接的时候才会解析该链接。 (Terrarium 影视 运行不流畅时请关闭此选项！)</string>
     <string name="restart_to_see_the_difference">请立即重开 Terrarium 影视 来查看效果</string>
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
@@ -154,14 +169,15 @@
     <string name="copied_link">已复制流媒体链接到剪贴板</string>
     <string name="link_must_be_played_in_app">很抱歉… 这流媒体链接只能在 Terrarium 影视 播放…</string>
     <string name="video_player_crashed_unexpectedly">播放器意外地崩溃，请使用其他播放器来播放这个视频</string>
+    <string name="choose_subtitles_file">请选择一个字幕文件…</string>
 
     <string name="update_title">发现新版本 : %s</string>
-    <string name="update_message">版本 %s : </string>
+    <string name="update_message">版本 %s :</string>
     <string name="update_button">更新</string>
     <string name="update_downloading">下载 %s 更新中</string>
     <string name="update_failed">更新失败或停止</string>
 
-    <string name="subtitle_name">字幕名称 : </string>
+    <string name="subtitle_name">字幕名称 :</string>
 
     <string name="facebook_page">Facebook 页面</string>
 
@@ -206,10 +222,30 @@
 
     <string name="learn_more">了解更多</string>
 
+    <string name="resolving">正在解析</string>
+    <string name="resolving_links">解析链接中…</string>
+    <string name="failed_to_resolve_link">链接解析失败，请尝试另一条链接</string>
+    <string name="no_streamlink_is_available">对不起… 暂时没有能够播放的流媒体链接…</string>
+    <string name="link_cant_be_resolved">对不起… 无法解析此链接…</string>
+
+    <string name="low_end_device_detected">检测到正在使用低配设备</string>
+    <string name="resolve_all_links_immediately_disabled">检测到你正在使用低配设备运行 Terrarium 影视。为了提升性能和用户体验，\"立即解析链接 \" 功能已被关闭。虽然部分链接的文件大小会被隐藏，但 Terrarium 影视 将不会再崩溃和卡顿。如果你希望看到所有链接的文件大小，你可以到 \"设置 \" 页面中重新启用此功能。</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影视 发生了未知错误并崩溃，已上报此问题。\n\n 如此问题持续发生，请调整 \"设置 \" 页面中的 \"性能 \" 设置。</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">未知错误</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新开启 Terrarium 影视</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭 Terrarium 影视</string>
+    <string name="customactivityoncrash_error_activity_error_details">详细错误</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">详细错误</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影视</string>
     <string name="about_app_title">关于 Terrarium 影视</string>
-    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : http://terrariumtv.com\n\n官方 Facebook 页面 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网路上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
+    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : http://terrariumtv.com\n\n官方 Facebook 页面 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
     <string name="official_website">http://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
