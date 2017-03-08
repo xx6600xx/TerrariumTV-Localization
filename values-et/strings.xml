@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditsiooniline hiina keel</string>
+    <string name="language_zh_cn">Lihtsustatud hiina keel</string>
+
+    <string name="action_settings">Seaded</string>
+
+    <string name="no_data">Andmed puuduvad</string>
+    <string name="no_internet">Internetiühendus puudub</string>
+    <string name="loading">Laadimine</string>
+    <string name="loading_more">Veel laadimist</string>
+    <string name="action_search">Otsing</string>
+    <string name="action_bookmark">Lemmikud</string>
+    <string name="action_add_to_bookmark">Lisa lemmikutesse</string>
+    <string name="action_refresh">Värskenda</string>
+    <string name="action_stop">Peata</string>
+    <string name="action_set_watched">Märgi vaadatuks</string>
+    <string name="action_remove_watched">Eemalda vaadatutest</string>
+    <string name="hint_tv_show_name">Saate nimi</string>
+    <string name="hint_movie_name">Filmi nimi</string>
+    <string name="subtitle">Subtiitrid</string>
+    <string name="unknown">Tundmatu</string>
+    <string name="download_count">Allalaadimiste arv :</string>
+
+    <string name="season">Hooaeg %1$d</string>
+    <string name="episode">Episood %1$d</string>
+    <string name="season_episode">%1$s - Hooaeg %2$d Episood %3$d</string>
+    <string name="season_special">Hooaja eri</string>
+    <string name="search_result_of">Otsingu tulemused \"%s\"</string>
+    <string name="getting_subtitle">Hangin subtiitreid… Palun oodake…</string>
+    <string name="downloading_subtitle_toast">Laen subtiitreid… Palun oodake…</string>
+    <string name="ready_to_play_toast">Video algab varsti…</string>
+    <string name="searching_media">Otsin…</string>
+    <string name="subtitle_language">Subtiitrite keel : </string>
+    <string name="subtitle_download_failed">Subtiitrite hankimine ebaõnnestus… Palun proovige teisi subtiitreid…</string>
+    <string name="permission_grant_toast">Palun vajutage \"Luba\" ja proovige uuesti</string>
+    <string name="sorry">Vabandust…</string>
+
+    <string name="ok">Okei</string>
+    <string name="cancel">Tühista</string>
+    <string name="close">Sulge</string>
+    <string name="install">Paigalda</string>
+    <string name="close_ad_to_play">Palun sulgege reklaam, et vaadata videot</string>
+
+    <string name="mxplayer_not_installed">MX Player ei ole paigaldatud</string>
+    <string name="mxplayer_not_installed_message">MX Player ei ole paigaldatud. Terrarium TV vajab MX Player'it, et mängida meediat. Vajutage "Paigalda", et paigaldada MX Player.</string>
+
+    <string name="vlc_player_not_installed">VLC Player ei ole paigaldatud</string>
+    <string name="vlc_player_not_installed_message">VLC Player ei ole paigaldatud. Terrarium TV vajab VLC Player'it, et mängida meediat. Vajutage "Paigalda", et paigaldada VLC Player.</string>
+
+    <string name="trending">Trendikas</string>
+    <string name="most_popular">Kõige populaarsem</string>
+    <string name="most_played">Enim mängitud</string>
+    <string name="most_watched">Enim vaadatud</string>
+    <string name="recently_updated">Hiljuti uuendatud</string>
+    <string name="new_shows">Uued saated</string>
+    <string name="premieres">Esilinastused</string>
+    <string name="on_the_air">Täna eetris</string>
+    <string name="top_rated">Kõrge hinnanguga</string>
+    <string name="now_playing">Praegu kinodes</string>
+
+    <string name="genre_tv_action_adventure">Action &amp; Seiklus</string>
+    <string name="genre_tv_sci_fantasy">Ulmefilm &amp; Fantaasia</string>
+    <string name="genre_tv_mystery">Müsteerium</string>
+    <string name="genre_tv_drama">Draama</string>
+    <string name="genre_tv_comedy">Komöödia</string>
+    <string name="genre_tv_family">Kogupere</string>
+    <string name="genre_tv_war_politics">Sõda &amp; Poliitika</string>
+    <string name="genre_tv_reality">Tõsielu</string>
+    <string name="genre_tv_documentary">Dokumentaal</string>
+    <string name="genre_tv_animation">Animatsioon</string>
+
+    <string name="genre_movie_action">Action</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Ulme</string>
+    <string name="genre_movie_fantasy">Fantaasia</string>
+    <string name="genre_movie_mystery">Müsteerium</string>
+    <string name="genre_movie_horror">Õudus</string>
+    <string name="genre_movie_crime">Krimi</string>
+    <string name="genre_movie_drama">Draama</string>
+    <string name="genre_movie_romance">Romantika</string>
+    <string name="genre_movie_comedy">Komöödia</string>
+    <string name="genre_movie_family">Kogupere</string>
+    <string name="genre_movie_history">Ajalooline</string>
+    <string name="genre_movie_war">Sõda</string>
+    <string name="genre_movie_documentary">Dokumnetaal</string>
+    <string name="genre_movie_music">Muusika</string>
+
+    <string name="filter_year">Aasta</string>
+
+    <string name="pref_general">Üldine</string>
+    <string name="pref_performance">Kiirus</string>
+    <string name="pref_ui">Kasutajaliides</string>
+    <string name="pref_sources_and_resolvers">Pakkujad ja Lahendajad</string>
+    <string name="pref_subtitle">OpenSubtitles ja Subscene subtiitrite keel</string>
+    <string name="pref_subtitle_chin">SubHD, Makedie ja Zimuku subtiitrite keel</string>
+    <string name="pref_others">Muu</string>
+
+    <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 5x. However it may causes FC or crash on some low spec devices.</string>
+
+    <string name="download_manager_internal">Android Internal Download Manager</string>
+
+    <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
+
+
+
+
+
+
+
+
+
+    <string name="meta_returning_series">Returning Series</string>
+
+
+
+
+
+
+
+
+
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name" translatable="false">Terrarium TV</string>
+    <string name="about_app_title" translatable="false">About Terrarium TV</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website" translatable="false">http://terrariumtv.com</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
