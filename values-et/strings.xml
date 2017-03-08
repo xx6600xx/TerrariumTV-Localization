@@ -2,6 +2,7 @@
 <resources>
     <string name="language_zh_tw">Traditsiooniline hiina keel</string>
     <string name="language_zh_cn">Lihtsustatud hiina keel</string>
+    <string name="language_en">Inglise keel</string>
 
     <string name="action_settings">Seaded</string>
 
@@ -14,6 +15,7 @@
     <string name="action_add_to_bookmark">Lisa lemmikutesse</string>
     <string name="action_refresh">Värskenda</string>
     <string name="action_stop">Peata</string>
+    <string name="action_reverse">Vastupidi</string>
     <string name="action_set_watched">Märgi vaadatuks</string>
     <string name="action_remove_watched">Eemalda vaadatutest</string>
     <string name="hint_tv_show_name">Saate nimi</string>
@@ -33,8 +35,10 @@
     <string name="searching_media">Otsin…</string>
     <string name="subtitle_language">Subtiitrite keel : </string>
     <string name="subtitle_download_failed">Subtiitrite hankimine ebaõnnestus… Palun proovige teisi subtiitreid…</string>
+    <string name="subtitle_extract_failed">Subtiitrite laadimine ebaõnnestus… Palun proovige teisi subtiitreid…</string>
     <string name="permission_grant_toast">Palun vajutage \"Luba\" ja proovige uuesti</string>
     <string name="sorry">Vabandust…</string>
+    <string name="cant_be_opened_by_other_players">Seda allikat ei saa avada teised mängijad. Palume vabandust ebamugavuste pärast.</string>
 
     <string name="ok">Okei</string>
     <string name="cancel">Tühista</string>
@@ -44,9 +48,13 @@
 
     <string name="mxplayer_not_installed">MX Player ei ole paigaldatud</string>
     <string name="mxplayer_not_installed_message">MX Player ei ole paigaldatud. Terrarium TV vajab MX Player'it, et mängida meediat. Vajutage "Paigalda", et paigaldada MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player ei suuda tööle minna</string>
+    <string name="mxplayer_unable_to_start_message">MX Player ei suuda tööle minna. Palun paigaldage see uuesti.</string>
 
     <string name="vlc_player_not_installed">VLC Player ei ole paigaldatud</string>
     <string name="vlc_player_not_installed_message">VLC Player ei ole paigaldatud. Terrarium TV vajab VLC Player'it, et mängida meediat. Vajutage "Paigalda", et paigaldada VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player ei suuda tööle minna</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player ei suuda tööle minna. Palun paigaldage see uuesti.</string>
 
     <string name="trending">Trendikas</string>
     <string name="most_popular">Kõige populaarsem</string>
@@ -71,6 +79,7 @@
     <string name="genre_tv_animation">Animatsioon</string>
 
     <string name="genre_movie_action">Action</string>
+    <string name="genre_movie_adventure">Seiklus</string>
     <string name="genre_movie_thriller">Thriller</string>
     <string name="genre_movie_sci">Ulme</string>
     <string name="genre_movie_fantasy">Fantaasia</string>
@@ -81,6 +90,7 @@
     <string name="genre_movie_romance">Romantika</string>
     <string name="genre_movie_comedy">Komöödia</string>
     <string name="genre_movie_family">Kogupere</string>
+    <string name="genre_movie_animation">Animatsioon</string>
     <string name="genre_movie_history">Ajalooline</string>
     <string name="genre_movie_war">Sõda</string>
     <string name="genre_movie_documentary">Dokumnetaal</string>
@@ -96,30 +106,140 @@
     <string name="pref_subtitle_chin">SubHD, Makedie ja Zimuku subtiitrite keel</string>
     <string name="pref_others">Muu</string>
 
+    <string name="pref_sub_down_path">Subtiitrite kaust</string>
+    <string name="pref_sub_down_path_des">Subtiitrid salvestatakse nüüd sinna kausta.</string>
+    <string name="pref_media_down_path">Meedia kaust (Ainult Android Internal Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Vali allalaadimishaldur…</string>
+    <string name="pref_auto_check_update">Kontrolli uuendusi automaatselt</string>
+    <string name="pref_filter_out_non_english_shows">Peida mitte ingliskeelsed saated</string>
+    <string name="pref_filter_out_dead_sources">Peida surnud lingid</string>
+    <string name="pref_filter_out_dead_sources_desc">Laadimiseks võib kuluda rohkem aega</string>
+    <string name="pref_hide_unaired_season">Peida linastamata hooajad</string>
+    <string name="pref_hide_unaired_episode">Peida linastamata episoodid</string>
+    <string name="pref_subtitles_filter">Peida valed subtiitrid</string>
+    <string name="pref_subtitles_choose_lang">Vali subtiitrite keel…</string>
+    <string name="pref_synopsis_choose_lang">Vali ülevaate keel…</string>
+    <string name="pref_hide_season_image">Peida hooaegade pisipildid</string>
+    <string name="pref_hide_episode_image">Peida episoodide pisipildid</string>
+    <string name="pref_show_menu_source">Üks kord allikale vajutades, näita valikuid</string>
+    <string name="pref_poster_size">Meedia postrite suurus</string>
+    <string name="pref_parallel_loading_sources">Paralleelne allikate laadimine</string>
     <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 5x. However it may causes FC or crash on some low spec devices.</string>
+    <string name="pref_choose_default_nav">Vali vaikekategooria…</string>
+    <string name="pref_choose_default_category_tv_shows">Vali saadete vaikekategooria……</string>
+    <string name="pref_choose_default_category_movies">Vali filmide vaikekategooria…</string>
+    <string name="pref_enabled_tv_shows_providers">Vali saadete pakkujaid…</string>
+    <string name="pref_enabled_movies_providers">Vali filmide pakkujaid…</string>
+    <string name="pref_enabled_resolvers">Vali lahendajaid…</string>
+    <string name="pref_modern_ui">Kasuta modernset kasutajaliidest</string>
+    <string name="pref_modern_ui_desc">Näita meedia postreid loosungite asemel</string>
+    <string name="pref_choose_default_play_action">Vali vaiketegevus…</string>
+    <string name="pref_force_tv_mode">Sunni Android TV</string>
+    <string name="pref_force_tv_mode_desc">Sunni Android TV asetus</string>
+    <string name="pref_choose_default_player">Vali mängija…</string>
+    <string name="pref_show_hd_sources_only">Näita ainult HD linke</string>
+    <string name="pref_show_season_special">Näita hooaja eri</string>
+    <string name="pref_backup_settings">Kopeeri seaded</string>
+    <string name="pref_restore_settings">Taasta seaded</string>
+    <string name="backup_settings_path">Kopeeri seaded \"%s\"</string>
+    <string name="restore_settings_path">Taasta seaded \"%s\"</string>
+    <string name="backup_settings_success">Seaded kopeeriti edukalt!</string>
+    <string name="restore_settings_success">Seaded taastati edukalt!</string>
+    <string name="failed_to_backup_settings">Seadete kopeerimine ebaõnnestus!</string>
+    <string name="failed_to_restore_settings">Seadete taastamine ebaõnnestus!</string>
+    <string name="pref_resolve_all_links_immediately">Lahenda kõik lingid kohe</string>
+    <string name="pref_resolve_all_links_immediately_desc">Lahenda kõik lingid otsesteks meedia linkideks. Kui see on välja lülitatud, lahendab Terrarium TV lingid vajutamisel. (Lülitage see välja, kui äpp jookseb tihti kokku!)</string>
+    <string name="restart_to_see_the_difference">Palun taaskäivitage Terrarium TV, et näha muutust.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
+    <string name="download_manager_external">Allalaadimishaldurid</string>
 
+    <string name="action_play">Mängi</string>
+    <string name="action_play_without_subtitle">Mängi subtiitriteta</string>
+    <string name="action_download">Tõmba</string>
+    <string name="action_download_with_sub">Tõmba subtiitritega</string>
+    <string name="action_copy_link">Kopeeri link</string>
+    <string name="action_play_via_other_players">Ava…</string>
+    <string name="choose_player">Vali mängija…</string>
+    <string name="no_player_was_found">Mängijat ei leitud</string>
+    <string name="choose_external_download_manager">Vali allalaadimishaldur…</string>
+    <string name="no_external_download_manager_was_found">Allalaadimishaldurit ei leitud. Palun tõmmake üks Play Store'ist või kasutage Android Internal Download Manager'i</string>
+    <string name="download_started">Allalaadimine alustatud…</string>
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
+    <string name="copied_link">Link kopeeritud</string>
+    <string name="link_must_be_played_in_app">Vabandame… Seda linki saab ainult mängida Terrarium TV's…</string>
+    <string name="video_player_crashed_unexpectedly">Mängija jooksis kokku. Palun proovige kasutada teist mängijat.</string>
+    <string name="choose_subtitles_file">Vali subtiitrite fail…</string>
 
+    <string name="update_title">Uus versioon leitud : %s</string>
+    <string name="update_message">Versioon %s : </string>
+    <string name="update_button">Uuendus</string>
+    <string name="update_downloading">Tõmban uuendust %s</string>
+    <string name="update_failed">Uuendus ebaõnnestus või katkestati</string>
 
+    <string name="subtitle_name">Subtiitrite nimi : </string>
 
+    <string name="facebook_page">Facebook'i leht</string>
 
+    <string name="changelog">Muudatused</string>
+    <string name="choose_browser">Vali lehitseja</string>
 
+    <string name="disclaimer">NB</string>
+    <string name="accept">Nõustu</string>
+    <string name="decline">Keeldu</string>
 
+    <string name="error">Tundmatu viga. Palun proovige uuesti.</string>
+    <string name="please_wait">Palun oodake…</string>
 
+    <string name="recaptcha_verify">Te peate lõpetama reCaptcha, et saada %s'lt allikaid</string>
+    <string name="verify">Nõustu</string>
 
+    <string name="size_large">Suur</string>
+    <string name="size_normal">Keskmine</string>
+    <string name="size_small">Väike</string>
 
+    <string name="show_details_overview">ÜLEVAADE</string>
+    <string name="show_details_season">HOOAEG</string>
+    <string name="media_suggestion">Vaata veel</string>
+    <string name="no_synopsis">Ülevaade puudub</string>
+    <string name="loading_ratings">Hinnangute laadimine…</string>
+    <string name="no_ratings">Hinnangud puuduvad</string>
+    <string name="meta_in_production">Tootmises</string>
     <string name="meta_returning_series">Returning Series</string>
+    <string name="meta_ended">Lõpp</string>
 
+    <string name="navigation_drawer_open">Ava sahtel</string>
+    <string name="navigation_drawer_close">Sulge sahtel</string>
 
+    <string name="tv_shows">Saated</string>
+    <string name="movies">Filmid</string>
 
+    <string name="play_trailer">Mängi treilerit</string>
 
+    <string name="translators">Tõlkijad</string>
 
+    <string name="pref_app_lang">Keel</string>
 
+    <string name="learn_more">Veel</string>
 
+    <string name="resolving">Lahendamine</string>
+    <string name="resolving_links">Linkide lahendamine…</string>
+    <string name="failed_to_resolve_link">Lingi lahendamine ebaõnnestus. Palun proovige teist linki.</string>
+    <string name="no_streamlink_is_available">Vabandame… Ühtegi linki pole praegu saadaval…</string>
+    <string name="link_cant_be_resolved">Vabandame… Seda linki ei suudetud lahendada…</string>
 
+    <string name="low_end_device_detected">Aegunud seade tuvastatud</string>
+    <string name="resolve_all_links_immediately_disabled">Näib, et kasutate Terrarium TV'd aegunud seadmel. Palun lülitage \"Lahenda kõik lingid kohe\" välja. </string>
 
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Veast on teatatud arendajale.\nPalume vabandust ebamugavuste pärast.\n\nKui see kordub tihti palun vahetage sätteid.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Tundmatu viga</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Taaskäivita Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Sulge Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Vea detailid</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Vea üksikasjad</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Sulge</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Kopeeri lõikelauale</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Kopeeritud lõikelauale</string>
     <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
