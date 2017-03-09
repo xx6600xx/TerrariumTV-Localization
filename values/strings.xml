@@ -47,12 +47,12 @@
     <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
 
     <string name="mxplayer_not_installed">MX Player Not Installed</string>
-    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium TV needs MX Player to play medias. Click "Install" to install MX Player.</string>
+    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium TV needs MX Player to play media. Click "Install" to install MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
     <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
 
     <string name="vlc_player_not_installed">VLC Player Not Installed</string>
-    <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play medias. Click "Install" to install VLC Player.</string>
+    <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play media. Click "Install" to install VLC Player.</string>
     <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
     <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
 
