@@ -37,7 +37,7 @@
     <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
     <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
     <string name="permission_grant_toast">Drücke bitte auf \"Zulassen\" um Zugriff zu gestatten</string>
-    <string name="sorry">Verzeihung…</string>
+    <string name="sorry">Sorry…</string>
     <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden.</string>
 
     <string name="ok">OK</string>
@@ -96,7 +96,10 @@
     <string name="genre_movie_documentary">Dokumentar</string>
     <string name="genre_movie_music">Musical</string>
 
+    <string name="filter_year">Jahr</string>
+
     <string name="pref_general">Allgemein</string>
+    <string name="pref_performance">Performance</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
@@ -114,7 +117,8 @@
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
     <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
-    <string name="pref_subtitles_choose_lang">Wähle Untertitelsprache(n)…</string>
+    <string name="pref_subtitles_choose_lang">Wähle Sprache(n) für Untertitel…</string>
+    <string name="pref_synopsis_choose_lang">Wähle Sprache für die Zusammenfassung…</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
     <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
@@ -135,6 +139,16 @@
     <string name="pref_choose_default_player">Standard video player wählen…</string>
     <string name="pref_show_hd_sources_only">Nur HD links anzeigen</string>
     <string name="pref_show_season_special">Staffelspezial zeigen</string>
+    <string name="pref_backup_settings">Einstellungen sichern</string>
+    <string name="pref_restore_settings">Einstellungen wiederherstellen</string>
+    <string name="backup_path">Sichern unter \"%s\"</string>
+    <string name="restore_path">Wiederherstellen von \"%s\"</string>
+    <string name="backup_success">Sicherung erfolgreich!</string>
+    <string name="restore_success">Wiederherstellung erfolgreich!</string>
+    <string name="failed_to_backup">Sicherung fehlgeschlagen</string>
+    <string name="failed_to_restore">Wiederherstellung fehlgeschlagen</string>
+    <string name="pref_resolve_all_links_immediately">Hosts direkt auflösen</string>
+    <string name="pref_resolve_all_links_immediately_desc">Hosts direkt auflösen für eine direkte Wiedergabe. Ist diese Option deaktiviert wird der Host erst bei Auswahl aufgelöst. (Bei lags option ausschalten!)</string>
     <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
@@ -155,6 +169,7 @@
     <string name="copied_link">Link zum Stream kopiert</string>
     <string name="link_must_be_played_in_app">Sorry… Dieser Link kann nicht in Terrarium TV abgespielt werden…</string>
     <string name="video_player_crashed_unexpectedly">Player ist abgestürtzt. Probiere das Video mit einem anderen Player abzuspielen.</string>
+    <string name="choose_subtitles_file">Datei für Untertitel auswählen…</string>
 
     <string name="update_title">Neue Version gefunden : %s</string>
     <string name="update_message">Version %s : </string>
@@ -206,4 +221,24 @@
     <string name="pref_app_lang">Sprache</string>
 
     <string name="learn_more">Mehr erfahren</string>
+
+    <string name="resolving">Wird aufgelöst</string>
+    <string name="resolving_links">Links werden aufgelöst…</string>
+    <string name="failed_to_resolve_link">Das Auflösen dieses Links ist fehlgeschlagen. Bitte probiere einen anderen Link.</string>
+    <string name="no_streamlink_is_available">Sorry… Momentan ist kein Stream verfügbar…</string>
+    <string name="link_cant_be_resolved">Sorry… Dieser Link kann nicht aufgelöst werden…</string>
+
+    <string name="low_end_device_detected">Langsames Gerät entdeckt</string>
+    <string name="resolve_all_links_immediately_disabled">Du benutzt Terrarium TV auf einem langsamen Gerät. Für bessere Performance wird die Funktion \"Hosts direkt auflösen"\ deaktiviert. Du wirst keine Dateigrößen mehr sehen. Dafür sollte die App keine Probleme mehr verursachen. Für die Anzeige der Dateigröße muss die Funktion wieder in den Einstellungen aktiviert werden.</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exceptionn</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV neustarten</string>
+    <string name="customactivityoncrash_error_activity_close_app">Terrarirum TV schließen</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Schließen</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">In Zwischenablage kopieren</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">In Zwischenablage kopiert</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
 </resources>

@@ -32,7 +32,7 @@
     <string name="getting_subtitle">उपशीर्षक की खोज हो रही है… कृपया प्रतीक्षा करें…</string>
     <string name="downloading_subtitle_toast">उपशीर्षक डाउनलोड हो रहे है… कृपया प्रतीक्षा करें…</string>
     <string name="ready_to_play_toast">वीडियो जल्द ही शुरू होगा…</string>
-    <string name="searching_media">खोज चल रही हैै…</string>
+    <string name="searching_media">खोज चल रही है…</string>
     <string name="subtitle_language">उपशीर्षक भाषा : </string>
     <string name="subtitle_download_failed">उपशीर्षक डाउनलोड असफल… कोई और उपशीर्षक प्रयास करें…</string>
     <string name="subtitle_extract_failed">उपशीर्षक निकालना असफल रहा… कोई और उपशीर्षक प्रयास करें…</string>
@@ -97,9 +97,9 @@
     <string name="genre_movie_music">संगीत</string>
 
     <string name="filter_year">साल</string>
-    
+
     <string name="pref_general">सामान्य</string>
-    <string name="pref_ui">यूजर इंटरफ़ेस</string>
+    <string name="pref_ui">यूजर इंटरफ़ेस</string>
     <string name="pref_sources_and_resolvers">प्रोवाइडर्स और रेसोल्वर्स</string>
     <string name="pref_subtitle">Open Subtitles और Subscene के उपशीर्षक भाषा</string>
     <string name="pref_subtitle_chin"> SubHD, Makedie और Zimuku के उपशीर्षक भाषा</string>
@@ -112,20 +112,20 @@
     <string name="pref_auto_check_update">स्वचालित रूप से अपडेट जांच</string>
     <string name="pref_filter_out_non_english_shows">गैर अंग्रेजी शो फिल्टर करे</string>
     <string name="pref_filter_out_dead_sources">मृत सूत्रों को फिल्टर करे</string>
-    <string name="pref_filter_out_dead_sources_desc">इससे अतिरिक्त सूत्रों का लोड समय बढ़ेगा</string>
+    <string name="pref_filter_out_dead_sources_desc">इससे अतिरिक्त सूत्रों का लोड समय बढ़ेगा</string>
     <string name="pref_hide_unaired_season">unaired सीज़न छुपाएं</string>
     <string name="pref_hide_unaired_episode"> unaired इपसोड छुपाएं </string>
-    <string name="pref_subtitles_filter">जो उपशीर्षक मैच नहीं हुए उनको फ़िल्टर करे</string>
+    <string name="pref_subtitles_filter">जो उपशीर्षक मैच नहीं हुए उनको फ़िल्टर करे</string>
     <string name="pref_subtitles_choose_lang">उपशीर्षक भाषा(ओ) का चयन…</string>
     <string name="pref_hide_season_image">सीज़न थंबनेल छिपाने</string>
     <string name="pref_hide_episode_image">इपसोड थंबनेल छिपाने</string>
     <string name="pref_show_menu_source">सोर्स लिस्ट में सिंगल क्लिक पर कॉन्टेक्स्ट मेनू दिखाए</string>
     <string name="pref_poster_size">मीडिया पोस्टर आकार</string>
     <string name="pref_parallel_loading_sources">पैरेलल सोर्सेज लोड हो रहे है</string>
-    <string name="pref_parallel_loading_sources_desc">सक्षम करने के लिए दृढ़ता से सुझाव. सोर्स लोडिंग की स्पीड 5x से बढ़ता है. हलाकि कम क्षमता के डिवाइस क्रैश हो सकते है.</string>
+    <string name="pref_parallel_loading_sources_desc">सक्षम करने के लिए दृढ़ता से सुझाव. सोर्स लोडिंग की स्पीड 5x से बढ़ता है. हलाकि कम क्षमता के डिवाइस क्रैश हो सकते है.</string>
     <string name="pref_choose_default_nav">डिफ़ॉल्ट नेविगेशन का चयन करे…</string>
-    <string name="pref_choose_default_category_tv_shows">डिफ़ॉल्ट टीवी शो केटेगरी या प्रकार का चयन करे…</string>
-    <string name="pref_choose_default_category_movies">डिफ़ॉल्ट मूवी केटेगरी या प्रकार का चयन करे…</string>
+    <string name="pref_choose_default_category_tv_shows">डिफ़ॉल्ट टीवी शो केटेगरी या प्रकार का चयन करे…</string>
+    <string name="pref_choose_default_category_movies">डिफ़ॉल्ट मूवी केटेगरी या प्रकार का चयन करे…</string>
     <string name="pref_enabled_tv_shows_providers">सक्षम करने के लिए टीवी शो प्रोवाइडर्स चुने…</string>
     <string name="pref_enabled_movies_providers">सक्षम करने के लिए फिल्में प्रोवाइडर्स चुने…</string>
     <string name="pref_enabled_resolvers">सक्षम करने के लिए रेसोल्वर्स चुनें…</string>
@@ -134,7 +134,7 @@
     <string name="pref_choose_default_play_action">डिफ़ॉल्ट प्ले एक्शन चुनें…</string>
     <string name="pref_force_tv_mode">Android TV मोड फाॅर्स करे</string>
     <string name="pref_force_tv_mode_desc">Android TV लेआउट फोरसबली दिखाए</string>
-    <string name="pref_choose_default_player">डिफ़ॉल्ट विडियो प्लेयर का चयन करे…</string>
+    <string name="pref_choose_default_player">डिफ़ॉल्ट विडियो प्लेयर का चयन करे…</string>
     <string name="restart_to_see_the_difference">अंतर देखने के लिए टेरारियम टीवी पुनः प्रारंभ करें.</string>
 
     <string name="download_manager_internal">एंड्रॉयड आंतरिक डाउनलोड प्रबंधक</string>
@@ -156,7 +156,7 @@
     <string name="link_must_be_played_in_app">क्षमा करें … इस लिंक को केवल टेरारियम टीवी में खेला जा सकता है…</string>
     <string name="video_player_crashed_unexpectedly">प्लेयर अप्रत्याशित रूप से क्रैश हो गया. कृपया विडियो प्ले करने के लिए किसी और विडियो प्लेयर का चयन करे.</string>
     <string name="choose_subtitles_file">उपशीर्षक फाइल का चयन करे…</string>
-    
+
     <string name="update_title">नया version उपलब्ध है : %s</string>
     <string name="update_message">version %s : </string>
     <string name="update_button">अपडेट</string>
@@ -211,7 +211,7 @@
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
     <string name="about_app_title">About Terrarium TV</string>
-    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
-    <string name="official_website">http://terrariumtv.com</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
