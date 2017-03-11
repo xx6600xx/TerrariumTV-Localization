@@ -12,9 +12,10 @@
     <string name="loading_more">Loading More…</string>
     <string name="action_search">Search</string>
     <string name="action_bookmark">Favourites</string>
-    <string name="action_add_to_bookmark">Add to favourites</string>
+    <string name="action_add_to_bookmark">Add to favorites</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stop</string>
+    <string name="action_next_episode">Next Episode</string>
     <string name="action_reverse">Reverse</string>
     <string name="action_set_watched">Set Watched</string>
     <string name="action_remove_watched">Remove Watched</string>
@@ -119,6 +120,7 @@
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
     <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
     <string name="pref_synopsis_choose_lang">Choose synopsis language…</string>
+    <string name="pref_hide_poster_thumb">Hide poster thumbnails</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
     <string name="pref_hide_episode_image">Hide episode thumbnails</string>
     <string name="pref_show_menu_source">Show context menu on single click in source list</string>
@@ -141,12 +143,14 @@
     <string name="pref_show_season_special">Show season special</string>
     <string name="pref_backup_settings">Backup settings</string>
     <string name="pref_restore_settings">Restore settings</string>
-    <string name="backup_settings_path">Backup settings to \"%s\"</string>
-    <string name="restore_settings_path">Restore settings from \"%s\"</string>
-    <string name="backup_settings_success">Successfully backed up settings!</string>
-    <string name="restore_settings_success">Successfully restored settings!</string>
-    <string name="failed_to_backup_settings">Failed to backup settings</string>
-    <string name="failed_to_restore_settings">Failed to restore settings</string>
+    <string name="pref_backup_favorites">Backup favorites</string>
+    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="backup_path">Backup to \"%s\"</string>
+    <string name="restore_path">Restore from \"%s\"</string>
+    <string name="backup_success">Successfully backed up!</string>
+    <string name="restore_success">Successfully restored!</string>
+    <string name="failed_to_backup">Failed to backup</string>
+    <string name="failed_to_restore">Failed to restore</string>
     <string name="pref_resolve_all_links_immediately">Resolve all links immediately</string>
     <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
@@ -188,6 +192,7 @@
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
 
+    <string name="cant_open_youtube">Can\'t open YouTube. Please try again later.</string>
     <string name="error">Unknown error. Please try again.</string>
     <string name="please_wait">Please wait…</string>
 
@@ -229,7 +234,7 @@
     <string name="link_cant_be_resolved">Sorry… This link can\'t be resolved…</string>
 
     <string name="low_end_device_detected">Low-end device detected</string>
-    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" feature is disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable that option.</string>
+    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
@@ -245,7 +250,7 @@
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name" translatable="false">Terrarium TV</string>
     <string name="about_app_title" translatable="false">About Terrarium TV</string>
-    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
-    <string name="official_website" translatable="false">http://terrariumtv.com</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website" translatable="false">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8258064054338881/3882561855</string>
 </resources>

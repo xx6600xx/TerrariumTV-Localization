@@ -15,6 +15,7 @@
     <string name="action_add_to_bookmark">加到我的最爱</string>
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
+    <string name="action_next_episode">下一集</string>
     <string name="action_reverse">反转排序</string>
     <string name="action_set_watched">设为已观看</string>
     <string name="action_remove_watched">移除已观看</string>
@@ -141,12 +142,14 @@
     <string name="pref_show_season_special">显示特别季度</string>
     <string name="pref_backup_settings">备份设置</string>
     <string name="pref_restore_settings">还原设置</string>
-    <string name="backup_settings_path">备份设置到 %s</string>
-    <string name="restore_settings_path">从 %s 还原设置</string>
-    <string name="backup_settings_success">备份设置成功!</string>
-    <string name="restore_settings_success">还原设置成功!</string>
-    <string name="failed_to_backup_settings">备份设置失败!</string>
-    <string name="failed_to_restore_settings">还原设置失败!</string>
+    <string name="pref_backup_favorites">Backup favorites</string>
+    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="backup_path">备份到 %s</string>
+    <string name="restore_path">从 %s 还原</string>
+    <string name="backup_success">备份成功!</string>
+    <string name="restore_success">还原成功!</string>
+    <string name="failed_to_backup">备份失败!</string>
+    <string name="failed_to_restore">还原失败!</string>
     <string name="pref_resolve_all_links_immediately">立即解析链接</string>
     <string name="pref_resolve_all_links_immediately_desc">立即把链接解析成可播放的链接。关闭此选项后，Terrarium 影视 只有在你按下链接的时候才会解析该链接。 (Terrarium 影视 运行不流畅时请关闭此选项！)</string>
     <string name="restart_to_see_the_difference">请立即重开 Terrarium 影视 来查看效果</string>
@@ -229,7 +232,7 @@
     <string name="link_cant_be_resolved">对不起… 无法解析此链接…</string>
 
     <string name="low_end_device_detected">检测到正在使用低配设备</string>
-    <string name="resolve_all_links_immediately_disabled">检测到你正在使用低配设备运行 Terrarium 影视。为了提升性能和用户体验，\"立即解析链接 \" 功能已被关闭。虽然部分链接的文件大小会被隐藏，但 Terrarium 影视 将不会再崩溃和卡顿。如果你希望看到所有链接的文件大小，你可以到 \"设置 \" 页面中重新启用此功能。</string>
+    <string name="resolve_all_links_immediately_disabled">检测到你正在使用低配设备运行 Terrarium 影视。为了提升性能和用户体验，\"立即解析链接\" 和 \"并行加载片源\" 功能已被关闭。虽然部分链接的文件大小会被隐藏，但 Terrarium 影视 将不会再崩溃和卡顿。如果你希望看到所有链接的文件大小，你可以到 \"设置 \" 页面中重新启用此功能。</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影视 发生了未知错误并崩溃，已上报此问题。\n\n 如此问题持续发生，请调整 \"设置 \" 页面中的 \"性能 \" 设置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知错误</string>
@@ -245,7 +248,7 @@
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影视</string>
     <string name="about_app_title">关于 Terrarium 影视</string>
-    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : http://terrariumtv.com\n\n官方 Facebook 页面 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
-    <string name="official_website">http://terrariumtv.com</string>
+    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : https://terrariumtv.com\n\n官方 Facebook 页面 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
+    <string name="official_website">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
