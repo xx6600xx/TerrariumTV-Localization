@@ -120,6 +120,7 @@
     <string name="pref_subtitles_filter">过滤不匹配字幕</string>
     <string name="pref_subtitles_choose_lang">选择字幕语言…</string>
     <string name="pref_synopsis_choose_lang">选择摘要语言…</string>
+    <string name="pref_hide_poster_thumb">隐藏海报图片</string>
     <string name="pref_hide_season_image">隐藏季度图片</string>
     <string name="pref_hide_episode_image">隐藏集数图片</string>
     <string name="pref_show_menu_source">片源列表单击显示菜单</string>
@@ -142,8 +143,8 @@
     <string name="pref_show_season_special">显示特别季度</string>
     <string name="pref_backup_settings">备份设置</string>
     <string name="pref_restore_settings">还原设置</string>
-    <string name="pref_backup_favorites">Backup favorites</string>
-    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="pref_backup_favorites">备份我的最爱</string>
+    <string name="pref_restore_favorites">还原我的最爱</string>
     <string name="backup_path">备份到 %s</string>
     <string name="restore_path">从 %s 还原</string>
     <string name="backup_success">备份成功!</string>
@@ -191,6 +192,7 @@
     <string name="accept">接受</string>
     <string name="decline">拒绝</string>
 
+    <string name="cant_open_youtube">无法启动 YouTube，请稍候再试</string>
     <string name="error">发生未知错误，请再试一次</string>
     <string name="please_wait">请稍候…</string>
 
