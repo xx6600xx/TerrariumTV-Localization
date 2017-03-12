@@ -251,7 +251,7 @@
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影视</string>
     <string name="about_app_title">关于 Terrarium 影视</string>
-    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : https://terrariumtv.com\n\n官方 Facebook 页面 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
+    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : https://terrariumtv.com\n\n官方 Facebook 页面 : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
     <string name="official_website">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
