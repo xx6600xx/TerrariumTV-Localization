@@ -153,6 +153,8 @@
     <string name="failed_to_restore">還原失敗</string>
     <string name="pref_resolve_all_links_immediately">立即解析連結</string>
     <string name="pref_resolve_all_links_immediately_desc">立即把連結解析成可播放的連結。關閉此選項後，Terrarium 影視 只有在當你按下連結的時候才會解析該連結。 (Terrarium 影視 運行不順暢時請關閉此選項！)</string>
+    <string name="pref_sources_list_refresh_interval">片源列表重新整理時間間隔 (秒)</string>
+    <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影視 在搜尋影片連結的時候卡頓，請提高此數值</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
 
     <string name="download_manager_internal">Android 內置下載管理員</string>
@@ -251,7 +253,7 @@
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影視</string>
     <string name="about_app_title">關於 Terrarium 影視</string>
-    <string name="about_app_message">Terrarium 影視 (版本 : %s)\nPeter Chan (NitroXenon) 製作\n\n官方網站 : https://terrariumtv.com\n\n官方 Facebook 專頁 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影視 是多媒體共享播放彙整軟體，用以彙整網路上公開的影片位址，影片及照片其版權皆屬於原著作人所有。本程式和本人將不會承擔任何法律責任。</string>
+    <string name="about_app_message">Terrarium 影視 (版本 : %s)\nPeter Chan (NitroXenon) 製作\n\n官方網站 : https://terrariumtv.com\n\n官方 Facebook 專頁 : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影視 是多媒體共享播放彙整軟體，用以彙整網路上公開的影片位址，影片及照片其版權皆屬於原著作人所有。本程式和本人將不會承擔任何法律責任。</string>
     <string name="official_website">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
