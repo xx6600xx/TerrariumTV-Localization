@@ -184,6 +184,7 @@
     <string name="subtitle_name">字幕名称 :</string>
 
     <string name="facebook_page">Facebook 页面</string>
+    <string name="official_website_menuitem">官方网站</string>
 
     <string name="changelog">更新记录</string>
     <string name="choose_browser">选择浏览器</string>
