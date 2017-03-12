@@ -135,9 +135,9 @@
     <string name="download_manager_external">مدير تحميل خارجي</string>
 
     <string name="action_play">مشاهدة</string>
-    <string name="action_play_without_subtitle">مشاهدة بدون ترجمة</string>
+    <string name="action_play_with_subs">تظهر مع الترجمة</string>
     <string name="action_download">تحميل</string>
-    <string name="action_download_with_sub">تحميل مع ترجمة</string>
+    <string name="action_download_with_subs">تحميل مع ترجمة</string>
     <string name="action_copy_link">انسخ الرابط</string>
     <string name="action_play_via_other_players">…فتح باستخدام</string>
     <string name="choose_player">اختر برنامجاً</string>

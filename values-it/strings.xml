@@ -135,9 +135,9 @@
     <string name="download_manager_external">File manager esterno</string>
 
     <string name="action_play">Guarda</string>
-    <string name="action_play_without_subtitle">Guarda senza sottotitoli</string>
+    <string name="action_play_with_subs">Guarda con i sottotitoli</string>
     <string name="action_download">Scarica</string>
-    <string name="action_download_with_sub">Scarica con i sottotitoli</string>
+    <string name="action_download_with_subs">Scarica con i sottotitoli</string>
     <string name="action_copy_link">Copia il Link di Streamable</string>
     <string name="action_play_via_other_players">Apri Con…</string>
     <string name="choose_player">Scegli un lettore video…</string>

@@ -135,9 +135,9 @@
     <string name="download_manager_external">Aplicaciones de descarga externas</string>
 
     <string name="action_play">Ver</string>
-    <string name="action_play_without_subtitle">Ver sin subtítulos</string>
+    <string name="action_play_with_subs">Ver con subtítulos</string>
     <string name="action_download">Descargar</string>
-    <string name="action_download_with_sub">Descargar con subtítulos</string>
+    <string name="action_download_with_subs">Descargar con subtítulos</string>
     <string name="action_copy_link">Copiar enlace de reproducción</string>
     <string name="action_play_via_other_players">Abrir Con…</string>
     <string name="choose_player">Escoger un reproductor de vídeo…</string>

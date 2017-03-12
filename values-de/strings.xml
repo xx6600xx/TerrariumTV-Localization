@@ -155,9 +155,9 @@
     <string name="download_manager_external">Externer Download Manager</string>
 
     <string name="action_play">Abspielen</string>
-    <string name="action_play_without_subtitle">Ohne Untertitel abspielen</string>
+    <string name="action_play_with_subs">Spiel mit Untertiteln</string>
     <string name="action_download">Download</string>
-    <string name="action_download_with_sub">Mit Untertitel laden</string>
+    <string name="action_download_with_subs">Mit Untertitel laden</string>
     <string name="action_copy_link">Link zum Stream kopieren</string>
     <string name="action_play_via_other_players">Öffnen mit…</string>
     <string name="choose_player">Einen Video Player wählen…</string>

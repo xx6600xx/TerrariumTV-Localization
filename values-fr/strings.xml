@@ -135,9 +135,9 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Jouer</string>
-    <string name="action_play_without_subtitle">Jouer Sans Sous-titres</string>
+    <string name="action_play_with_subs">Lecture Avec Sous-titres</string>
     <string name="action_download">Télécharger</string>
-    <string name="action_download_with_sub">Télécharger Avec Sous-titres</string>
+    <string name="action_download_with_subs">Télécharger Avec Sous-titres</string>
     <string name="action_copy_link">Copier le lien vidéo</string>
     <string name="action_play_via_other_players">Ouvrir avec…</string>
     <string name="choose_player">Choisissez un lecteur vidéo…</string>

@@ -130,9 +130,9 @@
     <string name="download_manager_external">Spoljašnji manadzeri za preuzimanje</string>
 
     <string name="action_play">Počni</string>
-    <string name="action_play_without_subtitle">Pusti bez prevoda</string>
+    <string name="action_play_with_subs">Pusti sa prevoda</string>
     <string name="action_download">Preuzmi</string>
-    <string name="action_download_with_sub">Preuzmi sa prevodom</string>
+    <string name="action_download_with_subs">Preuzmi sa prevodom</string>
     <string name="action_copy_link">Kopiraj link za strimovanje</string>
     <string name="action_play_via_other_players">Otvori sa…</string>
     <string name="choose_player">Izaberi video player…</string>

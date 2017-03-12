@@ -135,9 +135,9 @@
     <string name="download_manager_external">Ulkoinen lataustenhallintasovellus</string>
 
     <string name="action_play">Katso</string>
-    <string name="action_play_without_subtitle">Katso ilman tekstityksiä</string>
+    <string name="action_play_with_subs">Katso Kuvatekstit</string>
     <string name="action_download">Lataa</string>
-    <string name="action_download_with_sub">Lataa tekstityksillä</string>
+    <string name="action_download_with_subs">Lataa tekstityksillä</string>
     <string name="action_copy_link">Kopioi streamattava linkki</string>
     <string name="action_play_via_other_players">Avaa sovelluksessa…</string>
     <string name="choose_player">Valitse videosoitin…</string>

@@ -135,9 +135,9 @@
     <string name="download_manager_external">Eksterne nedlastingshåndtering(er)</string>
 
     <string name="action_play">Spill av</string>
-    <string name="action_play_without_subtitle">Spill av uten undertekst</string>
+    <string name="action_play_with_subs">Spill med undertekst</string>
     <string name="action_download">Last ned</string>
-    <string name="action_download_with_sub">Last ned med undertekst</string>
+    <string name="action_download_with_subs">Last ned med undertekst</string>
     <string name="action_copy_link">Kopier stream-bar link</string>
     <string name="action_play_via_other_players">Åpne med…</string>
     <string name="choose_player">Velg en video avspiller…</string>

@@ -135,9 +135,9 @@
     <string name="download_manager_external">Внешние менеджеры загрузок</string>
 
     <string name="action_play">Играть</string>
-    <string name="action_play_without_subtitle">Играть Без Субтитров</string>
+    <string name="action_play_with_subs">Играть с Субтитров</string>
     <string name="action_download">Скачать</string>
-    <string name="action_download_with_sub">Скачать Без Субтитров</string>
+    <string name="action_download_with_subs">Скачать с Субтитров</string>
     <string name="action_copy_link">Скопировать Ссылку На Поток</string>
     <string name="action_play_via_other_players">Открыть С Помощью…</string>
     <string name="choose_player">Выбрать видеоплеер…</string>

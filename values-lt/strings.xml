@@ -135,9 +135,9 @@
     <string name="download_manager_external">Išorinė atsisiuntimo tvarkyklė(s)</string>
 
     <string name="action_play">Žiūrėti</string>
-    <string name="action_play_without_subtitle">Žiūrėti be subtitrų</string>
+    <string name="action_play_with_subs">Žiūrėti su subtitrų</string>
     <string name="action_download">Atsisiųsti</string>
-    <string name="action_download_with_sub">Atsisiųsti su subtitrais</string>
+    <string name="action_download_with_subs">Atsisiųsti su subtitrais</string>
     <string name="action_copy_link">Kopijuoti srautinę nuorodą</string>
     <string name="action_play_via_other_players">Atidaryti naudojant…</string>
     <string name="choose_player">Pasirinkite vaizdo grotuvą…</string>

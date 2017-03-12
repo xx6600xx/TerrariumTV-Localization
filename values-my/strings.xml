@@ -135,9 +135,9 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Main</string>
-    <string name="action_play_without_subtitle">Main tanpa sarikata</string>
+    <string name="action_play_with_subs">Bermain dengan sarikata</string>
     <string name="action_download">Muat Turun</string>
-    <string name="action_download_with_sub">Muat turun dengan sarikata</string>
+    <string name="action_download_with_subs">Muat turun dengan sarikata</string>
     <string name="action_copy_link">Salin link streaming</string>
     <string name="action_play_via_other_players">Main Dengan…</string>
     <string name="choose_player">Pilih pemain video…</string>

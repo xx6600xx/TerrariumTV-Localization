@@ -135,9 +135,9 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Lejátszás</string>
-    <string name="action_play_without_subtitle">Lejátszás felirat nélkül</string>
+    <string name="action_play_with_subs">Játék feliratok</string>
     <string name="action_download">Letöltés</string>
-    <string name="action_download_with_sub">Letöltés felirattal</string>
+    <string name="action_download_with_subs">Letöltés felirattal</string>
     <string name="action_copy_link">Stream link másolás</string>
     <string name="action_play_via_other_players">Megnyitás mással…</string>
     <string name="choose_player">Válasszon egy videó lejátszót…</string>

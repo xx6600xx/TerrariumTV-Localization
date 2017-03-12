@@ -135,9 +135,9 @@
     <string name="download_manager_external">Harici İndirme Yönetici(leri)</string>
 
     <string name="action_play">Oynat</string>
-    <string name="action_play_without_subtitle">Altyazı olmadan oynat</string>
+    <string name="action_play_with_subs">Altyazılarla oyna</string>
     <string name="action_download">İndir</string>
-    <string name="action_download_with_sub">Altyazı ile indir</string>
+    <string name="action_download_with_subs">Altyazı ile indir</string>
     <string name="action_copy_link">Kaynak adresini kopyala</string>
     <string name="action_play_via_other_players">Birlikte aç…</string>
     <string name="choose_player">Medya oynatıcı seç…</string>

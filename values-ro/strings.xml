@@ -130,9 +130,9 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Redati</string>
-    <string name="action_play_without_subtitle">Redati Fara Subtitrari</string>
+    <string name="action_play_with_subs">Joaca-te cu Subtitrari</string>
     <string name="action_download">Descarcati</string>
-    <string name="action_download_with_sub">Descarcati Cu Subtitrari</string>
+    <string name="action_download_with_subs">Descarcati Cu Subtitrari</string>
     <string name="action_copy_link">Copiati Link Redabil</string>
     <string name="action_play_via_other_players">Deschideti Cu…</string>
     <string name="choose_player">Alegeti un player video…</string>

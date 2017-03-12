@@ -159,18 +159,18 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Play</string>
-    <string name="action_play_without_subtitle">Play Without Subtitles</string>
+    <string name="action_play_with_subs">Play with subtitles</string>
     <string name="action_download">Download</string>
-    <string name="action_download_with_sub">Download With Subtitles</string>
-    <string name="action_copy_link">Copy Streamable Link</string>
-    <string name="action_play_via_other_players">Open With…</string>
+    <string name="action_download_with_subs">Download with subtitles</string>
+    <string name="action_copy_link">Copy stream link</string>
+    <string name="action_play_via_other_players">Open with…</string>
     <string name="choose_player">Choose a video player…</string>
     <string name="no_player_was_found">No video player was found</string>
     <string name="choose_external_download_manager">Choose an external download manager…</string>
     <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
     <string name="download_started">Download started…</string>
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
-    <string name="copied_link">Copied streamable link</string>
+    <string name="copied_link">Stream link copied!</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
     <string name="video_player_crashed_unexpectedly">Player crashed unexpectedly. Please try to use another video player to play the video.</string>
     <string name="choose_subtitles_file">Choose a subtitles file…</string>

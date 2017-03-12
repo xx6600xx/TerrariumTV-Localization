@@ -135,9 +135,9 @@
     <string name="download_manager_external">გარეგანი გადმოწერის მენეჯერი(ები)</string>
 
     <string name="action_play">ჩართვა</string>
-    <string name="action_play_without_subtitle">ჩართვა სუბტიტრების გარეშე</string>
+    <string name="action_play_with_subs">ჩართვა სუბტიტრების გარეშე</string>
     <string name="action_download">გადმოწერა</string>
-    <string name="action_download_with_sub">გადმოწერა სუბტიტრებით</string>
+    <string name="action_download_with_subs">გადმოწერა სუბტიტრებით</string>
     <string name="action_copy_link">დააკოპირე დინების ლინკი</string>
     <string name="action_play_via_other_players">გახსენით…</string>
     <string name="choose_player">აირჩიეთ ვიდეო პლეიერი…</string>

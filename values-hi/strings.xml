@@ -141,9 +141,9 @@
     <string name="download_manager_external">बाहरी डाउनलोड प्रबंधक</string>
 
     <string name="action_play">प्ले</string>
-    <string name="action_play_without_subtitle">उपशीर्षक के बिना प्ले करे</string>
+    <string name="action_play_with_subs">उपशीर्षक के साथ खेलते हैं</string>
     <string name="action_download">डाउनलोड</string>
-    <string name="action_download_with_sub">उपशीर्षक के साथ डाउनलोड करे</string>
+    <string name="action_download_with_subs">उपशीर्षक के साथ डाउनलोड करे</string>
     <string name="action_copy_link">streamable लिंक कॉपी करे</string>
     <string name="action_play_via_other_players">के साथ खोलें…</string>
     <string name="choose_player">एक वीडियो प्लेयर का चयन करे…</string>

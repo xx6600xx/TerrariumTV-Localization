@@ -135,9 +135,9 @@
     <string name="download_manager_external">Extern nedladdningshanterare</string>
 
     <string name="action_play">Spela</string>
-    <string name="action_play_without_subtitle">Spela utan undertext</string>
+    <string name="action_play_with_subs">Spela med undertext</string>
     <string name="action_download">Ladda ned</string>
-    <string name="action_download_with_sub">Ladda ned med undertext</string>
+    <string name="action_download_with_subs">Ladda ned med undertext</string>
     <string name="action_copy_link">Kopiera streambar länk</string>
     <string name="action_play_via_other_players">Öpnna med…</string>
     <string name="choose_player">Välj en videospelare…</string>

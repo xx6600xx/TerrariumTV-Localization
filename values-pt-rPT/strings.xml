@@ -135,9 +135,9 @@
     <string name="download_manager_external">Gestor(es) Externo(s) de Transferências</string>
 
     <string name="action_play">Ver</string>
-    <string name="action_play_without_subtitle">Ver sem Legendas</string>
+    <string name="action_play_with_subs">Ver com Legendas</string>
     <string name="action_download">Transferir</string>
-    <string name="action_download_with_sub">Transferir com Legendas</string>
+    <string name="action_download_with_subs">Transferir com Legendas</string>
     <string name="action_copy_link">Copiar link para stream</string>
     <string name="action_play_via_other_players">Abrir com…</string>
     <string name="choose_player">EScolher leitor de vídeo…</string>

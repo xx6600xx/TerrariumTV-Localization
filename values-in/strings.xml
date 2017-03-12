@@ -135,9 +135,9 @@
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Putar</string>
-    <string name="action_play_without_subtitle">Putar tanpa subtitle</string>
+    <string name="action_play_with_subs">Putar dengan subtitle</string>
     <string name="action_download">Unduh</string>
-    <string name="action_download_with_sub">Unduh dengan subtitle</string>
+    <string name="action_download_with_subs">Unduh dengan subtitle</string>
     <string name="action_copy_link">Copy link streaming</string>
     <string name="action_play_via_other_players">Buka Dengan…</string>
     <string name="choose_player">Pilih pemutar video…</string>

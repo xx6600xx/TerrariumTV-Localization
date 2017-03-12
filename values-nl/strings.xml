@@ -135,11 +135,11 @@
     <string name="download_manager_external">Extern downloadbeheer</string>
 
     <string name="action_play">Afspelen</string>
-    <string name="action_play_without_subtitle">Afspelen Zonder Ondertiteling</string>
+    <string name="action_play_with_subs">Het spelen met ondertiteling</string>
     <string name="action_download">Downloaden</string>
-    <string name="action_download_with_sub">Downloaden Zonder Ondertiteling</string>
-    <string name="action_copy_link">Streamlink Kopieren</string>
-    <string name="action_play_via_other_players">Openen Met…</string>
+    <string name="action_download_with_subs">Downloaden met ondertiteling</string>
+    <string name="action_copy_link">Streamlink kopieren</string>
+    <string name="action_play_via_other_players">Openen met…</string>
     <string name="choose_player">Videospeler Kiezen…</string>
     <string name="no_player_was_found">Kan geen videospeler vinden</string>
     <string name="choose_external_download_manager">Extern downloadbeheer kiezen…</string>
