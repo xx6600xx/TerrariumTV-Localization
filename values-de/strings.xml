@@ -15,6 +15,7 @@
     <string name="action_add_to_bookmark">Zu Favoriten hinzufügen</string>
     <string name="action_refresh">Aktualisieren</string>
     <string name="action_stop">Anhalten</string>
+    <string name="action_next_episode">Nächste Folge</string>
     <string name="action_reverse">Rückgängig machen</string>
     <string name="action_set_watched">Als gesehen markieren</string>
     <string name="action_remove_watched">Als nicht gesehen markieren</string>
@@ -119,6 +120,7 @@
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
     <string name="pref_subtitles_choose_lang">Wähle Sprache(n) für Untertitel…</string>
     <string name="pref_synopsis_choose_lang">Wähle Sprache für die Zusammenfassung…</string>
+    <string name="pref_hide_poster_thumb">Verstecke Plakatvorschau</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
     <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
@@ -141,6 +143,8 @@
     <string name="pref_show_season_special">Staffelspezial zeigen</string>
     <string name="pref_backup_settings">Einstellungen sichern</string>
     <string name="pref_restore_settings">Einstellungen wiederherstellen</string>
+    <string name="pref_backup_favorites">Favoriten sichern</string>
+    <string name="pref_restore_favorites">Favoriten wiederherstellen</string>
     <string name="backup_path">Sichern unter \"%s\"</string>
     <string name="restore_path">Wiederherstellen von \"%s\"</string>
     <string name="backup_success">Sicherung erfolgreich!</string>
@@ -149,6 +153,8 @@
     <string name="failed_to_restore">Wiederherstellung fehlgeschlagen</string>
     <string name="pref_resolve_all_links_immediately">Hosts direkt auflösen</string>
     <string name="pref_resolve_all_links_immediately_desc">Hosts direkt auflösen für eine direkte Wiedergabe. Ist diese Option deaktiviert wird der Host erst bei Auswahl aufgelöst. (Bei lags option ausschalten!)</string>
+    <string name="pref_sources_list_refresh_interval">Aktualisierung der Quellenliste (in Sekunden)</string>
+    <string name="pref_sources_list_refresh_interval_msg">Sollte die App einfrieren muss der Wert erhöht werden.</string>
     <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
@@ -179,7 +185,8 @@
 
     <string name="subtitle_name">Untertitel : </string>
 
-    <string name="facebook_page">Facebook Page</string>
+    <string name="facebook_page">Facebook Fanpage</string>
+    <string name="official_website_menuitem">Offizielle Webseite</string>
 
     <string name="changelog">Änderungen</string>
     <string name="choose_browser">Browser wählen</string>
@@ -188,6 +195,7 @@
     <string name="accept">Akzeptieren</string>
     <string name="decline">Ablehnen</string>
 
+    <string name="cant_open_youtube">YouTube kann nicht geöffnet werden. Bitte erneut versuchen.</string>
     <string name="error">Unbekannter Fehler. Bitte erneut versuchen.</string>
     <string name="please_wait">Bitte warten…</string>
 
