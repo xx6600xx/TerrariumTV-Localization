@@ -22,7 +22,7 @@
     <string name="hint_movie_name">Nome Filme</string>
     <string name="subtitle">Legendas</string>
     <string name="unknown">Desconhecido</string>
-    <string name="download_count">Contagem de Transferência :</string>
+    <string name="download_count">Contagem de Transferências :</string>
 
     <string name="season">Temporada %1$d</string>
     <string name="episode">Episódio %1$d</string>
