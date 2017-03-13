@@ -153,6 +153,8 @@
     <string name="failed_to_restore">还原失败!</string>
     <string name="pref_resolve_all_links_immediately">立即解析链接</string>
     <string name="pref_resolve_all_links_immediately_desc">立即把链接解析成可播放的链接。关闭此选项后，Terrarium 影视 只有在你按下链接的时候才会解析该链接。 (Terrarium 影视 运行不流畅时请关闭此选项！)</string>
+    <string name="pref_sources_list_refresh_interval">片源列表重新刷新时间间隔 (秒)</string>
+    <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影视 在搜索影片链接的时候卡顿，请提高此数值</string>
     <string name="restart_to_see_the_difference">请立即重开 Terrarium 影视 来查看效果</string>
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
