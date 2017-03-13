@@ -18,7 +18,7 @@
     <string name="action_reverse">Inverter</string>
     <string name="action_set_watched">Marcar como Visto</string>
     <string name="action_remove_watched">Marcar como não Visto</string>
-    <string name="hint_tv_show_name">Nome Série de TV</string>
+    <string name="hint_tv_show_name">Nome Série</string>
     <string name="hint_movie_name">Nome Filme</string>
     <string name="subtitle">Legendas</string>
     <string name="unknown">Desconhecido</string>
@@ -29,14 +29,14 @@
     <string name="season_episode">%1$s - Temporada %2$d Episódio %3$d</string>
     <string name="season_special">Episódio Especial</string>
     <string name="search_result_of">Resultados da Pesquisa por \"%s\"</string>
-    <string name="getting_subtitle">A obter legendas… Espere por favor…</string>
-    <string name="downloading_subtitle_toast">A descarregar legendas… Espere por favor…</string>
+    <string name="getting_subtitle">A obter legendas… Espera por favor…</string>
+    <string name="downloading_subtitle_toast">A transferir legendas… Espera por favor…</string>
     <string name="ready_to_play_toast">O vídeo vai começar dentro de momentos…</string>
     <string name="searching_media">A procurar…</string>
     <string name="subtitle_language">Idioma da Legenda : </string>
-    <string name="subtitle_download_failed">Falha na transferência da legenda… Por favor tente outra legenda…</string>
-    <string name="subtitle_extract_failed">Falha na extracção da legenda… Por favor tente outra legenda…</string>
-    <string name="permission_grant_toast">Por favor pressione em \"Permitir\" para dar a permissão necessaria e tente novamente.</string>
+    <string name="subtitle_download_failed">Falha na transferência da legenda… Por favor tenta outra legenda…</string>
+    <string name="subtitle_extract_failed">Falha na extracção da legenda… Por favor tenta outra legenda…</string>
+    <string name="permission_grant_toast">Por favor pressiona em \"Permitir\" para dar a permissão necessaria e tenta novamente.</string>
     <string name="sorry">Pedimos Desculpa…</string>
     <string name="cant_be_opened_by_other_players">Esta fonte não pode ser aberta ou lida por outros leitores de vídeo. Pedimos desculpa pelo incómodo.</string>
 
@@ -44,17 +44,17 @@
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
     <string name="install">Instalar</string>
-    <string name="close_ad_to_play">Por favor feche o anúncio para começar a ver o vídeo</string>
+    <string name="close_ad_to_play">Por favor fecha o anúncio para começar a ver o vídeo</string>
 
     <string name="mxplayer_not_installed">MX Player Não Instalado</string>
-    <string name="mxplayer_not_installed_message">O MX Player não está instalado no seu aparelho. O Terrarium precisa do MX Player para ler o vídeo. Carregue em \"Instalar\" para instalar o MX Player.</string>
+    <string name="mxplayer_not_installed_message">O MX Player não está instalado no teu aparelho. O Terrarium precisa do MX Player para ler o vídeo. Carrega em \"Instalar\" para instalar o MX Player.</string>
     <string name="mxplayer_unable_to_start">Erro de Iniciação no MX Player</string>
-    <string name="mxplayer_unable_to_start_message">Erro de iniciação no MX Player. Por favor re-instale a aplicação e tente novamente.</string>
+    <string name="mxplayer_unable_to_start_message">Erro de iniciação no MX Player. Por favor re-instala a aplicação e tenta novamente.</string>
 
     <string name="vlc_player_not_installed">VLC Player Não Instalado</string>
-    <string name="vlc_player_not_installed_message">O VLC Player não está instalado no seu aparelho. O Terrarium precisa do VLC Player para ler vídeo. Carregue em \"Instalar\" para instalar o VLC Player.</string>
+    <string name="vlc_player_not_installed_message">O VLC Player não está instalado no teu aparelho. O Terrarium precisa do VLC Player para ler o vídeo. Carrega em \"Instalar\" para instalar o VLC Player.</string>
     <string name="vlc_player_unable_to_start">Erro de Iniciação no VLC Player</string>
-    <string name="vlc_player_unable_to_start_message">Erro de iniciação no VLC Player. Por favor re-instale a aplicação e tente novamente.</string>
+    <string name="vlc_player_unable_to_start_message">Erro de iniciação no VLC Player. Por favor re-instala a aplicação e tenta novamente.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Mais Popular</string>
@@ -107,7 +107,7 @@
     <string name="pref_media_down_path">Pasta para Media (Exclusivo para Gestor Interno de Transferências do Android)</string>
     <string name="pref_choose_media_down_manager">Escolha o gestor de downloads por defeito…</string>
     <string name="pref_auto_check_update">Procurar por atualizações automaticamente</string>
-    <string name="pref_filter_out_non_english_shows">Não mostrar séries de TV não-inglesas</string>
+    <string name="pref_filter_out_non_english_shows">Não mostrar séries não-inglesas</string>
     <string name="pref_filter_out_dead_sources">Não mostrar fontes desativadas</string>
     <string name="pref_filter_out_dead_sources_desc">Vai aumentar tempo para carregar fontes extra</string>
     <string name="pref_hide_unaired_season">Ocultar Temporadas ainda não transmitidas</string>
@@ -121,31 +121,31 @@
     <string name="pref_parallel_loading_sources">Carregamento de fontes em paralelo</string>
     <string name="pref_parallel_loading_sources_desc">Altamente recomendado que esteja ativado. Aumenta a velocidade de carregamento de fontes em 5x. Contudo, pode causar fecho forçado ou crash em aparelhos de menor capacidade.</string>
     <string name="pref_choose_default_nav">Escolher Secção Inicial</string>
-    <string name="pref_choose_default_category_tv_shows">Escolher Categoria ou Género favorito de Séries de TV…</string>
+    <string name="pref_choose_default_category_tv_shows">Escolher Categoria ou Género favorito de Séries…</string>
     <string name="pref_choose_default_category_movies">Escolher Categoria ou Género favorito de Filmes…</string>
     <string name="pref_enabled_tv_shows_providers">Escolher fontes ativas para Séries de TV…</string>
-    <string name="pref_enabled_movies_providers">Escolher fontes activas para Filmes…</string>
+    <string name="pref_enabled_movies_providers">Escolher fontes ativas para Filmes…</string>
     <string name="pref_enabled_resolvers">Escolher resolvers ativos…</string>
     <string name="pref_modern_ui">Utilizar modern UI</string>
     <string name="pref_modern_ui_desc">Mostra cartazes em vez de banners</string>
     <string name="pref_choose_default_play_action">Escolher modo de visionamento</string>
-    <string name="restart_to_see_the_difference">Por favor reinicie o Terrarium TV para ver as diferenças.</string>
+    <string name="restart_to_see_the_difference">Por favor reinicia o Terrarium TV para ver as diferenças.</string>
 
     <string name="download_manager_internal">Gestor Interno de Transferências do Android</string>
     <string name="download_manager_external">Gestor(es) Externo(s) de Transferências</string>
 
-    <string name="action_play">Ver</string>
+    <string name="action_play">Ver sem Legendas</string>
     <string name="action_play_with_subs">Ver com Legendas</string>
-    <string name="action_download">Transferir</string>
-    <string name="action_download_with_subs">Transferir com Legendas</string>
+    <string name="action_download">Transferir vídeo sem Legendas</string>
+    <string name="action_download_with_subs">Transferir vídeo com Legendas</string>
     <string name="action_copy_link">Copiar link para stream</string>
     <string name="action_play_via_other_players">Abrir com…</string>
-    <string name="choose_player">EScolher leitor de vídeo…</string>
+    <string name="choose_player">Escolher leitor de vídeo…</string>
     <string name="no_player_was_found">Não foram encontrados leitores de vídeo</string>
     <string name="choose_external_download_manager">Escolher gestor de transferência externo…</string>
-    <string name="no_external_download_manager_was_found">Não foi encontrado um gestor de transferência externo. Por favor transfira um da Play Store ou utilize o Gestor Interno de Transferências do Android</string>
+    <string name="no_external_download_manager_was_found">Não foi encontrado um gestor de transferência externo. Por favor transfere um da Play Store ou utiliza o Gestor Interno de Transferências do Android</string>
     <string name="download_started">Transferência iniciada…</string>
-    <string name="download_path_error">Pasta para Transferência tem que estar localizada no armazenamento interno.Por favor escolha outra pasta.</string>
+    <string name="download_path_error">Pasta para Transferência tem que estar localizada no armazenamento interno.Por favor escolhe outra pasta.</string>
     <string name="copied_link">Link para Stream copiado</string>
     <string name="link_must_be_played_in_app">Pedimos Desculpa… Este link só pode ser executado pelo Terrarium TV…</string>
 
@@ -160,16 +160,16 @@
     <string name="facebook_page">Página Facebook</string>
 
     <string name="changelog">Lista de Atualizações</string>
-    <string name="choose_browser">Escolha um Browser</string>
+    <string name="choose_browser">Escolhe um Browser</string>
 
     <string name="disclaimer">Aviso Legal</string>
     <string name="accept">Aceitar</string>
     <string name="decline">Recusar</string>
 
-    <string name="error">Erro desconhecido. Por favor tente de novo.</string>
-    <string name="please_wait">Espere por favor…</string>
+    <string name="error">Erro desconhecido. Por favor tenta de novo.</string>
+    <string name="please_wait">Espera por favor…</string>
 
-    <string name="recaptcha_verify">Tem que fazer uma verificação reCAPTCHA para poder obter fontes a partir de %s</string>
+    <string name="recaptcha_verify">Tens que fazer uma verificação reCAPTCHA para poderes obter fontes a partir de %s</string>
     <string name="verify">Verificar</string>
 
     <string name="size_large">Grande</string>
@@ -178,7 +178,7 @@
 
     <string name="show_details_overview">DESCRIÇÃO</string>
     <string name="show_details_season">TEMPORADA</string>
-    <string name="media_suggestion">Veja também</string>
+    <string name="media_suggestion">Vê também</string>
     <string name="no_synopsis">Sinopse não disponível</string>
     <string name="loading_ratings">A carregar classificações…</string>
     <string name="no_ratings">Sem Classificações</string>
@@ -189,7 +189,7 @@
     <string name="navigation_drawer_open">Abrir Menu de Navegação</string>
     <string name="navigation_drawer_close">Fechar Menu de Navegação</string>
 
-    <string name="tv_shows">Séries de TV</string>
+    <string name="tv_shows">Séries</string>
     <string name="movies">Filmes</string>
 
     <string name="play_trailer">Ver Trailer</string>
