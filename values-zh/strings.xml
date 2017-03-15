@@ -105,6 +105,7 @@
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
     <string name="pref_subtitle_chin">SubHD, Makedie 和 Zimiku 字幕語言</string>
+    <string name="pref_backup_and_restore">備份與還原</string>
     <string name="pref_others">其他</string>
 
     <string name="pref_sub_down_path">字幕下載路徑</string>
