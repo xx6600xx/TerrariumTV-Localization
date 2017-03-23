@@ -19,6 +19,8 @@
     <string name="action_reverse">Reverse</string>
     <string name="action_set_watched">Set Watched</string>
     <string name="action_remove_watched">Remove Watched</string>
+    <string name="action_sync_with_trakt">Sync with Trakt.tv</string>
+    <string name="sync_in_progress">Sync in progress…</string>
     <string name="hint_tv_show_name">TV Show Name</string>
     <string name="hint_movie_name">Movie Name</string>
     <string name="subtitle">Subtitles</string>
@@ -97,6 +99,11 @@
     <string name="genre_movie_documentary">Documentary</string>
     <string name="genre_movie_music">Music</string>
 
+    <string name="list_movie_oscars_winners">Oscars Winners</string>
+    <string name="list_movie_christmas">Christmas</string>
+    <string name="list_movie_marvels">Marvel\'s</string>
+    <string name="list_movie_disney_classics">Disney Classics</string>
+
     <string name="filter_year">Year</string>
 
     <string name="pref_general">General</string>
@@ -112,7 +119,8 @@
     <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
     <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
     <string name="pref_choose_media_down_manager">Choose default download manager…</string>
-    <string name="pref_auto_check_update">Check Update Automatically</string>
+    <string name="pref_auto_check_update">Check update automatically</string>
+    <string name="pref_auto_mark_episode_as_watched">Auto mark episodes as watched</string>
     <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
     <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>

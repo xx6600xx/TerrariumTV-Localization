@@ -19,6 +19,8 @@
     <string name="action_reverse">反轉排序</string>
     <string name="action_set_watched">設為已觀看</string>
     <string name="action_remove_watched">移除已觀看</string>
+    <string name="action_sync_with_trakt">與 Trakt.tv 同步</string>
+    <string name="sync_in_progress">同步中…</string>
     <string name="hint_tv_show_name">劇集名稱</string>
     <string name="hint_movie_name">電影名稱</string>
     <string name="subtitle">字幕</string>
@@ -97,6 +99,11 @@
     <string name="genre_movie_documentary">紀錄片</string>
     <string name="genre_movie_music">音樂</string>
 
+    <string name="list_movie_oscars_winners">奧斯卡得獎電影</string>
+    <string name="list_movie_christmas">聖誕節</string>
+    <string name="list_movie_marvels">Marvel 電影</string>
+    <string name="list_movie_disney_classics">迪士尼經典</string>
+
     <string name="filter_year">年份</string>
 
     <string name="pref_general">一般設定</string>
@@ -113,6 +120,7 @@
     <string name="pref_media_down_path">影片下載路徑 (只限 Android 內置下載管理員)</string>
     <string name="pref_choose_media_down_manager">選擇預設下載管理器…</string>
     <string name="pref_auto_check_update">自動檢查更新</string>
+    <string name="pref_auto_mark_episode_as_watched">自動標記已觀看集數</string>
     <string name="pref_filter_out_non_english_shows">隱藏非英語劇集</string>
     <string name="pref_filter_out_dead_sources">隱藏無效片源</string>
     <string name="pref_filter_out_dead_sources_desc">這將會增加片源載入時間</string>
@@ -144,8 +152,8 @@
     <string name="pref_show_season_special">顯示特別季度</string>
     <string name="pref_backup_settings">備份設定</string>
     <string name="pref_restore_settings">還原設定</string>
-    <string name="pref_backup_favorites">Backup favorites</string>
-    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="pref_backup_favorites">備份我的最愛</string>
+    <string name="pref_restore_favorites">還原我的最愛</string>
     <string name="backup_path">備份到 %s</string>
     <string name="restore_path">從 %s 還原</string>
     <string name="backup_success">備份成功!</string>
