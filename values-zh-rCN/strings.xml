@@ -19,6 +19,8 @@
     <string name="action_reverse">反转排序</string>
     <string name="action_set_watched">设为已观看</string>
     <string name="action_remove_watched">移除已观看</string>
+    <string name="action_sync_with_trakt">与 Trakt.tv 同步</string>
+    <string name="sync_in_progress">同步中…</string>
     <string name="hint_tv_show_name">剧集名称</string>
     <string name="hint_movie_name">电影名称</string>
     <string name="subtitle">字幕</string>
@@ -97,6 +99,11 @@
     <string name="genre_movie_documentary">纪录片</string>
     <string name="genre_movie_music">音乐</string>
 
+    <string name="list_movie_oscars_winners">奥斯卡得奖影片</string>
+    <string name="list_movie_christmas">圣诞节</string>
+    <string name="list_movie_marvels">漫威电影</string>
+    <string name="list_movie_disney_classics"> 迪士尼经典 </string>
+
     <string name="filter_year">年份</string>
 
     <string name="pref_general">一般设置</string>
@@ -113,6 +120,7 @@
     <string name="pref_media_down_path">影片下载路径 (仅限 Android 内置下载管理器)</string>
     <string name="pref_choose_media_down_manager">选择默认下载管理器…</string>
     <string name="pref_auto_check_update">自动检查更新</string>
+    <string name="pref_auto_mark_episode_as_watched">自动标记已观看集数</string>
     <string name="pref_filter_out_non_english_shows">隐藏非英语剧集</string>
     <string name="pref_filter_out_dead_sources">隐藏无效片源</string>
     <string name="pref_filter_out_dead_sources_desc">这将会增加片源加载时间</string>
