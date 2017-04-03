@@ -20,6 +20,7 @@
     <string name="action_set_watched">Set Watched</string>
     <string name="action_remove_watched">Remove Watched</string>
     <string name="action_sync_with_trakt">Sync with Trakt.tv</string>
+    <string name="action_share_app">Share App</string>
     <string name="sync_in_progress">Sync in progress…</string>
     <string name="hint_tv_show_name">TV Show Name</string>
     <string name="hint_movie_name">Movie Name</string>
@@ -94,6 +95,7 @@
     <string name="genre_movie_comedy">Comedy</string>
     <string name="genre_movie_family">Family</string>
     <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">History</string>
     <string name="genre_movie_war">War</string>
     <string name="genre_movie_documentary">Documentary</string>
@@ -199,6 +201,7 @@
 
     <string name="changelog">Changelog</string>
     <string name="choose_browser">Choose a browser</string>
+    <string name="choose_app">Choose an app…</string>
 
     <string name="disclaimer">Disclaimer</string>
     <string name="accept">Accept</string>

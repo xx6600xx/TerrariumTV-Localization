@@ -20,6 +20,7 @@
     <string name="action_set_watched">設為已觀看</string>
     <string name="action_remove_watched">移除已觀看</string>
     <string name="action_sync_with_trakt">與 Trakt.tv 同步</string>
+    <string name="action_share_app">分享此 App</string>
     <string name="sync_in_progress">同步中…</string>
     <string name="hint_tv_show_name">劇集名稱</string>
     <string name="hint_movie_name">電影名稱</string>
@@ -94,6 +95,7 @@
     <string name="genre_movie_comedy">喜劇</string>
     <string name="genre_movie_family">家庭</string>
     <string name="genre_movie_animation">動畫</string>
+    <string name="genre_movie_western">西部</string>
     <string name="genre_movie_history">歷史</string>
     <string name="genre_movie_war">戰爭</string>
     <string name="genre_movie_documentary">紀錄片</string>
@@ -199,6 +201,7 @@
 
     <string name="changelog">更新記錄</string>
     <string name="choose_browser">選擇瀏覽器</string>
+    <string name="choose_app">選擇一個應用程式…</string>
 
     <string name="disclaimer">免責聲明</string>
     <string name="accept">接受</string>
