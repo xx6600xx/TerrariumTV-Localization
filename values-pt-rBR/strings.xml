@@ -135,7 +135,7 @@
     <string name="download_manager_external">Gerenciadores de Downloads externos</string>
 
     <string name="action_play">Reproduzir</string>
-    <string name="action_play_with_subs">Reproduzir sem legendas</string>
+    <string name="action_play_with_subs">Reproduzir com legendas</string>
     <string name="action_download">Fazer Download</string>
     <string name="action_download_with_subs">Fazer Download com legendas</string>
     <string name="action_copy_link">Copiar Link do vídeo</string>
