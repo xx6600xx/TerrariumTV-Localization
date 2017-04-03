@@ -50,14 +50,14 @@
     <string name="close_ad_to_play">Zamknij najpierw reklamę, aby rozpocząć odtwarzanie.</string>
 
     <string name="mxplayer_not_installed">MX Player nie jest zainstalowany</string>
-    <string name="mxplayer_not_installed_message">MX Player nie jest zainstalowany na Twoim urządzeniu. Terrarium TV wymaga MX Player'a, aby odtwarzać media. Kliknij "Zainstaluj", aby ściąnąć MX Player'a.</string>
+    <string name="mxplayer_not_installed_message">MX Player nie jest zainstalowany na Twoim urządzeniu. Terrarium TV wymaga MX Player\'a, aby odtwarzać media. Kliknij "Zainstaluj", aby ściąnąć MX Player\'a.</string>
     <string name="mxplayer_unable_to_start">MX Player nie mógł zostać uruchomiony</string>
-    <string name="mxplayer_unable_to_start_message">Nie możemy uruchomić MX Player'a. Przeinstaluj go i spróbuj ponownie.</string>
+    <string name="mxplayer_unable_to_start_message">Nie możemy uruchomić MX Player\'a. Przeinstaluj go i spróbuj ponownie.</string>
 
     <string name="vlc_player_not_installed">VLC Player nie jest zainstalowany</string>
-    <string name="vlc_player_not_installed_message">VLC Player nie jest zainstalowany na Twoim urządzeniu. Terrarium TV wyamaga VLC Player, aby odtwarzać media. Kliknij "Zainstaluj", aby ściąnąć VLC Player'a.</string>
+    <string name="vlc_player_not_installed_message">VLC Player nie jest zainstalowany na Twoim urządzeniu. Terrarium TV wyamaga VLC Player, aby odtwarzać media. Kliknij "Zainstaluj", aby ściąnąć VLC Player\'a.</string>
     <string name="vlc_player_unable_to_start">VLC Player nie mógł zostać uruchomiony</string>
-    <string name="vlc_player_unable_to_start_message">Nie możemy uruchomić VLC Player'a. Przeinstaluj go i spróbuj ponownie.</string>
+    <string name="vlc_player_unable_to_start_message">Nie możemy uruchomić VLC Player\'a. Przeinstaluj go i spróbuj ponownie.</string>
 
     <string name="trending">Najciekawsze</string>
     <string name="most_popular">Najpopularniejsze</string>
@@ -204,7 +204,7 @@
     <string name="accept">Zaakceptuj</string>
     <string name="decline">Odrzuć</string>
 
-    <string name="cant_open_youtube">Nie można uruchomić YouTube'a. Spróbuj ponownie później.</string>
+    <string name="cant_open_youtube">Nie można uruchomić YouTube\'a. Spróbuj ponownie później.</string>
     <string name="error">Nieznany błąd. Spróbuj ponownie później.</string>
     <string name="please_wait">Proszę czekać…</string>
 
