@@ -20,6 +20,7 @@
     <string name="action_set_watched">Zaznacz jako obejrzane</string>
     <string name="action_remove_watched">Usuń z obejrzanych</string>
     <string name="action_sync_with_trakt">Synchronizuj z Trakt.tv</string>
+	<string name="action_share_app">Udostępnij aplikację</string>
     <string name="sync_in_progress">Synchronizacja w toku…</string>
     <string name="hint_tv_show_name">Nazwa serialu</string>
     <string name="hint_movie_name">Nazwa filmu</string>
@@ -94,6 +95,7 @@
     <string name="genre_movie_comedy">Komedie</string>
     <string name="genre_movie_family">Rodzinne</string>
     <string name="genre_movie_animation">Animacje</string>
+	<string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">Historyczne</string>
     <string name="genre_movie_war">Wojenne</string>
     <string name="genre_movie_documentary">Dokumentalne</string>
@@ -169,8 +171,8 @@
     <string name="download_manager_internal">Wewnętrzny menedżer pobierania Androida</string>
     <string name="download_manager_external">Zewnętrzne menedżer(y) pobierania</string>
 
-    <string name="action_play">Odtwórz</string>
-    <string name="action_play_with_subs">Odtwórz z napisami</string>
+    <string name="action_play">Oglądaj</string>
+    <string name="action_play_with_subs">Oglądaj z napisami</string>
     <string name="action_download">Pobierz</string>
     <string name="action_download_with_subs">Pobierz z napisami</string>
     <string name="action_copy_link">Kopiuj link strumienia</string>
@@ -199,6 +201,7 @@
 
     <string name="changelog">Lista zmian</string>
     <string name="choose_browser">Wybierz przeglądarkę</string>
+	<string name="choose_app">Wybierz aplikację…</string>
 
     <string name="disclaimer">Uwaga</string>
     <string name="accept">Zaakceptuj</string>
@@ -231,7 +234,7 @@
     <string name="tv_shows">Seriale</string>
     <string name="movies">Filmy</string>
 
-    <string name="play_trailer">Odtwórz zwiastun</string>
+    <string name="play_trailer">Obejrzyj zwiastun</string>
 
     <string name="translators">Tłumacze</string>
 
