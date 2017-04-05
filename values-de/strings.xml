@@ -19,6 +19,9 @@
     <string name="action_reverse">Rückgängig machen</string>
     <string name="action_set_watched">Als gesehen markieren</string>
     <string name="action_remove_watched">Als nicht gesehen markieren</string>
+    <string name="action_sync_with_trakt">Mit Trakt.tv synchronisieren</string>
+    <string name="action_share_app">App teilen</string>
+    <string name="sync_in_progress">Synchronisiert…</string>
     <string name="hint_tv_show_name">Serientitel</string>
     <string name="hint_movie_name">Filmtitel</string>
     <string name="subtitle">Untertitel</string>
@@ -92,10 +95,16 @@
     <string name="genre_movie_comedy">Komödie</string>
     <string name="genre_movie_family">Family</string>
     <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">Geschichte</string>
     <string name="genre_movie_war">Krieg</string>
     <string name="genre_movie_documentary">Dokumentar</string>
     <string name="genre_movie_music">Musical</string>
+
+    <string name="list_movie_oscars_winners">Oscar Gewinner</string>
+    <string name="list_movie_christmas">Christmas</string>
+    <string name="list_movie_marvels">Marvel</string>
+    <string name="list_movie_disney_classics">Disney</string>
 
     <string name="filter_year">Jahr</string>
 
@@ -105,6 +114,7 @@
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
     <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
+    <string name="pref_backup_and_restore">Backup und Wiederherstellen</string>
     <string name="pref_others">Andere</string>
 
     <string name="pref_sub_down_path">Speicherort der Untertitel</string>
@@ -112,6 +122,7 @@
     <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
     <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
     <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
+    <string name="pref_auto_mark_episode_as_watched">Episoden automatisch als gesehen markieren</string>
     <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
     <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
     <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
@@ -190,6 +201,7 @@
 
     <string name="changelog">Änderungen</string>
     <string name="choose_browser">Browser wählen</string>
+    <string name="choose_app">App wählen…</string>
 
     <string name="disclaimer">Haftungsausschluss</string>
     <string name="accept">Akzeptieren</string>
