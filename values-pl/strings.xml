@@ -20,7 +20,7 @@
     <string name="action_set_watched">Zaznacz jako obejrzane</string>
     <string name="action_remove_watched">Usuń z obejrzanych</string>
     <string name="action_sync_with_trakt">Synchronizuj z Trakt.tv</string>
-	<string name="action_share_app">Udostępnij aplikację</string>
+    <string name="action_share_app">Udostępnij aplikację</string>
     <string name="sync_in_progress">Synchronizacja w toku…</string>
     <string name="hint_tv_show_name">Nazwa serialu</string>
     <string name="hint_movie_name">Nazwa filmu</string>
@@ -95,7 +95,7 @@
     <string name="genre_movie_comedy">Komedie</string>
     <string name="genre_movie_family">Rodzinne</string>
     <string name="genre_movie_animation">Animacje</string>
-	<string name="genre_movie_western">Western</string>
+    <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">Historyczne</string>
     <string name="genre_movie_war">Wojenne</string>
     <string name="genre_movie_documentary">Dokumentalne</string>
@@ -201,7 +201,7 @@
 
     <string name="changelog">Lista zmian</string>
     <string name="choose_browser">Wybierz przeglądarkę</string>
-	<string name="choose_app">Wybierz aplikację…</string>
+    <string name="choose_app">Wybierz aplikację…</string>
 
     <string name="disclaimer">Uwaga</string>
     <string name="accept">Zaakceptuj</string>
