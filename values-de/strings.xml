@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Chinesisch (traditionell)</string>
+    <string name="language_zh_cn">Chinesisch (vereinfacht)</string>
+    <string name="language_en">Englisch</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="no_data">Keine Daten</string>
+    <string name="no_internet">Keine Internetverbindung</string>
+    <string name="loading">Lädt</string>
+    <string name="loading_more">Mehr laden…</string>
+    <string name="action_search">Suchen</string>
+    <string name="action_bookmark">Favoriten</string>
+    <string name="action_add_to_bookmark">Zu Favoriten hinzufügen</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_stop">Anhalten</string>
+    <string name="action_next_episode">Nächste Folge</string>
+    <string name="action_reverse">Rückgängig machen</string>
+    <string name="action_set_watched">Als gesehen markieren</string>
+    <string name="action_remove_watched">Als nicht gesehen markieren</string>
+    <string name="action_sync_with_trakt">Mit Trakt.tv synchronisieren</string>
+    <string name="action_share_app">App teilen</string>
+    <string name="sync_in_progress">Synchronisiert…</string>
+    <string name="hint_tv_show_name">Serientitel</string>
+    <string name="hint_movie_name">Filmtitel</string>
+    <string name="subtitle">Untertitel</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="download_count">Downloads :</string>
+
+    <string name="season">Staffel %1$d</string>
+    <string name="episode">Episode %1$d</string>
+    <string name="season_episode">%1$s - Staffel %2$d Episode %3$d</string>
+    <string name="season_special">Staffelspezial</string>
+    <string name="search_result_of">Suchergebnisse für \"%s\"</string>
+    <string name="getting_subtitle">Suche Untertitel… Bitte warten…</string>
+    <string name="downloading_subtitle_toast">Lade Untertitel… Bitte warten…</string>
+    <string name="ready_to_play_toast">Das Video startet in wenigen Sekunden…</string>
+    <string name="searching_media">Suche…</string>
+    <string name="subtitle_language">Untertitelsprache : </string>
+    <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="permission_grant_toast">Drücke bitte auf \"Zulassen\" um Zugriff zu gestatten</string>
+    <string name="sorry">Sorry…</string>
+    <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+    <string name="install">Installieren</string>
+    <string name="close_ad_to_play">Um das Video abzuspielen muss die Werbung zuerst geschlossen werden</string>
+
+    <string name="mxplayer_not_installed">MX Player ist nicht installiert</string>
+    <string name="mxplayer_not_installed_message">MX Player ist nicht auf deinem Gerät installiert. Terrarium benötigt MX Player um Medien abzuspielen. Klick auf "Installieren" um MX Player zu installieren.</string>
+    <string name="mxplayer_unable_to_start">MX Player öffnet sich nicht</string>
+    <string name="mxplayer_unable_to_start_message">MX Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
+
+    <string name="vlc_player_not_installed">VLC Player ist nicht installiert</string>
+    <string name="vlc_player_not_installed_message">VLC Player ist nicht auf deinem Gerät installiert. Terrarium benötigt VLC Player um Medien abzuspielen. Klick auf "Installieren" um VLC Player zu installieren.</string>
+    <string name="vlc_player_unable_to_start">VLC Player öffnet sich nicht</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
+
+    <string name="trending">Im Trend</string>
+    <string name="most_popular">Beliebt</string>
+    <string name="most_played">Meist gespielt</string>
+    <string name="most_watched">Meist gesehen</string>
+    <string name="recently_updated">Aktualisiert</string>
+    <string name="new_shows">Brandneu</string>
+    <string name="premieres">Premieren</string>
+    <string name="on_the_air">Laufend</string>
+    <string name="top_rated">Bestbewertet</string>
+    <string name="now_playing">Im Kino</string>
+
+    <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
+    <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Komödie</string>
+    <string name="genre_tv_family">Family</string>
+    <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
+    <string name="genre_tv_reality">Reality</string>
+    <string name="genre_tv_documentary">Dokumentar</string>
+    <string name="genre_tv_animation">Animation</string>
+
+    <string name="genre_movie_action">Action</string>
+    <string name="genre_movie_adventure">Abenteuer</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Science-Fiction</string>
+    <string name="genre_movie_fantasy">Fantasy</string>
+    <string name="genre_movie_mystery">Mystery</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Krimi</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romanze</string>
+    <string name="genre_movie_comedy">Komödie</string>
+    <string name="genre_movie_family">Family</string>
+    <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_western">Western</string>
+    <string name="genre_movie_history">Geschichte</string>
+    <string name="genre_movie_war">Krieg</string>
+    <string name="genre_movie_documentary">Dokumentar</string>
+    <string name="genre_movie_music">Musical</string>
+
+    <string name="list_movie_oscars_winners">Oscar Gewinner</string>
+    <string name="list_movie_christmas">Christmas</string>
+    <string name="list_movie_marvels">Marvel</string>
+    <string name="list_movie_disney_classics">Disney</string>
+
+    <string name="filter_year">Jahr</string>
+
+    <string name="pref_general">Allgemein</string>
+    <string name="pref_performance">Performance</string>
+    <string name="pref_ui">Oberfläche</string>
+    <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
+    <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
+    <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
+    <string name="pref_backup_and_restore">Backup und Wiederherstellen</string>
+    <string name="pref_others">Andere</string>
+
+    <string name="pref_sub_down_path">Speicherort der Untertitel</string>
+    <string name="pref_sub_down_path_des">Untertitel werden heruntergeladen und an diesem Ort gespeichert.</string>
+    <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
+    <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
+    <string name="pref_auto_mark_episode_as_watched">Episoden automatisch als gesehen markieren</string>
+    <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
+    <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
+    <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
+    <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
+    <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
+    <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
+    <string name="pref_subtitles_choose_lang">Wähle Sprache(n) für Untertitel…</string>
+    <string name="pref_synopsis_choose_lang">Wähle Sprache für die Zusammenfassung…</string>
+    <string name="pref_hide_poster_thumb">Verstecke Plakatvorschau</string>
+    <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
+    <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
+    <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
+    <string name="pref_poster_size">Plakatgröße</string>
+    <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
+    <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um das Fünffache. Könnte auf bestimmten Geräten Fehler verursachen.</string>
+    <string name="pref_choose_default_nav">Wähle Startbildschirm…</string>
+    <string name="pref_choose_default_category_tv_shows">Wähle Standardgenre für Serien…</string>
+    <string name="pref_choose_default_category_movies">Wähle Standardgenre für Filme…</string>
+    <string name="pref_enabled_tv_shows_providers">Wähle Quellen für Serien…</string>
+    <string name="pref_enabled_movies_providers">Wähle Quellen für Filme…</string>
+    <string name="pref_enabled_resolvers">Wähle Hosts…</string>
+    <string name="pref_modern_ui">Moderne Oberfläche benutzen</string>
+    <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
+    <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
+    <string name="pref_force_tv_mode">Benutze Android TV Modus</string>
+    <string name="pref_force_tv_mode_desc">Forciert die Darstellung der App im Android TV Layout</string>
+    <string name="pref_choose_default_player">Standard video player wählen…</string>
+    <string name="pref_show_hd_sources_only">Nur HD links anzeigen</string>
+    <string name="pref_show_season_special">Staffelspezial zeigen</string>
+    <string name="pref_backup_settings">Einstellungen sichern</string>
+    <string name="pref_restore_settings">Einstellungen wiederherstellen</string>
+    <string name="pref_backup_favorites">Favoriten sichern</string>
+    <string name="pref_restore_favorites">Favoriten wiederherstellen</string>
+    <string name="backup_path">Sichern unter \"%s\"</string>
+    <string name="restore_path">Wiederherstellen von \"%s\"</string>
+    <string name="backup_success">Sicherung erfolgreich!</string>
+    <string name="restore_success">Wiederherstellung erfolgreich!</string>
+    <string name="failed_to_backup">Sicherung fehlgeschlagen</string>
+    <string name="failed_to_restore">Wiederherstellung fehlgeschlagen</string>
+    <string name="pref_resolve_all_links_immediately">Hosts direkt auflösen</string>
+    <string name="pref_resolve_all_links_immediately_desc">Hosts direkt auflösen für eine direkte Wiedergabe. Ist diese Option deaktiviert wird der Host erst bei Auswahl aufgelöst. (Bei lags option ausschalten!)</string>
+    <string name="pref_sources_list_refresh_interval">Aktualisierung der Quellenliste (in Sekunden)</string>
+    <string name="pref_sources_list_refresh_interval_msg">Sollte die App einfrieren muss der Wert erhöht werden.</string>
+    <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
+
+    <string name="download_manager_internal">Android Download Manager</string>
+    <string name="download_manager_external">Externer Download Manager</string>
+
+    <string name="action_play">Abspielen</string>
+    <string name="action_play_with_subs">Spiel mit Untertiteln</string>
+    <string name="action_download">Download</string>
+    <string name="action_download_with_subs">Mit Untertitel laden</string>
+    <string name="action_copy_link">Link zum Stream kopieren</string>
+    <string name="action_play_via_other_players">Öffnen mit…</string>
+    <string name="choose_player">Einen Video Player wählen…</string>
+    <string name="no_player_was_found">Kein Video Player gefunden</string>
+    <string name="choose_external_download_manager">Wähle einen externen Download Manager…</string>
+    <string name="no_external_download_manager_was_found">Kein externen Download Manager gefunden. Bitte lade einen aus dem Play Store oder benutze den Android Download Manager</string>
+    <string name="download_started">Download gestartet…</string>
+    <string name="download_path_error">Speicherort muss im internen Speicher liegen. Bitte wählen einen anderen Pfad.</string>
+    <string name="copied_link">Link zum Stream kopiert</string>
+    <string name="link_must_be_played_in_app">Sorry… Dieser Link kann nicht in Terrarium TV abgespielt werden…</string>
+    <string name="video_player_crashed_unexpectedly">Player ist abgestürtzt. Probiere das Video mit einem anderen Player abzuspielen.</string>
+    <string name="choose_subtitles_file">Datei für Untertitel auswählen…</string>
+
+    <string name="update_title">Neue Version gefunden : %s</string>
+    <string name="update_message">Version %s : </string>
+    <string name="update_button">Update laden</string>
+    <string name="update_downloading">Lade Update %s</string>
+    <string name="update_failed">Update fehlgeschlagen oder abgebrochen</string>
+
+    <string name="subtitle_name">Untertitel : </string>
+
+    <string name="facebook_page">Facebook Fanpage</string>
+    <string name="official_website_menuitem">Offizielle Webseite</string>
+
+    <string name="changelog">Änderungen</string>
+    <string name="choose_browser">Browser wählen</string>
+    <string name="choose_app">App wählen…</string>
+
+    <string name="disclaimer">Haftungsausschluss</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="decline">Ablehnen</string>
+
+    <string name="cant_open_youtube">YouTube kann nicht geöffnet werden. Bitte erneut versuchen.</string>
+    <string name="error">Unbekannter Fehler. Bitte erneut versuchen.</string>
+    <string name="please_wait">Bitte warten…</string>
+
+    <string name="recaptcha_verify">Das reCaptcha muss bestätigt werden damit die Quellen von %s geladen werden</string>
+    <string name="verify">Bestätigen</string>
+
+    <string name="size_large">Groß</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Klein</string>
+
+    <string name="show_details_overview">ÜBERSICHT</string>
+    <string name="show_details_season">STAFFEL</string>
+    <string name="media_suggestion">Vorschläge</string>
+    <string name="no_synopsis">Keine Zusammenfassung</string>
+    <string name="loading_ratings">Bewertungen werden geladen…</string>
+    <string name="no_ratings">Keine Bewertungen</string>
+    <string name="meta_in_production">Wird gedreht</string>
+    <string name="meta_returning_series">Nicht abgeschlossen</string>
+    <string name="meta_ended">Abgeschlossen</string>
+
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+
+    <string name="tv_shows">Serien</string>
+    <string name="movies">Filme</string>
+
+    <string name="play_trailer">Trailer abspielen</string>
+
+    <string name="translators">Übersetzer</string>
+
+    <string name="pref_app_lang">Sprache</string>
+
+    <string name="learn_more">Mehr erfahren</string>
+
+    <string name="resolving">Wird aufgelöst</string>
+    <string name="resolving_links">Links werden aufgelöst…</string>
+    <string name="failed_to_resolve_link">Das Auflösen dieses Links ist fehlgeschlagen. Bitte probiere einen anderen Link.</string>
+    <string name="no_streamlink_is_available">Sorry… Momentan ist kein Stream verfügbar…</string>
+    <string name="link_cant_be_resolved">Sorry… Dieser Link kann nicht aufgelöst werden…</string>
+
+    <string name="low_end_device_detected">Langsames Gerät entdeckt</string>
+    <string name="resolve_all_links_immediately_disabled">Du benutzt Terrarium TV auf einem langsamen Gerät. Für bessere Performance wird die Funktion \"Hosts direkt auflösen"\ deaktiviert. Du wirst keine Dateigrößen mehr sehen. Dafür sollte die App keine Probleme mehr verursachen. Für die Anzeige der Dateigröße muss die Funktion wieder in den Einstellungen aktiviert werden.</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exceptionn</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV neustarten</string>
+    <string name="customactivityoncrash_error_activity_close_app">Terrarirum TV schließen</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Schließen</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">In Zwischenablage kopieren</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">In Zwischenablage kopiert</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+</resources>

@@ -11,13 +11,17 @@
     <string name="loading">Loading</string>
     <string name="loading_more">Loading More…</string>
     <string name="action_search">Search</string>
-    <string name="action_bookmark">Bookmark</string>
-    <string name="action_add_to_bookmark">Add to Bookmark</string>
+    <string name="action_bookmark">Favorites</string>
+    <string name="action_add_to_bookmark">Add to favorites</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stop</string>
+    <string name="action_next_episode">Next Episode</string>
     <string name="action_reverse">Reverse</string>
     <string name="action_set_watched">Set Watched</string>
     <string name="action_remove_watched">Remove Watched</string>
+    <string name="action_sync_with_trakt">Sync with Trakt.tv</string>
+    <string name="action_share_app">Share App</string>
+    <string name="sync_in_progress">Sync in progress…</string>
     <string name="hint_tv_show_name">TV Show Name</string>
     <string name="hint_movie_name">Movie Name</string>
     <string name="subtitle">Subtitles</string>
@@ -28,7 +32,7 @@
     <string name="episode">Episode %1$d</string>
     <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
     <string name="season_special">Season Special</string>
-    <string name="search_result_of">Search result of \"%s\"</string>
+    <string name="search_result_of">Search results of \"%s\"</string>
     <string name="getting_subtitle">Getting subtitles… Please wait…</string>
     <string name="downloading_subtitle_toast">Downloading subtitles… Please wait…</string>
     <string name="ready_to_play_toast">The video will be started in a second…</string>
@@ -44,11 +48,17 @@
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
     <string name="install">Install</string>
-    <string name="mxplayer_not_installed">MXPlayer Not Installed</string>
-    <string name="mxplayer_not_installed_message">MXPlayer is not installed on your device. Terrarium needs MXPlayer to play medias. Click "Install" to install MXPlayer.</string>
-    <string name="mxplayer_unable_to_start">MXPlayer Unable To Start</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer is unable to start. Please re-install it and try again.</string>
     <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
+
+    <string name="mxplayer_not_installed">MX Player Not Installed</string>
+    <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium TV needs MX Player to play media. Click "Install" to install MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
+    <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
+
+    <string name="vlc_player_not_installed">VLC Player Not Installed</string>
+    <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play media. Click "Install" to install VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
 
     <string name="trending">Trending</string>
     <string name="most_popular">Most Popular</string>
@@ -70,6 +80,7 @@
     <string name="genre_tv_war_politics">War &amp; Politics</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Documentary</string>
+    <string name="genre_tv_animation">Animation</string>
 
     <string name="genre_movie_action">Action</string>
     <string name="genre_movie_adventure">Adventure</string>
@@ -84,23 +95,34 @@
     <string name="genre_movie_comedy">Comedy</string>
     <string name="genre_movie_family">Family</string>
     <string name="genre_movie_animation">Animation</string>
+    <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">History</string>
     <string name="genre_movie_war">War</string>
     <string name="genre_movie_documentary">Documentary</string>
     <string name="genre_movie_music">Music</string>
 
+    <string name="list_movie_oscars_winners">Oscars Winners</string>
+    <string name="list_movie_christmas">Christmas</string>
+    <string name="list_movie_marvels">Marvel\'s</string>
+    <string name="list_movie_disney_classics">Disney Classics</string>
+
+    <string name="filter_year">Year</string>
+
     <string name="pref_general">General</string>
+    <string name="pref_performance">Performance</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
+    <string name="pref_backup_and_restore">Backup and Restore</string>
     <string name="pref_others">Others</string>
 
     <string name="pref_sub_down_path">Subtitles download path</string>
     <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
     <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
     <string name="pref_choose_media_down_manager">Choose default download manager…</string>
-    <string name="pref_auto_check_update">Check Update Automatically</string>
+    <string name="pref_auto_check_update">Check update automatically</string>
+    <string name="pref_auto_mark_episode_as_watched">Auto mark episodes as watched</string>
     <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
     <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
@@ -108,12 +130,14 @@
     <string name="pref_hide_unaired_episode">Hide unaired episode</string>
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
     <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
+    <string name="pref_synopsis_choose_lang">Choose synopsis language…</string>
+    <string name="pref_hide_poster_thumb">Hide poster thumbnails</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
     <string name="pref_hide_episode_image">Hide episode thumbnails</string>
     <string name="pref_show_menu_source">Show context menu on single click in source list</string>
     <string name="pref_poster_size">Media poster size</string>
     <string name="pref_parallel_loading_sources">Parallel sources loading</string>
-    <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 500%. However it may causes FC or crash on some low spec devices.</string>
+    <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 5x. However it may causes FC or crash on some low spec devices.</string>
     <string name="pref_choose_default_nav">Choose default navigation…</string>
     <string name="pref_choose_default_category_tv_shows">Choose default TV shows category or genre…</string>
     <string name="pref_choose_default_category_movies">Choose default movies category or genre…</string>
@@ -123,25 +147,46 @@
     <string name="pref_modern_ui">Use modern UI</string>
     <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
     <string name="pref_choose_default_play_action">Choose default play action…</string>
+    <string name="pref_force_tv_mode">Force Android TV mode</string>
+    <string name="pref_force_tv_mode_desc">Display Android TV layout forcibly</string>
+    <string name="pref_choose_default_player">Choose default video player…</string>
+    <string name="pref_show_hd_sources_only">Show HD links only</string>
+    <string name="pref_show_season_special">Show season special</string>
+    <string name="pref_backup_settings">Backup settings</string>
+    <string name="pref_restore_settings">Restore settings</string>
+    <string name="pref_backup_favorites">Backup favorites</string>
+    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="backup_path">Backup to \"%s\"</string>
+    <string name="restore_path">Restore from \"%s\"</string>
+    <string name="backup_success">Successfully backed up!</string>
+    <string name="restore_success">Successfully restored!</string>
+    <string name="failed_to_backup">Failed to backup</string>
+    <string name="failed_to_restore">Failed to restore</string>
+    <string name="pref_resolve_all_links_immediately">Resolve all links immediately</string>
+    <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
+    <string name="pref_sources_list_refresh_interval">Sources list refresh time interval (in seconds)</string>
+    <string name="pref_sources_list_refresh_interval_msg">If the app keeps freezing while loading for links, please increase the value.</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">External download manager(s)</string>
 
     <string name="action_play">Play</string>
-    <string name="action_play_without_subtitle">Play Without Subtitles</string>
+    <string name="action_play_with_subs">Play with subtitles</string>
     <string name="action_download">Download</string>
-    <string name="action_download_with_sub">Download With Subtitles</string>
-    <string name="action_copy_link">Copy Streamable Link</string>
-    <string name="action_play_via_other_players">Open With…</string>
+    <string name="action_download_with_subs">Download with subtitles</string>
+    <string name="action_copy_link">Copy stream link</string>
+    <string name="action_play_via_other_players">Open with…</string>
     <string name="choose_player">Choose a video player…</string>
     <string name="no_player_was_found">No video player was found</string>
     <string name="choose_external_download_manager">Choose an external download manager…</string>
     <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
     <string name="download_started">Download started…</string>
     <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
-    <string name="copied_link">Copied streamable link</string>
+    <string name="copied_link">Stream link copied!</string>
     <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
+    <string name="video_player_crashed_unexpectedly">Player crashed unexpectedly. Please try to use another video player to play the video.</string>
+    <string name="choose_subtitles_file">Choose a subtitles file…</string>
 
     <string name="update_title">New version found : %s</string>
     <string name="update_message">Version %s : </string>
@@ -152,14 +197,17 @@
     <string name="subtitle_name">Subtitles Name : </string>
 
     <string name="facebook_page">Facebook Page</string>
+    <string name="official_website_menuitem">Official Website</string>
 
     <string name="changelog">Changelog</string>
     <string name="choose_browser">Choose a browser</string>
+    <string name="choose_app">Choose an app…</string>
 
     <string name="disclaimer">Disclaimer</string>
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
 
+    <string name="cant_open_youtube">Can\'t open YouTube. Please try again later.</string>
     <string name="error">Unknown error. Please try again.</string>
     <string name="please_wait">Please wait…</string>
 
@@ -192,10 +240,32 @@
 
     <string name="pref_app_lang">App Language</string>
 
+    <string name="learn_more">Learn More</string>
+
+    <string name="resolving">Resolving</string>
+    <string name="resolving_links">Resolving links…</string>
+    <string name="failed_to_resolve_link">Failed to resolve this link. Please try another link instead.</string>
+    <string name="no_streamlink_is_available">Sorry… No stream link is available now…</string>
+    <string name="link_cant_be_resolved">Sorry… This link can\'t be resolved…</string>
+
+    <string name="low_end_device_detected">Low-end device detected</string>
+    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
-    <string name="app_name">Terrarium TV</string>
-    <string name="about_app_title">About Terrarium TV</string>
-    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : http://terrariumtv.com\n\nOfficial Facebook Page : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them. All copyright of TV shows, movies and videos is reserved by the copyright owner(s). Use Terrarium TV at your own risk.</string>
-    <string name="official_website">terrariumtv.com</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+    <string name="app_name" translatable="false">Terrarium TV</string>
+    <string name="about_app_title" translatable="false">About Terrarium TV</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website" translatable="false">https://terrariumtv.com</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8258064054338881/3882561855</string>
 </resources>

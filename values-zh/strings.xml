@@ -15,9 +15,13 @@
     <string name="action_add_to_bookmark">加到我的最愛</string>
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
+    <string name="action_next_episode">下一集</string>
     <string name="action_reverse">反轉排序</string>
     <string name="action_set_watched">設為已觀看</string>
     <string name="action_remove_watched">移除已觀看</string>
+    <string name="action_sync_with_trakt">與 Trakt.tv 同步</string>
+    <string name="action_share_app">分享此 App</string>
+    <string name="sync_in_progress">同步中…</string>
     <string name="hint_tv_show_name">劇集名稱</string>
     <string name="hint_movie_name">電影名稱</string>
     <string name="subtitle">字幕</string>
@@ -44,11 +48,17 @@
     <string name="cancel">取消</string>
     <string name="close">關閉</string>
     <string name="install">安裝</string>
-    <string name="mxplayer_not_installed">MXPlayer 沒有安裝</string>
-    <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MXPlayer，Terrarium 需要 MXPlayer 來播放劇集， 按 "安裝" 來安裝 MXPlayer</string>
-    <string name="mxplayer_unable_to_start">MXPlayer 無法啟動</string>
-    <string name="mxplayer_unable_to_start_message">MXPlayer 無法正常啟動，請重新安裝後再試~</string>
-    <string name="close_ad_to_play">請先關閉廣告以便開始影片播放</string>
+    <string name="close_ad_to_play">請先關閉廣告以便開始播放影片</string>
+
+    <string name="mxplayer_not_installed">MX Player 沒有安裝</string>
+    <string name="mxplayer_not_installed_message">你的裝置上沒有安裝 MX Player，Terrarium 需要 MX Player 來播放劇集， 按 "安裝" 來安裝 MX Player</string>
+    <string name="mxplayer_unable_to_start">MX Player 無法啟動</string>
+    <string name="mxplayer_unable_to_start_message">MX Player 無法正常啟動，請重新安裝後再試~</string>
+
+    <string name="vlc_player_not_installed">VLC Player 沒有安裝</string>
+    <string name="vlc_player_not_installed_message">你的裝置上沒有安裝 VLC Player，Terrarium 需要 VLC Player 來播放劇集， 按 "安裝" 來安裝 VLC Player</string>
+    <string name="vlc_player_unable_to_start">VLC Player 無法啟動</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player 無法正常啟動，請重新安裝後再試~</string>
 
     <string name="trending">人們在看</string>
     <string name="most_popular">人氣熱門</string>
@@ -70,6 +80,7 @@
     <string name="genre_tv_war_politics">戰爭/政治</string>
     <string name="genre_tv_reality">真人Show</string>
     <string name="genre_tv_documentary">紀錄片</string>
+    <string name="genre_tv_animation">動畫</string>
 
     <string name="genre_movie_action">動作</string>
     <string name="genre_movie_adventure">冒險</string>
@@ -84,16 +95,26 @@
     <string name="genre_movie_comedy">喜劇</string>
     <string name="genre_movie_family">家庭</string>
     <string name="genre_movie_animation">動畫</string>
+    <string name="genre_movie_western">西部</string>
     <string name="genre_movie_history">歷史</string>
     <string name="genre_movie_war">戰爭</string>
     <string name="genre_movie_documentary">紀錄片</string>
     <string name="genre_movie_music">音樂</string>
 
+    <string name="list_movie_oscars_winners">奧斯卡得獎電影</string>
+    <string name="list_movie_christmas">聖誕節</string>
+    <string name="list_movie_marvels">Marvel 電影</string>
+    <string name="list_movie_disney_classics">迪士尼經典</string>
+
+    <string name="filter_year">年份</string>
+
     <string name="pref_general">一般設定</string>
+    <string name="pref_performance">性能</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
     <string name="pref_subtitle_chin">SubHD, Makedie 和 Zimiku 字幕語言</string>
+    <string name="pref_backup_and_restore">備份與還原</string>
     <string name="pref_others">其他</string>
 
     <string name="pref_sub_down_path">字幕下載路徑</string>
@@ -101,6 +122,7 @@
     <string name="pref_media_down_path">影片下載路徑 (只限 Android 內置下載管理員)</string>
     <string name="pref_choose_media_down_manager">選擇預設下載管理器…</string>
     <string name="pref_auto_check_update">自動檢查更新</string>
+    <string name="pref_auto_mark_episode_as_watched">自動標記已觀看集數</string>
     <string name="pref_filter_out_non_english_shows">隱藏非英語劇集</string>
     <string name="pref_filter_out_dead_sources">隱藏無效片源</string>
     <string name="pref_filter_out_dead_sources_desc">這將會增加片源載入時間</string>
@@ -108,11 +130,13 @@
     <string name="pref_hide_unaired_episode">隱藏未推出集數</string>
     <string name="pref_subtitles_filter">過濾不吻合字幕</string>
     <string name="pref_subtitles_choose_lang">選擇字幕語言…</string>
+    <string name="pref_synopsis_choose_lang">選擇摘要語言…</string>
+    <string name="pref_hide_poster_thumb">隱藏海報圖片</string>
     <string name="pref_hide_season_image">隱藏季度圖片</string>
     <string name="pref_hide_episode_image">隱藏集數圖片</string>
     <string name="pref_show_menu_source">片源列表單擊顯示選單</string>
     <string name="pref_poster_size">劇集海報大小</string>
-    <string name="pref_parallel_loading_sources">開啟平行載入片源</string>
+    <string name="pref_parallel_loading_sources">開啟同步載入片源</string>
     <string name="pref_parallel_loading_sources_desc">強烈建議開啟! 開啟後片源載入速度提升 5 倍，但有機會在低配置機型造成崩潰</string>
     <string name="pref_choose_default_nav">選擇預設導航…</string>
     <string name="pref_choose_default_category_tv_shows">選擇預設劇集分類…</string>
@@ -123,15 +147,34 @@
     <string name="pref_modern_ui">使用新 UI</string>
     <string name="pref_modern_ui_desc">顯示劇集海報取代劇集橫幅</string>
     <string name="pref_choose_default_play_action">選擇預設播放選項…</string>
+    <string name="pref_force_tv_mode">強制使用 Android TV 模式</string>
+    <string name="pref_force_tv_mode_desc">強制顯示 Android TV 介面</string>
+    <string name="pref_choose_default_player">選擇預設影片播放器…</string>
+    <string name="pref_show_hd_sources_only">只顯示高清片源</string>
+    <string name="pref_show_season_special">顯示特別季度</string>
+    <string name="pref_backup_settings">備份設定</string>
+    <string name="pref_restore_settings">還原設定</string>
+    <string name="pref_backup_favorites">備份我的最愛</string>
+    <string name="pref_restore_favorites">還原我的最愛</string>
+    <string name="backup_path">備份到 %s</string>
+    <string name="restore_path">從 %s 還原</string>
+    <string name="backup_success">備份成功!</string>
+    <string name="restore_success">還原成功!</string>
+    <string name="failed_to_backup">備份失敗</string>
+    <string name="failed_to_restore">還原失敗</string>
+    <string name="pref_resolve_all_links_immediately">立即解析連結</string>
+    <string name="pref_resolve_all_links_immediately_desc">立即把連結解析成可播放的連結。關閉此選項後，Terrarium 影視 只有在當你按下連結的時候才會解析該連結。 (Terrarium 影視 運行不順暢時請關閉此選項！)</string>
+    <string name="pref_sources_list_refresh_interval">片源列表重新整理時間間隔 (秒)</string>
+    <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影視 在搜尋影片連結的時候卡頓，請提高此數值</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
 
     <string name="download_manager_internal">Android 內置下載管理員</string>
     <string name="download_manager_external">外置下載管理員</string>
 
     <string name="action_play">播放</string>
-    <string name="action_play_without_subtitle">不選擇字幕播放</string>
+    <string name="action_play_with_subs">選擇字幕播放</string>
     <string name="action_download">下載</string>
-    <string name="action_download_with_sub">下載 (連字幕)</string>
+    <string name="action_download_with_subs">連字幕下載</string>
     <string name="action_copy_link">複製串流連結</string>
     <string name="action_play_via_other_players">使用其他播放器播放</string>
     <string name="choose_player">選擇播放器…</string>
@@ -142,6 +185,8 @@
     <string name="download_path_error">下載路徑必需在內置儲存裝置, 請重新指定下載路徑</string>
     <string name="copied_link">已複製串流連結到剪貼板</string>
     <string name="link_must_be_played_in_app">很抱歉… 這串流連結只能在 Terrarium 影視 播放…</string>
+    <string name="video_player_crashed_unexpectedly">播放器意外地崩潰，請使用其他影片播放器來播放此影片</string>
+    <string name="choose_subtitles_file">請選擇一個字幕檔案…</string>
 
     <string name="update_title">發現新版本 : %s</string>
     <string name="update_message">版本 %s : </string>
@@ -152,14 +197,17 @@
     <string name="subtitle_name">字幕名稱 : </string>
 
     <string name="facebook_page">Facebook 專頁</string>
+    <string name="official_website_menuitem">官方網站</string>
 
     <string name="changelog">更新記錄</string>
     <string name="choose_browser">選擇瀏覽器</string>
+    <string name="choose_app">選擇一個應用程式…</string>
 
     <string name="disclaimer">免責聲明</string>
     <string name="accept">接受</string>
     <string name="decline">拒絕</string>
 
+    <string name="cant_open_youtube">無法啟動 YouTube，請稍後再試</string>
     <string name="error">發生未知錯誤，請再試一次</string>
     <string name="please_wait">請稍候…</string>
 
@@ -192,10 +240,32 @@
 
     <string name="pref_app_lang">App 語言</string>
 
+    <string name="learn_more">了解更多</string>
+
+    <string name="resolving">正在解析</string>
+    <string name="resolving_links">解析連結中…</string>
+    <string name="failed_to_resolve_link">連結解析失敗，請嘗試另一條連結</string>
+    <string name="no_streamlink_is_available">對不起… 暫時沒有能夠播放的串流連結…</string>
+    <string name="link_cant_be_resolved">對不起… 無法解析此連結…</string>
+
+    <string name="low_end_device_detected">偵測到正在使用低階裝置</string>
+    <string name="resolve_all_links_immediately_disabled">偵測到你正在使用低階裝置運行 Terrarium 影視。為了提升效能和用戶體驗，\"立即解析連結\" 功能已被關閉。雖然部分連結的檔案大小會被隱藏，但 Terrarium 影視 將不會再崩潰和變得卡頓。如果你希望看到所有連結的檔案大小，你可以到\"設定\"頁面中重新啟用此功能。</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影視 發生了未知錯誤並崩潰，已回報此問題。\n\n如此問題持續發生，請調整 \"設定\" 頁面中的 \"效能\" 設置。</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">未知錯誤</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新開啟 Terrarium 影視</string>
+    <string name="customactivityoncrash_error_activity_close_app">關閉 Terrarium 影視</string>
+    <string name="customactivityoncrash_error_activity_error_details">詳細資料</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">詳細資料</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">關閉</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">複製到剪貼簿</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已複製到剪貼簿</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">錯誤資訊</string>
+
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影視</string>
     <string name="about_app_title">關於 Terrarium 影視</string>
-    <string name="about_app_message">Terrarium 影視 (版本 : %s)\nPeter Chan (NitroXenon) 製作\n\n官方網站 : http://terrariumtv.com\n\n官方 Facebook 專頁 : http://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影視 是多媒體共享播放彙整軟體，用以彙整網路上公開的影片位址，影片及照片其版權皆屬於原著作人所有。本程式和本人將不會承擔任何法律責任。</string>
-    <string name="official_website">terrariumtv.com</string>
+    <string name="about_app_message">Terrarium 影視 (版本 : %s)\nPeter Chan (NitroXenon) 製作\n\n官方網站 : https://terrariumtv.com\n\n官方 Facebook 專頁 : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影視 是多媒體共享播放彙整軟體，用以彙整網路上公開的影片位址，影片及照片其版權皆屬於原著作人所有。本程式和本人將不會承擔任何法律責任。</string>
+    <string name="official_website">https://terrariumtv.com</string>
     <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>

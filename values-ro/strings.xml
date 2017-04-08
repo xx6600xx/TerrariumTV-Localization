@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Traditional Chinese</string>
+    <string name="language_zh_cn">Simplified Chinese</string>
+    <string name="language_en">English</string>
+
+    <string name="action_settings">Setari</string>
+
+    <string name="no_data">Fara Date</string>
+    <string name="no_internet">Fara Conexiune la internet</string>
+    <string name="loading">Incarca</string>
+    <string name="loading_more">Incarca mai mult…</string>
+    <string name="action_search">Cauta</string>
+    <string name="action_bookmark">Favorite</string>
+    <string name="action_add_to_bookmark">Adauga la favorite</string>
+    <string name="action_refresh">Reimprospateaza</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_reverse">Inverseaza</string>
+    <string name="action_set_watched">Seteaza Vizionat</string>
+    <string name="action_remove_watched">Inlatureaza Vizionat</string>
+    <string name="hint_tv_show_name">Nume Serial</string>
+    <string name="hint_movie_name">Nume Film</string>
+    <string name="subtitle">Subtitrari</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="download_count">Numar descarcari :</string>
+
+    <string name="season">Sezon %1$d</string>
+    <string name="episode">Episod %1$d</string>
+    <string name="season_episode">%1$s - Sezon %2$d Episod %3$d</string>
+    <string name="season_special">Sezon Special</string>
+    <string name="search_result_of">Rezultatul cautarii  \"%s\"</string>
+    <string name="getting_subtitle">Se obtin subtitrari… Va rugam asteptati…</string>
+    <string name="downloading_subtitle_toast">Se descarca subtitrari… Va rugam asteptati…</string>
+    <string name="ready_to_play_toast">Videoclipul va fi pornit intr-o secunda…</string>
+    <string name="searching_media">Cautare…</string>
+    <string name="subtitle_language">Limba subtitrare : </string>
+    <string name="subtitle_download_failed">Descarcarea subtitrarii a esuat… Te rugam incearca alta subtitrare…</string>
+    <string name="subtitle_extract_failed">Extragerea subtitrarii a esuat… Te rugam incearca alta subtitrare…</string>
+    <string name="permission_grant_toast">Te rugam apasa \"Acceptare\" sa acorzi permisiune si incearca din nou</string>
+    <string name="sorry">Ne pare rau…</string>
+    <string name="cant_be_opened_by_other_players">Aceasta sursa nu poate fi deschisa sau rulata de alte playere video. Ne cerem scuze pentru  inconvenienta.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Anulare</string>
+    <string name="close">Inchidere</string>
+    <string name="install">Instalare</string>
+    <string name="mxplayer_not_installed">MX Player Nu este instalat</string>
+    <string name="mxplayer_not_installed_message">MX Player nu este instalat pe dispozitivul tau. Terrarium are nevoie de MX Player sa ruleze continutul. Apasa "Instalare" sa instalezi MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player incapabil sa porneasca</string>
+    <string name="mxplayer_unable_to_start_message">MX Player este incapabil sa porneasca. Te rugam reinstaleaza-l  si incearca din nou.</string>
+    <string name="close_ad_to_play">Te rugam inchide reclama intai pentru a rula videoclipul</string>
+
+    <string name="trending">Populare</string>
+    <string name="most_popular">Cele mai Populare</string>
+    <string name="most_played">Cele mai Rulate</string>
+    <string name="most_watched">Cele mai Vizionate</string>
+    <string name="recently_updated">Actualizate Recent</string>
+    <string name="new_shows">Seriale Noi</string>
+    <string name="premieres">Premiere</string>
+    <string name="on_the_air">Ruleaza Azi</string>
+    <string name="top_rated">Top Evaluate</string>
+    <string name="now_playing">In Cinematografe</string>
+
+    <string name="genre_tv_action_adventure">Actiune &amp; Aventura</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantezie</string>
+    <string name="genre_tv_mystery">Mister</string>
+    <string name="genre_tv_drama">Drama</string>
+    <string name="genre_tv_comedy">Comedie</string>
+    <string name="genre_tv_family">Familie</string>
+    <string name="genre_tv_war_politics">Razboi &amp; Politica</string>
+    <string name="genre_tv_reality">Realitate</string>
+    <string name="genre_tv_documentary">Documentar</string>
+    <string name="genre_tv_animation">Animatie</string>
+
+    <string name="genre_movie_action">Actiune</string>
+    <string name="genre_movie_adventure">Aventura</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Sci-Fi</string>
+    <string name="genre_movie_fantasy">Fantezie</string>
+    <string name="genre_movie_mystery">Mister</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Crima</string>
+    <string name="genre_movie_drama">Drama</string>
+    <string name="genre_movie_romance">Romance</string>
+    <string name="genre_movie_comedy">Comedie</string>
+    <string name="genre_movie_family">Familie</string>
+    <string name="genre_movie_animation">Animatie</string>
+    <string name="genre_movie_history">Istorie</string>
+    <string name="genre_movie_war">Razboi</string>
+    <string name="genre_movie_documentary">Documentar</string>
+    <string name="genre_movie_music">Muzical</string>
+
+    <string name="pref_general">General</string>
+    <string name="pref_ui">Interfata</string>
+    <string name="pref_sources_and_resolvers">Distribuitori si Surse</string>
+    <string name="pref_subtitle">Limba subtitrarilor de pe OpenSubtitles and Subscene</string>
+    <string name="pref_subtitle_chin">Limba subtitrarilor de pe SubHD, Makedie and Zimuku</string>
+    <string name="pref_others">Altele</string>
+
+    <string name="pref_sub_down_path">Locatia de descarcare a subtitrarilor</string>
+    <string name="pref_sub_down_path_des">Subtitrarile vor fi descarcate si salvate in aceasta locatie.</string>
+    <string name="pref_media_down_path">Locatia de descarcare a videoclipurilor (Doar pentru Android Internal Download Manager)</string>
+    <string name="pref_choose_media_down_manager">Alege managerul de descarcare de baza…</string>
+    <string name="pref_auto_check_update">Verifica automat dupa actualizari</string>
+    <string name="pref_filter_out_non_english_shows">Inlatura serialele fara engleza</string>
+    <string name="pref_filter_out_dead_sources">Inlatura  sursele moarte</string>
+    <string name="pref_filter_out_dead_sources_desc">Va cauza timp in plus de incarcare a surselor</string>
+    <string name="pref_hide_unaired_season">Ascunde sezonul nedifuzat</string>
+    <string name="pref_hide_unaired_episode">Ascunde episodul nedifuzat</string>
+    <string name="pref_subtitles_filter">Inlatura subtitrarile nepotrivite</string>
+    <string name="pref_subtitles_choose_lang">Alege limba subtitrarii…</string>
+    <string name="pref_hide_season_image">Ascunde miniaturile sezonului</string>
+    <string name="pref_hide_episode_image">Ascunde miniaturile episodului</string>
+    <string name="pref_show_menu_source">Afiseaza meniul contextual la un singur click in lista cu surse</string>
+    <string name="pref_poster_size">Diensiune mmedia poster</string>
+    <string name="pref_parallel_loading_sources">Incarcarea paralela asurselor</string>
+    <string name="pref_parallel_loading_sources_desc">Se recomanda activarea. Mareste viteza de incarcare a surselor de 5x. Totusi poate cauza FC or blocaje pe dispozitivele cu specificatii slabe.</string>
+    <string name="pref_choose_default_nav">Alege navigatia de baza…</string>
+    <string name="pref_choose_default_category_tv_shows">Alege categoria sau genul de seriale de baza…</string>
+    <string name="pref_choose_default_category_movies">Alege categoria sau genul de filme de baza…</string>
+    <string name="pref_enabled_tv_shows_providers">Alege sursele de seriale active…</string>
+    <string name="pref_enabled_movies_providers">Alege sursele de filme active…</string>
+    <string name="pref_enabled_resolvers">Alege sursele active…</string>
+    <string name="pref_modern_ui">Foloseste interfata moderna</string>
+    <string name="pref_modern_ui_desc">Afiseaza media postere in locul bannerelor</string>
+    <string name="pref_choose_default_play_action">Alege actiunea de baza a butonului "play"…</string>
+    <string name="restart_to_see_the_difference">Va rugam reporniti Terrarium TV sa vedeti diferenta.</string>
+
+    <string name="download_manager_internal">Android Internal Download Manager</string>
+    <string name="download_manager_external">External download manager(s)</string>
+
+    <string name="action_play">Redati</string>
+    <string name="action_play_with_subs">Joaca-te cu Subtitrari</string>
+    <string name="action_download">Descarcati</string>
+    <string name="action_download_with_subs">Descarcati Cu Subtitrari</string>
+    <string name="action_copy_link">Copiati Link Redabil</string>
+    <string name="action_play_via_other_players">Deschideti Cu…</string>
+    <string name="choose_player">Alegeti un player video…</string>
+    <string name="no_player_was_found">Niciun player video nu a fost gasit</string>
+    <string name="choose_external_download_manager">Alegeti un manager de descarcare extern…</string>
+    <string name="no_external_download_manager_was_found">Niciun manager de descarcare extern nu a fost gasit. Va rugam descarcati-l din Play Store sau folositi Android Internal Download Manager</string>
+    <string name="download_started">Descarcarea a inceput…</string>
+    <string name="download_path_error">Locatia de descarcare trebuie sa fie in stocarea interna. Va rugam alegeti alta locatie.</string>
+    <string name="copied_link">Link redabil copiat</string>
+    <string name="link_must_be_played_in_app">Ne pare rau… Acest link poate fi redat doar in Terrarium TV…</string>
+    <string name="mxplayer_crashed_unexpectedly">MX Player s-a blocat pe neasteptate. Va rugam incercati sa folositi alt player video sa redati videoclipul.</string>
+
+    <string name="update_title">O noua versiune a fost gasita : %s</string>
+    <string name="update_message">Versiune %s : </string>
+    <string name="update_button">Actualizare</string>
+    <string name="update_downloading">Se descarca actualizarea %s</string>
+    <string name="update_failed">Actualizare esuata sau abandonata</string>
+
+    <string name="subtitle_name">Nume Subtitrare : </string>
+
+    <string name="facebook_page">Pagina de Facebook</string>
+
+    <string name="changelog">Jurnal de schimbari</string>
+    <string name="choose_browser">Alegeti un navigator</string>
+
+    <string name="disclaimer">Act de renuntare</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Refuz</string>
+
+    <string name="error">Eroare necunoscuta. Va rugam incercati din nou.</string>
+    <string name="please_wait">Va rugam asteptati…</string>
+
+    <string name="recaptcha_verify">Trebuie sa verificati un reCaptcha sa obtineti surse de la %s</string>
+    <string name="verify">Verifica</string>
+
+    <string name="size_large">Mare</string>
+    <string name="size_normal">Normala</string>
+    <string name="size_small">Mica</string>
+
+    <string name="show_details_overview">CUPRINS</string>
+    <string name="show_details_season">SEZON</string>
+    <string name="media_suggestion">Vezi de Asemenea</string>
+    <string name="no_synopsis">Fara rezumat</string>
+    <string name="loading_ratings">Se incarca evaluarile…</string>
+    <string name="no_ratings">Fara Evaluari</string>
+    <string name="meta_in_production">In Productie</string>
+    <string name="meta_returning_series">Serial Revenit</string>
+    <string name="meta_ended">Terminat</string>
+
+    <string name="navigation_drawer_open">Deschide sertarul de navigatie</string>
+    <string name="navigation_drawer_close">Inchide sertarul de navigatie</string>
+
+    <string name="tv_shows">Seriale</string>
+    <string name="movies">Filme</string>
+
+    <string name="play_trailer">Reda Trailer</string>
+
+    <string name="translators">Traducatori</string>
+
+    <string name="pref_app_lang">Limba Aplicatiei</string>
+
+    <string name="learn_more">Afla mai mult</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website">https://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>

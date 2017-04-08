@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_zh_tw">Tradicionális kínai</string>
+    <string name="language_zh_cn">Egyszerűsített kínai</string>
+    <string name="language_en">Magyar</string>
+
+    <string name="action_settings">Beállítások</string>
+
+    <string name="no_data">Nincs adat</string>
+    <string name="no_internet">Nincs internetkapcsolat</string>
+    <string name="loading">Betöltés</string>
+    <string name="loading_more">Mégtöbb betöltés</string>
+    <string name="action_search">Keresés</string>
+    <string name="action_bookmark">Kedvencek</string>
+    <string name="action_add_to_bookmark">Hozzáadás a kedvencekhez</string>
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_stop">Megállit</string>
+    <string name="action_reverse">Fordított</string>
+    <string name="action_set_watched">Már megnéztem</string>
+    <string name="action_remove_watched">Még nem láttam</string>
+    <string name="hint_tv_show_name">Sorozat név</string>
+    <string name="hint_movie_name">Film név</string>
+    <string name="subtitle">Feliratok</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="download_count">Letöltések száma :</string>
+
+    <string name="season">Évad %1$d</string>
+    <string name="episode">Epizód %1$d</string>
+    <string name="season_episode">%1$s - Évad %2$d Epizód %3$d</string>
+    <string name="season_special">Speciális évad</string>
+    <string name="search_result_of">Keresés eredménye \"%s\"</string>
+    <string name="getting_subtitle">Felirat megszerzése… Kérem várjon…</string>
+    <string name="downloading_subtitle_toast">Felirat letöltése…  Kérem várjon…</string>
+    <string name="ready_to_play_toast">A video hamarosan elindul…</string>
+    <string name="searching_media">Keresés…</string>
+    <string name="subtitle_language">Felirat nyelve : </string>
+    <string name="subtitle_download_failed">A felirat letöltése nem sikerült… Kérem probáljon egy másikat…</string>
+    <string name="subtitle_extract_failed">Ez a felirat nem müködik… Kérem probáljon egy másikat…</string>
+    <string name="permission_grant_toast">Kérem válasza \"ENGEDÉLYEZÉS\" és probálja újra</string>
+    <string name="sorry">Bocsánat…</string>
+    <string name="cant_be_opened_by_other_players">Ezt a forrás lehet megnyitni, vagy lejátszani más videó lejátszóval. Elnézést a kellemetlenségért.</string>
+
+    <string name="ok">Rendben</string>
+    <string name="cancel">Vissza</string>
+    <string name="close">Bezár</string>
+    <string name="install">Telepítés</string>
+    <string name="close_ad_to_play">Kérjük, zárja be az első reklámot, hogy a videót lejátsza</string>
+
+    <string name="mxplayer_not_installed">MX Player nincs telepitve</string>
+    <string name="mxplayer_not_installed_message">MX Player nincs telepitve az eszközre. Terrarium csak az MX Player lejátszóval müködik. Kattints "Telepítés"-re, hogy feltelepitse az MX Player-t.</string>
+    <string name="mxplayer_unable_to_start">MX Player nem tud elindulni</string>
+    <string name="mxplayer_unable_to_start_message">MX Player nem tud elindulni. Kérem telepitse újra és probálja meg mégegyszer.</string>
+
+    <string name="vlc_player_not_installed">VLC Player nincs telepitve</string>
+    <string name="vlc_player_not_installed_message">VLC Player nincs telepitve az eszközre. Terrarium csak az VLC Player lejátszóval müködik. Kattints "Telepítés"-re, hogy feltelepitse az VLC Player-t.</string>
+    <string name="vlc_player_unable_to_start">VLC Player nem tud elindulni</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player nem tud elindulni. Kérem telepitse újra és probálja meg mégegyszer.</string>
+
+    <string name="trending">Felkapott</string>
+    <string name="most_popular">Legnépszerübb</string>
+    <string name="most_played">Legnépszerübb</string>
+    <string name="most_watched">Legnézettebb</string>
+    <string name="recently_updated">Legutóbb frissítve</string>
+    <string name="new_shows">Újdonság</string>
+    <string name="premieres">Premierek</string>
+    <string name="on_the_air">Mai top</string>
+    <string name="top_rated">Legjobbra értékelt</string>
+    <string name="now_playing">Mozikban</string>
+
+    <string name="genre_tv_action_adventure">Akció &amp; Kaland</string>
+    <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
+    <string name="genre_tv_mystery">Rejtélyes</string>
+    <string name="genre_tv_drama">Dráma</string>
+    <string name="genre_tv_comedy">Vígjáték</string>
+    <string name="genre_tv_family">Családi</string>
+    <string name="genre_tv_war_politics">Háború &amp; Politika</string>
+    <string name="genre_tv_reality">Valóság</string>
+    <string name="genre_tv_documentary">Dokumentumfilm</string>
+
+    <string name="genre_movie_action">Akció</string>
+    <string name="genre_movie_adventure">Kaland</string>
+    <string name="genre_movie_thriller">Thriller</string>
+    <string name="genre_movie_sci">Sci-Fi</string>
+    <string name="genre_movie_fantasy">Fantasy</string>
+    <string name="genre_movie_mystery">Rejtélyes</string>
+    <string name="genre_movie_horror">Horror</string>
+    <string name="genre_movie_crime">Bűnügyi</string>
+    <string name="genre_movie_drama">Dráma</string>
+    <string name="genre_movie_romance">Romantikus</string>
+    <string name="genre_movie_comedy">Vígjáték</string>
+    <string name="genre_movie_family">Családi</string>
+    <string name="genre_movie_animation">Animáció</string>
+    <string name="genre_movie_history">Történelmi</string>
+    <string name="genre_movie_war">Háború</string>
+    <string name="genre_movie_documentary">Dokumentumfilm</string>
+    <string name="genre_movie_music">Zenés</string>
+
+    <string name="pref_general">Általános</string>
+    <string name="pref_ui">Felhasználói felület</string>
+    <string name="pref_sources_and_resolvers">A szolgáltatók és a feloldók</string>
+    <string name="pref_subtitle">OpenSubtitles és Subscene feliratok nyelve</string>
+    <string name="pref_subtitle_chin">SubHD, Makedie és Zimuku feliratok nyelve</string>
+    <string name="pref_others">Egyéb</string>
+
+    <string name="pref_sub_down_path">Feliratok letöltésének helye</string>
+    <string name="pref_sub_down_path_des">A feliratok letöltése és a letöltés hely mentése.</string>
+    <string name="pref_media_down_path">Video letöltésének helye (Csak androidon van letöltés manager)</string>
+    <string name="pref_choose_media_down_manager">Choose default download manager…</string>
+    <string name="pref_auto_check_update">Automatikus frissités</string>
+    <string name="pref_filter_out_non_english_shows">Szűrje ki a nem angol műsorokat</string>
+    <string name="pref_filter_out_dead_sources">Szűrje ki halott videókat</string>
+    <string name="pref_filter_out_dead_sources_desc">Töltési idő több lesz</string>
+    <string name="pref_hide_unaired_season">Törölt évadók elrejtése</string>
+    <string name="pref_hide_unaired_episode">Törölt epizódok elrejtése</string>
+    <string name="pref_subtitles_filter">Szűrje ki a nem összeillő feliratokat</string>
+    <string name="pref_subtitles_choose_lang">Kérem válasszon felirat nyelvet…</string>
+    <string name="pref_hide_season_image">Évad borítókép elrejtése</string>
+    <string name="pref_hide_episode_image">Epizód borítókép elrejtése</string>
+    <string name="pref_show_menu_source">Helyi menü megjelenítése egyetlen kattintással a videó választásnál</string>
+    <string name="pref_poster_size">Borítóképek mérete a listákban</string>
+    <string name="pref_parallel_loading_sources">Források párhuzamos töltése</string>
+    <string name="pref_parallel_loading_sources_desc">Nagyon ajánlot. A töltési sebbeség jelentősen javul, akkár 5x-kal is gyorsabb lehet. Régebbi eszközökön, néha az app leállhat</string>
+    <string name="pref_choose_default_nav">Válassza ki az alapértelmezett navigációt…</string>
+    <string name="pref_choose_default_category_tv_shows">Válaszd ki az alapértelmezett sorozat kategóriáját vagy műfaját…</string>
+    <string name="pref_choose_default_category_movies">Válaszd ki az alapértelmezett film kategóriáját vagy műfajá…</string>
+    <string name="pref_enabled_tv_shows_providers">Válasszon szolgáltatót a sorozatok számára…</string>
+    <string name="pref_enabled_movies_providers">Válasszon szolgáltatót a filmek számára…</string>
+    <string name="pref_enabled_resolvers">Válasszon feloldót…</string>
+    <string name="pref_modern_ui">Modern kinézet használata</string>
+    <string name="pref_modern_ui_desc">Boritóképek mutatása bannerek helyet</string>
+    <string name="pref_choose_default_play_action">Válassza ki az alapértelmezett lejátszás tipust…</string>
+    <string name="restart_to_see_the_difference">Kérjük, indítsa újra Terrárium TV, hogy lássa a változtatásokat.</string>
+
+    <string name="download_manager_internal">Android Internal Download Manager</string>
+    <string name="download_manager_external">External download manager(s)</string>
+
+    <string name="action_play">Lejátszás</string>
+    <string name="action_play_with_subs">Játék feliratok</string>
+    <string name="action_download">Letöltés</string>
+    <string name="action_download_with_subs">Letöltés felirattal</string>
+    <string name="action_copy_link">Stream link másolás</string>
+    <string name="action_play_via_other_players">Megnyitás mással…</string>
+    <string name="choose_player">Válasszon egy videó lejátszót…</string>
+    <string name="no_player_was_found">Videó lejátszó nem elérhető</string>
+    <string name="choose_external_download_manager">Válasszon egy külső letöltéskezelőt…</string>
+    <string name="no_external_download_manager_was_found">Nem található az eszközőn külső letöltéskezelőt…. Kérem töltsön le a Play Áruházból egyet, vagy használja az Android letöltéskezelőt</string>
+    <string name="download_started">Letöltés elkezdődött……</string>
+    <string name="download_path_error">Letöltés helye a belső memóriában kell lennie. Kérjük, válasszon másik helyet.</string>
+    <string name="copied_link">Másolt stream link</string>
+    <string name="link_must_be_played_in_app">Elnézést… Ez a link csak Terrárium TV-n játszható le…</string>
+
+    <string name="update_title">Új verzió : %s</string>
+    <string name="update_message">Verzió %s : </string>
+    <string name="update_button">Frissítés</string>
+    <string name="update_downloading">Frissítés letöltése %s</string>
+    <string name="update_failed">A frissítés nem sikerült, vagy megszakadt</string>
+
+    <string name="subtitle_name">Felirat neve : </string>
+
+    <string name="facebook_page">Facebook </string>
+
+    <string name="changelog">Változások</string>
+    <string name="choose_browser">Válasszon egy böngészőt</string>
+
+    <string name="disclaimer">Lemondás</string>
+    <string name="accept">Elfogad</string>
+    <string name="decline">Elutasít</string>
+
+    <string name="error">Ismeretlen hiba. Kérlek próbáld újra.</string>
+    <string name="please_wait">Kérjük várjon…</string>
+
+    <string name="recaptcha_verify">Meg kell erősiteni a reCaptcha ahhoz, hogy megkapja a forrást %s</string>
+    <string name="verify">Megerősít</string>
+
+    <string name="size_large">Nagy</string>
+    <string name="size_normal">Normál</string>
+    <string name="size_small">Kicsi</string>
+
+    <string name="show_details_overview">ÁTTEKINTÉS</string>
+    <string name="show_details_season">ÉVAD</string>
+    <string name="media_suggestion">Lásd még</string>
+    <string name="no_synopsis">Nincs szinopszis</string>
+    <string name="loading_ratings">Értékelés töltése…</string>
+    <string name="no_ratings">Nincs értékelés</string>
+    <string name="meta_in_production">Termékben</string>
+    <string name="meta_returning_series">Vissza a sorozathoz</string>
+    <string name="meta_ended">Vége</string>
+
+    <string name="navigation_drawer_open">Menü megnyitása</string>
+    <string name="navigation_drawer_close">Menü bezárása</string>
+
+    <string name="tv_shows">Sorozatok</string>
+    <string name="movies">Filmek</string>
+
+    <string name="play_trailer">Előzetes lejátszása</string>
+
+    <string name="translators">Fordítók</string>
+
+    <string name="pref_app_lang">Alkalmazás nyelve</string>
+
+    <string name="learn_more">Tudj meg többet</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name">Terrarium TV</string>
+    <string name="about_app_title">About Terrarium TV</string>
+    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website">https://terrariumtv.com</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+</resources>
