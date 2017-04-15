@@ -11,13 +11,17 @@
     <string name="loading">लोड हो रहा है</string>
     <string name="loading_more">अधिक लोड हो रहा है…</string>
     <string name="action_search">खोज</string>
-    <string name="action_bookmark">बुकमार्क</string>
-    <string name="action_add_to_bookmark">बुकमार्क में जोड़े</string>
+    <string name="action_bookmark">पसंदीदा</string>
+    <string name="action_add_to_bookmark">पसंदीदा में जोड़े</string>
     <string name="action_refresh">ताज़ा</string>
     <string name="action_stop">रुकें</string>
+    <string name="action_next_episode">अगला एपिसोड</string>
     <string name="action_reverse">उलटा</string>
     <string name="action_set_watched">देख लिया</string>
     <string name="action_remove_watched">नहीं देखा</string>
+    <string name="action_sync_with_trakt">Trakt.tv के साथ सिंक करे</string>
+    <string name="action_share_app">ऐप शेयर करे</string>
+    <string name="sync_in_progress">सिंक प्रॉगेस में है...</string>
     <string name="hint_tv_show_name">टीवी शो के नाम</string>
     <string name="hint_movie_name">फिल्म का नाम</string>
     <string name="subtitle">उपशीर्षक</string>
@@ -91,25 +95,34 @@
     <string name="genre_movie_comedy">कॉमेडी</string>
     <string name="genre_movie_family">पारिवारिक</string>
     <string name="genre_movie_animation">एनीमेशन</string>
+    <string name="genre_movie_western">वेस्टर्न</string>
     <string name="genre_movie_history">इतिहास</string>
     <string name="genre_movie_war">युद्ध</string>
     <string name="genre_movie_documentary">डॉक्यूमेंट्री</string>
     <string name="genre_movie_music">संगीत</string>
 
+    <string name="list_movie_oscars_winners">ऑस्कर विजेता</string>
+    <string name="list_movie_christmas">क्रिसमस</string>
+    <string name="list_movie_marvels">मार्वल\'s</string>
+    <string name="list_movie_disney_classics">डिज्नी क्लासिक</string>
+    
     <string name="filter_year">साल</string>
 
     <string name="pref_general">सामान्य</string>
+    <string name="pref_performance">परफॉर्मन्स</string>
     <string name="pref_ui">यूजर इंटरफ़ेस</string>
     <string name="pref_sources_and_resolvers">प्रोवाइडर्स और रेसोल्वर्स</string>
     <string name="pref_subtitle">Open Subtitles और Subscene के उपशीर्षक भाषा</string>
     <string name="pref_subtitle_chin"> SubHD, Makedie और Zimuku के उपशीर्षक भाषा</string>
-    <string name="pref_others">अन्य </string>
+    <string name="pref_backup_and_restore">बैकअप और रिस्टोर</string>
+    <string name="pref_others">अन्य</string>
 
     <string name="pref_sub_down_path">उपशीर्षक डाउनलोड पाथ</string>
     <string name="pref_sub_down_path_des">उपशीर्षक डाउनलोड किया जाएगा और इस पाथ को बचाया जायेगा.</string>
     <string name="pref_media_down_path">मीडिया डाउनलोड पथ (केवल एंड्रॉयड के लिए आंतरिक डाउनलोड प्रबंधक)</string>
     <string name="pref_choose_media_down_manager">डिफ़ॉल्ट डाउनलोड प्रबंधक चुनें…</string>
     <string name="pref_auto_check_update">स्वचालित रूप से अपडेट जांच</string>
+    <string name="pref_auto_mark_episode_as_watched">देखा गया एपिसोड ऑटो मार्क कीजिये</string>
     <string name="pref_filter_out_non_english_shows">गैर अंग्रेजी शो फिल्टर करे</string>
     <string name="pref_filter_out_dead_sources">मृत सूत्रों को फिल्टर करे</string>
     <string name="pref_filter_out_dead_sources_desc">इससे अतिरिक्त सूत्रों का लोड समय बढ़ेगा</string>
@@ -117,6 +130,8 @@
     <string name="pref_hide_unaired_episode"> unaired इपसोड छुपाएं </string>
     <string name="pref_subtitles_filter">जो उपशीर्षक मैच नहीं हुए उनको फ़िल्टर करे</string>
     <string name="pref_subtitles_choose_lang">उपशीर्षक भाषा(ओ) का चयन…</string>
+    <string name="pref_synopsis_choose_lang">सारांश भाषा चुनें ...</string>
+    <string name="pref_hide_poster_thumb">पोस्टर थंबनेल छिपाएं</string>
     <string name="pref_hide_season_image">सीज़न थंबनेल छिपाने</string>
     <string name="pref_hide_episode_image">इपसोड थंबनेल छिपाने</string>
     <string name="pref_show_menu_source">सोर्स लिस्ट में सिंगल क्लिक पर कॉन्टेक्स्ट मेनू दिखाए</string>
@@ -135,6 +150,22 @@
     <string name="pref_force_tv_mode">Android TV मोड फाॅर्स करे</string>
     <string name="pref_force_tv_mode_desc">Android TV लेआउट फोरसबली दिखाए</string>
     <string name="pref_choose_default_player">डिफ़ॉल्ट विडियो प्लेयर का चयन करे…</string>
+    <string name="pref_show_hd_sources_only">केवल HD लिंक दिखाएं</string>
+    <string name="pref_show_season_special">सीजन विशेष दिखाएँ</string>
+    <string name="pref_backup_settings">बैकअप सेटिंग्स</string>
+    <string name="pref_restore_settings">रिस्टोर सेटिंग्स</string>
+    <string name="pref_backup_favorites">बैकअप पसंदीदा</string>
+    <string name="pref_restore_favorites">रिस्टोर पसंदीदा</string>
+    <string name="backup_path">\"%s\" में बैकअप करे</string>
+    <string name="restore_path">\"%s\" से रिस्टोर करे</string>
+    <string name="backup_success">सफलतापूर्वक बैकअप किया गया!</string>
+    <string name="restore_success">सफलतापूर्वक रिस्टोर किया गया!</string>
+    <string name="failed_to_backup">बैकअप में विफल</string>
+    <string name="failed_to_restore">रिस्टोर में विफल</string>
+    <string name="pref_resolve_all_links_immediately">सभी लिंक तुरंत हल करें</string>
+    <string name="pref_resolve_all_links_immediately_desc">सभी लिंक तुरंत सीधे लिंक में हल करें | यदि यह विकल्प अक्षम है, टेरारियम टीवी केवल उस लिंक को हल करेगा जब उपयोगकर्ता इसे क्लिक करेंगे। (ऐप हैंग होने पर इसे बंद करें!)</string>
+    <string name="pref_sources_list_refresh_interval">स्रोत सूची रीफ्रेश का समय अंतराल (seconds में)</string>
+    <string name="pref_sources_list_refresh_interval_msg">यदि ऐप, लिंक लोड करते समय FREEZE होती  है, तो कृपया मूल्य बढ़ाएं।</string>
     <string name="restart_to_see_the_difference">अंतर देखने के लिए टेरारियम टीवी पुनः प्रारंभ करें.</string>
 
     <string name="download_manager_internal">एंड्रॉयड आंतरिक डाउनलोड प्रबंधक</string>
@@ -166,14 +197,17 @@
     <string name="subtitle_name">उपशीर्षक का नाम : </string>
 
     <string name="facebook_page">फेसबुक पेज</string>
+    <string name="official_website_menuitem">Official वेबसाइट</string>
 
     <string name="changelog">चैंज</string>
     <string name="choose_browser">एक ब्राउज़र चुनें</string>
+    <string name="choose_app">Choose an app…</string>
 
     <string name="disclaimer">अस्वीकरण</string>
     <string name="accept">स्वीकार</string>
     <string name="decline">पतन</string>
 
+    <string name="cant_open_youtube">YouTube खोल नहीं सकते बाद में पुन: प्रयास करें।</string>
     <string name="error">अज्ञात त्रुटि. कृपया पुन: प्रयास करें.</string>
     <string name="please_wait">कृपया प्रतीक्षा करें…</string>
 
@@ -207,6 +241,26 @@
     <string name="pref_app_lang">एप्लिकेशन भाषा</string>
 
     <string name="learn_more">और अधिक जानें</string>
+    
+    <string name="resolving">हल हो रहा है</string>
+    <string name="resolving_links">लिंक का समाधान हो रहा है...</string>
+    <string name="failed_to_resolve_link">इस लिंक को हल करने में विफल| कृपया इसके बजाय एक अन्य लिंक का प्रयास करें|</string>
+    <string name="no_streamlink_is_available">क्षमा करें ... कोई स्ट्रीम लिंक अब उपलब्ध नहीं है ...</string>
+    <string name="link_cant_be_resolved">क्षमा करें ... इस लिंक का समाधान नहीं किया जा सकता है ...</string>
+
+    <string name="low_end_device_detected">यह एक Low-end डिवाइस है</string>
+    <string name="resolve_all_links_immediately_disabled">ऐसा लगता है कि आप एक Low-end डिवाइस पर Terrarium TV का उपयोग कर रहे हैं।  Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">अज्ञात अपवाद</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV रिस्टार्ट करे</string>
+    <string name="customactivityoncrash_error_activity_close_app">Terrarium TV बंद करे</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error की जानकारी</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error की जानकारी</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">बंद करे</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Clipboard पर कॉपी करें</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Clipboard पर कॉपी किया गया</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error की जानकारी</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
