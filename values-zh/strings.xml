@@ -110,6 +110,7 @@
 
     <string name="pref_general">一般設定</string>
     <string name="pref_performance">性能</string>
+    <string name="pref_new_episode_notification">新一集提醒</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
@@ -126,6 +127,8 @@
     <string name="pref_filter_out_non_english_shows">隱藏非英語劇集</string>
     <string name="pref_filter_out_dead_sources">隱藏無效片源</string>
     <string name="pref_filter_out_dead_sources_desc">這將會增加片源載入時間</string>
+    <string name="pref_enable_new_episode_notification">啟用新一集提醒</string>
+    <string name="pref_check_new_episode_frequency">檢查新一集頻率 (小時)</string>
     <string name="pref_hide_unaired_season">隱藏未推出季度</string>
     <string name="pref_hide_unaired_episode">隱藏未推出集數</string>
     <string name="pref_subtitles_filter">過濾不吻合字幕</string>
@@ -242,6 +245,8 @@
 
     <string name="learn_more">了解更多</string>
 
+    <string name="new_episode">新一集: %s</string>
+
     <string name="resolving">正在解析</string>
     <string name="resolving_links">解析連結中…</string>
     <string name="failed_to_resolve_link">連結解析失敗，請嘗試另一條連結</string>
@@ -250,6 +255,15 @@
 
     <string name="low_end_device_detected">偵測到正在使用低階裝置</string>
     <string name="resolve_all_links_immediately_disabled">偵測到你正在使用低階裝置運行 Terrarium 影視。為了提升效能和用戶體驗，\"立即解析連結\" 功能已被關閉。雖然部分連結的檔案大小會被隱藏，但 Terrarium 影視 將不會再崩潰和變得卡頓。如果你希望看到所有連結的檔案大小，你可以到\"設定\"頁面中重新啟用此功能。</string>
+
+    <string name="media_route_menu_title">播放…</string>
+    <string name="chromecast_available">Chromecast 可用</string>
+    <string name="chromecast_not_connected">未連接 Chromecast</string>
+    <string name="chromecast_resume_failed">恢復影片播放失敗d</string>
+    <string name="chromecast_failed_to_play">無法播放影片</string>
+    <string name="video_cant_be_casted">Chromecast 無法播放此影片</string>
+    <string name="google_play_services_not_installed">未安裝 Google Play 服務</string>
+    <string name="cant_cast_on_tv">無法在 Android TV 裝置上使用 Chromecast</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影視 發生了未知錯誤並崩潰，已回報此問題。\n\n如此問題持續發生，請調整 \"設定\" 頁面中的 \"效能\" 設置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知錯誤</string>

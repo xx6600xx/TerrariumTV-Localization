@@ -110,6 +110,7 @@
 
     <string name="pref_general">General</string>
     <string name="pref_performance">Performance</string>
+    <string name="pref_new_episode_notification">New Episode Notification</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
@@ -126,6 +127,8 @@
     <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
     <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
+    <string name="pref_enable_new_episode_notification">Enable new episode notification</string>
+    <string name="pref_check_new_episode_frequency">Check new episode frequency (in hours)</string>
     <string name="pref_hide_unaired_season">Hide unaired season</string>
     <string name="pref_hide_unaired_episode">Hide unaired episode</string>
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
@@ -242,6 +245,8 @@
 
     <string name="learn_more">Learn More</string>
 
+    <string name="new_episode">New episode: %s</string>
+
     <string name="resolving">Resolving</string>
     <string name="resolving_links">Resolving links…</string>
     <string name="failed_to_resolve_link">Failed to resolve this link. Please try another link instead.</string>
@@ -250,6 +255,15 @@
 
     <string name="low_end_device_detected">Low-end device detected</string>
     <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+
+    <string name="media_route_menu_title">Play…</string>
+    <string name="chromecast_available">Chromecast available</string>
+    <string name="chromecast_not_connected">Chromecast not connected</string>
+    <string name="chromecast_resume_failed">Resume video playback failed</string>
+    <string name="chromecast_failed_to_play">Failed to play video</string>
+    <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
+    <string name="google_play_services_not_installed">Google Play Services is not installed</string>
+    <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
