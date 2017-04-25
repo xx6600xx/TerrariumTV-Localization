@@ -63,7 +63,7 @@
     <string name="recently_updated">Neseniai atnaujinta</string>
     <string name="new_shows">Naujausi</string>
     <string name="premieres">Premjeros</string>
-    <string name="on_the_air">Tiesiogiai</string>
+    <string name="on_the_air">Eteryje</string>
     <string name="top_rated">Geriausiai įvertinta</string>
     <string name="now_playing">Šiuo metu teatruose</string>
 
@@ -135,7 +135,7 @@
     <string name="download_manager_external">Išorinė atsisiuntimo tvarkyklė(s)</string>
 
     <string name="action_play">Žiūrėti</string>
-    <string name="action_play_with_subs">Žiūrėti su subtitrų</string>
+    <string name="action_play_with_subs">Žiūrėti su subtitrais</string>
     <string name="action_download">Atsisiųsti</string>
     <string name="action_download_with_subs">Atsisiųsti su subtitrais</string>
     <string name="action_copy_link">Kopijuoti srautinę nuorodą</string>
@@ -198,7 +198,7 @@
 
     <string name="pref_app_lang">Aplikacijos kalba</string>
 
-    <string name="learn_more">Learn More</string>
+    <string name="learn_more">Daugiau informacijos</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium TV</string>
