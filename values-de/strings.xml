@@ -110,6 +110,7 @@
 
     <string name="pref_general">Allgemein</string>
     <string name="pref_performance">Performance</string>
+    <string name="pref_new_episode_notification">Benachrichtigung für neue Folgen</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
@@ -126,6 +127,8 @@
     <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
     <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
     <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
+    <string name="pref_enable_new_episode_notification">Aktiviere Benachrichtigungen für neue Folgen</string>
+    <string name="pref_check_new_episode_frequency">Suchfrequenz von neuen Folgen (in Stunden)</string>
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
     <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
@@ -242,6 +245,8 @@
 
     <string name="learn_more">Mehr erfahren</string>
 
+    <string name="new_episode">Neue Episode: %s</string>
+
     <string name="resolving">Wird aufgelöst</string>
     <string name="resolving_links">Links werden aufgelöst…</string>
     <string name="failed_to_resolve_link">Das Auflösen dieses Links ist fehlgeschlagen. Bitte probiere einen anderen Link.</string>
@@ -251,14 +256,23 @@
     <string name="low_end_device_detected">Langsames Gerät entdeckt</string>
     <string name="resolve_all_links_immediately_disabled">Du benutzt Terrarium TV auf einem langsamen Gerät. Für bessere Performance wird die Funktion \"Hosts direkt auflösen"\ deaktiviert. Du wirst keine Dateigrößen mehr sehen. Dafür sollte die App keine Probleme mehr verursachen. Für die Anzeige der Dateigröße muss die Funktion wieder in den Einstellungen aktiviert werden.</string>
 
+    <string name="media_route_menu_title">Abspielen…</string>
+    <string name="chromecast_available">Chromecast verfügbar</string>
+    <string name="chromecast_not_connected">Chromecast nicht verbunden</string>
+    <string name="chromecast_resume_failed">Fortsetzung der Wiedergabe fehlgeschlagen</string>
+    <string name="chromecast_failed_to_play">Wiedergabe fehlgeschlagen</string>
+    <string name="video_cant_be_casted">Dieses Video lässt sich nicht auf dem Chromecast wiedergeben</string>
+    <string name="google_play_services_not_installed">Google Play Dienste sind nicht installiert</string>
+    <string name="cant_cast_on_tv">Keine Wiedergabe zum Chromecast auf Android TV Geräten möglich</string>
+
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
-    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exceptionn</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exception</string>
     <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV neustarten</string>
     <string name="customactivityoncrash_error_activity_close_app">Terrarirum TV schließen</string>
-    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error Details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error Details</string>
     <string name="customactivityoncrash_error_activity_error_details_close">Schließen</string>
     <string name="customactivityoncrash_error_activity_error_details_copy">In Zwischenablage kopieren</string>
     <string name="customactivityoncrash_error_activity_error_details_copied">In Zwischenablage kopiert</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error Information</string>
 </resources>
