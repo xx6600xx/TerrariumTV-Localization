@@ -110,7 +110,7 @@
 
     <string name="pref_general">Allgemein</string>
     <string name="pref_performance">Performance</string>
-    <string name="pref_new_episode_notification">Benachrichtigung für neue Folgen</string>
+    <string name="pref_new_episode_notification">Benachrichtigung für neue Episoden</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
@@ -127,8 +127,8 @@
     <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
     <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
     <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
-    <string name="pref_enable_new_episode_notification">Aktiviere Benachrichtigungen für neue Folgen</string>
-    <string name="pref_check_new_episode_frequency">Suchfrequenz von neuen Folgen (in Stunden)</string>
+    <string name="pref_enable_new_episode_notification">Aktiviere Benachrichtigungen für neue Episoden</string>
+    <string name="pref_check_new_episode_frequency">Suchfrequenz von neuen Episoden (in Stunden)</string>
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
     <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
