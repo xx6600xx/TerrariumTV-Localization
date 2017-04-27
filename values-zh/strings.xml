@@ -259,7 +259,7 @@
     <string name="media_route_menu_title">播放…</string>
     <string name="chromecast_available">Chromecast 可用</string>
     <string name="chromecast_not_connected">未連接 Chromecast</string>
-    <string name="chromecast_resume_failed">恢復影片播放失敗d</string>
+    <string name="chromecast_resume_failed">恢復影片播放失敗</string>
     <string name="chromecast_failed_to_play">無法播放影片</string>
     <string name="video_cant_be_casted">Chromecast 無法播放此影片</string>
     <string name="google_play_services_not_installed">未安裝 Google Play 服務</string>

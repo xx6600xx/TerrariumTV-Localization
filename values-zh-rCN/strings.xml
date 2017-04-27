@@ -110,6 +110,7 @@
 
     <string name="pref_general">一般设置</string>
     <string name="pref_performance">性能</string>
+    <string name="pref_new_episode_notification">新剧集通知</string>
     <string name="pref_ui">用户界面</string>
     <string name="pref_sources_and_resolvers">片源与连接解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕语言</string>
@@ -126,6 +127,8 @@
     <string name="pref_filter_out_non_english_shows">隐藏非英语剧集</string>
     <string name="pref_filter_out_dead_sources">隐藏无效片源</string>
     <string name="pref_filter_out_dead_sources_desc">这将会增加片源加载时间</string>
+    <string name="pref_enable_new_episode_notification">开启新剧集通知</string>
+    <string name="pref_check_new_episode_frequency">新剧集检查频率 (小时)</string>
     <string name="pref_hide_unaired_season">隐藏未推出季度</string>
     <string name="pref_hide_unaired_episode">隐藏未推出集数</string>
     <string name="pref_subtitles_filter">过滤不匹配字幕</string>
@@ -166,7 +169,7 @@
     <string name="pref_resolve_all_links_immediately_desc">立即把链接解析成可播放的链接。关闭此选项后，Terrarium 影视 只有在你按下链接的时候才会解析该链接。 (Terrarium 影视 运行不流畅时请关闭此选项！)</string>
     <string name="pref_sources_list_refresh_interval">片源列表重新刷新时间间隔 (秒)</string>
     <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影视 在搜索影片链接的时候卡顿，请提高此数值</string>
-    <string name="restart_to_see_the_difference">请立即重开 Terrarium 影视 来查看效果</string>
+    <string name="restart_to_see_the_difference">请重启 Terrarium 影视 来查看效果</string>
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
     <string name="download_manager_external">外置下载管理器</string>
@@ -242,6 +245,8 @@
 
     <string name="learn_more">了解更多</string>
 
+    <string name="new_episode">新剧集: %s</string>
+
     <string name="resolving">正在解析</string>
     <string name="resolving_links">解析链接中…</string>
     <string name="failed_to_resolve_link">链接解析失败，请尝试另一条链接</string>
@@ -250,6 +255,15 @@
 
     <string name="low_end_device_detected">检测到正在使用低配设备</string>
     <string name="resolve_all_links_immediately_disabled">检测到你正在使用低配设备运行 Terrarium 影视。为了提升性能和用户体验，\"立即解析链接\" 和 \"并行加载片源\" 功能已被关闭。虽然部分链接的文件大小会被隐藏，但 Terrarium 影视 将不会再崩溃和卡顿。如果你希望看到所有链接的文件大小，你可以到 \"设置 \" 页面中重新启用此功能。</string>
+
+    <string name="media_route_menu_title">播放…</string>
+    <string name="chromecast_available">Chromecast 可用</string>
+    <string name="chromecast_not_connected">未连接 Chromecast</string>
+    <string name="chromecast_resume_failed">恢复影片播放失败</string>
+    <string name="chromecast_failed_to_play">无法播放影片</string>
+    <string name="video_cant_be_casted">Chromecast 无法播放此影片</string>
+    <string name="google_play_services_not_installed">未安装 Google Play 服务</string>
+    <string name="cant_cast_on_tv">无法在 Android TV 上使用 Chromecast</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影视 发生了未知错误并崩溃，已上报此问题。\n\n 如此问题持续发生，请调整 \"设置 \" 页面中的 \"性能 \" 设置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知错误</string>
