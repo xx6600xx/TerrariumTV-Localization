@@ -19,8 +19,12 @@
     <string name="action_reverse">反轉排序</string>
     <string name="action_set_watched">設為已觀看</string>
     <string name="action_remove_watched">移除已觀看</string>
-    <string name="action_sync_with_trakt">與 Trakt.tv 同步</string>
     <string name="action_share_app">分享此 App</string>
+    <string name="action_remove">移除</string>
+    <string name="action_remove_all">移除全部</string>
+    <string name="action_select_date">選擇日期</string>
+    <string name="show_all">顯示全部</string>
+    <string name="show_favorites_only">只顯示我的最愛</string>
     <string name="sync_in_progress">同步中…</string>
     <string name="hint_tv_show_name">劇集名稱</string>
     <string name="hint_movie_name">電影名稱</string>
@@ -77,9 +81,11 @@
     <string name="genre_tv_drama">戲劇</string>
     <string name="genre_tv_comedy">喜劇</string>
     <string name="genre_tv_family">家庭</string>
+    <string name="genre_tv_western">西部</string>
     <string name="genre_tv_war_politics">戰爭/政治</string>
     <string name="genre_tv_reality">真人Show</string>
     <string name="genre_tv_documentary">紀錄片</string>
+    <string name="genre_tv_kids">兒童</string>
     <string name="genre_tv_animation">動畫</string>
 
     <string name="genre_movie_action">動作</string>
@@ -101,12 +107,14 @@
     <string name="genre_movie_documentary">紀錄片</string>
     <string name="genre_movie_music">音樂</string>
 
+    <string name="list_tv_netflix">Netflix</string>
+
     <string name="list_movie_oscars_winners">奧斯卡得獎電影</string>
     <string name="list_movie_christmas">聖誕節</string>
     <string name="list_movie_marvels">Marvel 電影</string>
     <string name="list_movie_disney_classics">迪士尼經典</string>
 
-    <string name="filter_year">年份</string>
+    <string name="filter_year">篩選年份</string>
 
     <string name="pref_general">一般設定</string>
     <string name="pref_performance">性能</string>
@@ -115,6 +123,7 @@
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
     <string name="pref_subtitle_chin">SubHD, Makedie 和 Zimiku 字幕語言</string>
+    <string name="pref_chromecast_subtitles">Chromecast 字幕</string>
     <string name="pref_backup_and_restore">備份與還原</string>
     <string name="pref_others">其他</string>
 
@@ -123,10 +132,13 @@
     <string name="pref_media_down_path">影片下載路徑 (只限 Android 內置下載管理員)</string>
     <string name="pref_choose_media_down_manager">選擇預設下載管理器…</string>
     <string name="pref_auto_check_update">自動檢查更新</string>
+    <string name="pref_clear_cache">清除快取</string>
     <string name="pref_auto_mark_episode_as_watched">自動標記已觀看集數</string>
     <string name="pref_filter_out_non_english_shows">隱藏非英語劇集</string>
     <string name="pref_filter_out_dead_sources">隱藏無效片源</string>
     <string name="pref_filter_out_dead_sources_desc">這將會增加片源載入時間</string>
+    <string name="pref_filter_out_cam_version_links">隱藏 CAM 版本的連結</string>
+    <string name="pref_filter_out_cam_version_links_desc">自動隱藏極低畫質 (CAM) 的連結</string>
     <string name="pref_enable_new_episode_notification">啟用新一集提醒</string>
     <string name="pref_check_new_episode_frequency">檢查新一集頻率 (小時)</string>
     <string name="pref_hide_unaired_season">隱藏未推出季度</string>
@@ -141,6 +153,8 @@
     <string name="pref_poster_size">劇集海報大小</string>
     <string name="pref_parallel_loading_sources">開啟同步載入片源</string>
     <string name="pref_parallel_loading_sources_desc">強烈建議開啟! 開啟後片源載入速度提升 5 倍，但有機會在低配置機型造成崩潰</string>
+    <string name="pref_simple_scrolling_on_tv">在 Android TV 上簡易捲動集數列表</string>
+    <string name="simple_scrolling_is_enabled">簡易捲動已啟用，你可以在設定中關閉此功能</string>
     <string name="pref_choose_default_nav">選擇預設導航…</string>
     <string name="pref_choose_default_category_tv_shows">選擇預設劇集分類…</string>
     <string name="pref_choose_default_category_movies">選擇預設電影分類…</string>
@@ -155,10 +169,16 @@
     <string name="pref_choose_default_player">選擇預設影片播放器…</string>
     <string name="pref_show_hd_sources_only">只顯示高清片源</string>
     <string name="pref_show_season_special">顯示特別季度</string>
+    <string name="pref_auto_backup_before_update">更新前自動備份</string>
+    <string name="pref_cc_subs_font_scale">字體大小比例</string>
+    <string name="pref_cc_subs_font_color">字體顏色</string>
+    <string name="pref_cc_subs_bg_color">背景顏色</string>
     <string name="pref_backup_settings">備份設定</string>
     <string name="pref_restore_settings">還原設定</string>
     <string name="pref_backup_favorites">備份我的最愛</string>
     <string name="pref_restore_favorites">還原我的最愛</string>
+    <string name="pref_backup_watched_episodes">備份已觀看集數紀錄</string>
+    <string name="pref_restore_watched_episodes">還原已觀看集數紀錄</string>
     <string name="backup_path">備份到 %s</string>
     <string name="restore_path">從 %s 還原</string>
     <string name="backup_success">備份成功!</string>
@@ -236,16 +256,31 @@
 
     <string name="tv_shows">歐美劇</string>
     <string name="movies">電影</string>
+    <string name="downloads">下載</string>
+    <string name="tools">工具</string>
 
     <string name="play_trailer">播放預告片</string>
+    <string name="all">全部</string>
+    <string name="tv_calendar">電視節目表</string>
 
     <string name="translators">翻譯人員</string>
 
     <string name="pref_app_lang">App 語言</string>
 
     <string name="learn_more">了解更多</string>
+    <string name="choose_a_correct_date">請選擇一個正確的日期</string>
+    <string name="cache_cleared">快取已清除!</string>
 
     <string name="new_episode">新一集: %s</string>
+    <string name="default_value">預設值: %s</string>
+    <string name="value_must_be_positive">數值必須為正數</string>
+
+    <string name="try_it">試一試吧!</string>
+    <string name="click_play_button_on_your_rc">按一下遙控上的 "播放" 或長按遙控上的 "Enter" 按鈕便能立即開始播放!</string>
+
+    <string name="in_progress">進行中</string>
+    <string name="finished">已完成</string>
+    <string name="file_not_found">找不到檔案!</string>
 
     <string name="resolving">正在解析</string>
     <string name="resolving_links">解析連結中…</string>
@@ -256,6 +291,11 @@
     <string name="low_end_device_detected">偵測到正在使用低階裝置</string>
     <string name="resolve_all_links_immediately_disabled">偵測到你正在使用低階裝置運行 Terrarium 影視。為了提升效能和用戶體驗，\"立即解析連結\" 功能已被關閉。雖然部分連結的檔案大小會被隱藏，但 Terrarium 影視 將不會再崩潰和變得卡頓。如果你希望看到所有連結的檔案大小，你可以到\"設定\"頁面中重新啟用此功能。</string>
 
+    <string name="like_us_on_facebook_title">在 Facebook 給我們讚!</string>
+    <string name="like_us_on_facebook_message">覺得這個 App 好用? 立即在 Facebook 給我們一個讚來支持我們吧!</string>
+    <string name="like_us_on_facebook_yes">讚!</string>
+    <string name="dont_ask_again_checkbox">不要再問</string>
+
     <string name="media_route_menu_title">播放…</string>
     <string name="chromecast_available">Chromecast 可用</string>
     <string name="chromecast_not_connected">未連接 Chromecast</string>
@@ -264,6 +304,15 @@
     <string name="video_cant_be_casted">Chromecast 無法播放此影片</string>
     <string name="google_play_services_not_installed">未安裝 Google Play 服務</string>
     <string name="cant_cast_on_tv">無法在 Android TV 裝置上使用 Chromecast</string>
+
+    <string name="ttv_switch_season">一鍵切換季度</string>
+    <string name="ttv_switch_season_desc">按這裡開啟下拉選單來切換其他季度</string>
+    <string name="ttv_switch_subtitles_provider">切換字幕網</string>
+    <string name="ttv_switch_subtitles_provider_desc">找不到適合的字幕? 按這裡來切換字幕網!</string>
+    <string name="ttv_set_episode_as_watched">標記已觀看集數</string>
+    <string name="ttv_set_episode_as_watched_desc">看完了這一集? 按一下這裡來標記為已觀看吧!</string>
+    <string name="ttv_watch_now">立即觀看!</string>
+    <string name="ttv_watch_now_desc">按一下這個按鈕來立即觀看!</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影視 發生了未知錯誤並崩潰，已回報此問題。\n\n如此問題持續發生，請調整 \"設定\" 頁面中的 \"效能\" 設置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知錯誤</string>
