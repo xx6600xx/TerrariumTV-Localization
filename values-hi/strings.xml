@@ -21,7 +21,7 @@
     <string name="action_remove_watched">नहीं देखा</string>
     <string name="action_sync_with_trakt">Trakt.tv के साथ सिंक करे</string>
     <string name="action_share_app">ऐप शेयर करे</string>
-    <string name="sync_in_progress">सिंक प्रॉगेस में है...</string>
+    <string name="sync_in_progress">सिंक प्रॉगेस में है…</string>
     <string name="hint_tv_show_name">टीवी शो के नाम</string>
     <string name="hint_movie_name">फिल्म का नाम</string>
     <string name="subtitle">उपशीर्षक</string>
@@ -105,7 +105,7 @@
     <string name="list_movie_christmas">क्रिसमस</string>
     <string name="list_movie_marvels">मार्वल\'s</string>
     <string name="list_movie_disney_classics">डिज्नी क्लासिक</string>
-    
+
     <string name="filter_year">साल</string>
 
     <string name="pref_general">सामान्य</string>
@@ -130,7 +130,7 @@
     <string name="pref_hide_unaired_episode"> unaired इपसोड छुपाएं </string>
     <string name="pref_subtitles_filter">जो उपशीर्षक मैच नहीं हुए उनको फ़िल्टर करे</string>
     <string name="pref_subtitles_choose_lang">उपशीर्षक भाषा(ओ) का चयन…</string>
-    <string name="pref_synopsis_choose_lang">सारांश भाषा चुनें ...</string>
+    <string name="pref_synopsis_choose_lang">सारांश भाषा चुनें …</string>
     <string name="pref_hide_poster_thumb">पोस्टर थंबनेल छिपाएं</string>
     <string name="pref_hide_season_image">सीज़न थंबनेल छिपाने</string>
     <string name="pref_hide_episode_image">इपसोड थंबनेल छिपाने</string>
@@ -241,12 +241,12 @@
     <string name="pref_app_lang">एप्लिकेशन भाषा</string>
 
     <string name="learn_more">और अधिक जानें</string>
-    
+
     <string name="resolving">हल हो रहा है</string>
-    <string name="resolving_links">लिंक का समाधान हो रहा है...</string>
+    <string name="resolving_links">लिंक का समाधान हो रहा है…</string>
     <string name="failed_to_resolve_link">इस लिंक को हल करने में विफल| कृपया इसके बजाय एक अन्य लिंक का प्रयास करें|</string>
-    <string name="no_streamlink_is_available">क्षमा करें ... कोई स्ट्रीम लिंक अब उपलब्ध नहीं है ...</string>
-    <string name="link_cant_be_resolved">क्षमा करें ... इस लिंक का समाधान नहीं किया जा सकता है ...</string>
+    <string name="no_streamlink_is_available">क्षमा करें … कोई स्ट्रीम लिंक अब उपलब्ध नहीं है …</string>
+    <string name="link_cant_be_resolved">क्षमा करें … इस लिंक का समाधान नहीं किया जा सकता है …</string>
 
     <string name="low_end_device_detected">यह एक Low-end डिवाइस है</string>
     <string name="resolve_all_links_immediately_disabled">ऐसा लगता है कि आप एक Low-end डिवाइस पर Terrarium TV का उपयोग कर रहे हैं।  Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
