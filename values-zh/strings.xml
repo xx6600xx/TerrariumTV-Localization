@@ -13,6 +13,7 @@
     <string name="action_search">搜尋</string>
     <string name="action_bookmark">我的最愛</string>
     <string name="action_add_to_bookmark">加到我的最愛</string>
+    <string name="action_remove_from_bookmark">移除我的最愛</string>  
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
     <string name="action_next_episode">下一集</string>
