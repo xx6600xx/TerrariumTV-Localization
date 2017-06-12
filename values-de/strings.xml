@@ -13,14 +13,19 @@
     <string name="action_search">Suchen</string>
     <string name="action_bookmark">Favoriten</string>
     <string name="action_add_to_bookmark">Zu Favoriten hinzufügen</string>
+    <string name="action_remove_from_bookmark">Von Favoriten entfernen</string>
     <string name="action_refresh">Aktualisieren</string>
     <string name="action_stop">Anhalten</string>
     <string name="action_next_episode">Nächste Folge</string>
     <string name="action_reverse">Rückgängig machen</string>
     <string name="action_set_watched">Als gesehen markieren</string>
     <string name="action_remove_watched">Als nicht gesehen markieren</string>
-    <string name="action_sync_with_trakt">Mit Trakt.tv synchronisieren</string>
     <string name="action_share_app">App teilen</string>
+    <string name="action_remove">Entfernen</string>
+    <string name="action_remove_all">Alle entfernen</string>
+    <string name="action_select_date">Datum auswählen</string>
+    <string name="show_all">Alle zeigen</string>
+    <string name="show_favorites_only">Nur Favoriten anzeigen</string>
     <string name="sync_in_progress">Synchronisiert…</string>
     <string name="hint_tv_show_name">Serientitel</string>
     <string name="hint_movie_name">Filmtitel</string>
@@ -77,9 +82,11 @@
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komödie</string>
     <string name="genre_tv_family">Family</string>
+    <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Dokumentar</string>
+    <string name="genre_tv_kids">Kinder</string>
     <string name="genre_tv_animation">Animation</string>
 
     <string name="genre_movie_action">Action</string>
@@ -101,6 +108,8 @@
     <string name="genre_movie_documentary">Dokumentar</string>
     <string name="genre_movie_music">Musical</string>
 
+    <string name="list_tv_netflix">Netflix</string>
+
     <string name="list_movie_oscars_winners">Oscar Gewinner</string>
     <string name="list_movie_christmas">Christmas</string>
     <string name="list_movie_marvels">Marvel</string>
@@ -115,6 +124,7 @@
     <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
     <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
+    <string name="pref_chromecast_subtitles">Chromecast Untertitel</string>
     <string name="pref_backup_and_restore">Backup und Wiederherstellen</string>
     <string name="pref_others">Andere</string>
 
@@ -123,10 +133,13 @@
     <string name="pref_media_down_path">Speicherort der Medien (Nur für den Android Download Manager)</string>
     <string name="pref_choose_media_down_manager">Wähle Download Manager…</string>
     <string name="pref_auto_check_update">Prüfe automatisch auf Updates</string>
+    <string name="pref_clear_cache">Cache leeren</string>
     <string name="pref_auto_mark_episode_as_watched">Episoden automatisch als gesehen markieren</string>
     <string name="pref_filter_out_non_english_shows">Nicht-englische Serien ausblenden</string>
     <string name="pref_filter_out_dead_sources">Tote Quellen ausblenden</string>
     <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
+    <string name="pref_filter_out_cam_version_links">CAM Versionen ausblende</string>
+    <string name="pref_filter_out_cam_version_links_desc">Links mit schlechter Qualität automatisch ausblenden</string>
     <string name="pref_enable_new_episode_notification">Aktiviere Benachrichtigungen für neue Episoden</string>
     <string name="pref_check_new_episode_frequency">Suchfrequenz von neuen Episoden (in Stunden)</string>
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
@@ -141,6 +154,8 @@
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
     <string name="pref_parallel_loading_sources_desc">Empfohlene Einstellung. Beschleunigt die Ladezeit der Quellen um das Fünffache. Könnte auf bestimmten Geräten Fehler verursachen.</string>
+    <string name="pref_simple_scrolling_on_tv">Einfaches Scrollen auf Android TV</string>
+    <string name="simple_scrolling_is_enabled">Einfaches Scrollen ist aktiviert. Diese Optionen kann in den Einstellungen deaktiviert werden.</string>
     <string name="pref_choose_default_nav">Wähle Startbildschirm…</string>
     <string name="pref_choose_default_category_tv_shows">Wähle Standardgenre für Serien…</string>
     <string name="pref_choose_default_category_movies">Wähle Standardgenre für Filme…</string>
@@ -155,10 +170,16 @@
     <string name="pref_choose_default_player">Standard video player wählen…</string>
     <string name="pref_show_hd_sources_only">Nur HD links anzeigen</string>
     <string name="pref_show_season_special">Staffelspezial zeigen</string>
+    <string name="pref_auto_backup_before_update">Vor dem Update automatisch Backup erstellen</string>
+    <string name="pref_cc_subs_font_scale">Schriftgröße</string>
+    <string name="pref_cc_subs_font_color">Schriftfarbe</string>
+    <string name="pref_cc_subs_bg_color">Hintergrundfarbe</string>
     <string name="pref_backup_settings">Einstellungen sichern</string>
     <string name="pref_restore_settings">Einstellungen wiederherstellen</string>
     <string name="pref_backup_favorites">Favoriten sichern</string>
     <string name="pref_restore_favorites">Favoriten wiederherstellen</string>
+    <string name="pref_backup_watched_episodes">Gesehene Episoden sichern</string>
+    <string name="pref_restore_watched_episodes">Gesehene Episoden wiederherstellen</string>
     <string name="backup_path">Sichern unter \"%s\"</string>
     <string name="restore_path">Wiederherstellen von \"%s\"</string>
     <string name="backup_success">Sicherung erfolgreich!</string>
@@ -236,16 +257,31 @@
 
     <string name="tv_shows">Serien</string>
     <string name="movies">Filme</string>
+    <string name="downloads">Downloads</string>
+    <string name="tools">Tools</string>
 
     <string name="play_trailer">Trailer abspielen</string>
+    <string name="all">Alle</string>
+    <string name="tv_calendar">TV Kalendar</string>
 
     <string name="translators">Übersetzer</string>
 
     <string name="pref_app_lang">Sprache</string>
 
     <string name="learn_more">Mehr erfahren</string>
+    <string name="choose_a_correct_date">Bitte ein gültiges Datum wählen</string>
+    <string name="cache_cleared">Cache geleert!</string>
 
     <string name="new_episode">Neue Episode: %s</string>
+    <string name="default_value">Standard: %s</string>
+    <string name="value_must_be_positive">Wert muss positiv sein</string>
+
+    <string name="try_it">Probiere es aus!</string>
+    <string name="click_play_button_on_your_rc">Drücke die "Play" Taste oder halte die "Enter" Taste auf deiner Fernbedienung um sofort abzuspielen!</string>
+
+    <string name="in_progress">Läuft</string>
+    <string name="finished">Abgeschlossen</string>
+    <string name="file_not_found">Datei nicht gefunden!</string>
 
     <string name="resolving">Wird aufgelöst</string>
     <string name="resolving_links">Links werden aufgelöst…</string>
@@ -256,6 +292,11 @@
     <string name="low_end_device_detected">Langsames Gerät entdeckt</string>
     <string name="resolve_all_links_immediately_disabled">Du benutzt Terrarium TV auf einem langsamen Gerät. Für bessere Performance wird die Funktion \"Hosts direkt auflösen"\ deaktiviert. Du wirst keine Dateigrößen mehr sehen. Dafür sollte die App keine Probleme mehr verursachen. Für die Anzeige der Dateigröße muss die Funktion wieder in den Einstellungen aktiviert werden.</string>
 
+    <string name="like_us_on_facebook_title">Like uns auf Facebook!</string>
+    <string name="like_us_on_facebook_message">Falls dir die App gefällt besuche unsere Facebook Seite und hinterlasse uns einen Like!</string>
+    <string name="like_us_on_facebook_yes">Like!</string>
+    <string name="dont_ask_again_checkbox">Nicht nochmal fragen</string>
+
     <string name="media_route_menu_title">Abspielen…</string>
     <string name="chromecast_available">Chromecast verfügbar</string>
     <string name="chromecast_not_connected">Chromecast nicht verbunden</string>
@@ -264,6 +305,15 @@
     <string name="video_cant_be_casted">Dieses Video lässt sich nicht auf dem Chromecast wiedergeben</string>
     <string name="google_play_services_not_installed">Google Play Dienste sind nicht installiert</string>
     <string name="cant_cast_on_tv">Keine Wiedergabe zum Chromecast auf Android TV Geräten möglich</string>
+
+    <string name="ttv_switch_season">Staffel mit einem Klick wechseln</string>
+    <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
+    <string name="ttv_switch_subtitles_provider">Switch subtitles provider</string>
+    <string name="ttv_switch_subtitles_provider_desc">Didn\'t find any suitable subtitles? Click on it and choose another subtitles provider.</string>
+    <string name="ttv_set_episode_as_watched">Set episode as watched</string>
+    <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
+    <string name="ttv_watch_now">Watch now!</string>
+    <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exception</string>
