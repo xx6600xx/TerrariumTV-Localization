@@ -128,15 +128,15 @@
     <string name="pref_backup_and_restore">ব্যাকআপ এবং পুনঃস্থাপন</string>
     <string name="pref_others">অন্যরা</string>
 
-    <string name="pref_sub_down_path">Subtitles download path</string>
-    <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
-    <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
-    <string name="pref_choose_media_down_manager">Choose default download manager…</string>
-    <string name="pref_auto_check_update">Check update automatically</string>
-    <string name="pref_clear_cache">Clear cache</string>
-    <string name="pref_auto_mark_episode_as_watched">Auto mark episodes as watched</string>
-    <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
-    <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
+    <string name="pref_sub_down_path">সাবটাইটেল ডাউনলোড পাথ</string>
+    <string name="pref_sub_down_path_des">সাবটাইটেল ডাউনলোড এবং সংরক্ষিত এই পাথে  হবে।</string>
+    <string name="pref_media_down_path">মিডিয়া ডাউনলোড পাথ (কেবলমাত্র Android Internal Download Manager এর জন্য)</string>
+    <string name="pref_choose_media_down_manager">ডিফল্ট ডাউনলোড ম্যানেজার চয়ন করুন ...</string>
+    <string name="pref_auto_check_update">স্বয়ংক্রিয়ভাবে আপডেট চেক করুন</string>
+    <string name="pref_clear_cache">ক্যাশে সাফ</string>
+    <string name="pref_auto_mark_episode_as_watched">অটো মার্ক পর্বের হিসাবে দেখেছি</string>
+    <string name="pref_filter_out_non_english_shows">অ-ইংরেজি টিভি শো ফিল্টার আউট করুন</string>
+    <string name="pref_filter_out_dead_sources">মৃত উৎস ফিল্টার আউট করুন</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
     <string name="pref_filter_out_cam_version_links">Filter out CAM version links</string>
     <string name="pref_filter_out_cam_version_links_desc">Filter out bad quality links automatically</string>
