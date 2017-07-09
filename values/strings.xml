@@ -7,12 +7,13 @@
     <string name="action_settings">Settings</string>
 
     <string name="no_data">No Data</string>
+    <string name="no_links_available">No links available</string>
     <string name="no_internet">No Internet connection</string>
     <string name="loading">Loading</string>
     <string name="loading_more">Loading More…</string>
     <string name="action_search">Search</string>
     <string name="action_bookmark">Favorites</string>
-    <string name="action_add_to_bookmark">Add to favorites</string>
+    <string name="action_add_to_bookmark">Add Favorites</string>
     <string name="action_remove_from_bookmark">Remove Favorite</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stop</string>
@@ -75,6 +76,7 @@
     <string name="on_the_air">Airing Today</string>
     <string name="top_rated">Top Rated</string>
     <string name="now_playing">In Theaters</string>
+    <string name="new_hd_releases">New HD Releases</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
@@ -120,6 +122,7 @@
     <string name="pref_general">General</string>
     <string name="pref_performance">Performance</string>
     <string name="pref_new_episode_notification">New Episode Notification</string>
+    <string name="pref_new_movie_release_notification">New Movie Release Notification</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
@@ -142,6 +145,8 @@
     <string name="pref_filter_out_cam_version_links_desc">Filter out bad quality links automatically</string>
     <string name="pref_enable_new_episode_notification">Enable new episode notification</string>
     <string name="pref_check_new_episode_frequency">Check new episode frequency (in hours)</string>
+    <string name="pref_enable_new_movie_release_notification">Enable new movie release notification</string>
+    <string name="pref_check_new_movie_release_frequency">Check new movie release frequency (in hours)</string>
     <string name="pref_hide_unaired_season">Hide unaired season</string>
     <string name="pref_hide_unaired_episode">Hide unaired episode</string>
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
@@ -150,6 +155,7 @@
     <string name="pref_hide_poster_thumb">Hide poster thumbnails</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
     <string name="pref_hide_episode_image">Hide episode thumbnails</string>
+    <string name="pref_hide_episode_synopsis">Hide episode synopsis</string>
     <string name="pref_show_menu_source">Show menu on single click in source list</string>
     <string name="pref_poster_size">Media poster size</string>
     <string name="pref_parallel_loading_sources">Parallel sources loading</string>
@@ -188,9 +194,11 @@
     <string name="failed_to_restore">Failed to restore</string>
     <string name="pref_resolve_all_links_immediately">Resolve all links immediately</string>
     <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
+    <string name="pref_auto_resolve_hd_links_only">Auto resolve HD links only</string>
     <string name="pref_sources_list_refresh_interval">Sources list refresh time interval (in seconds)</string>
     <string name="pref_sources_list_refresh_interval_msg">If the app keeps freezing while loading for links, please increase the value.</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"Resolve all links immediately\" is disabled</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">External download manager(s)</string>
@@ -246,6 +254,7 @@
     <string name="show_details_season">SEASON</string>
     <string name="media_suggestion">See Also</string>
     <string name="no_synopsis">No synopsis</string>
+    <string name="synopsis_is_hidden">Synopsis is hidden</string>
     <string name="loading_ratings">Loading ratings…</string>
     <string name="no_ratings">No Ratings</string>
     <string name="meta_in_production">In Production</string>
@@ -263,6 +272,7 @@
     <string name="play_trailer">Play Trailer</string>
     <string name="all">All</string>
     <string name="tv_calendar">TV Calendar</string>
+    <string name="always_ask">Always ask</string>
 
     <string name="translators">Translators</string>
 
@@ -278,6 +288,7 @@
 
     <string name="try_it">Try it!</string>
     <string name="click_play_button_on_your_rc">Press the "Play" button or long press the "Enter" button on your remote control to play immediately!</string>
+    <string name="press_back_again_to_exit">Press BACK again to exit</string>
 
     <string name="in_progress">In Progress</string>
     <string name="finished">Finished</string>
@@ -291,6 +302,9 @@
 
     <string name="low_end_device_detected">Low-end device detected</string>
     <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+
+    <string name="android_download_manager_is_disabled">Android Download Manager is disabled</string>
+    <string name="android_download_manager_is_disabled_msg">In order to download files, you need to enable the Internal Android Download Manager first. Click "OK" to proceed.</string>
 
     <string name="like_us_on_facebook_title">Like us on Facebook!</string>
     <string name="like_us_on_facebook_message">Do you think this app is useful? Like us on Facebook to show your support!</string>

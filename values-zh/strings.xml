@@ -13,7 +13,7 @@
     <string name="action_search">搜尋</string>
     <string name="action_bookmark">我的最愛</string>
     <string name="action_add_to_bookmark">加到我的最愛</string>
-    <string name="action_remove_from_bookmark">移除我的最愛</string>  
+    <string name="action_remove_from_bookmark">移除我的最愛</string>
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
     <string name="action_next_episode">下一集</string>
@@ -75,6 +75,7 @@
     <string name="on_the_air">今天播映</string>
     <string name="top_rated">評分最高</string>
     <string name="now_playing">上映中</string>
+    <string name="new_hd_releases">高清新片</string>
 
     <string name="genre_tv_action_adventure">動作/冒險</string>
     <string name="genre_tv_sci_fantasy">科幻</string>
@@ -120,6 +121,7 @@
     <string name="pref_general">一般設定</string>
     <string name="pref_performance">性能</string>
     <string name="pref_new_episode_notification">新一集提醒</string>
+    <string name="pref_new_movie_release_notification">新電影提醒</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
@@ -142,6 +144,8 @@
     <string name="pref_filter_out_cam_version_links_desc">自動隱藏極低畫質 (CAM) 的連結</string>
     <string name="pref_enable_new_episode_notification">啟用新一集提醒</string>
     <string name="pref_check_new_episode_frequency">檢查新一集頻率 (小時)</string>
+    <string name="pref_enable_new_movie_release_notification">啟用新電影提醒</string>
+    <string name="pref_check_new_movie_release_frequency">檢查新電影頻率 (小時)</string>
     <string name="pref_hide_unaired_season">隱藏未推出季度</string>
     <string name="pref_hide_unaired_episode">隱藏未推出集數</string>
     <string name="pref_subtitles_filter">過濾不吻合字幕</string>
@@ -150,6 +154,7 @@
     <string name="pref_hide_poster_thumb">隱藏海報圖片</string>
     <string name="pref_hide_season_image">隱藏季度圖片</string>
     <string name="pref_hide_episode_image">隱藏集數圖片</string>
+    <string name="pref_hide_episode_synopsis">隱藏集數摘要</string>
     <string name="pref_show_menu_source">片源列表單擊顯示選單</string>
     <string name="pref_poster_size">劇集海報大小</string>
     <string name="pref_parallel_loading_sources">開啟同步載入片源</string>
@@ -188,12 +193,14 @@
     <string name="failed_to_restore">還原失敗</string>
     <string name="pref_resolve_all_links_immediately">立即解析連結</string>
     <string name="pref_resolve_all_links_immediately_desc">立即把連結解析成可播放的連結。關閉此選項後，Terrarium 影視 只有在當你按下連結的時候才會解析該連結。 (Terrarium 影視 運行不順暢時請關閉此選項！)</string>
+    <string name="pref_auto_resolve_hd_links_only">只自動解析高清連結</string>
     <string name="pref_sources_list_refresh_interval">片源列表重新整理時間間隔 (秒)</string>
     <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影視 在搜尋影片連結的時候卡頓，請提高此數值</string>
     <string name="restart_to_see_the_difference">請立即重開 Terrarium 影視 來查看效果</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"立即解析連結\" 已停用</string>
 
-    <string name="download_manager_internal">Android 內置下載管理員</string>
-    <string name="download_manager_external">外置下載管理員</string>
+    <string name="download_manager_internal">Android 內置下載管理器</string>
+    <string name="download_manager_external">外置下載管理器</string>
 
     <string name="action_play">播放</string>
     <string name="action_play_with_subs">選擇字幕播放</string>
@@ -246,6 +253,7 @@
     <string name="show_details_season">季度</string>
     <string name="media_suggestion">更多推薦</string>
     <string name="no_synopsis">沒有摘要</string>
+    <string name="synopsis_is_hidden">摘要已隱藏</string>
     <string name="loading_ratings">載入評分中…</string>
     <string name="no_ratings">沒有評分</string>
     <string name="meta_in_production">製作中</string>
@@ -263,6 +271,7 @@
     <string name="play_trailer">播放預告片</string>
     <string name="all">全部</string>
     <string name="tv_calendar">電視節目表</string>
+    <string name="always_ask">總是詢問</string>
 
     <string name="translators">翻譯人員</string>
 
@@ -278,6 +287,7 @@
 
     <string name="try_it">試一試吧!</string>
     <string name="click_play_button_on_your_rc">按一下遙控上的 "播放" 或長按遙控上的 "Enter" 按鈕便能立即開始播放!</string>
+    <string name="press_back_again_to_exit">再按一次返回離開</string>
 
     <string name="in_progress">進行中</string>
     <string name="finished">已完成</string>
@@ -291,6 +301,9 @@
 
     <string name="low_end_device_detected">偵測到正在使用低階裝置</string>
     <string name="resolve_all_links_immediately_disabled">偵測到你正在使用低階裝置運行 Terrarium 影視。為了提升效能和用戶體驗，\"立即解析連結\" 功能已被關閉。雖然部分連結的檔案大小會被隱藏，但 Terrarium 影視 將不會再崩潰和變得卡頓。如果你希望看到所有連結的檔案大小，你可以到\"設定\"頁面中重新啟用此功能。</string>
+
+    <string name="android_download_manager_is_disabled">Android 內置下載管理器已停用</string>
+    <string name="android_download_manager_is_disabled_msg">你必須先啟用 Android 內置下載管理器來下載檔案，請按 "確定" 繼續…</string>
 
     <string name="like_us_on_facebook_title">在 Facebook 給我們讚!</string>
     <string name="like_us_on_facebook_message">覺得這個 App 好用? 立即在 Facebook 給我們一個讚來支持我們吧!</string>
