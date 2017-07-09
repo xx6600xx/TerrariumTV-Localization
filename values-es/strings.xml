@@ -49,7 +49,7 @@
     <string name="mxplayer_not_installed">MX Player no está instalado</string>
     <string name="mxplayer_not_installed_message">MX Player no está instalado en tu dispositivo. Terrarium TV necesita MX layer para reproducir contenido. Dale Click a "Install" para instalar MX Player.</string>
     <string name="mxplayer_unable_to_start">MX Player no ha podido empezar</string>
-    <string name="mxplayer_unable_to_start_message">MX Player no ha podido empezar. Por favor reinstalalo y vuelve a intentar.</string>
+    <string name="mxplayer_unable_to_start_message">MX Player no ha podido empezar. Por favor reinstalalo y vuelve a intentarlo.</string>
 
     <string name="vlc_player_not_installed">VLC Player no está instalado</string>
     <string name="vlc_player_not_installed_message">VLC Player no está instalado en tu dispositivo. Terrarium TV necesita VLC Player para reproducir contenido. Dale Click a "Install" para instalar VLC Player.</string>
