@@ -7,6 +7,7 @@
     <string name="action_settings">设置</string>
 
     <string name="no_data">没有数据</string>
+    <string name="no_links_available">没有可用链接</string>
     <string name="no_internet">没有网络连接</string>
     <string name="loading">加载中</string>
     <string name="loading_more">加载更多中…</string>
@@ -75,6 +76,7 @@
     <string name="on_the_air">今天播出</string>
     <string name="top_rated">评分最高</string>
     <string name="now_playing">上映中</string>
+    <string name="new_hd_releases">高清新片</string>
 
     <string name="genre_tv_action_adventure">动作/冒险</string>
     <string name="genre_tv_sci_fantasy">科幻</string>
@@ -120,6 +122,7 @@
     <string name="pref_general">一般设置</string>
     <string name="pref_performance">性能</string>
     <string name="pref_new_episode_notification">新剧集通知</string>
+    <string name="pref_new_movie_release_notification">新电影提醒</string>
     <string name="pref_ui">用户界面</string>
     <string name="pref_sources_and_resolvers">片源与连接解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕语言</string>
@@ -142,6 +145,8 @@
     <string name="pref_filter_out_cam_version_links_desc">自动隐藏极低画质 (CAM) 链接</string>
     <string name="pref_enable_new_episode_notification">开启新剧集通知</string>
     <string name="pref_check_new_episode_frequency">新剧集检查频率 (小时)</string>
+    <string name="pref_enable_new_movie_release_notification">开启新电影通知</string>
+    <string name="pref_check_new_movie_release_frequency">新电影检查频率 (小时)</string>
     <string name="pref_hide_unaired_season">隐藏未推出季度</string>
     <string name="pref_hide_unaired_episode">隐藏未推出剧集</string>
     <string name="pref_subtitles_filter">过滤不匹配字幕</string>
@@ -150,6 +155,7 @@
     <string name="pref_hide_poster_thumb">隐藏海报图片</string>
     <string name="pref_hide_season_image">隐藏季度图片</string>
     <string name="pref_hide_episode_image">隐藏剧集图片</string>
+    <string name="pref_hide_episode_synopsis">隐藏剧集摘要</string>
     <string name="pref_show_menu_source">片源列表单击显示菜单</string>
     <string name="pref_poster_size">剧集海报大小</string>
     <string name="pref_parallel_loading_sources">开启并行加载片源</string>
@@ -188,9 +194,11 @@
     <string name="failed_to_restore">还原失败!</string>
     <string name="pref_resolve_all_links_immediately">立即解析链接</string>
     <string name="pref_resolve_all_links_immediately_desc">立即把链接解析成可播放的链接。关闭此选项后，Terrarium 影视 只有在你按下链接的时候才会解析该链接。 (Terrarium 影视 运行不流畅时请关闭此选项！)</string>
+    <string name="pref_auto_resolve_hd_links_only">仅自动解析高清链接</string>
     <string name="pref_sources_list_refresh_interval">片源列表重新刷新时间间隔 (秒)</string>
     <string name="pref_sources_list_refresh_interval_msg">如果 Terrarium 影视 在搜索影片链接的时候卡顿，请提高此数值</string>
     <string name="restart_to_see_the_difference">请重启 Terrarium 影视 来查看效果</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"立即解析链接\" 已停用</string>
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
     <string name="download_manager_external">外置下载管理器</string>
@@ -246,6 +254,7 @@
     <string name="show_details_season">季度</string>
     <string name="media_suggestion">更多推荐</string>
     <string name="no_synopsis">没有摘要</string>
+    <string name="synopsis_is_hidden">摘要已隐藏</string>
     <string name="loading_ratings">加载评分中…</string>
     <string name="no_ratings">没有评分</string>
     <string name="meta_in_production">制作中</string>
@@ -263,6 +272,7 @@
     <string name="play_trailer">播放预告片</string>
     <string name="all">全部</string>
     <string name="tv_calendar">电视节目单</string>
+    <string name="always_ask">总是询问</string>
 
     <string name="translators">翻译人员</string>
 
@@ -278,6 +288,7 @@
 
     <string name="try_it">试一试吧!</string>
     <string name="click_play_button_on_your_rc">按一下遥控上的 "播放" 或长按遥控上的 "确认" 按钮便能立即开始播放!</string>
+    <string name="press_back_again_to_exit">再按一次返回即可退出</string>
 
     <string name="in_progress">进行中</string>
     <string name="finished">已完成</string>
@@ -291,6 +302,9 @@
 
     <string name="low_end_device_detected">检测到正在使用低配设备</string>
     <string name="resolve_all_links_immediately_disabled">检测到你正在使用低配设备运行 Terrarium 影视。为了提升性能和用户体验，\"立即解析链接\" 和 \"并行加载片源\" 功能已被关闭。虽然部分链接的文件大小会被隐藏，但 Terrarium 影视 将不会再崩溃和卡顿。如果你希望看到所有链接的文件大小，你可以到 \"设置 \" 页面中重新启用此功能。</string>
+
+    <string name="android_download_manager_is_disabled">Android 内置下载管理器已停用</string>
+    <string name="android_download_manager_is_disabled_msg">你必须先启用 Android 内置下载管理器 来下载文件，请按 "确定" 继续…</string>
 
     <string name="like_us_on_facebook_title">在 Facebook 给我们点赞!</string>
     <string name="like_us_on_facebook_message">觉得这个 App 好用? 立即在 Facebook 给 App 点赞来支持我们吧!</string>
