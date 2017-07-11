@@ -26,7 +26,7 @@
     <string name="action_select_date">Datum auswählen</string>
     <string name="show_all">Alle zeigen</string>
     <string name="show_favorites_only">Nur Favoriten anzeigen</string>
-    <string name="sync_in_progress">Synchronisiert…</string>
+    <string name="sync_in_progress">Synchronisieren…</string>
     <string name="hint_tv_show_name">Serientitel</string>
     <string name="hint_movie_name">Filmtitel</string>
     <string name="subtitle">Untertitel</string>
@@ -43,8 +43,8 @@
     <string name="ready_to_play_toast">Das Video startet in wenigen Sekunden…</string>
     <string name="searching_media">Suche…</string>
     <string name="subtitle_language">Untertitelsprache : </string>
-    <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
-    <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte andere Untertitel auswählen…</string>
+    <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte anderen Untertitel auswählen…</string>
+    <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte anderen Untertitel auswählen…</string>
     <string name="permission_grant_toast">Drücke bitte auf \"Zulassen\" um Zugriff zu gestatten</string>
     <string name="sorry">Sorry…</string>
     <string name="cant_be_opened_by_other_players">Diese Quelle kann nicht von anderen Video Playern geöffnet oder abgespielt werden.</string>
@@ -57,13 +57,13 @@
 
     <string name="mxplayer_not_installed">MX Player ist nicht installiert</string>
     <string name="mxplayer_not_installed_message">MX Player ist nicht auf deinem Gerät installiert. Terrarium benötigt MX Player um Medien abzuspielen. Klick auf "Installieren" um MX Player zu installieren.</string>
-    <string name="mxplayer_unable_to_start">MX Player öffnet sich nicht</string>
-    <string name="mxplayer_unable_to_start_message">MX Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
+    <string name="mxplayer_unable_to_start">MX Player kann nicht geöffnet werden</string>
+    <string name="mxplayer_unable_to_start_message">MX Player kann nicht geöffnet werden. Bitte versuche es erneut nach einer Neuinstallation.</string>
 
     <string name="vlc_player_not_installed">VLC Player ist nicht installiert</string>
     <string name="vlc_player_not_installed_message">VLC Player ist nicht auf deinem Gerät installiert. Terrarium benötigt VLC Player um Medien abzuspielen. Klick auf "Installieren" um VLC Player zu installieren.</string>
-    <string name="vlc_player_unable_to_start">VLC Player öffnet sich nicht</string>
-    <string name="vlc_player_unable_to_start_message">VLC Player öffnet sich nicht. Bitte versuche es erneut nach einer Neuinstallation.</string>
+    <string name="vlc_player_unable_to_start">VLC Player kann nicht geöffnet werden</string>
+    <string name="vlc_player_unable_to_start_message">VLC Player kann nicht geöffnet werden. Bitte versuche es erneut nach einer Neuinstallation.</string>
 
     <string name="trending">Im Trend</string>
     <string name="most_popular">Beliebt</string>
@@ -81,11 +81,11 @@
     <string name="genre_tv_mystery">Mystery</string>
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komödie</string>
-    <string name="genre_tv_family">Family</string>
+    <string name="genre_tv_family">Familie</string>
     <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
     <string name="genre_tv_reality">Reality</string>
-    <string name="genre_tv_documentary">Dokumentar</string>
+    <string name="genre_tv_documentary">Dokumentation</string>
     <string name="genre_tv_kids">Kinder</string>
     <string name="genre_tv_animation">Animation</string>
 
@@ -100,18 +100,18 @@
     <string name="genre_movie_drama">Drama</string>
     <string name="genre_movie_romance">Romanze</string>
     <string name="genre_movie_comedy">Komödie</string>
-    <string name="genre_movie_family">Family</string>
+    <string name="genre_movie_family">Familie</string>
     <string name="genre_movie_animation">Animation</string>
     <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">Geschichte</string>
     <string name="genre_movie_war">Krieg</string>
-    <string name="genre_movie_documentary">Dokumentar</string>
+    <string name="genre_movie_documentary">Dokumentation</string>
     <string name="genre_movie_music">Musical</string>
 
     <string name="list_tv_netflix">Netflix</string>
 
     <string name="list_movie_oscars_winners">Oscar Gewinner</string>
-    <string name="list_movie_christmas">Christmas</string>
+    <string name="list_movie_christmas">Weihnachten</string>
     <string name="list_movie_marvels">Marvel</string>
     <string name="list_movie_disney_classics">Disney</string>
 
@@ -121,7 +121,7 @@
     <string name="pref_performance">Performance</string>
     <string name="pref_new_episode_notification">Benachrichtigung für neue Episoden</string>
     <string name="pref_ui">Oberfläche</string>
-    <string name="pref_sources_and_resolvers">Quellen und Hosts</string>
+    <string name="pref_sources_and_resolvers">Quellen und Hoster</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
     <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
     <string name="pref_chromecast_subtitles">Chromecast Untertitel</string>
@@ -161,7 +161,7 @@
     <string name="pref_choose_default_category_movies">Wähle Standardgenre für Filme…</string>
     <string name="pref_enabled_tv_shows_providers">Wähle Quellen für Serien…</string>
     <string name="pref_enabled_movies_providers">Wähle Quellen für Filme…</string>
-    <string name="pref_enabled_resolvers">Wähle Hosts…</string>
+    <string name="pref_enabled_resolvers">Wähle Hoster…</string>
     <string name="pref_modern_ui">Moderne Oberfläche benutzen</string>
     <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
     <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
@@ -190,7 +190,7 @@
     <string name="pref_resolve_all_links_immediately_desc">Hosts direkt auflösen für eine direkte Wiedergabe. Ist diese Option deaktiviert wird der Host erst bei Auswahl aufgelöst. (Bei lags option ausschalten!)</string>
     <string name="pref_sources_list_refresh_interval">Aktualisierung der Quellenliste (in Sekunden)</string>
     <string name="pref_sources_list_refresh_interval_msg">Sollte die App einfrieren muss der Wert erhöht werden.</string>
-    <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um Änderungen anzuwenden.</string>
+    <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um die Änderungen anzuwenden.</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
     <string name="download_manager_external">Externer Download Manager</string>
@@ -277,7 +277,7 @@
     <string name="value_must_be_positive">Wert muss positiv sein</string>
 
     <string name="try_it">Probiere es aus!</string>
-    <string name="click_play_button_on_your_rc">Drücke die "Play" Taste oder halte die "Enter" Taste auf deiner Fernbedienung um sofort abzuspielen!</string>
+    <string name="click_play_button_on_your_rc">Drücke die "Play" Taste oder halte die "Enter" Taste auf deiner Fernbedienung um sofort mit der Streamsuche zu beginnen!</string>
 
     <string name="in_progress">Läuft</string>
     <string name="finished">Abgeschlossen</string>
@@ -301,28 +301,28 @@
     <string name="chromecast_available">Chromecast verfügbar</string>
     <string name="chromecast_not_connected">Chromecast nicht verbunden</string>
     <string name="chromecast_resume_failed">Fortsetzung der Wiedergabe fehlgeschlagen</string>
-    <string name="chromecast_failed_to_play">Wiedergabe fehlgeschlagen</string>
+    <string name="chromecast_failed_to_play">Chromecast Wiedergabe fehlgeschlagen</string>
     <string name="video_cant_be_casted">Dieses Video lässt sich nicht auf dem Chromecast wiedergeben</string>
     <string name="google_play_services_not_installed">Google Play Dienste sind nicht installiert</string>
     <string name="cant_cast_on_tv">Keine Wiedergabe zum Chromecast auf Android TV Geräten möglich</string>
 
     <string name="ttv_switch_season">Staffel mit einem Klick wechseln</string>
-    <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
-    <string name="ttv_switch_subtitles_provider">Switch subtitles provider</string>
-    <string name="ttv_switch_subtitles_provider_desc">Didn\'t find any suitable subtitles? Click on it and choose another subtitles provider.</string>
-    <string name="ttv_set_episode_as_watched">Set episode as watched</string>
-    <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
-    <string name="ttv_watch_now">Watch now!</string>
-    <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
+    <string name="ttv_switch_season_desc">Einfach diesen Button drücken um das Menü zu öffnen. Wechsle zu einer anderen Staffel mit nur einem Klick</string>
+    <string name="ttv_switch_subtitles_provider">Ändere Untertitel Anbieter</string>
+    <string name="ttv_switch_subtitles_provider_desc">Keine guten Untertitel gefunden? Klicke darauf und wähle einen anderen Anbieter für Untertitel.</string>
+    <string name="ttv_set_episode_as_watched">Markiere Episode als gesehen</string>
+    <string name="ttv_set_episode_as_watched_desc">Klicke diese Box um die Episode als gesehen zu markieren. Klicke erneut um sie als ungesehen zu markieren. Einfach und simpel!</string>
+    <string name="ttv_watch_now">Jetzt anschauen!</string>
+    <string name="ttv_watch_now_desc">Klicke den Playbutton und schaue in HD, KOSTENLOS!</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
-    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte exception</string>
-    <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV neustarten</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte Ausnahme</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV neu starten</string>
     <string name="customactivityoncrash_error_activity_close_app">Terrarirum TV schließen</string>
-    <string name="customactivityoncrash_error_activity_error_details">Error Details</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Error Details</string>
+    <string name="customactivityoncrash_error_activity_error_details">Fehler Details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Fehler Details</string>
     <string name="customactivityoncrash_error_activity_error_details_close">Schließen</string>
     <string name="customactivityoncrash_error_activity_error_details_copy">In Zwischenablage kopieren</string>
     <string name="customactivityoncrash_error_activity_error_details_copied">In Zwischenablage kopiert</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error Information</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Fehler Information</string>
 </resources>
