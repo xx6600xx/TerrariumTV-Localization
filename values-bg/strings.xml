@@ -159,7 +159,7 @@
     <string name="pref_show_menu_source">Показване на менюто с едно докосване в списъка с източници</string>
     <string name="pref_poster_size">Размер на плаката на медията</string>
     <string name="pref_parallel_loading_sources">Паралелно зареждане на източниците</string>
-    <string name="pref_parallel_loading_sources_desc">Силно препоръчително е да се включи. Увеличава скоростта на зареждане на източниците 5 пъти. Въпреки това, може да причини сривове на някои устройства с ниски параметри.</string>
+    <string name="pref_parallel_loading_sources_desc">Силно препоръчително е да се включи. Увеличава скоростта на зареждане на източниците 5 пъти. Въпреки това, може да причини сривове на някои устройства от нисък клас.</string>
     <string name="pref_simple_scrolling_on_tv">Опростено превъртане в Android TV</string>
     <string name="simple_scrolling_is_enabled">Опростеното превъртане е активирано. Можете да го изключите в „Настройки“.</string>
     <string name="pref_choose_default_nav">Избор на навигация по подразбиране…</string>
@@ -300,45 +300,45 @@
     <string name="no_streamlink_is_available">За съжаление в момента няма връзка към поток…</string>
     <string name="link_cant_be_resolved">За съжаление тази връзка не може да бъде обработена…</string>
 
-    <string name="low_end_device_detected">Low-end device detected</string>
-    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+    <string name="low_end_device_detected">Открито е устройство от нисък клас</string>
+    <string name="resolve_all_links_immediately_disabled">Изглежда, че използвате Terrarium TV на устройство от нисък клас. За подобряване на производителността и практическата работа на потребителя, „Обработка на всички връзки незабавно“ и други функции са деактивирани по подразбиране. Няма да виждате размера на файла за някои връзки, но приложението няма да се срива и да работи бавно. Ако искате отново да виждате размера на файла на всички връзки, можете да отидете на страницата „Настройки“ и да активирате тези опции</string>
 
-    <string name="android_download_manager_is_disabled">Android Download Manager is disabled</string>
-    <string name="android_download_manager_is_disabled_msg">In order to download files, you need to enable the Internal Android Download Manager first. Click "OK" to proceed.</string>
+    <string name="android_download_manager_is_disabled">Мениджърът за изтегляне на Android е забранен</string>
+    <string name="android_download_manager_is_disabled_msg">За да изтегляте файлове, първо трябва да активирате вътрешния мениджър за изтегляне на Android. Натиснете „OK“, за да продължите.</string>
 
-    <string name="like_us_on_facebook_title">Like us on Facebook!</string>
-    <string name="like_us_on_facebook_message">Do you think this app is useful? Like us on Facebook to show your support!</string>
-    <string name="like_us_on_facebook_yes">Like!</string>
-    <string name="dont_ask_again_checkbox">Don\'t ask again</string>
+    <string name="like_us_on_facebook_title">Харесайте ни във Facebook!</string>
+    <string name="like_us_on_facebook_message">Смятате ли, че това приложение е полезно? Харесайте ни във Facebook, за да покажете подкрепата си!</string>
+    <string name="like_us_on_facebook_yes">Харесвам!</string>
+    <string name="dont_ask_again_checkbox">Не питай отново</string>
 
-    <string name="media_route_menu_title">Play…</string>
-    <string name="chromecast_available">Chromecast available</string>
-    <string name="chromecast_not_connected">Chromecast not connected</string>
-    <string name="chromecast_resume_failed">Resume video playback failed</string>
-    <string name="chromecast_failed_to_play">Failed to play video</string>
-    <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
-    <string name="google_play_services_not_installed">Google Play Services is not installed</string>
-    <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
+    <string name="media_route_menu_title">Възпроизвеждане…</string>
+    <string name="chromecast_available">Налице е Chromecast</string>
+    <string name="chromecast_not_connected">Chromecast не е свързан</string>
+    <string name="chromecast_resume_failed">Неуспешно възобновяване на възпроизвеждането</string>
+    <string name="chromecast_failed_to_play">Неуспешно възпроизвеждане на видео</string>
+    <string name="video_cant_be_casted">Този видеоклип не може да бъде пуснат в Chromecast</string>
+    <string name="google_play_services_not_installed">„Услуги на Google Play“ не е инсталирано</string>
+    <string name="cant_cast_on_tv">Не може да се предава в Chromecast на устройства с Android TV</string>
 
-    <string name="ttv_switch_season">Switch season with one click</string>
-    <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
-    <string name="ttv_switch_subtitles_provider">Switch subtitles provider</string>
-    <string name="ttv_switch_subtitles_provider_desc">Didn\'t find any suitable subtitles? Click on it and choose another subtitles provider.</string>
-    <string name="ttv_set_episode_as_watched">Set episode as watched</string>
-    <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
-    <string name="ttv_watch_now">Watch now!</string>
-    <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
+    <string name="ttv_switch_season">Сменете сезона с едно докосване</string>
+    <string name="ttv_switch_season_desc">Просто натиснете този бутон, за да се отвори падащото меню. Превключете към друг сезон само с едно докосване.</string>
+    <string name="ttv_switch_subtitles_provider">Смяна доставчика на субтитри</string>
+    <string name="ttv_switch_subtitles_provider_desc">Не намерихте подходящи субтитри? Натиснете върху тях и изберете друг доставчик на субтитри.</string>
+    <string name="ttv_set_episode_as_watched">Маркиране на епизода като гледан</string>
+    <string name="ttv_set_episode_as_watched_desc">Натиснете върху това поле, за да маркирате този епизод като гледан. Натиснете отново, за да го маркирате като не гледан. Просто, интелигентно и бързо!</string>
+    <string name="ttv_watch_now">Гледане сега!</string>
+    <string name="ttv_watch_now_desc">Натиснете бутона за възпроизвеждане и гледайте в HD безплатно!</string>
 
-    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
-    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
-    <string name="customactivityoncrash_error_activity_restart_app">Restart Terrarium TV</string>
-    <string name="customactivityoncrash_error_activity_close_app">Close Terrarium TV</string>
-    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
-    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
-    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Възникна неочаквана грешка и бе съобщена на програмиста.\nСъжаляваме за неудобството.\n\nАко приложението продължава да се срива, моля променете настройките „Производителност“ на страницата „Настройки“.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Неизвестно изключение</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Рестартиране на Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Затваряне на Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Подробности за грешката</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Подробности за грешката</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Затваряне</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Копиране в клипборда</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Копирано в клипборда</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Информация за грешката</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name" translatable="false">Terrarium TV</string>
