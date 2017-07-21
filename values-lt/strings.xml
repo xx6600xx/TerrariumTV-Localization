@@ -7,17 +7,27 @@
     <string name="action_settings">Parametrai</string>
 
     <string name="no_data">Nėra duomenų</string>
+    <string name="no_links_available">Nėra nuorodų</string>
     <string name="no_internet">Nėra Interneto ryšio</string>
     <string name="loading">Įkeliama</string>
     <string name="loading_more">Įkeliama daugiau…</string>
     <string name="action_search">Ieškoti</string>
-    <string name="action_bookmark">Adresynas</string>
-    <string name="action_add_to_bookmark">Pridėti prie adresyno</string>
+    <string name="action_bookmark">Mėgstamiausia</string>
+    <string name="action_add_to_bookmark">Pridėti prie mėgstamiausių</string>
+    <string name="action_remove_from_bookmark">Pašalinti iš mėgstamiausių</string>
     <string name="action_refresh">Atnaujinti</string>
     <string name="action_stop">Sustabdyti</string>
+    <string name="action_next_episode">Sekanti serija</string>
     <string name="action_reverse">Atšaukti</string>
     <string name="action_set_watched">Nežiūrėta</string>
     <string name="action_remove_watched">Žiūrėta</string>
+    <string name="action_share_app">Pasidalinti programėle</string>
+    <string name="action_remove">Pašalinti</string>
+    <string name="action_remove_all">Pašalinti viską</string>
+    <string name="action_select_date">Pasirinkti datą</string>
+    <string name="show_all">Rodyti viską</string>
+    <string name="show_favorites_only">Rodyti tik mėgstamiausius</string>
+    <string name="sync_in_progress">Vyksta sinchronizacija…</string>
     <string name="hint_tv_show_name">Serialo pavadinimas</string>
     <string name="hint_movie_name">Filmo pavadinimas</string>
     <string name="subtitle">Subtitrai</string>
@@ -66,6 +76,7 @@
     <string name="on_the_air">Eteryje</string>
     <string name="top_rated">Geriausiai įvertinta</string>
     <string name="now_playing">Šiuo metu teatruose</string>
+    <string name="new_hd_releases">Nauji HD leidimai</string>
 
     <string name="genre_tv_action_adventure">Veiksmas/Nuotykiai</string>
     <string name="genre_tv_sci_fantasy">Mokslinė fantastika</string>
@@ -73,9 +84,12 @@
     <string name="genre_tv_drama">Dramos</string>
     <string name="genre_tv_comedy">Komedijos</string>
     <string name="genre_tv_family">Šeimai</string>
+    <string name="genre_tv_western">Vesternas</string>
     <string name="genre_tv_war_politics">Kariniai/Politiniai</string>
     <string name="genre_tv_reality">Realybės šou</string>
     <string name="genre_tv_documentary">Dokumentika</string>
+    <string name="genre_tv_kids">Vaikiški</string>
+    <string name="genre_tv_animation">Animacija</string>
 
     <string name="genre_movie_action">Veiksmo</string>
     <string name="genre_movie_adventure">Nuotykiai</string>
@@ -91,15 +105,30 @@
     <string name="genre_movie_family">Šeimai</string>
     <string name="genre_movie_animation">Animaciniai</string>
     <string name="genre_movie_history">Istoriniai</string>
+    <string name="genre_movie_western">Vesternas</string>
     <string name="genre_movie_war">Kariniai</string>
     <string name="genre_movie_documentary">Dokumentika</string>
     <string name="genre_movie_music">Muzikiniai</string>
 
+    <string name="list_tv_netflix">Netflix</string>
+
+    <string name="list_movie_oscars_winners">Oskarų laimėtojai</string>
+    <string name="list_movie_christmas">Kalėdiniai</string>
+    <string name="list_movie_marvels">Marvel</string>
+    <string name="list_movie_disney_classics">Disney klasika</string>
+
+    <string name="filter_year">Filtruoti pagal metus</string>
+
     <string name="pref_general">Bendra</string>
+    <string name="pref_performance">Našumas</string>
+    <string name="pref_new_episode_notification">Pranešti apie naujai išleistą seriją</string>
+    <string name="pref_new_movie_release_notification">Pranešti apie naujai išleistą filmą</string>
     <string name="pref_ui">Vartotojo sąsaja</string>
-    <string name="pref_sources_and_resolvers">Teikėjai ir Resolveriai</string>
+    <string name="pref_sources_and_resolvers">Teikėjai ir Apdorotojai</string>
     <string name="pref_subtitle">OpenSubtitles ir Subscene subtitrų kalbos</string>
     <string name="pref_subtitle_chin">SubHD, Makedie ir Zimuku subtitrų kalbos</string>
+    <string name="pref_chromecast_subtitles">Chromecast subtitrai</string>
+    <string name="pref_backup_and_restore">Atsarginė kopija</string>
     <string name="pref_others">Kita</string>
 
     <string name="pref_sub_down_path">Subtitrų atsisiuntimo direktorija</string>
@@ -107,29 +136,69 @@
     <string name="pref_media_down_path">Vaizdo įrašų atsisiuntimo direktorija (Skirta tik Android Internal Download Manager)</string>
     <string name="pref_choose_media_down_manager">Pasirinkite numatytąją atsisiuntimo tvarkyklę…</string>
     <string name="pref_auto_check_update">Automatiškai ieškoti atnaujinimų</string>
-    <string name="pref_filter_out_non_english_shows">Vaizdo įrašai tik anglų kalba</string>
+    <string name="pref_clear_cache">Išvalyti kešą</string>
+    <string name="pref_auto_mark_episode_as_watched">Automatiškai pažymėti peržiūrėtas serijas</string>
+    <string name="pref_filter_out_non_english_shows">Filtruoti ne anglų kalba įgarsintus vaizdo įrašus</string>
     <string name="pref_filter_out_dead_sources">Filtruoti neveikiančius šaltinius</string>
     <string name="pref_filter_out_dead_sources_desc">Tai gali sukelti ilgesnį šaltinių krovimosi laiką</string>
+    <string name="pref_filter_out_cam_version_links">Filtruoti su kamera filmuotus (CAM) įrašus</string>
+    <string name="pref_filter_out_cam_version_links_desc">Filtruoti prastos kokybės įrašus</string>
+    <string name="pref_enable_new_episode_notification">Įjungti pranešimus apie naujai išleistas serijas</string>
+    <string name="pref_check_new_episode_frequency">Naujai išleistų serijų tikrinimo laikotarpis (valandomis)</string>
+    <string name="pref_enable_new_movie_release_notification">Įjungti pranešimus apie naujai išleistus filmus</string>
+    <string name="pref_check_new_movie_release_frequency">Naujai išleistų filmų tikrinimo laikotarpis (valandomis)</string>
     <string name="pref_hide_unaired_season">Slėpti nerodytus sezonus</string>
     <string name="pref_hide_unaired_episode">Slėpti nerodytas serijas</string>
     <string name="pref_subtitles_filter">Filtruoti netinkamus subtitrus</string>
     <string name="pref_subtitles_choose_lang">Pasirinkite subtitrų kalbą(as)…</string>
+    <string name="pref_synopsis_choose_lang">Pasirinkite apžvalgos kalbą…</string>
+    <string name="pref_hide_poster_thumb">Slėpti plakatų miniatiūras</string>
     <string name="pref_hide_season_image">Slėpti sezonų miniatiūras</string>
     <string name="pref_hide_episode_image">Slėpti serijų miniatiūras</string>
+    <string name="pref_hide_episode_synopsis">Slėpti serijos apžvalgą</string>
     <string name="pref_show_menu_source">Rodyti kontekstinį meniu šaltinių sąraše</string>
     <string name="pref_poster_size">Medijų plakato dydis</string>
     <string name="pref_parallel_loading_sources">Lygiagretus šaltinių krovimas</string>
     <string name="pref_parallel_loading_sources_desc">Rekomenduojama palikti įjungta. Pagreitina šaltinių krovimą 5 kartus. Tačiau gali sukelti programos trikdius žemo lygio įrenginiuose.</string>
+    <string name="pref_simple_scrolling_on_tv">Paprastas slinkimas su Android TV</string>
+    <string name="simple_scrolling_is_enabled">Įjungtas paprastas slinkimas. Jūs galite jį išjungti per Parametrus.</string>
     <string name="pref_choose_default_nav">Pasirinkite pagrindinį puslapį…</string>
     <string name="pref_choose_default_category_tv_shows">Pasirinkite numatytą serialų kategoriją ar žanrą…</string>
     <string name="pref_choose_default_category_movies">Pasirinkite numatytą filmų kategoriją ar žanrą…</string>
     <string name="pref_enabled_tv_shows_providers">Pasirinkite serialų teikėjus…</string>
     <string name="pref_enabled_movies_providers">Pasirinkite filmų teikėjus…</string>
-    <string name="pref_enabled_resolvers">Pasirinkite resolverius…</string>
+    <string name="pref_enabled_resolvers">Pasirinkite apdorotojus…</string>
     <string name="pref_modern_ui">Naudoti modernią vartotojo sąsają</string>
     <string name="pref_modern_ui_desc">Rodyti medijų plakatus vietoje reklamjuosčių</string>
     <string name="pref_choose_default_play_action">Pasirinkite numatytą grojimo veiksmą…</string>
+    <string name="pref_force_tv_mode">Priverstinai naudoti Android TV režimą</string>
+    <string name="pref_force_tv_mode_desc">Priverstinai rodyti Android TV išdėstymą</string>
+    <string name="pref_choose_default_player">Pasirinkti numatytą vaizdo grotuvą…</string>
+    <string name="pref_show_hd_sources_only">Rodyti tik HD nuorodas</string>
+    <string name="pref_show_season_special">Rodyti specialias laidas</string>
+    <string name="pref_auto_backup_before_update">Automatiškai padaryti atsarginę kopiją prieš naujinant</string>
+    <string name="pref_cc_subs_font_scale">Šrifto dydis</string>
+    <string name="pref_cc_subs_font_color">Šrifto spalva</string>
+    <string name="pref_cc_subs_bg_color">Fono spalva</string>
+    <string name="pref_backup_settings">Sukurti parametrų atsarginę kopiją</string>
+    <string name="pref_restore_settings">Atkurti parametrus iš atsarginės kopijos</string>
+    <string name="pref_backup_favorites">Sukurti mėgstamiausių atsarginę kopiją</string>
+    <string name="pref_restore_favorites">Atkurti mėgstamiausius iš atsarginės kopijos</string>
+    <string name="pref_backup_watched_episodes">Sukurti peržiūrėtų serijų žymų atsarginę kopiją</string>
+    <string name="pref_restore_watched_episodes">Atkurti peržiūrėtų serijų žymas iš atsarginės kopijos</string>
+    <string name="backup_path">Sukurti atsarginę kopiją į \"%s\"</string>
+    <string name="restore_path">Atkurti iš \"%s\"</string>
+    <string name="backup_success">Sėkmingai sukurta atsarginė kopija!</string>
+    <string name="restore_success">Sėkmingai atkurta iš atsarginės kopijos!</string>
+    <string name="failed_to_backup">Nepavuko sukurti atsarginės kopijos</string>
+    <string name="failed_to_restore">Nepavyko atkurti iš atsarginės kopijos</string>
+    <string name="pref_resolve_all_links_immediately">Apdoroti visas nuorodas akimirksniu</string>
+    <string name="pref_resolve_all_links_immediately_desc">Apdoroti visas nuorodas akimirksniu, jog iš karto būtų paleidžiamas įrašas. Jei ši parinktis išjungta, Terrarium TV nuorodas apdoros tik ant jų paspaudus. (Palikite išjungtą, jeigu programėlė lėtai veikia!)</string>
+    <string name="pref_auto_resolve_hd_links_only">Automatiškai apdoroti tik HD nuorodas</string>
+    <string name="pref_sources_list_refresh_interval">Šaltinių sąrašo atnaujinimo laiko intervalas (sekundėmis)</string>
+    <string name="pref_sources_list_refresh_interval_msg">Jei programėle stringa kraunant nuorodas, padidinkite intervalą.</string>
     <string name="restart_to_see_the_difference">Prašome perkrauti Terrarium TV, kad matytumėte pokyčius.</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"Apdoroti visas nuorodas akimirksniu\" išjungta</string>
 
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">Išorinė atsisiuntimo tvarkyklė(s)</string>
@@ -148,6 +217,8 @@
     <string name="download_path_error">Atsisiuntimo direktorija turi būti vidinėje saugykloje. Prašome pasirinkti kitą direktoriją.</string>
     <string name="copied_link">Nukopijuota srautinė nuoroda</string>
     <string name="link_must_be_played_in_app">Atsiprašome… Ši nuoroda gali būti leidžiama tik per Terrarium TV…</string>
+    <string name="video_player_crashed_unexpectedly">Grotuvas netikėtai išsijungė. Prašome pamėginti paleisti vaizdo įrašą su kitu vaizdo grotuvu.</string>
+    <string name="choose_subtitles_file">Pasirinkti subtitrų failą…</string>
 
     <string name="update_title">Rasta nauja versija : %s</string>
     <string name="update_message">Versija %s : </string>
@@ -158,14 +229,17 @@
     <string name="subtitle_name">Subtitrų pavadinimas : </string>
 
     <string name="facebook_page">Facebook puslapis</string>
+    <string name="official_website_menuitem">Oficialus puslapis</string>
 
     <string name="changelog">Kas naujo?</string>
     <string name="choose_browser">Pasirinkite naršyklę</string>
+    <string name="choose_app">Pasirinkite programėlę…</string>
 
     <string name="disclaimer">Pastaba</string>
     <string name="accept">Sutikti</string>
     <string name="decline">Atsisakyti</string>
 
+    <string name="cant_open_youtube">Nepavyko atidaryti YouTube. Prašome bandyti dar kartą.</string>
     <string name="error">Nežinoma klaida. Prašome bandyti dar kartą.</string>
     <string name="please_wait">Prašome palaukti…</string>
 
@@ -180,6 +254,7 @@
     <string name="show_details_season">SEZONAS</string>
     <string name="media_suggestion">Taip pat žiūrėkite</string>
     <string name="no_synopsis">Nėra apžvalgos</string>
+    <string name="synopsis_is_hidden">Apžvalga paslėpta</string>
     <string name="loading_ratings">Įkeliami reitingai…</string>
     <string name="no_ratings">Nėra reitingų</string>
     <string name="meta_in_production">Kuriamas</string>
@@ -191,12 +266,85 @@
 
     <string name="tv_shows">Serialai</string>
     <string name="movies">Filmai</string>
+    <string name="downloads">Atsisiuntimai</string>
+    <string name="tools">Įrankiai</string>
 
     <string name="play_trailer">Žiūrėti anonsą</string>
+    <string name="all">Visi</string>
+    <string name="tv_calendar">TV kalendorius</string>
+    <string name="always_ask">Visada klausti</string>
 
     <string name="translators">Vertėjai</string>
 
-    <string name="pref_app_lang">Aplikacijos kalba</string>
+    <string name="pref_app_lang">Programėlės kalba</string>
 
     <string name="learn_more">Daugiau informacijos</string>
+    <string name="choose_a_correct_date">Prašome pasirinkti teisingą datą</string>
+    <string name="cache_cleared">Kešas išvalytas!</string>
+
+    <string name="new_episode">Nauja serija: %s</string>
+    <string name="default_value">Numatyta: %s</string>
+    <string name="value_must_be_positive">Reikšmė turi būti teigiama</string>
+
+    <string name="try_it">Išbandykite!</string>
+    <string name="click_play_button_on_your_rc">Spauskite mygtuką "Play" arba ilgai laikykite nuspaudę mygtuką "Enter" ant savo nuotolinio valdymo pulto, kad pradėtumėte žiūrėti akimirksniu!</string>
+    <string name="press_back_again_to_exit">Dar kartą paspauskite GRĮŽTI, kad išeitumėte</string>
+
+    <string name="in_progress">Vykdoma</string>
+    <string name="finished">Užbaigta</string>
+    <string name="file_not_found">Failas nerastas!</string>
+
+    <string name="resolving">Apdorojama</string>
+    <string name="resolving_links">Apdorojamos nuorodos…</string>
+    <string name="failed_to_resolve_link">Nepavyko apdoroti šios nuorodos. Prašome pamėginti kitą nuorodą.</string>
+    <string name="no_streamlink_is_available">Atsiprašome… Šiu metu nėra prieinamų transliavimo nuorodų…</string>
+    <string name="link_cant_be_resolved">Atsiprašome… Ši nuoroda negali būti apdorota…</string>
+
+    <string name="low_end_device_detected">Aptiktas žemo lygio įrenginys</string>
+    <string name="resolve_all_links_immediately_disabled">Regis jūs naudojate Terrarium TV per žemo lygio įrenginį. Kad būtų padidintas našumas, \"Apdoroti visas nuorodas akimirksniu\" ir kitos funkcijos yra išjungtos. Jūs nematysite failo dydžio prie nuorodų, tačiau programėlė veiks stabiliau. Jeigu norite matyti failo dydį prie kiekvienos nuorodos, galite nueiti į \"Parametrų\" puslapį ir įjungti šią parinktį</string>
+
+    <string name="android_download_manager_is_disabled">Android Download Manager išjungtas</string>
+    <string name="android_download_manager_is_disabled_msg">Kad galėtumėte atsisiųsti failus, jums reikia pasirinkiti išorinę atsisiuntimo tvarkyklę. Spauskite "OK", kad tęstumėte.</string>
+
+    <string name="like_us_on_facebook_title">Sekite mus per Facebook!</string>
+    <string name="like_us_on_facebook_message">Ar jums patinka ši programėlė? Sekite mus per Facebook, kad parodytumėte savo palaikymą!</string>
+    <string name="like_us_on_facebook_yes">Patinka!</string>
+    <string name="dont_ask_again_checkbox">Daugiau neklausti</string>
+
+    <string name="media_route_menu_title">Groti…</string>
+    <string name="chromecast_available">Prieinamas Chromecast</string>
+    <string name="chromecast_not_connected">Chromecast neprijungtas</string>
+    <string name="chromecast_resume_failed">Nepavyko pratęsti vaizdo įrašo grojimą</string>
+    <string name="chromecast_failed_to_play">Nepavyko paleisti vaizdo įrašo</string>
+    <string name="video_cant_be_casted">Šis vaizdo įrašas negali būti transliuojamas į Chromecast</string>
+    <string name="google_play_services_not_installed">Neįdiegtos Google Play Paslaugos</string>
+    <string name="cant_cast_on_tv">Negalima transliuoti į Chromecast iš Android TV įrenginių</string>
+
+    <string name="ttv_switch_season">Pakeiskite sezoną vienu spustelėjimu</string>
+    <string name="ttv_switch_season_desc">Tiesiog paspauskite šį mygtuką, kad iškviestumėte meniu. Pakeiskite sezoną vienu spustelėjimu.</string>
+    <string name="ttv_switch_subtitles_provider">Pakeiskite subtitrų teikėją</string>
+    <string name="ttv_switch_subtitles_provider_desc">Neradote tinkamų subtitrų? Paspauskite ir pasirinkite kitą subtitrų teikėją.</string>
+    <string name="ttv_set_episode_as_watched">Žymėti seriją kaip peržiūrėtą</string>
+    <string name="ttv_set_episode_as_watched_desc">Paspauskite ant šio kvadrato, kad pažymėtumėte seriją kaip peržiūrėtą. Paspauskite dar kartą, kad panaikintumėte žymą.</string>
+    <string name="ttv_watch_now">Žiūrėti dabar!</string>
+    <string name="ttv_watch_now_desc">Paspauskite grojimo mygtuką ir žiūrėkite!</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Įvyko nenumatyta klaida ir apie ją buvo pranešta kūrėjui.\nAtsiprašome už nepatogumus.\n\nJeigu programėlė išsijunginėja, tuomet pakeiskite \"Našumo\" nustatymus \"Parametrų\" puslapyje.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Nežinoma išimtis</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Perkrauti Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Uždaryti Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Klaidos detalės</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Klaidos detalės</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Uždaryti</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Nukopijuoti į iškarpinę</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Nukopijuota į iškarpinę</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Klaidos informacija</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name" translatable="false">Terrarium TV</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="about_app_title" translatable="false">About Terrarium TV</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="official_website" translatable="false">https://terrariumtv.com</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
