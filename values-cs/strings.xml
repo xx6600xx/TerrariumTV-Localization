@@ -13,8 +13,8 @@
     <string name="loading_more">Loading More…</string>
     <string name="action_search">Hledat</string>
     <string name="action_bookmark">Oblíbené</string>
-    <string name="action_add_to_bookmark">Add Favorites</string>
-    <string name="action_remove_from_bookmark">Remove Favorite</string>
+    <string name="action_add_to_bookmark">Přidat k Oblíbeným</string>
+    <string name="action_remove_from_bookmark">Odebrat z Oblíbených</string>
     <string name="action_refresh">Obnovit</string>
     <string name="action_stop">Stop</string>
     <string name="action_next_episode">Další Epizoda</string>
@@ -36,32 +36,32 @@
 
     <string name="season">Sezóna %1$d</string>
     <string name="episode">Epizoda %1$d</string>
-    <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
-    <string name="season_special">Season Special</string>
-    <string name="search_result_of">Search results of \"%s\"</string>
-    <string name="getting_subtitle">Getting subtitles… Please wait…</string>
-    <string name="downloading_subtitle_toast">Downloading subtitles… Please wait…</string>
-    <string name="ready_to_play_toast">The video will be started in a second…</string>
+    <string name="season_episode">%1$s - Sezóna %2$d Epizoda %3$d</string>
+    <string name="season_special">Speciál Sezóny</string>
+    <string name="search_result_of">Hledané výsledky slova \"%s\"</string>
+    <string name="getting_subtitle">Získávání Titulek… Počkej, prosím…</string>
+    <string name="downloading_subtitle_toast">Stahování Titulek… Počkej, prosím…</string>
+    <string name="ready_to_play_toast">Video začne za pár sekund…</string>
     <string name="searching_media">Hledání…</string>
     <string name="subtitle_language">Jazyk Titulek : </string>
-    <string name="subtitle_download_failed">Subtitles download failed… Please try another subtitles…</string>
-    <string name="subtitle_extract_failed">Subtitles extraction failed… Please try another subtitles…</string>
+    <string name="subtitle_download_failed">Stažení titulek selhalo… Zkus jiné titulky, prosím…</string>
+    <string name="subtitle_extract_failed">Extrahování titulek selhalo… Zkus jiné titulky, prosím…</string>
     <string name="permission_grant_toast">Please press \"Allow\" to grant permission and try again</string>
-    <string name="sorry">Sorry…</string>
+    <string name="sorry">Omlouváme se…</string>
     <string name="cant_be_opened_by_other_players">This source can\'t be opened or played by other video players. Sorry for the inconvenience.</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Zrušit</string>
     <string name="close">Zavřít</string>
     <string name="install">Nainstalovat</string>
-    <string name="close_ad_to_play">Please close the ad first in order to play the video</string>
+    <string name="close_ad_to_play">Nejdříve zavři reklamu pro přehrání videa, prosím</string>
 
     <string name="mxplayer_not_installed">MX Player není nainstalován</string>
     <string name="mxplayer_not_installed_message">MX Player is not installed on your device. Terrarium TV needs MX Player to play media. Click "Install" to install MX Player.</string>
-    <string name="mxplayer_unable_to_start">MX Player Unable To Start</string>
-    <string name="mxplayer_unable_to_start_message">MX Player is unable to start. Please re-install it and try again.</string>
+    <string name="mxplayer_unable_to_start">MX Player se nepodařilo spustit</string>
+    <string name="mxplayer_unable_to_start_message">MX Player se nepodařilo spustit. Přeinstaluj ho, prosím a zkus to znovu.</string>
 
-    <string name="vlc_player_not_installed">VLC Player Not Installed</string>
+    <string name="vlc_player_not_installed">VLC Player není nainstalován</string>
     <string name="vlc_player_not_installed_message">VLC Player is not installed on your device. Terrarium TV needs VLC Player to play media. Click "Install" to install VLC Player.</string>
     <string name="vlc_player_unable_to_start">VLC Player Unable To Start</string>
     <string name="vlc_player_unable_to_start_message">VLC Player is unable to start. Please re-install it and try again.</string>
@@ -120,8 +120,8 @@
     <string name="filter_year">Year Filter</string>
 
     <string name="pref_general">Obecné</string>
-    <string name="pref_performance">Performance</string>
-    <string name="pref_new_episode_notification">New Episode Notification</string>
+    <string name="pref_performance">Výkon</string>
+    <string name="pref_new_episode_notification">Notifikace nových epizod</string>
     <string name="pref_new_movie_release_notification">New Movie Release Notification</string>
     <string name="pref_ui">Uživatelské rozhraní</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
@@ -150,7 +150,7 @@
     <string name="pref_hide_unaired_season">Hide unaired season</string>
     <string name="pref_hide_unaired_episode">Hide unaired episode</string>
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
-    <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
+    <string name="pref_subtitles_choose_lang">Vyber jazyk(y) titulek…</string>
     <string name="pref_synopsis_choose_lang">Choose synopsis language…</string>
     <string name="pref_hide_poster_thumb">Hide poster thumbnails</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
