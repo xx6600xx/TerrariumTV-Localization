@@ -18,9 +18,9 @@
     <string name="action_refresh">Obnovit</string>
     <string name="action_stop">Zastavit</string>
     <string name="action_next_episode">Další Epizoda</string>
-    <string name="action_reverse">Reverse</string>
-    <string name="action_set_watched">Set Watched</string>
-    <string name="action_remove_watched">Remove Watched</string>
+    <string name="action_reverse">Pozpátku</string>
+    <string name="action_set_watched">Označit za shlédnuté</string>
+    <string name="action_remove_watched">Odebrat ze shlédnutých</string>
     <string name="action_share_app">Sdílet Aplikaci</string>
     <string name="action_remove">Odstranit</string>
     <string name="action_remove_all">Odstranit vše</string>
@@ -117,7 +117,7 @@
     <string name="list_movie_marvels">Od Marvelu</string>
     <string name="list_movie_disney_classics">Disney Klasiky</string>
 
-    <string name="filter_year">Year Filter</string>
+    <string name="filter_year">Filtr Roků</string>
 
     <string name="pref_general">Obecné</string>
     <string name="pref_performance">Výkon</string>
@@ -125,7 +125,7 @@
     <string name="pref_new_movie_release_notification">Notifikace o nových filmech</string>
     <string name="pref_ui">Uživatelské rozhraní</string>
     <string name="pref_sources_and_resolvers">Poskytovatelé a Řešitelé</string>
-    <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
+    <string name="pref_subtitle">Jazyk titulek ze serveru OpenSubtitles a Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
     <string name="pref_chromecast_subtitles">Chromecast Titulky</string>
     <string name="pref_backup_and_restore">Zálohovat a Obnovit</string>
@@ -135,10 +135,10 @@
     <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
     <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
     <string name="pref_choose_media_down_manager">Choose default download manager…</string>
-    <string name="pref_auto_check_update">Check update automatically</string>
-    <string name="pref_clear_cache">Clear cache</string>
-    <string name="pref_auto_mark_episode_as_watched">Auto mark episodes as watched</string>
-    <string name="pref_filter_out_non_english_shows">Filter out non-English TV shows</string>
+    <string name="pref_auto_check_update">Kontrolovat aktualizace automaticky</string>
+    <string name="pref_clear_cache">Vymazat Mezipaměť</string>
+    <string name="pref_auto_mark_episode_as_watched">Automaticky označovat epizody za shlédnuté</string>
+    <string name="pref_filter_out_non_english_shows">Filtrovat neanglické seriály</string>
     <string name="pref_filter_out_dead_sources">Filter out dead sources</string>
     <string name="pref_filter_out_dead_sources_desc">It will cause extra sources loading time</string>
     <string name="pref_filter_out_cam_version_links">Filter out CAM version links</string>
@@ -177,7 +177,7 @@
     <string name="pref_choose_default_player">Vybrat defaultní video přehrávač…</string>
     <string name="pref_show_hd_sources_only">Zobrazovat jen HD odkazy</string>
     <string name="pref_show_season_special">Show season special</string>
-    <string name="pref_auto_backup_before_update">Auto backup before updating</string>
+    <string name="pref_auto_backup_before_update">Automaticky zálohovat před aktualizací</string>
     <string name="pref_cc_subs_font_scale">Měřítko velikosti písma</string>
     <string name="pref_cc_subs_font_color">Barva písma</string>
     <string name="pref_cc_subs_bg_color">Barva pozadí</string>
@@ -185,8 +185,8 @@
     <string name="pref_restore_settings">Obnovit nastavení</string>
     <string name="pref_backup_favorites">Zálohovat oblíbené</string>
     <string name="pref_restore_favorites">Obnovit oblíbené</string>
-    <string name="pref_backup_watched_episodes">Backup watched episode records</string>
-    <string name="pref_restore_watched_episodes">Restore watched episode records</string>
+    <string name="pref_backup_watched_episodes">Zálohovat záznamy shlédnutých epizod</string>
+    <string name="pref_restore_watched_episodes">Obnovit záznamy shlédnutých epizod</string>
     <string name="backup_path">Zálohovat do \"%s\"</string>
     <string name="restore_path">Obnovit z \"%s\"</string>
     <string name="backup_success">Úspěšně zazálohováno!</string>
@@ -195,10 +195,10 @@
     <string name="failed_to_restore">Obnovení selhalo</string>
     <string name="pref_resolve_all_links_immediately">Vyřešit všechny odkazy ihned</string>
     <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
-    <string name="pref_auto_resolve_hd_links_only">Auto resolve HD links only</string>
-    <string name="pref_sources_list_refresh_interval">Sources list refresh time interval (in seconds)</string>
+    <string name="pref_auto_resolve_hd_links_only">Automaticky řešit jen HD odkazy</string>
+    <string name="pref_sources_list_refresh_interval">Interval obnovení seznamu zdrojů (v sekundách)</string>
     <string name="pref_sources_list_refresh_interval_msg">If the app keeps freezing while loading for links, please increase the value.</string>
-    <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
+    <string name="restart_to_see_the_difference">Restartuj Terrarium TV, prosím, pro poznání rozdílu.</string>
     <string name="resolve_all_links_immediately_is_disabled">Funkce \"Vyřešit všechny Odkazy ihned\" je vypnuta</string>
 
     <string name="download_manager_internal">Android Interní manažer pro stahování</string>
@@ -253,17 +253,17 @@
 
     <string name="show_details_overview">PŘEHLED</string>
     <string name="show_details_season">SEZÓNA</string>
-    <string name="media_suggestion">See Also</string>
-    <string name="no_synopsis">No synopsis</string>
+    <string name="media_suggestion">Podívej se také na</string>
+    <string name="no_synopsis">Bez přehledu</string>
     <string name="synopsis_is_hidden">Přehled je schován</string>
     <string name="loading_ratings">Načítání hodnocení…</string>
     <string name="no_ratings">Bez hodnocení</string>
     <string name="meta_in_production">Ve výrobě</string>
     <string name="meta_returning_series">Návrat série</string>
-    <string name="meta_ended">Ended</string>
+    <string name="meta_ended">Ukončeno</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Otevřít avigační panel</string>
+    <string name="navigation_drawer_close">Zavřít navigační panel</string>
 
     <string name="tv_shows">Seriály</string>
     <string name="movies">Filmy</string>
@@ -281,7 +281,7 @@
 
     <string name="learn_more">Zjistit Více</string>
     <string name="choose_a_correct_date">Vyber správný datum, prosím</string>
-    <string name="cache_cleared">Cache cleared!</string>
+    <string name="cache_cleared">Mezipaměť vymazána!</string>
 
     <string name="new_episode">Nová Epizoda: %s</string>
     <string name="default_value">Výchozí nastavení: %s</string>
@@ -302,10 +302,10 @@
     <string name="link_cant_be_resolved">Omlouváme se… Tento odkaz nelze vyřešit…</string>
 
     <string name="low_end_device_detected">Bylo detekováno slabé zařízení</string>
-    <string name="resolve_all_links_immediately_disabled">Vypadá to, že používáš Terrarium TV na slabém zařízení. Vzhledem ke zvýšení výkonu a zlepšení uživatelských zkušenost, \"Vyřešit všechny odkazy ihned\" a funkce jsou ve výchozím nastavení zakázány. Neuvidíš teď velikost souboru u některých odkazů, ale aplikace znovu padat a sekat se nebude. Pokud chceš velikost všech souborů znovu vidět, můžeš tyto funkce znovu aktivovat v  \"Nastavení\"</string>
+    <string name="resolve_all_links_immediately_disabled">Vypadá to, že používáš Terrarium TV na slabém zařízení. Vzhledem ke zvýšení výkonu a zlepšení uživatelských zkušeností, \"Vyřešit všechny odkazy ihned\" a funkce jsou ve výchozím nastavení zakázány. Neuvidíš teď velikost souboru u některých odkazů, ale aplikace znovu padat a sekat se nebude. Pokud chceš velikost všech souborů znovu vidět, můžeš tyto funkce znovu aktivovat v  \"Nastavení\"</string>
 
-    <string name="android_download_manager_is_disabled">Android Download Manager is disabled</string>
-    <string name="android_download_manager_is_disabled_msg">In order to download files, you need to enable the Internal Android Download Manager first. Click "OK" to proceed.</string>
+    <string name="android_download_manager_is_disabled">Android Manažer pro stahování je zakázán</string>
+    <string name="android_download_manager_is_disabled_msg">Pro stažení souborů, nejprve musíš povolit Interní Android Manažer pro stahování. Klikni na "OK" k pokračování.</string>
 
     <string name="like_us_on_facebook_title">Dej nám like na Facebooku!</string>
     <string name="like_us_on_facebook_message">Myslíš si, že je tato aplikace užitečná? Dej nám like na Facebooku pro ukázání tvé podpory!</string>
@@ -315,18 +315,18 @@
     <string name="media_route_menu_title">Přehrát…</string>
     <string name="chromecast_available">Chromecast je dostupný</string>
     <string name="chromecast_not_connected">Chromecast není připojen</string>
-    <string name="chromecast_resume_failed">Resume video playback failed</string>
+    <string name="chromecast_resume_failed">Pokračování v přehrávání videa selhalo</string>
     <string name="chromecast_failed_to_play">Přehrání videa selhalo</string>
-    <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
+    <string name="video_cant_be_casted">Tohle video nelze promítat na Chromecast</string>
     <string name="google_play_services_not_installed">Google Play Služby nejsou nainstalovány</string>
-    <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
+    <string name="cant_cast_on_tv">Nelze promítat na Chromecast z Android TV zařízení</string>
 
     <string name="ttv_switch_season">Přepínej mezi sezónami jedním kliknutím</string>
     <string name="ttv_switch_season_desc">Jednoduše klikni na toto tlačítko pro vyvolání rozbalovací nabídky. Přejdi na další sezónu jedním kliknutím.</string>
     <string name="ttv_switch_subtitles_provider">Změnit poskytovatele titulek</string>
     <string name="ttv_switch_subtitles_provider_desc">Nenašel jsi ty správné titulky? Klikni sem a vyber jiného poskytovatele titulek.</string>
     <string name="ttv_set_episode_as_watched">Nastavit epizodu za shlédnutou</string>
-    <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
+    <string name="ttv_set_episode_as_watched_desc">Klikni na tohle políčko pro označení za shlédnuté. Klikni znovu pro označení za neshlédnuté. Jednoduché, chytré a rychlé!</string>
     <string name="ttv_watch_now">Sledovat teď!</string>
     <string name="ttv_watch_now_desc">Klikni na tohle tlačítko přehrát a sleduj v HD zdarma!</string>
 
