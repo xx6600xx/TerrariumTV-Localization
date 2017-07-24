@@ -229,20 +229,20 @@
 
     <string name="subtitle_name">Jméno Titulek : </string>
 
-    <string name="facebook_page">Facebook Page</string>
+    <string name="facebook_page">Facebook Stránka</string>
     <string name="official_website_menuitem">Oficiální Web</string>
 
     <string name="changelog">Changelog</string>
     <string name="choose_browser">Choose a browser</string>
     <string name="choose_app">Choose an app…</string>
 
-    <string name="disclaimer">Disclaimer</string>
-    <string name="accept">Accept</string>
-    <string name="decline">Decline</string>
+    <string name="disclaimer">Prohlášení</string>
+    <string name="accept">Přijmout</string>
+    <string name="decline">Odmítnout</string>
 
-    <string name="cant_open_youtube">Can\'t open YouTube. Please try again later.</string>
-    <string name="error">Unknown error. Please try again.</string>
-    <string name="please_wait">Please wait…</string>
+    <string name="cant_open_youtube">Youtube nelze otevřít. Zkus to prosím později.</string>
+    <string name="error">Neznámá chyba. Zkus to prosím později.</string>
+    <string name="please_wait">Čekej, prosím…</string>
 
     <string name="recaptcha_verify">You need to verify a reCaptcha to get sources from %s</string>
     <string name="verify">Ověřit</string>
@@ -270,10 +270,10 @@
     <string name="downloads">Stahování</string>
     <string name="tools">Nástroje</string>
 
-    <string name="play_trailer">Play Trailer</string>
-    <string name="all">All</string>
-    <string name="tv_calendar">TV Calendar</string>
-    <string name="always_ask">Always ask</string>
+    <string name="play_trailer">Přehrát Trailer</string>
+    <string name="all">Vše</string>
+    <string name="tv_calendar">TV Kalendář</string>
+    <string name="always_ask">Vždy se zeptat</string>
 
     <string name="translators">Překladatelé</string>
 
@@ -292,17 +292,17 @@
     <string name="press_back_again_to_exit">Press BACK again to exit</string>
 
     <string name="in_progress">In Progress</string>
-    <string name="finished">Finished</string>
+    <string name="finished">Dokončeno</string>
     <string name="file_not_found">Soubor nebyl nalezen!</string>
 
-    <string name="resolving">Resolving</string>
-    <string name="resolving_links">Resolving links…</string>
-    <string name="failed_to_resolve_link">Failed to resolve this link. Please try another link instead.</string>
-    <string name="no_streamlink_is_available">Sorry… No stream link is available now…</string>
-    <string name="link_cant_be_resolved">Sorry… This link can\'t be resolved…</string>
+    <string name="resolving">Řešení</string>
+    <string name="resolving_links">Řešení odkazů…</string>
+    <string name="failed_to_resolve_link">Odkaz se nepodařilo vyřešit. Zkus jiný odkaz.</string>
+    <string name="no_streamlink_is_available">Omlouváme se… Ale právě teď není žádný odkaz na stream dostupný…</string>
+    <string name="link_cant_be_resolved">Omlouváme se… Tento odkaz nelze vyřešit…</string>
 
-    <string name="low_end_device_detected">Low-end device detected</string>
-    <string name="resolve_all_links_immediately_disabled">It seems that you are using Terrarium TV on a low-end device. Due to performance enhancement and improving user experience, \"Resolve all links immediately\" and features are disabled by default. You won\'t see file size for some links now but the app will not crash and lag again. If you want to see the file size of all links again, you can go to the \"Settings\" page and enable those options</string>
+    <string name="low_end_device_detected">Bylo detekováno slabé zařízení</string>
+    <string name="resolve_all_links_immediately_disabled">Vypadá to, že používáš Terrarium TV na slabém zařízení. Vzhledem ke zvýšení výkonu a zlepšení uživatelských zkušenost, \"Vyřešit všechny odkazy ihned\" a funkce jsou ve výchozím nastavení zakázány. Neuvidíš teď velikost souboru u některých odkazů, ale aplikace znovu padat a sekat se nebude. Pokud chceš velikost všech souborů znovu vidět, můžeš tyto funkce znovu aktivovat v  \"Nastavení\"</string>
 
     <string name="android_download_manager_is_disabled">Android Download Manager is disabled</string>
     <string name="android_download_manager_is_disabled_msg">In order to download files, you need to enable the Internal Android Download Manager first. Click "OK" to proceed.</string>
