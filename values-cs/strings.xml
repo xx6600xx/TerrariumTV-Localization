@@ -132,8 +132,8 @@
     <string name="pref_others">Ostatní</string>
 
     <string name="pref_sub_down_path">Cesta ke stahování titulek</string>
-    <string name="pref_sub_down_path_des">Subtitles will be downloaded and saved to this path.</string>
-    <string name="pref_media_down_path">Media download path (Only for Android Internal Download Manager)</string>
+    <string name="pref_sub_down_path_des">Titulky budou staženy a uloženy do této cesty.</string>
+    <string name="pref_media_down_path">Cesta pro stahování (Jen pro Android Interní manažer pro stahování)</string>
     <string name="pref_choose_media_down_manager">Vybrat výchozího manažera pro stahování…</string>
     <string name="pref_auto_check_update">Kontrolovat aktualizace automaticky</string>
     <string name="pref_clear_cache">Vymazat Mezipaměť</string>
@@ -144,11 +144,11 @@
     <string name="pref_filter_out_cam_version_links">Vyfiltrovat CAM verze</string>
     <string name="pref_filter_out_cam_version_links_desc">Vyfiltrovat automaticky odkazy se špatnou kvalitou</string>
     <string name="pref_enable_new_episode_notification">Povolit notifikace o nových epizodách</string>
-    <string name="pref_check_new_episode_frequency">Check new episode frequency (in hours)</string>
-    <string name="pref_enable_new_movie_release_notification">Enable new movie release notification</string>
-    <string name="pref_check_new_movie_release_frequency">Check new movie release frequency (in hours)</string>
-    <string name="pref_hide_unaired_season">Hide unaired season</string>
-    <string name="pref_hide_unaired_episode">Hide unaired episode</string>
+    <string name="pref_check_new_episode_frequency">Jak často kontrolovat vydání nových epizod (v hodinách)</string>
+    <string name="pref_enable_new_movie_release_notification">Zapnout notifikace o vydáních nových filmů</string>
+    <string name="pref_check_new_movie_release_frequency">Jak často kontrolovat vydání nových filmů (v hodinách)</string>
+    <string name="pref_hide_unaired_season">Skrýt neodvysílanou sezónu</string>
+    <string name="pref_hide_unaired_episode">Skrýt neodvysílanou epizodu</string>
     <string name="pref_subtitles_filter">Vyfiltrovat nesedící titulky</string>
     <string name="pref_subtitles_choose_lang">Vyber jazyk(y) titulek…</string>
     <string name="pref_synopsis_choose_lang">Vyber jazyk přehledů…</string>
@@ -156,12 +156,12 @@
     <string name="pref_hide_season_image">Skrýt miniatury sezón</string>
     <string name="pref_hide_episode_image">Skrýt miniatury epizod</string>
     <string name="pref_hide_episode_synopsis">Skrýt přehled epizod</string>
-    <string name="pref_show_menu_source">Show menu on single click in source list</string>
+    <string name="pref_show_menu_source">Zobrazit nabídku po jednom kliknutí v nabídce zdrojů</string>
     <string name="pref_poster_size">Velikost plakátu média</string>
-    <string name="pref_parallel_loading_sources">Parallel sources loading</string>
-    <string name="pref_parallel_loading_sources_desc">Strongly suggested to enable. Speed up sources loading speed by 5x. However it may causes FC or crash on some low spec devices.</string>
-    <string name="pref_simple_scrolling_on_tv">Simple scrolling on Android TV</string>
-    <string name="simple_scrolling_is_enabled">Simple scrolling is enabled. You can turn disable it in Settings.</string>
+    <string name="pref_parallel_loading_sources">načítání paralelních zdrojů</string>
+    <string name="pref_parallel_loading_sources_desc">Vysoce doporučeno povolit. Zrychlí načítání zdrojů až 5x. Ale na některých slabých zařízeních to může způsobovat chyby a pády aplikace.</string>
+    <string name="pref_simple_scrolling_on_tv">Jednoduché posouvání na Android TV</string>
+    <string name="simple_scrolling_is_enabled">Jednoduché posouvání je povoleno. Můžeš ho vypnout v Nastavení.</string>
     <string name="pref_choose_default_nav">Vyber výchozí navigaci…</string>
     <string name="pref_choose_default_category_tv_shows">Vybrat výchozí kategorii nebo žánr pro seriály…</string>
     <string name="pref_choose_default_category_movies">Vybrat výchozí kategorii nebo žánr pro filmy…</string>
