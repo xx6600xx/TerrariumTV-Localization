@@ -122,12 +122,12 @@
     <string name="pref_general">Obecné</string>
     <string name="pref_performance">Výkon</string>
     <string name="pref_new_episode_notification">Notifikace nových epizod</string>
-    <string name="pref_new_movie_release_notification">New Movie Release Notification</string>
+    <string name="pref_new_movie_release_notification">Notifikace o nových filmech</string>
     <string name="pref_ui">Uživatelské rozhraní</string>
-    <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
+    <string name="pref_sources_and_resolvers">Poskytovatelé a Řešitelé</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
-    <string name="pref_chromecast_subtitles">Chromecast Subtitles</string>
+    <string name="pref_chromecast_subtitles">Chromecast Titulky</string>
     <string name="pref_backup_and_restore">Zálohovat a Obnovit</string>
     <string name="pref_others">Ostatní</string>
 
