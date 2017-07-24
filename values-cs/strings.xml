@@ -168,73 +168,73 @@
     <string name="pref_enabled_tv_shows_providers">Choose TV shows providers to be enabled…</string>
     <string name="pref_enabled_movies_providers">Choose movies providers to be enabled…</string>
     <string name="pref_enabled_resolvers">Choose resolvers to be enabled…</string>
-    <string name="pref_modern_ui">Use modern UI</string>
+    <string name="pref_modern_ui">Použít Moderní Rozhraní</string>
     <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
     <string name="pref_choose_default_play_action">Choose default play action…</string>
-    <string name="pref_force_tv_mode">Force Android TV mode</string>
+    <string name="pref_force_tv_mode">Vynutit Android TV mód</string>
     <string name="pref_force_tv_mode_desc">Display Android TV layout forcibly</string>
     <string name="pref_force_landscape_mode_on_tv">Force Landscape Mode on Android TV</string>
-    <string name="pref_choose_default_player">Choose default video player…</string>
-    <string name="pref_show_hd_sources_only">Show HD links only</string>
+    <string name="pref_choose_default_player">Vybrat defaultní video přehrávač…</string>
+    <string name="pref_show_hd_sources_only">Zobrazovat jen HD odkazy</string>
     <string name="pref_show_season_special">Show season special</string>
     <string name="pref_auto_backup_before_update">Auto backup before updating</string>
-    <string name="pref_cc_subs_font_scale">Font size scale</string>
-    <string name="pref_cc_subs_font_color">Font color</string>
-    <string name="pref_cc_subs_bg_color">Background color</string>
-    <string name="pref_backup_settings">Backup settings</string>
-    <string name="pref_restore_settings">Restore settings</string>
-    <string name="pref_backup_favorites">Backup favorites</string>
-    <string name="pref_restore_favorites">Restore favorites</string>
+    <string name="pref_cc_subs_font_scale">Měřítko velikosti písma</string>
+    <string name="pref_cc_subs_font_color">Barva písma</string>
+    <string name="pref_cc_subs_bg_color">Barva pozadí</string>
+    <string name="pref_backup_settings">Zálohovat nastavení</string>
+    <string name="pref_restore_settings">Obnovit nastavení</string>
+    <string name="pref_backup_favorites">Zálohovat oblíbené</string>
+    <string name="pref_restore_favorites">Obnovit oblíbené</string>
     <string name="pref_backup_watched_episodes">Backup watched episode records</string>
     <string name="pref_restore_watched_episodes">Restore watched episode records</string>
-    <string name="backup_path">Backup to \"%s\"</string>
-    <string name="restore_path">Restore from \"%s\"</string>
-    <string name="backup_success">Successfully backed up!</string>
-    <string name="restore_success">Successfully restored!</string>
-    <string name="failed_to_backup">Failed to backup</string>
-    <string name="failed_to_restore">Failed to restore</string>
-    <string name="pref_resolve_all_links_immediately">Resolve all links immediately</string>
+    <string name="backup_path">Zálohovat do \"%s\"</string>
+    <string name="restore_path">Obnovit z \"%s\"</string>
+    <string name="backup_success">Úspěšně zazálohováno!</string>
+    <string name="restore_success">Úspěšně obnoveno!</string>
+    <string name="failed_to_backup">Zálohování selhalo</string>
+    <string name="failed_to_restore">Obnovení selhalo</string>
+    <string name="pref_resolve_all_links_immediately">Vyřešit všechny odkazy ihned</string>
     <string name="pref_resolve_all_links_immediately_desc">Resolve all links to direct play links immediately. If this option is disabled, Terrarium TV will only resolve the link when the user click it. (Turn this off when the app lags!)</string>
     <string name="pref_auto_resolve_hd_links_only">Auto resolve HD links only</string>
     <string name="pref_sources_list_refresh_interval">Sources list refresh time interval (in seconds)</string>
     <string name="pref_sources_list_refresh_interval_msg">If the app keeps freezing while loading for links, please increase the value.</string>
     <string name="restart_to_see_the_difference">Please restart Terrarium TV to see the difference.</string>
-    <string name="resolve_all_links_immediately_is_disabled">\"Resolve all links immediately\" is disabled</string>
+    <string name="resolve_all_links_immediately_is_disabled">Funkce \"Vyřešit všechny Odkazy ihned\" je vypnuta</string>
 
-    <string name="download_manager_internal">Android Internal Download Manager</string>
-    <string name="download_manager_external">External download manager(s)</string>
+    <string name="download_manager_internal">Android Interní manažer pro stahování</string>
+    <string name="download_manager_external">Externí manažer(y) pro stahování</string>
 
     <string name="action_play">Přehrát</string>
     <string name="action_play_with_subs">Přehrát s titulkami</string>
     <string name="action_download">Stáhnout</string>
     <string name="action_download_with_subs">Stáhnout s titulkami</string>
-    <string name="action_copy_link">Copy stream link</string>
-    <string name="action_play_via_other_players">Open with…</string>
-    <string name="choose_player">Choose a video player…</string>
-    <string name="no_player_was_found">No video player was found</string>
-    <string name="choose_external_download_manager">Choose an external download manager…</string>
-    <string name="no_external_download_manager_was_found">No external download manager was found. Please download them from Play Store or use Android Internal Download Manager</string>
-    <string name="download_started">Download started…</string>
-    <string name="download_path_error">Download path must be in internal storage. Please choose another path.</string>
-    <string name="copied_link">Stream link copied!</string>
-    <string name="link_must_be_played_in_app">Sorry… This link can only be played in Terrarium TV…</string>
-    <string name="video_player_crashed_unexpectedly">Player crashed unexpectedly. Please try to use another video player to play the video.</string>
-    <string name="choose_subtitles_file">Choose a subtitle file…</string>
+    <string name="action_copy_link">Kopírovat odkaz ke streamu</string>
+    <string name="action_play_via_other_players">Otevřít Pomocí…</string>
+    <string name="choose_player">Vybrat video přehrávač…</string>
+    <string name="no_player_was_found">Nebyl nalezen žádný přehrávač</string>
+    <string name="choose_external_download_manager">Vybrat externí manažer pro stahování…</string>
+    <string name="no_external_download_manager_was_found">Žádný externí manažer pro stahování nebyl nalezen. Stáhzni nějaká z Obchodu Google Play nebo použij Android Interní manažer pro stahování</string>
+    <string name="download_started">Stahování Začalo…</string>
+    <string name="download_path_error">Cesta ke stahování musí být v interním úložišti. Vyber jinou cestu, prosím.</string>
+    <string name="copied_link">Odkaz na stream zkopírován!</string>
+    <string name="link_must_be_played_in_app">Omlouváme se… Tento odkaz lze přehrát jen v Terrarium TV…</string>
+    <string name="video_player_crashed_unexpectedly">Přehrávač nečekaně spadnul. Zkus použít jiný přehrávač pro přehrání tohoto videa.</string>
+    <string name="choose_subtitles_file">Vyber soubor s titulkami…</string>
 
     <string name="update_title">Byla nalezena nová verze : %s</string>
     <string name="update_message">Verze %s : </string>
     <string name="update_button">Aktualizovat</string>
-    <string name="update_downloading">Downloading update %s</string>
-    <string name="update_failed">Update failed or aborted</string>
+    <string name="update_downloading">Stahování altualizace %s</string>
+    <string name="update_failed">Aktualizace selhala nebo byla přerušena</string>
 
     <string name="subtitle_name">Jméno Titulek : </string>
 
     <string name="facebook_page">Facebook Stránka</string>
     <string name="official_website_menuitem">Oficiální Web</string>
 
-    <string name="changelog">Changelog</string>
-    <string name="choose_browser">Choose a browser</string>
-    <string name="choose_app">Choose an app…</string>
+    <string name="changelog">Rozpis Změn</string>
+    <string name="choose_browser">Vybrat Prohlížeč</string>
+    <string name="choose_app">Vybrat Aplikaci…</string>
 
     <string name="disclaimer">Prohlášení</string>
     <string name="accept">Přijmout</string>
@@ -244,22 +244,22 @@
     <string name="error">Neznámá chyba. Zkus to prosím později.</string>
     <string name="please_wait">Čekej, prosím…</string>
 
-    <string name="recaptcha_verify">You need to verify a reCaptcha to get sources from %s</string>
+    <string name="recaptcha_verify">Musíš ověřit reCaptchu pro získání zdrojů z %s</string>
     <string name="verify">Ověřit</string>
 
-    <string name="size_large">Large</string>
-    <string name="size_normal">Normal</string>
-    <string name="size_small">Small</string>
+    <string name="size_large">Velké</string>
+    <string name="size_normal">Normální</string>
+    <string name="size_small">Malé</string>
 
     <string name="show_details_overview">PŘEHLED</string>
     <string name="show_details_season">SEZÓNA</string>
     <string name="media_suggestion">See Also</string>
     <string name="no_synopsis">No synopsis</string>
-    <string name="synopsis_is_hidden">Synopsis is hidden</string>
+    <string name="synopsis_is_hidden">Přehled je schován</string>
     <string name="loading_ratings">Načítání hodnocení…</string>
     <string name="no_ratings">Bez hodnocení</string>
-    <string name="meta_in_production">In Production</string>
-    <string name="meta_returning_series">Returning Series</string>
+    <string name="meta_in_production">Ve výrobě</string>
+    <string name="meta_returning_series">Návrat série</string>
     <string name="meta_ended">Ended</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -323,8 +323,8 @@
 
     <string name="ttv_switch_season">Přepínej mezi sezónami jedním kliknutím</string>
     <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
-    <string name="ttv_switch_subtitles_provider">Switch subtitles provider</string>
-    <string name="ttv_switch_subtitles_provider_desc">Didn\'t find any suitable subtitles? Click on it and choose another subtitles provider.</string>
+    <string name="ttv_switch_subtitles_provider">Změnit poskytovatele titulek</string>
+    <string name="ttv_switch_subtitles_provider_desc">Nenašel jsi ty správné titulky? Klikni sem a vyber jiného poskytovatele titulek.</string>
     <string name="ttv_set_episode_as_watched">Set episode as watched</string>
     <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
     <string name="ttv_watch_now">Sledovat teď!</string>
