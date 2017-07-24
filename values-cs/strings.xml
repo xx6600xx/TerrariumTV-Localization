@@ -322,10 +322,10 @@
     <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
 
     <string name="ttv_switch_season">Přepínej mezi sezónami jedním kliknutím</string>
-    <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
+    <string name="ttv_switch_season_desc">Jednoduše klikni na toto tlačítko pro vyvolání rozbalovací nabídky. Přejdi na další sezónu jedním kliknutím.</string>
     <string name="ttv_switch_subtitles_provider">Změnit poskytovatele titulek</string>
     <string name="ttv_switch_subtitles_provider_desc">Nenašel jsi ty správné titulky? Klikni sem a vyber jiného poskytovatele titulek.</string>
-    <string name="ttv_set_episode_as_watched">Set episode as watched</string>
+    <string name="ttv_set_episode_as_watched">Nastavit epizodu za shlédnutou</string>
     <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
     <string name="ttv_watch_now">Sledovat teď!</string>
     <string name="ttv_watch_now_desc">Klikni na tohle tlačítko přehrát a sleduj v HD zdarma!</string>
