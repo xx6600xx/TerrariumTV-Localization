@@ -28,11 +28,11 @@
     <string name="show_all">Zobrazit Vše</string>
     <string name="show_favorites_only">Zobrazit jen Oblíbené</string>
     <string name="sync_in_progress">Probíhá Synchronizace…</string>
-    <string name="hint_tv_show_name">TV Show Name</string>
+    <string name="hint_tv_show_name">Název Seriálu</string>
     <string name="hint_movie_name">Název Filmu</string>
     <string name="subtitle">Titulky</string>
     <string name="unknown">Neznámý</string>
-    <string name="download_count">Download Count :</string>
+    <string name="download_count">Počet Stažení :</string>
 
     <string name="season">Sezóna %1$d</string>
     <string name="episode">Epizoda %1$d</string>
