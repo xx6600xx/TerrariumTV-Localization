@@ -284,14 +284,14 @@
     <string name="cache_cleared">Cache cleared!</string>
 
     <string name="new_episode">Nová Epizoda: %s</string>
-    <string name="default_value">Default: %s</string>
-    <string name="value_must_be_positive">Value must be positive</string>
+    <string name="default_value">Výchozí nastavení: %s</string>
+    <string name="value_must_be_positive">Hodnota musí být pozitivní</string>
 
-    <string name="try_it">Try it!</string>
-    <string name="click_play_button_on_your_rc">Press the "Play" button or long press the "Enter" button on your remote control to play immediately!</string>
-    <string name="press_back_again_to_exit">Press BACK again to exit</string>
+    <string name="try_it">Zkus to!</string>
+    <string name="click_play_button_on_your_rc">Stiskni tlačítko "Přehrát" nebo dlouze zmáčkni tlačítko "Enter" na tvém dálkovém ovladači pro okažité přehrání!</string>
+    <string name="press_back_again_to_exit">Stiskni ZPĚT znovu pro ukončení</string>
 
-    <string name="in_progress">In Progress</string>
+    <string name="in_progress">Probíhá</string>
     <string name="finished">Dokončeno</string>
     <string name="file_not_found">Soubor nebyl nalezen!</string>
 
@@ -313,33 +313,33 @@
     <string name="dont_ask_again_checkbox">Znovu se neptat</string>
 
     <string name="media_route_menu_title">Přehrát…</string>
-    <string name="chromecast_available">Chromecast available</string>
-    <string name="chromecast_not_connected">Chromecast not connected</string>
+    <string name="chromecast_available">Chromecast je dostupný</string>
+    <string name="chromecast_not_connected">Chromecast není připojen</string>
     <string name="chromecast_resume_failed">Resume video playback failed</string>
-    <string name="chromecast_failed_to_play">Failed to play video</string>
+    <string name="chromecast_failed_to_play">Přehrání videa selhalo</string>
     <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
-    <string name="google_play_services_not_installed">Google Play Services is not installed</string>
+    <string name="google_play_services_not_installed">Google Play Služby nejsou nainstalovány</string>
     <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
 
-    <string name="ttv_switch_season">Switch season with one click</string>
+    <string name="ttv_switch_season">Přepínej mezi sezónami jedním kliknutím</string>
     <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
     <string name="ttv_switch_subtitles_provider">Switch subtitles provider</string>
     <string name="ttv_switch_subtitles_provider_desc">Didn\'t find any suitable subtitles? Click on it and choose another subtitles provider.</string>
     <string name="ttv_set_episode_as_watched">Set episode as watched</string>
     <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
     <string name="ttv_watch_now">Sledovat teď!</string>
-    <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
+    <string name="ttv_watch_now_desc">Klikni na tohle tlačítko přehrát a sleduj v HD zdarma!</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Nastala neznámá chyba a byla nahlášena vývojáři.\nZa způsobené potíže se omlouváme.\n\nPokud aplikace stále padá, tak prosím uprav nastavení \"Výkonu\" v \"Nastavení\".</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Neznámá výjimka</string>
     <string name="customactivityoncrash_error_activity_restart_app">Restartovat Terrarium TV</string>
     <string name="customactivityoncrash_error_activity_close_app">Zavřít Terrarium TV</string>
-    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details">Detaily Chyby</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Popis Chyby</string>
     <string name="customactivityoncrash_error_activity_error_details_close">Zavřít</string>
     <string name="customactivityoncrash_error_activity_error_details_copy">Zkopírovat do skchránky</string>
     <string name="customactivityoncrash_error_activity_error_details_copied">Zkopírováno do schránky</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Chybová hláška</string>
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name" translatable="false">Terrarium TV</string>
