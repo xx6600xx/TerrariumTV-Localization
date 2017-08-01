@@ -7,6 +7,7 @@
     <string name="action_settings">Einstellungen</string>
 
     <string name="no_data">Keine Daten</string>
+    <string name="no_links_available">Keine Links verfügbar</string>
     <string name="no_internet">Keine Internetverbindung</string>
     <string name="loading">Lädt</string>
     <string name="loading_more">Mehr laden…</string>
@@ -75,6 +76,7 @@
     <string name="on_the_air">Laufend</string>
     <string name="top_rated">Bestbewertet</string>
     <string name="now_playing">Im Kino</string>
+    <string name="new_hd_releases">Neu in HD</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
@@ -120,6 +122,7 @@
     <string name="pref_general">Allgemein</string>
     <string name="pref_performance">Performance</string>
     <string name="pref_new_episode_notification">Benachrichtigung für neue Episoden</string>
+    <string name="pref_new_movie_release_notification">Benachrichtigung für neue Filme</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hoster</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
@@ -140,8 +143,10 @@
     <string name="pref_filter_out_dead_sources_desc">Ladezeiten werden verringert</string>
     <string name="pref_filter_out_cam_version_links">CAM Versionen ausblende</string>
     <string name="pref_filter_out_cam_version_links_desc">Links mit schlechter Qualität automatisch ausblenden</string>
-    <string name="pref_enable_new_episode_notification">Aktiviere Benachrichtigungen für neue Episoden</string>
-    <string name="pref_check_new_episode_frequency">Suchfrequenz von neuen Episoden (in Stunden)</string>
+    <string name="pref_enable_new_episode_notification">Benachrichtigungen aktivieren</string>
+    <string name="pref_check_new_episode_frequency">Aktualisierungsfrequenz (in Stunden)</string>
+    <string name="pref_enable_new_movie_release_notification">Benachrichtigungen aktivieren</string>
+    <string name="pref_check_new_movie_release_frequency">Aktualisierungsfrequenz (in Stunden)</string>
     <string name="pref_hide_unaired_season">Verstecke unausgestrahlte Staffeln</string>
     <string name="pref_hide_unaired_episode">Verstecke unausgestrahlte Episoden</string>
     <string name="pref_subtitles_filter">Unpassende Untertitel ausblenden</string>
@@ -150,6 +155,7 @@
     <string name="pref_hide_poster_thumb">Verstecke Plakatvorschau</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
+    <string name="pref_hide_episode_synopsis">Verstecke Zusammenfassung für Episoden</string>
     <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
@@ -166,7 +172,8 @@
     <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
     <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
     <string name="pref_force_tv_mode">Benutze Android TV Modus</string>
-    <string name="pref_force_tv_mode_desc">Forciert die Darstellung der App im Android TV Layout</string>
+    <string name="pref_force_tv_mode_desc">Erzwingt die Darstellung der App im Android TV Layout</string>
+    <string name="pref_force_landscape_mode_on_tv">Erzwingt Querformat im Android TV Layout</string>
     <string name="pref_choose_default_player">Standard video player wählen…</string>
     <string name="pref_show_hd_sources_only">Nur HD links anzeigen</string>
     <string name="pref_show_season_special">Staffelspezial zeigen</string>
@@ -188,9 +195,11 @@
     <string name="failed_to_restore">Wiederherstellung fehlgeschlagen</string>
     <string name="pref_resolve_all_links_immediately">Hosts direkt auflösen</string>
     <string name="pref_resolve_all_links_immediately_desc">Hosts direkt auflösen für eine direkte Wiedergabe. Ist diese Option deaktiviert wird der Host erst bei Auswahl aufgelöst. (Bei lags option ausschalten!)</string>
+    <string name="pref_auto_resolve_hd_links_only">Nur die Hosts der HD Links auflösen</string>
     <string name="pref_sources_list_refresh_interval">Aktualisierung der Quellenliste (in Sekunden)</string>
     <string name="pref_sources_list_refresh_interval_msg">Sollte die App einfrieren muss der Wert erhöht werden.</string>
     <string name="restart_to_see_the_difference">Bitte starte Terrarium TV neu um die Änderungen anzuwenden.</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"Hosts direkt auflösen\" ist deaktiviert</string>
 
     <string name="download_manager_internal">Android Download Manager</string>
     <string name="download_manager_external">Externer Download Manager</string>
@@ -246,6 +255,7 @@
     <string name="show_details_season">STAFFEL</string>
     <string name="media_suggestion">Vorschläge</string>
     <string name="no_synopsis">Keine Zusammenfassung</string>
+    <string name="synopsis_is_hidden">Zusammenfassung ist versteckt</string>
     <string name="loading_ratings">Bewertungen werden geladen…</string>
     <string name="no_ratings">Keine Bewertungen</string>
     <string name="meta_in_production">Wird gedreht</string>
@@ -263,6 +273,7 @@
     <string name="play_trailer">Trailer abspielen</string>
     <string name="all">Alle</string>
     <string name="tv_calendar">TV Kalendar</string>
+    <string name="always_ask">Immer nachfragen</string>
 
     <string name="translators">Übersetzer</string>
 
@@ -278,6 +289,7 @@
 
     <string name="try_it">Probiere es aus!</string>
     <string name="click_play_button_on_your_rc">Drücke die "Play" Taste oder halte die "Enter" Taste auf deiner Fernbedienung um sofort mit der Streamsuche zu beginnen!</string>
+    <string name="press_back_again_to_exit">Zum Beenden nochmal drücken</string>
 
     <string name="in_progress">Läuft</string>
     <string name="finished">Abgeschlossen</string>
@@ -291,6 +303,9 @@
 
     <string name="low_end_device_detected">Langsames Gerät entdeckt</string>
     <string name="resolve_all_links_immediately_disabled">Du benutzt Terrarium TV auf einem langsamen Gerät. Für bessere Performance wird die Funktion \"Hosts direkt auflösen"\ deaktiviert. Du wirst keine Dateigrößen mehr sehen. Dafür sollte die App keine Probleme mehr verursachen. Für die Anzeige der Dateigröße muss die Funktion wieder in den Einstellungen aktiviert werden.</string>
+
+    <string name="android_download_manager_is_disabled">Android Download Manager ist deaktiviert</string>
+    <string name="android_download_manager_is_disabled_msg">Um Dateien herunterzuladen muss der Android Download Manager aktiviert sein. Drücke "OK" zum fortsetzen.</string>
 
     <string name="like_us_on_facebook_title">Like uns auf Facebook!</string>
     <string name="like_us_on_facebook_message">Falls dir die App gefällt besuche unsere Facebook Seite und hinterlasse uns einen Like!</string>
