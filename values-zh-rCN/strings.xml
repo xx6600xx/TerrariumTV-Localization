@@ -173,6 +173,7 @@
     <string name="pref_choose_default_play_action">选择默认播放选项…</string>
     <string name="pref_force_tv_mode">强制使用 Android TV 模式</string>
     <string name="pref_force_tv_mode_desc">强制显示 Android TV 界面</string>
+    <string name="pref_force_landscape_mode_on_tv">强制在 Android TV 上使用横屏模式</string>
     <string name="pref_choose_default_player">选择预设播放器…</string>
     <string name="pref_show_hd_sources_only">只显示高清片源</string>
     <string name="pref_show_season_special">显示特别季度</string>
@@ -342,9 +343,5 @@
 
     <!-- DO NOT EDIT THE STRINGS BELOW -->
     <string name="app_name">Terrarium 影视</string>
-    <string name="privacy_policy" translatable="false">隐私政策</string>
     <string name="about_app_title">关于 Terrarium 影视</string>
-    <string name="about_app_message">Terrarium 影视 (版本 : %s)\nPeter Chan (NitroXenon) 制作\n\n官方网站 : https://terrariumtv.com\n\n官方 Facebook 页面 : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium 影视 是多媒体共享播放汇集软件，用以汇集网络上公开的影片地址，影片及照片其版权皆属于原著作人所有。本程序和本人将不会承担任何法律责任。</string>
-    <string name="official_website">https://terrariumtv.com</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
 </resources>
