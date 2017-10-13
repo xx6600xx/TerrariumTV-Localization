@@ -124,7 +124,6 @@
     <string name="pref_sources_and_resolvers">Aanbieders en resolvers</string>
     <string name="pref_subtitle">Ondertitelingstaal van OpenSubtitles en Subscene</string>
     <string name="pref_subtitle_chin">Ondertitelingstaal van SubHD, Makedie en Zimuku</string>
-    <string name="pref_chromecast_subtitles">Chromecastondertiteling</string>
     <string name="pref_backup_and_restore">Back-up maken en herstellen</string>
     <string name="pref_others">Overig</string>
 
@@ -297,7 +296,7 @@
     <string name="like_us_on_facebook_yes">Vind ik leuk!</string>
     <string name="dont_ask_again_checkbox">Niet opnieuw vragen</string>
 
-    <string name="media_route_menu_title">Afspelen…</string>
+    <string name="media_route_menu_title">Cast to Chromecast</string>
     <string name="chromecast_available">Chromecast beschikbaar</string>
     <string name="chromecast_not_connected">Chromecast niet verbonden</string>
     <string name="chromecast_resume_failed">Video hervatten mislukt</string>

@@ -16,12 +16,14 @@
     <string name="action_remove_from_bookmark">移除我的最愛</string>
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
+    <string name="action_switch_player">切換播放器</string>
     <string name="action_next_episode">下一集</string>
     <string name="action_reverse">反轉排序</string>
     <string name="action_set_watched">設為已觀看</string>
     <string name="action_remove_watched">移除已觀看</string>
     <string name="action_share_app">分享此 App</string>
     <string name="action_remove">移除</string>
+    <string name="action_remove_with_files">連同檔案移除</string>
     <string name="action_remove_all">移除全部</string>
     <string name="action_select_date">選擇日期</string>
     <string name="show_all">顯示全部</string>
@@ -41,7 +43,11 @@
     <string name="getting_subtitle">字幕獲取中… 請稍後…</string>
     <string name="downloading_subtitle_toast">字幕下載中… 請稍後…</string>
     <string name="ready_to_play_toast">播放即將開始…</string>
+    <string name="search_something">輸入關鍵詞搜尋…</string>
     <string name="searching_media">搜尋中…</string>
+    <string name="no_tv_shows_found">找不到劇集</string>
+    <string name="no_movies_found">找不到電影</string>
+    <string name="no_favorite_shows_airing_that_day">沒有喜愛劇集在當天播映</string>
     <string name="subtitle_language">字幕語言 : </string>
     <string name="subtitle_download_failed">字幕下載失敗… 請嘗試另一個字幕…</string>
     <string name="subtitle_extract_failed">字幕解壓失敗… 請嘗試另一個字幕…</string>
@@ -80,11 +86,13 @@
     <string name="genre_tv_action_adventure">動作/冒險</string>
     <string name="genre_tv_sci_fantasy">科幻</string>
     <string name="genre_tv_mystery">懸疑</string>
+    <string name="genre_tv_crime">犯罪</string>
     <string name="genre_tv_drama">戲劇</string>
     <string name="genre_tv_comedy">喜劇</string>
     <string name="genre_tv_family">家庭</string>
     <string name="genre_tv_western">西部</string>
     <string name="genre_tv_war_politics">戰爭/政治</string>
+    <string name="genre_tv_soap">肥皂劇</string>
     <string name="genre_tv_reality">真人Show</string>
     <string name="genre_tv_documentary">紀錄片</string>
     <string name="genre_tv_kids">兒童</string>
@@ -109,8 +117,7 @@
     <string name="genre_movie_documentary">紀錄片</string>
     <string name="genre_movie_music">音樂</string>
 
-    <string name="list_tv_netflix">Netflix</string>
-
+    <string name="list_stand_up_comedy">棟篤笑</string>
     <string name="list_movie_oscars_winners">奧斯卡得獎電影</string>
     <string name="list_movie_christmas">聖誕節</string>
     <string name="list_movie_marvels">Marvel 電影</string>
@@ -122,11 +129,12 @@
     <string name="pref_performance">性能</string>
     <string name="pref_new_episode_notification">新一集提醒</string>
     <string name="pref_new_movie_release_notification">新電影提醒</string>
+    <string name="pref_playback">播放</string>
     <string name="pref_ui">用戶介面</string>
     <string name="pref_sources_and_resolvers">片源與連結解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕語言</string>
     <string name="pref_subtitle_chin">SubHD, Makedie 和 Zimiku 字幕語言</string>
-    <string name="pref_chromecast_subtitles">Chromecast 字幕</string>
+    <string name="pref_subtitles_style">字幕樣式</string>
     <string name="pref_backup_and_restore">備份與還原</string>
     <string name="pref_others">其他</string>
 
@@ -151,10 +159,12 @@
     <string name="pref_subtitles_filter">過濾不吻合字幕</string>
     <string name="pref_subtitles_choose_lang">選擇字幕語言…</string>
     <string name="pref_synopsis_choose_lang">選擇摘要語言…</string>
-    <string name="pref_hide_poster_thumb">隱藏海報圖片</string>
+    <string name="pref_hide_poster_thumb">隱藏海報</string>
+    <string name="pref_hide_title_and_year_under_posters">隱藏海報下的標題和年份</string>
     <string name="pref_hide_season_image">隱藏季度圖片</string>
     <string name="pref_hide_episode_image">隱藏集數圖片</string>
     <string name="pref_hide_episode_synopsis">隱藏集數摘要</string>
+    <string name="pref_hide_recaptcha_verification_message">隱藏 reCaptcha 驗證提示</string>
     <string name="pref_show_menu_source">片源列表單擊顯示選單</string>
     <string name="pref_poster_size">劇集海報大小</string>
     <string name="pref_parallel_loading_sources">開啟同步載入片源</string>
@@ -167,9 +177,10 @@
     <string name="pref_enabled_tv_shows_providers">選擇要啟用的歐美劇片源提供者…</string>
     <string name="pref_enabled_movies_providers">選擇要啟用的電影片源提供者…</string>
     <string name="pref_enabled_resolvers">選擇要啟用的連結解析器…</string>
-    <string name="pref_modern_ui">使用新 UI</string>
+    <string name="pref_modern_ui">使用新介面</string>
     <string name="pref_modern_ui_desc">顯示劇集海報取代劇集橫幅</string>
     <string name="pref_choose_default_play_action">選擇預設播放選項…</string>
+    <string name="pref_default_continue_playback_option">選擇預設繼續播放選項…</string>
     <string name="pref_force_tv_mode">強制使用 Android TV 模式</string>
     <string name="pref_force_tv_mode_desc">強制顯示 Android TV 介面</string>
     <string name="pref_force_landscape_mode_on_tv">強制在 Android TV 上使用橫向介面</string>
@@ -202,6 +213,12 @@
 
     <string name="download_manager_internal">Android 內置下載管理器</string>
     <string name="download_manager_external">外置下載管理器</string>
+
+    <string name="option_player_default">播放器預設值</string>
+    <string name="option_always_ask">總是詢問</string>
+    <string name="option_start_over">重新開始</string>
+    <string name="option_resume">繼續播放</string>
+    <string name="do_you_wish_to_resume">你想從上次的位置恢復播放嗎?</string>
 
     <string name="action_play">播放</string>
     <string name="action_play_with_subs">選擇字幕播放</string>
@@ -281,6 +298,7 @@
     <string name="learn_more">了解更多</string>
     <string name="choose_a_correct_date">請選擇一個正確的日期</string>
     <string name="cache_cleared">快取已清除!</string>
+    <string name="error_details">錯誤: %s</string>
 
     <string name="new_episode">新一集: %s</string>
     <string name="default_value">預設值: %s</string>
@@ -311,14 +329,23 @@
     <string name="like_us_on_facebook_yes">讚!</string>
     <string name="dont_ask_again_checkbox">不要再問</string>
 
-    <string name="media_route_menu_title">播放…</string>
+    <string name="media_route_menu_title">投放到 Chromecast</string>
     <string name="chromecast_available">Chromecast 可用</string>
     <string name="chromecast_not_connected">未連接 Chromecast</string>
     <string name="chromecast_resume_failed">恢復影片播放失敗</string>
     <string name="chromecast_failed_to_play">無法播放影片</string>
     <string name="video_cant_be_casted">Chromecast 無法播放此影片</string>
+    <string name="cant_be_casted_message">由於技術限制，此影片無法被投放到 Chromecast 上，請使用 LocalCast 或 AllCast 來進行投放。</string>
     <string name="google_play_services_not_installed">未安裝 Google Play 服務</string>
     <string name="cant_cast_on_tv">無法在 Android TV 裝置上使用 Chromecast</string>
+    <string name="preparing_to_cast">準備投放影片中…</string>
+
+    <string name="exo_player_resize_mode">縮放模式</string>
+    <string name="exo_player_fit_to_screen">符合螢幕大小</string>
+    <string name="exo_player_stretch">延伸</string>
+    <string name="exo_player_crop">裁切</string>
+    <string name="exo_player_fixed_width">固定闊度</string>
+    <string name="exo_player_fixed_height">固定高度</string>
 
     <string name="ttv_switch_season">一鍵切換季度</string>
     <string name="ttv_switch_season_desc">按這裡開啟下拉選單來切換其他季度</string>
@@ -328,6 +355,24 @@
     <string name="ttv_set_episode_as_watched_desc">看完了這一集? 按一下這裡來標記為已觀看吧!</string>
     <string name="ttv_watch_now">立即觀看!</string>
     <string name="ttv_watch_now_desc">按一下這個按鈕來立即觀看!</string>
+    <string name="ttv_watch_new_movies_now">立即觀看 %1$d 套新電影!</string>
+
+    <string name="exo_player_volume">音量: %s</string>
+    <string name="exo_player_brightness">亮度: %s</string>
+    <string name="exo_player_sound_tracks">音軌</string>
+    <string name="exo_player_error_unable_to_set_subs_style">無法設置字幕樣式</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">無法播放影片</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">無法播放音效</string>
+    <string name="exo_player_error_unable_to_parse_subs">無法解析字幕內容</string>
+    <string name="exo_player_error_unable_to_render_subs">此裝置無法渲染字幕內容</string>
+    <string name="exo_player_error_unable_to_query_decoders">無法獲取此裝置的解碼器</string>
+    <string name="exo_player_error_no_decoder">此裝置沒有 %s 的解碼器</string>
+    <string name="exo_player_error_no_secure_decoder">此裝置沒有 %s 的安全解碼器</string>
+    <string name="exo_player_error_unable_to_init_decoder">無法使用 %s 解碼器</string>
+    <string name="exo_player_error_too_many_requests">請求過多，請嘗試不要快進或快退</string>
+    <string name="exo_player_error">播放器錯誤: %s</string>
+    <string name="exo_player_error_http">網絡錯誤: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">不存在影片源</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影視 發生了未知錯誤並崩潰，已回報此問題。\n\n如此問題持續發生，請調整 \"設定\" 頁面中的 \"效能\" 設置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知錯誤</string>

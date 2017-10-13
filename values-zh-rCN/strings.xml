@@ -127,7 +127,7 @@
     <string name="pref_sources_and_resolvers">片源与连接解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕语言</string>
     <string name="pref_subtitle_chin">SubHD, Makedie 和 Zimiku 字幕语言</string>
-    <string name="pref_chromecast_subtitles">Chromecast 字幕</string>
+    <string name="pref_subtitles_style">字幕样式</string>
     <string name="pref_backup_and_restore">备份与还原</string>
     <string name="pref_others">其他</string>
 
@@ -168,7 +168,7 @@
     <string name="pref_enabled_tv_shows_providers">选择要启用的电视片源提供者…</string>
     <string name="pref_enabled_movies_providers">选择要启用的电影片源提供者…</string>
     <string name="pref_enabled_resolvers">选择要启用的连接解析器…</string>
-    <string name="pref_modern_ui">使用新 UI</string>
+    <string name="pref_modern_ui">使用新介面</string>
     <string name="pref_modern_ui_desc">显示剧集海报取代剧集横幅</string>
     <string name="pref_choose_default_play_action">选择默认播放选项…</string>
     <string name="pref_force_tv_mode">强制使用 Android TV 模式</string>
@@ -312,7 +312,7 @@
     <string name="like_us_on_facebook_yes">赞!</string>
     <string name="dont_ask_again_checkbox">不再询问</string>
 
-    <string name="media_route_menu_title">播放…</string>
+    <string name="media_route_menu_title">投放到 Chromecast</string>
     <string name="chromecast_available">Chromecast 可用</string>
     <string name="chromecast_not_connected">未连接 Chromecast</string>
     <string name="chromecast_resume_failed">恢复影片播放失败</string>

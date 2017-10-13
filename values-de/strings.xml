@@ -127,7 +127,6 @@
     <string name="pref_sources_and_resolvers">Quellen und Hoster</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
     <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
-    <string name="pref_chromecast_subtitles">Chromecast Untertitel</string>
     <string name="pref_backup_and_restore">Backup und Wiederherstellen</string>
     <string name="pref_others">Andere</string>
 
@@ -312,7 +311,7 @@
     <string name="like_us_on_facebook_yes">Like!</string>
     <string name="dont_ask_again_checkbox">Nicht nochmal fragen</string>
 
-    <string name="media_route_menu_title">Abspielen…</string>
+    <string name="media_route_menu_title">Cast to Chromecast</string>
     <string name="chromecast_available">Chromecast verfügbar</string>
     <string name="chromecast_not_connected">Chromecast nicht verbunden</string>
     <string name="chromecast_resume_failed">Fortsetzung der Wiedergabe fehlgeschlagen</string>

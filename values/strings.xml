@@ -17,12 +17,14 @@
     <string name="action_remove_from_bookmark">Remove Favorite</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stop</string>
+    <string name="action_switch_player">Switch Player</string>
     <string name="action_next_episode">Next Episode</string>
     <string name="action_reverse">Reverse</string>
     <string name="action_set_watched">Set Watched</string>
     <string name="action_remove_watched">Remove Watched</string>
     <string name="action_share_app">Share App</string>
     <string name="action_remove">Remove</string>
+    <string name="action_remove_with_files">Remove with files</string>
     <string name="action_remove_all">Remove All</string>
     <string name="action_select_date">Select Date</string>
     <string name="show_all">Show All</string>
@@ -42,7 +44,11 @@
     <string name="getting_subtitle">Getting subtitles… Please wait…</string>
     <string name="downloading_subtitle_toast">Downloading subtitles… Please wait…</string>
     <string name="ready_to_play_toast">The video will be started in a second…</string>
+    <string name="search_something">Search something…</string>
     <string name="searching_media">Searching…</string>
+    <string name="no_tv_shows_found">No TV shows found</string>
+    <string name="no_movies_found">No movies found</string>
+    <string name="no_favorite_shows_airing_that_day">No favorite TV shows airing on that day</string>
     <string name="subtitle_language">Subtitles language : </string>
     <string name="subtitle_download_failed">Subtitles download failed… Please try another subtitles…</string>
     <string name="subtitle_extract_failed">Subtitles extraction failed… Please try another subtitles…</string>
@@ -81,11 +87,13 @@
     <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
     <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_crime">Crime</string>
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Comedy</string>
     <string name="genre_tv_family">Family</string>
     <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">War &amp; Politics</string>
+    <string name="genre_tv_soap">Soap</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Documentary</string>
     <string name="genre_tv_kids">Kids</string>
@@ -110,8 +118,7 @@
     <string name="genre_movie_documentary">Documentary</string>
     <string name="genre_movie_music">Music</string>
 
-    <string name="list_tv_netflix">Netflix</string>
-
+    <string name="list_stand_up_comedy">Stand-up Comedy</string>
     <string name="list_movie_oscars_winners">Oscars Winners</string>
     <string name="list_movie_christmas">Christmas</string>
     <string name="list_movie_marvels">Marvel\'s</string>
@@ -123,11 +130,12 @@
     <string name="pref_performance">Performance</string>
     <string name="pref_new_episode_notification">New Episode Notification</string>
     <string name="pref_new_movie_release_notification">New Movie Release Notification</string>
+    <string name="pref_playback">Playback</string>
     <string name="pref_ui">User Interface</string>
     <string name="pref_sources_and_resolvers">Providers and Resolvers</string>
     <string name="pref_subtitle">Subtitles Language of OpenSubtitles and Subscene</string>
     <string name="pref_subtitle_chin">Subtitles Language of SubHD, Makedie and Zimuku</string>
-    <string name="pref_chromecast_subtitles">Chromecast Subtitles</string>
+    <string name="pref_subtitles_style">Subtitles Style</string>
     <string name="pref_backup_and_restore">Backup and Restore</string>
     <string name="pref_others">Others</string>
 
@@ -152,10 +160,12 @@
     <string name="pref_subtitles_filter">Filter out unmatched subtitles</string>
     <string name="pref_subtitles_choose_lang">Choose subtitles language(s)…</string>
     <string name="pref_synopsis_choose_lang">Choose synopsis language…</string>
-    <string name="pref_hide_poster_thumb">Hide poster thumbnails</string>
+    <string name="pref_hide_poster_thumb">Hide posters</string>
+    <string name="pref_hide_title_and_year_under_posters">Hide title and year under posters</string>
     <string name="pref_hide_season_image">Hide season thumbnails</string>
     <string name="pref_hide_episode_image">Hide episode thumbnails</string>
     <string name="pref_hide_episode_synopsis">Hide episode synopsis</string>
+    <string name="pref_hide_recaptcha_verification_message">Hide reCaptcha verification message</string>
     <string name="pref_show_menu_source">Show menu on single click in source list</string>
     <string name="pref_poster_size">Media poster size</string>
     <string name="pref_parallel_loading_sources">Parallel sources loading</string>
@@ -171,6 +181,7 @@
     <string name="pref_modern_ui">Use modern UI</string>
     <string name="pref_modern_ui_desc">Show media posters instead of banners</string>
     <string name="pref_choose_default_play_action">Choose default play action…</string>
+    <string name="pref_default_continue_playback_option">Choose default continue playback option…</string>
     <string name="pref_force_tv_mode">Force Android TV mode</string>
     <string name="pref_force_tv_mode_desc">Display Android TV layout forcibly</string>
     <string name="pref_force_landscape_mode_on_tv">Force Landscape Mode on Android TV</string>
@@ -204,12 +215,18 @@
     <string name="download_manager_internal">Android Internal Download Manager</string>
     <string name="download_manager_external">External download manager(s)</string>
 
+    <string name="option_player_default">Player default</string>
+    <string name="option_always_ask">Always ask</string>
+    <string name="option_start_over">Start over</string>
+    <string name="option_resume">Resume</string>
+    <string name="do_you_wish_to_resume">Do you wish to resume from where you stopped?</string>
+
     <string name="action_play">Play</string>
     <string name="action_play_with_subs">Play with subtitles</string>
     <string name="action_download">Download</string>
     <string name="action_download_with_subs">Download with subtitles</string>
     <string name="action_copy_link">Copy stream link</string>
-    <string name="action_play_via_other_players">Open with…</string>
+    <string name="action_play_via_other_players">Play with…</string>
     <string name="choose_player">Choose a video player…</string>
     <string name="no_player_was_found">No video player was found</string>
     <string name="choose_external_download_manager">Choose an external download manager…</string>
@@ -282,6 +299,7 @@
     <string name="learn_more">Learn More</string>
     <string name="choose_a_correct_date">Please choose a correct date</string>
     <string name="cache_cleared">Cache cleared!</string>
+    <string name="error_details">Error: %s</string>
 
     <string name="new_episode">New episode: %s</string>
     <string name="default_value">Default: %s</string>
@@ -312,14 +330,16 @@
     <string name="like_us_on_facebook_yes">Like!</string>
     <string name="dont_ask_again_checkbox">Don\'t ask again</string>
 
-    <string name="media_route_menu_title">Play…</string>
+    <string name="media_route_menu_title">Cast to Chromecast</string>
     <string name="chromecast_available">Chromecast available</string>
     <string name="chromecast_not_connected">Chromecast not connected</string>
     <string name="chromecast_resume_failed">Resume video playback failed</string>
     <string name="chromecast_failed_to_play">Failed to play video</string>
     <string name="video_cant_be_casted">This video can\'t be casted to Chromecast</string>
+    <string name="cant_be_casted_message">This link can\'t be casted using the built-in Chromecast function due to some technical limitations. Please use LocalCast or AllCast to cast this link instead.</string>
     <string name="google_play_services_not_installed">Google Play Services is not installed</string>
     <string name="cant_cast_on_tv">Can\'t cast to Chromecast on Android TV devices</string>
+    <string name="preparing_to_cast">Preparing to cast…</string>
 
     <string name="ttv_switch_season">Switch season with one click</string>
     <string name="ttv_switch_season_desc">Simply click this button to call the drop down menu. Switch to another season with just one click.</string>
@@ -329,6 +349,33 @@
     <string name="ttv_set_episode_as_watched_desc">Click this box to set this episode as watched. Click again to set it as unwatched. Simple, smart and fast!</string>
     <string name="ttv_watch_now">Watch now!</string>
     <string name="ttv_watch_now_desc">Click this play button and watch in HD for free!</string>
+    <string name="ttv_watch_new_movies_now">Watch %1$d new movies now!</string>
+
+    <string name="exo_player_resize_mode">Resize Mode</string>
+    <string name="exo_player_fit_to_screen">Fit to Screen</string>
+    <string name="exo_player_stretch">Stretch</string>
+    <string name="exo_player_crop">Crop</string>
+    <string name="exo_player_fixed_width">Fit Width</string>
+    <string name="exo_player_fixed_height">Fit Height</string>
+
+    <string name="exo_player_disabled">Disabled</string>
+    <string name="exo_player_default">Default</string>
+    <string name="exo_player_volume">Volume: %s</string>
+    <string name="exo_player_brightness">Brightness: %s</string>
+    <string name="exo_player_sound_tracks">Sound Tracks</string>
+    <string name="exo_player_error_unable_to_set_subs_style">Unable to set subtitles style</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">Media includes video tracks, but none are playable by this device</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">Media includes audio tracks, but none are playable by this device</string>
+    <string name="exo_player_error_unable_to_parse_subs">Unable to parse subtitles</string>
+    <string name="exo_player_error_unable_to_render_subs">This device is unable to render subtitles</string>
+    <string name="exo_player_error_unable_to_query_decoders">Unable to query device decoders</string>
+    <string name="exo_player_error_no_decoder">This device does not provide a decoder for %s</string>
+    <string name="exo_player_error_no_secure_decoder">This device does not provide a secure decoder for %s</string>
+    <string name="exo_player_error_unable_to_init_decoder">Unable to instantiate decoder %s</string>
+    <string name="exo_player_error_too_many_requests">Too many requests. Please try not to fast-forward or rewind or video will stop</string>
+    <string name="exo_player_error">Player Error: %s</string>
+    <string name="exo_player_error_http">HTTP Error: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">Media source does not exist</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred and has been reported to the developer.\nSorry for the inconvenience.\n\nIf the app keeps crashing then please adjust \"Performance\" settings in the \"Settings\" page.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
@@ -345,6 +392,6 @@
     <string name="app_name" translatable="false">Terrarium TV</string>
     <string name="privacy_policy" translatable="false">Privacy Policy</string>
     <string name="about_app_title" translatable="false">About Terrarium TV</string>
-    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nPrivacy Policy : https://www.iubenda.com/privacy-policy/8128391\n\nYou are accepting the privacy policy when you click "Accept". By accessing or using any of the services, you are accepting and agreeing to the practices described in the Privacy Policy.\n\nTerrarium TV contains only links to other sites on the Internet. It does not host or upload any videos, films or media files. It does not store any media stream links on any of its servers. Terrarium TV simply aggregates links in a convenient, user-friendly interface. Terrarium TV is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties or the streaming websites. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. The videos are streamed directly from the third-party video sharing services. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nPrivacy Policy : https://www.iubenda.com/privacy-policy/8128391\n\nDMCA Takedown - Contact : nx@terrariumtv.com\n\nYou are accepting the privacy policy when you click "Accept". By accessing or using any of the services, you are accepting and agreeing to the practices described in the Privacy Policy.\n\nTerrarium TV contains only links to other sites on the Internet. It does not host or upload any videos, films or media files. It does not store any media stream links on any of its servers. Terrarium TV simply aggregates links in a convenient, user-friendly interface. Terrarium TV is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties or the streaming websites. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. The videos are streamed directly from the third-party video sharing services. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
     <string name="official_website" translatable="false">https://terrariumtv.com</string>
 </resources>
