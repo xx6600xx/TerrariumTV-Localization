@@ -17,12 +17,14 @@
     <string name="action_remove_from_bookmark">移除我的最爱</string>
     <string name="action_refresh">重新整理</string>
     <string name="action_stop">停止</string>
+    <string name="action_switch_player">切换播放器</string>
     <string name="action_next_episode">下一集</string>
     <string name="action_reverse">反转排序</string>
     <string name="action_set_watched">设为已观看</string>
     <string name="action_remove_watched">移除已观看</string>
     <string name="action_share_app">分享此 App</string>
     <string name="action_remove">移除</string>
+    <string name="action_remove_with_files">同时移除文件</string>
     <string name="action_remove_all">移除全部</string>
     <string name="action_select_date">选择日期</string>
     <string name="show_all">显示全部</string>
@@ -42,7 +44,11 @@
     <string name="getting_subtitle">字幕获取中… 请稍候…</string>
     <string name="downloading_subtitle_toast">字幕下载中… 请稍候…</string>
     <string name="ready_to_play_toast">即将开始播放…</string>
+    <string name="search_something">输入关键词搜索…</string>
     <string name="searching_media">搜索中…</string>
+    <string name="no_tv_shows_found">找不到剧集</string>
+    <string name="no_movies_found">找不到电影</string>
+    <string name="no_favorite_shows_airing_that_day">没有喜爱的剧集在当天播放</string>
     <string name="subtitle_language">字幕语言 :</string>
     <string name="subtitle_download_failed">字幕下载失败… 请尝试另一个字幕…</string>
     <string name="subtitle_extract_failed">字幕解压失败… 请尝试另一个字幕…</string>
@@ -54,7 +60,7 @@
     <string name="cancel">取消</string>
     <string name="close">关闭</string>
     <string name="install">安装</string>
-    <string name="close_ad_to_play">请先关闭广告以便开始播放影片</string>
+    <string name="close_ad_to_play">请先关闭广告以便开始播放视频</string>
 
     <string name="mxplayer_not_installed">MX Player 没有安装</string>
     <string name="mxplayer_not_installed_message">你的设备上没有安装 MX Player，Terrarium 需要 MX Player 来播放剧集， 按 "安装" 来安装 MX Player</string>
@@ -81,11 +87,13 @@
     <string name="genre_tv_action_adventure">动作/冒险</string>
     <string name="genre_tv_sci_fantasy">科幻</string>
     <string name="genre_tv_mystery">悬疑</string>
+    <string name="genre_tv_crime">犯罪</string>
     <string name="genre_tv_drama">戏剧</string>
     <string name="genre_tv_comedy">喜剧</string>
     <string name="genre_tv_family">家庭</string>
     <string name="genre_tv_western">西部</string>
     <string name="genre_tv_war_politics">战争/政治</string>
+    <string name="genre_tv_soap">肥皂剧</string>
     <string name="genre_tv_reality">真人秀</string>
     <string name="genre_tv_documentary">纪录片</string>
     <string name="genre_tv_kids">儿童</string>
@@ -110,8 +118,7 @@
     <string name="genre_movie_documentary">纪录片</string>
     <string name="genre_movie_music">音乐</string>
 
-    <string name="list_tv_netflix">Netflix</string>
-
+    <string name="list_stand_up_comedy">单口相声</string>
     <string name="list_movie_oscars_winners">奥斯卡得奖影片</string>
     <string name="list_movie_christmas">圣诞节</string>
     <string name="list_movie_marvels">漫威电影</string>
@@ -123,6 +130,7 @@
     <string name="pref_performance">性能</string>
     <string name="pref_new_episode_notification">新剧集通知</string>
     <string name="pref_new_movie_release_notification">新电影提醒</string>
+    <string name="pref_playback">播放</string>
     <string name="pref_ui">用户界面</string>
     <string name="pref_sources_and_resolvers">片源与连接解析器</string>
     <string name="pref_subtitle">OpenSubtitles 和 Subscene 字幕语言</string>
@@ -133,7 +141,7 @@
 
     <string name="pref_sub_down_path">字幕下载路径</string>
     <string name="pref_sub_down_path_des">字幕会被下载到此目录</string>
-    <string name="pref_media_down_path">影片下载路径 (仅限 Android 内置下载管理器)</string>
+    <string name="pref_media_down_path">视频下载路径 (仅限 Android 内置下载管理器)</string>
     <string name="pref_choose_media_down_manager">选择默认下载管理器…</string>
     <string name="pref_auto_check_update">自动检查更新</string>
     <string name="pref_clear_cache">清除缓存</string>
@@ -152,10 +160,12 @@
     <string name="pref_subtitles_filter">过滤不匹配字幕</string>
     <string name="pref_subtitles_choose_lang">选择字幕语言…</string>
     <string name="pref_synopsis_choose_lang">选择摘要语言…</string>
-    <string name="pref_hide_poster_thumb">隐藏海报图片</string>
+    <string name="pref_hide_poster_thumb">隐藏海报</string>
+    <string name="pref_hide_title_and_year_under_posters">隐藏海报下的标题和年份</string>
     <string name="pref_hide_season_image">隐藏季度图片</string>
     <string name="pref_hide_episode_image">隐藏剧集图片</string>
     <string name="pref_hide_episode_synopsis">隐藏剧集摘要</string>
+    <string name="pref_hide_recaptcha_verification_message">隐藏 reCaptcha 验证提示</string>
     <string name="pref_show_menu_source">片源列表单击显示菜单</string>
     <string name="pref_poster_size">剧集海报大小</string>
     <string name="pref_parallel_loading_sources">开启并行加载片源</string>
@@ -168,9 +178,10 @@
     <string name="pref_enabled_tv_shows_providers">选择要启用的电视片源提供者…</string>
     <string name="pref_enabled_movies_providers">选择要启用的电影片源提供者…</string>
     <string name="pref_enabled_resolvers">选择要启用的连接解析器…</string>
-    <string name="pref_modern_ui">使用新介面</string>
+    <string name="pref_modern_ui">使用新界面</string>
     <string name="pref_modern_ui_desc">显示剧集海报取代剧集横幅</string>
     <string name="pref_choose_default_play_action">选择默认播放选项…</string>
+    <string name="pref_default_continue_playback_option">选择默认继续播放选项…</string>
     <string name="pref_force_tv_mode">强制使用 Android TV 模式</string>
     <string name="pref_force_tv_mode_desc">强制显示 Android TV 界面</string>
     <string name="pref_force_landscape_mode_on_tv">强制在 Android TV 上使用横屏模式</string>
@@ -203,6 +214,12 @@
 
     <string name="download_manager_internal">Android 内置下载管理器</string>
     <string name="download_manager_external">外置下载管理器</string>
+
+    <string name="option_player_default">播放器默认值</string>
+    <string name="option_always_ask">总是询问</string>
+    <string name="option_start_over">重新开始</string>
+    <string name="option_resume">继续播放</string>
+    <string name="do_you_wish_to_resume">你想从上次的位置恢复播放吗?</string>
 
     <string name="action_play">播放</string>
     <string name="action_play_with_subs">选择字幕播放</string>
@@ -282,6 +299,7 @@
     <string name="learn_more">了解更多</string>
     <string name="choose_a_correct_date">请选择一个正确的日期</string>
     <string name="cache_cleared">缓存已清除!</string>
+    <string name="error_details">错误: %s</string>
 
     <string name="new_episode">新剧集: %s</string>
     <string name="default_value">默认值: %s</string>
@@ -315,11 +333,20 @@
     <string name="media_route_menu_title">投放到 Chromecast</string>
     <string name="chromecast_available">Chromecast 可用</string>
     <string name="chromecast_not_connected">未连接 Chromecast</string>
-    <string name="chromecast_resume_failed">恢复影片播放失败</string>
-    <string name="chromecast_failed_to_play">无法播放影片</string>
-    <string name="video_cant_be_casted">Chromecast 无法播放此影片</string>
+    <string name="chromecast_resume_failed">恢复视频播放失败</string>
+    <string name="chromecast_failed_to_play">无法播放视频</string>
+    <string name="video_cant_be_casted">Chromecast 无法播放此视频</string>
+    <string name="cant_be_casted_message">由于技术限制，此视频无法被投放到 Chromecast 上，请使用 LocalCast 或 AllCast 来进行投放。</string>
     <string name="google_play_services_not_installed">未安装 Google Play 服务</string>
     <string name="cant_cast_on_tv">无法在 Android TV 上使用 Chromecast</string>
+    <string name="preparing_to_cast">准备投放视频中…</string>
+
+    <string name="exo_player_resize_mode">缩放模式</string>
+    <string name="exo_player_fit_to_screen">适合屏幕</string>
+    <string name="exo_player_stretch">拉伸</string>
+    <string name="exo_player_crop">裁切</string>
+    <string name="exo_player_fixed_width">固定宽度</string>
+    <string name="exo_player_fixed_height">固定高度</string>
 
     <string name="ttv_switch_season">一键切换季度</string>
     <string name="ttv_switch_season_desc">点击这里打开下拉菜单切换其他季度</string>
@@ -329,7 +356,27 @@
     <string name="ttv_set_episode_as_watched_desc">一集看完了? 点击这里标记为已观看吧!</string>
     <string name="ttv_watch_now">立即观看!</string>
     <string name="ttv_watch_now_desc">点击这个按钮立即观看!</string>
+    <string name="ttv_watch_new_movies_now">立即观看 %1$d 部新电影!</string>
 
+    <string name="exo_player_disabled">关闭</string>
+    <string name="exo_player_default">默认</string>
+    <string name="exo_player_volume">音量: %s</string>
+    <string name="exo_player_brightness">亮度: %s</string>
+    <string name="exo_player_sound_tracks">音轨</string>
+    <string name="exo_player_error_unable_to_set_subs_style">无法设置字幕样式</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">无法播放视频</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">无法播放音频</string>
+    <string name="exo_player_error_unable_to_parse_subs">无法解析字幕</string>
+    <string name="exo_player_error_unable_to_render_subs">此设备无法渲染字幕</string>
+    <string name="exo_player_error_unable_to_query_decoders">无法获取此设备的解码器</string>
+    <string name="exo_player_error_no_decoder">此设备没有 %s 的解码器</string>
+    <string name="exo_player_error_no_secure_decoder">此设备没有 %s 的安全解码器</string>
+    <string name="exo_player_error_unable_to_init_decoder">无法使用 %s 解码器</string>
+    <string name="exo_player_error_too_many_requests">请求过多，请尝试不要快进或回退</string>
+    <string name="exo_player_error">播放器错误: %s</string>
+    <string name="exo_player_error_http">网络错误: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">视频源不存在</string>
+ 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影视 发生了未知错误并崩溃，已上报此问题。\n\n 如此问题持续发生，请调整 \"设置 \" 页面中的 \"性能 \" 设置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知错误</string>
     <string name="customactivityoncrash_error_activity_restart_app">重新开启 Terrarium 影视</string>
