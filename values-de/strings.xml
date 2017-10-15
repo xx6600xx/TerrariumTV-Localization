@@ -17,12 +17,14 @@
     <string name="action_remove_from_bookmark">Von Favoriten entfernen</string>
     <string name="action_refresh">Aktualisieren</string>
     <string name="action_stop">Anhalten</string>
+    <string name="action_switch_player">Player wechseln</string>
     <string name="action_next_episode">Nächste Folge</string>
     <string name="action_reverse">Rückgängig machen</string>
     <string name="action_set_watched">Als gesehen markieren</string>
-    <string name="action_remove_watched">Als nicht gesehen markieren</string>
+    <string name="action_remove_watched">Als ungesehen markieren</string>
     <string name="action_share_app">App teilen</string>
     <string name="action_remove">Entfernen</string>
+    <string name="action_remove_with_files">Mit Dateien entfernen</string>
     <string name="action_remove_all">Alle entfernen</string>
     <string name="action_select_date">Datum auswählen</string>
     <string name="show_all">Alle zeigen</string>
@@ -42,7 +44,11 @@
     <string name="getting_subtitle">Suche Untertitel… Bitte warten…</string>
     <string name="downloading_subtitle_toast">Lade Untertitel… Bitte warten…</string>
     <string name="ready_to_play_toast">Das Video startet in wenigen Sekunden…</string>
+    <string name="search_something">Suche etwas…</string>
     <string name="searching_media">Suche…</string>
+    <string name="no_tv_shows_found">Keine Serien gefunden</string>
+    <string name="no_movies_found">Keine Filme gefunden</string>
+    <string name="no_favorite_shows_airing_that_day">Keine favorisierten Serien laufen an dem ausgewähltem Tag</string>
     <string name="subtitle_language">Untertitelsprache : </string>
     <string name="subtitle_download_failed">Download der Untertitel fehlgeschlagen… Bitte anderen Untertitel auswählen…</string>
     <string name="subtitle_extract_failed">Entpacken der Untertitel fehlgeschlagen… Bitte anderen Untertitel auswählen…</string>
@@ -66,12 +72,12 @@
     <string name="vlc_player_unable_to_start">VLC Player kann nicht geöffnet werden</string>
     <string name="vlc_player_unable_to_start_message">VLC Player kann nicht geöffnet werden. Bitte versuche es erneut nach einer Neuinstallation.</string>
 
-    <string name="trending">Im Trend</string>
+    <string name="trending">Heiß</string>
     <string name="most_popular">Beliebt</string>
     <string name="most_played">Meist gespielt</string>
     <string name="most_watched">Meist gesehen</string>
     <string name="recently_updated">Aktualisiert</string>
-    <string name="new_shows">Brandneu</string>
+    <string name="new_shows">Neu</string>
     <string name="premieres">Premieren</string>
     <string name="on_the_air">Laufend</string>
     <string name="top_rated">Bestbewertet</string>
@@ -81,11 +87,13 @@
     <string name="genre_tv_action_adventure">Action &amp; Abenteuer</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
     <string name="genre_tv_mystery">Mystery</string>
+    <string name="genre_tv_crime">Krimi</string>
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komödie</string>
     <string name="genre_tv_family">Familie</string>
     <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">Krieg &amp; Politik</string>
+    <string name="genre_tv_soap">Soap</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Dokumentation</string>
     <string name="genre_tv_kids">Kinder</string>
@@ -111,7 +119,6 @@
     <string name="genre_movie_music">Musical</string>
 
     <string name="list_tv_netflix">Netflix</string>
-
     <string name="list_movie_oscars_winners">Oscar Gewinner</string>
     <string name="list_movie_christmas">Weihnachten</string>
     <string name="list_movie_marvels">Marvel</string>
@@ -123,10 +130,12 @@
     <string name="pref_performance">Performance</string>
     <string name="pref_new_episode_notification">Benachrichtigung für neue Episoden</string>
     <string name="pref_new_movie_release_notification">Benachrichtigung für neue Filme</string>
+    <string name="pref_playback">Wiedergabe</string>
     <string name="pref_ui">Oberfläche</string>
     <string name="pref_sources_and_resolvers">Quellen und Hoster</string>
     <string name="pref_subtitle">Untertitel von OpenSubtitels und Subscene</string>
     <string name="pref_subtitle_chin">Untertitel von SubHD, Makedie und Zimuku</string>
+    <string name="pref_subtitles_style">Untertitel anzeige</string>
     <string name="pref_backup_and_restore">Backup und Wiederherstellen</string>
     <string name="pref_others">Andere</string>
 
@@ -152,9 +161,11 @@
     <string name="pref_subtitles_choose_lang">Wähle Sprache(n) für Untertitel…</string>
     <string name="pref_synopsis_choose_lang">Wähle Sprache für die Zusammenfassung…</string>
     <string name="pref_hide_poster_thumb">Verstecke Plakatvorschau</string>
+    <string name="pref_hide_title_and_year_under_posters">Verstecke Titel und Jahr</string>
     <string name="pref_hide_season_image">Verstecke Vorschaubilder der Staffeln</string>
     <string name="pref_hide_episode_image">Verstecke Vorschaubilder der Episoden</string>
     <string name="pref_hide_episode_synopsis">Verstecke Zusammenfassung für Episoden</string>
+    <string name="pref_hide_recaptcha_verification_message">Verstecke reCaptcha Nachricht</string>
     <string name="pref_show_menu_source">Zeige Menü nach tap in Quellenliste</string>
     <string name="pref_poster_size">Plakatgröße</string>
     <string name="pref_parallel_loading_sources">Quellen parallel laden</string>
@@ -170,6 +181,7 @@
     <string name="pref_modern_ui">Moderne Oberfläche benutzen</string>
     <string name="pref_modern_ui_desc">Zeige Plakate anstatt von Bannern</string>
     <string name="pref_choose_default_play_action">Wähle Standardaktion zum Abspielen…</string>
+    
     <string name="pref_force_tv_mode">Benutze Android TV Modus</string>
     <string name="pref_force_tv_mode_desc">Erzwingt die Darstellung der App im Android TV Layout</string>
     <string name="pref_force_landscape_mode_on_tv">Erzwingt Querformat im Android TV Layout</string>
@@ -202,6 +214,12 @@
 
     <string name="download_manager_internal">Android Download Manager</string>
     <string name="download_manager_external">Externer Download Manager</string>
+
+    <string name="option_player_default">Standardplayer</string>
+    <string name="option_always_ask">Immer fragen</string>
+    <string name="option_start_over">Von Anfang starten</string>
+    <string name="option_resume">Fortsetzen</string>
+    <string name="do_you_wish_to_resume">Möchtest du die Wiedergabe fortsetzen?</string>
 
     <string name="action_play">Abspielen</string>
     <string name="action_play_with_subs">Spiel mit Untertiteln</string>
@@ -281,6 +299,7 @@
     <string name="learn_more">Mehr erfahren</string>
     <string name="choose_a_correct_date">Bitte ein gültiges Datum wählen</string>
     <string name="cache_cleared">Cache geleert!</string>
+    <string name="error_details">Error: %s</string>
 
     <string name="new_episode">Neue Episode: %s</string>
     <string name="default_value">Standard: %s</string>
@@ -317,8 +336,10 @@
     <string name="chromecast_resume_failed">Fortsetzung der Wiedergabe fehlgeschlagen</string>
     <string name="chromecast_failed_to_play">Chromecast Wiedergabe fehlgeschlagen</string>
     <string name="video_cant_be_casted">Dieses Video lässt sich nicht auf dem Chromecast wiedergeben</string>
+    <string name="cant_be_casted_message">Dieser Link kann nicht mit der eingebauten Chromecast funktion gecastet werden. Bitte benutze zum Casten Localcast oder AllCast.</string>
     <string name="google_play_services_not_installed">Google Play Dienste sind nicht installiert</string>
     <string name="cant_cast_on_tv">Keine Wiedergabe zum Chromecast auf Android TV Geräten möglich</string>
+    <string name="preparing_to_cast">Cast wird vorbereitet…</string>
 
     <string name="ttv_switch_season">Staffel mit einem Klick wechseln</string>
     <string name="ttv_switch_season_desc">Einfach diesen Button drücken um das Menü zu öffnen. Wechsle zu einer anderen Staffel mit nur einem Klick</string>
@@ -328,6 +349,35 @@
     <string name="ttv_set_episode_as_watched_desc">Klicke diese Box um die Episode als gesehen zu markieren. Klicke erneut um sie als ungesehen zu markieren. Einfach und simpel!</string>
     <string name="ttv_watch_now">Jetzt anschauen!</string>
     <string name="ttv_watch_now_desc">Klicke den Playbutton und schaue in HD, KOSTENLOS!</string>
+    <string name="ttv_watch_new_movies_now">%1$d neue Filme zum Anschauen!</string>
+
+    <!-- has to be translated -->
+    <string name="exo_player_resize_mode">Resize Mode</string>
+    <string name="exo_player_fit_to_screen">Fit to Screen</string>
+    <string name="exo_player_stretch">Stretch</string>
+    <string name="exo_player_crop">Crop</string>
+    <string name="exo_player_fixed_width">Fit Width</string>
+    <string name="exo_player_fixed_height">Fit Height</string>
+
+    <string name="exo_player_disabled">Disabled</string>
+    <string name="exo_player_default">Default</string>
+    <string name="exo_player_volume">Volume: %s</string>
+    <string name="exo_player_brightness">Brightness: %s</string>
+    <string name="exo_player_sound_tracks">Sound Tracks</string>
+    <string name="exo_player_error_unable_to_set_subs_style">Unable to set subtitles style</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">Media includes video tracks, but none are playable by this device</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">Media includes audio tracks, but none are playable by this device</string>
+    <string name="exo_player_error_unable_to_parse_subs">Unable to parse subtitles</string>
+    <string name="exo_player_error_unable_to_render_subs">This device is unable to render subtitles</string>
+    <string name="exo_player_error_unable_to_query_decoders">Unable to query device decoders</string>
+    <string name="exo_player_error_no_decoder">This device does not provide a decoder for %s</string>
+    <string name="exo_player_error_no_secure_decoder">This device does not provide a secure decoder for %s</string>
+    <string name="exo_player_error_unable_to_init_decoder">Unable to instantiate decoder %s</string>
+    <string name="exo_player_error_too_many_requests">Too many requests. Please try not to fast-forward or rewind or video will stop</string>
+    <string name="exo_player_error">Player Error: %s</string>
+    <string name="exo_player_error_http">HTTP Error: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">Media source does not exist</string>
+    <!-- end -->
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ein unerwarteter Fehler ist aufgetreten und dem Entwickler gemeledet worden.\nTritt das Problem weiterhin auf sollten Anpassungen in den \"Einstellngen"\ unter \"Performance"\ vorgenommen werden.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Unbekannte Ausnahme</string>
