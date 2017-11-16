@@ -376,7 +376,7 @@
     <string name="exo_player_error">播放器错误: %s</string>
     <string name="exo_player_error_http">网络错误: %s</string>
     <string name="exo_player_error_media_source_does_not_exist">视频源不存在</string>
- 
+
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">很抱歉…\nTerrarium 影视 发生了未知错误并崩溃，已上报此问题。\n\n 如此问题持续发生，请调整 \"设置 \" 页面中的 \"性能 \" 设置。</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">未知错误</string>
     <string name="customactivityoncrash_error_activity_restart_app">重新开启 Terrarium 影视</string>
