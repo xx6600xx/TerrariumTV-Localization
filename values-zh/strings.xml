@@ -220,8 +220,13 @@
     <string name="option_resume">繼續播放</string>
     <string name="do_you_wish_to_resume">你想從上次的位置恢復播放嗎?</string>
 
+    <string name="exit">退出</string>
+    <string name="exit_confirm">你確定要退出播放器嗎?</string>
+
     <string name="action_play">播放</string>
+    <string name="action_cast">投放</string>
     <string name="action_play_with_subs">選擇字幕播放</string>
+    <string name="action_cast_with_subs">選擇字幕投放</string>
     <string name="action_download">下載</string>
     <string name="action_download_with_subs">連字幕下載</string>
     <string name="action_copy_link">複製串流連結</string>
@@ -356,6 +361,8 @@
     <string name="ttv_watch_now">立即觀看!</string>
     <string name="ttv_watch_now_desc">按一下這個按鈕來立即觀看!</string>
     <string name="ttv_watch_new_movies_now">立即觀看 %1$d 套新電影!</string>
+    <string name="ttv_switch_video_player">切換影片播放器</string>
+    <string name="ttv_switch_video_player_desc">按這個按鈕來選擇你喜愛的影片播放器!</string>
 
     <string name="exo_player_volume">音量: %s</string>
     <string name="exo_player_brightness">亮度: %s</string>
