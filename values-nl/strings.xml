@@ -13,14 +13,19 @@
     <string name="action_search">Zoeken</string>
     <string name="action_bookmark">Favorieten</string>
     <string name="action_add_to_bookmark">Toevoegen aan Favorieten</string>
+    <string name="action_remove_from_bookmark">Verwijderen uit Favorieten</string>
     <string name="action_refresh">Verversen</string>
     <string name="action_stop">Stoppen</string>
     <string name="action_next_episode">Volgende aflevering</string>
     <string name="action_reverse">Omkeren</string>
     <string name="action_set_watched">Bekeken</string>
     <string name="action_remove_watched">Niet bekeken</string>
-    <string name="action_sync_with_trakt">Synchroniseren met Trakt.tv</string>
-    <string name="action_share_app">App Delen</string>
+    <string name="action_share_app">App delen</string>
+    <string name="action_remove">Verwijderen</string>
+    <string name="action_remove_all">Alles verwijderen</string>
+    <string name="action_select_date">Datum selecteren</string>
+    <string name="show_all">Alles weergeven</string>
+    <string name="show_favorites_only">Favorieten weergeven</string>
     <string name="sync_in_progress">Bezig met Synchroniseren …</string>
     <string name="hint_tv_show_name">Titel TV-serie</string>
     <string name="hint_movie_name">Filmtitel</string>
@@ -51,12 +56,12 @@
     <string name="close_ad_to_play">Sluit de advertentie om de video af te spelen.</string>
 
     <string name="mxplayer_not_installed">MX Player is niet geïnstalleerd</string>
-    <string name="mxplayer_not_installed_message">MX Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft MX Player nodig om media af te spelen. Klik "Installeren" om MX Player te installeren.</string>
+    <string name="mxplayer_not_installed_message">MX Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft MX Player nodig om media af te spelen. Klik op "Installeren" om MX Player te installeren.</string>
     <string name="mxplayer_unable_to_start">MX Player kan niet worden gestart</string>
     <string name="mxplayer_unable_to_start_message">MX Player kan niet worden gestart. Herinstalleer en probeer het opnieuw.</string>
 
     <string name="vlc_player_not_installed">VLC Player is niet geïnstalleerd</string>
-    <string name="vlc_player_not_installed_message">VLC Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft VLC Player nodig om media af te spelen. Klik "Installeren" om VLC Player te installeren.</string>
+    <string name="vlc_player_not_installed_message">VLC Player is niet op uw apparaat geïnstalleerd. Terrarium TV heeft VLC Player nodig om media af te spelen. Klik op "Installeren" om VLC Player te installeren.</string>
     <string name="vlc_player_unable_to_start">VLC Player kan niet worden gestart</string>
     <string name="vlc_player_unable_to_start_message">VLC Player kan niet worden gestart. Herinstalleer en probeer het opnieuw.</string>
 
@@ -77,9 +82,11 @@
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komedie</string>
     <string name="genre_tv_family">Familie</string>
+    <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">Oorlog &amp; Politiek</string>
     <string name="genre_tv_reality">Reality</string>
-    <string name="genre_tv_documentary">Documentaire</string>
+    <string name="genre_tv_documentary">Documentaires</string>
+    <string name="genre_tv_kids">Kinderseries</string>
     <string name="genre_tv_animation">Animatie</string>
 
     <string name="genre_movie_action">Actie</string>
@@ -101,18 +108,20 @@
     <string name="genre_movie_documentary">Documentaire</string>
     <string name="genre_movie_music">Muziek</string>
 
-    <string name="list_movie_oscars_winners">Oscars Winnaars</string>
+    <string name="list_tv_netflix">Netflix</string>
+
+    <string name="list_movie_oscars_winners">Oscar Winnaars</string>
     <string name="list_movie_christmas">Kerst</string>
     <string name="list_movie_marvels">Marvel\'s</string>
     <string name="list_movie_disney_classics">Disney Classics</string>
 
-    <string name="filter_year">Jaar</string>
+    <string name="filter_year">Jaarfilter</string>
 
     <string name="pref_general">Algemeen</string>
-    <string name="pref_performance">Prestatie</string>
+    <string name="pref_performance">Prestaties</string>
     <string name="pref_new_episode_notification">Notificatie nieuwe aflevering</string>
-    <string name="pref_ui">Gebruikersomgeving</string>
-    <string name="pref_sources_and_resolvers">Bronnen en aanbieders</string>
+    <string name="pref_ui">Uiterlijk</string>
+    <string name="pref_sources_and_resolvers">Aanbieders en resolvers</string>
     <string name="pref_subtitle">Ondertitelingstaal van OpenSubtitles en Subscene</string>
     <string name="pref_subtitle_chin">Ondertitelingstaal van SubHD, Makedie en Zimuku</string>
     <string name="pref_backup_and_restore">Back-up maken en herstellen</string>
@@ -121,12 +130,15 @@
     <string name="pref_sub_down_path">Downloadlocatie voor ondertiteling</string>
     <string name="pref_sub_down_path_des">Map selecteren waar gedownloade ondertitelingen worden opgeslagen.</string>
     <string name="pref_media_down_path">Downloadlocatie voor media (Alleen bij Android Intern Downloadbeheer)</string>
-    <string name="pref_choose_media_down_manager">Standaard app voor downloadbeheer kiezen…</string>
+    <string name="pref_choose_media_down_manager">Standaard downloadbeheer kiezen…</string>
     <string name="pref_auto_check_update">Automatisch op updates controleren</string>
-    <string name="pref_auto_mark_episode_as_watched">Afleveringen automatisch als bekeken registreren</string>
+    <string name="pref_clear_cache">Cache legen</string>
+    <string name="pref_auto_mark_episode_as_watched">Afleveringen automatisch als bekeken markeren</string>
     <string name="pref_filter_out_non_english_shows">Niet-Engelse TV-series verbergen</string>
     <string name="pref_filter_out_dead_sources">Dode links verbergen</string>
-    <string name="pref_filter_out_dead_sources_desc">Verbergen leidt tot een langere laadtijd van links.</string>
+    <string name="pref_filter_out_dead_sources_desc">Verbergen leidt tot een langere laadtijd van links</string>
+    <string name="pref_filter_out_cam_version_links">CAM links verbergen</string>
+    <string name="pref_filter_out_cam_version_links_desc">Automatisch links met lage kwaliteit verbergen</string>
     <string name="pref_enable_new_episode_notification">Notificatie nieuwe aflevering inschakelen</string>
     <string name="pref_check_new_episode_frequency">Interval voor checken van nieuwe aflevering (in uren)</string>
     <string name="pref_hide_unaired_season">Nog niet uitgezonden seizoen verbergen</string>
@@ -137,36 +149,44 @@
     <string name="pref_hide_poster_thumb">Posterafbeelding verbergen</string>
     <string name="pref_hide_season_image">Seizoensafbeelding verbergen</string>
     <string name="pref_hide_episode_image">Afleveringsafbeelding verbergen</string>
-    <string name="pref_show_menu_source">Contextmenu bij een enkele klik in lijst met links tonen</string>
+    <string name="pref_show_menu_source">Afspeelopties bij selecteren link weergeven</string>
     <string name="pref_poster_size">Posterformaat</string>
-    <string name="pref_parallel_loading_sources">Parallel links laden</string>
-    <string name="pref_parallel_loading_sources_desc">Aanbevolen om deze optie in te schakelen om laadtijd van links te versnellen. Bij low-end apparaat kan dit tot crashes leiden.</string>
-    <string name="pref_choose_default_nav">Standaard beginscherm kiezen…</string>
+    <string name="pref_parallel_loading_sources">Links parallel laden</string>
+    <string name="pref_parallel_loading_sources_desc">Aanbevolen om deze optie in te schakelen om links sneller te laden. Schakel deze optie uit als de app traag is of regelmatig crasht.</string>
+    <string name="pref_simple_scrolling_on_tv">Simple scrolling voor Android TV</string>
+    <string name="simple_scrolling_is_enabled">Simple scrolling is ingeschakeld. In de instellingen is deze optie weer uit te schakelen.</string>
+    <string name="pref_choose_default_nav">Startpagina instellen…</string>
     <string name="pref_choose_default_category_tv_shows">Standaard categorie of genre voor TV-series kiezen…</string>
     <string name="pref_choose_default_category_movies">Standaard categorie of genre voor films kiezen…</string>
-    <string name="pref_enabled_tv_shows_providers">Bronnen TV-series selecteren…</string>
-    <string name="pref_enabled_movies_providers">Bronnen films selecteren…</string>
-    <string name="pref_enabled_resolvers">Aanbieders selecteren…</string>
-    <string name="pref_modern_ui">Moderne UI gebruiken</string>
-    <string name="pref_modern_ui_desc">Posters in plaats van banners tonen</string>
+    <string name="pref_enabled_tv_shows_providers">Aanbieders TV-series selecteren…</string>
+    <string name="pref_enabled_movies_providers">Aanbieders films selecteren…</string>
+    <string name="pref_enabled_resolvers">Resolvers selecteren…</string>
+    <string name="pref_modern_ui">Tegelinterface gebruiken</string>
+    <string name="pref_modern_ui_desc">Posters in plaats van banners weergeven</string>
     <string name="pref_choose_default_play_action">Afspeelstandaard kiezen…</string>
     <string name="pref_force_tv_mode">Android TV modus afdwingen</string>
-    <string name="pref_force_tv_mode_desc">Android TV gebruikersomgeving afdwingen</string>
+    <string name="pref_force_tv_mode_desc">Android TV interface weergeven</string>
     <string name="pref_choose_default_player">Standaard videospeler kiezen…</string>
-    <string name="pref_show_hd_sources_only">Alleen HD links tonen</string>
-    <string name="pref_show_season_special">Speciale afleveringen tonen</string>
+    <string name="pref_show_hd_sources_only">Alleen HD links weergeven</string>
+    <string name="pref_show_season_special">Speciale afleveringen weergeven</string>
+    <string name="pref_auto_backup_before_update">Automatisch back-ups maken voor een update</string>
+    <string name="pref_cc_subs_font_scale">Lettertypegrootte</string>
+    <string name="pref_cc_subs_font_color">Lettertypekleur</string>
+    <string name="pref_cc_subs_bg_color">Achtergrondkleur</string>
     <string name="pref_backup_settings">Back-up van instellingen maken</string>
-    <string name="pref_restore_settings">Back-up van instellingen herstellen</string>
+    <string name="pref_restore_settings">Instellingen herstellen</string>
     <string name="pref_backup_favorites">Back-up van favorieten maken</string>
-    <string name="pref_restore_favorites">Back-up van favorieten herstellen</string>
+    <string name="pref_restore_favorites">Favorieten herstellen</string>
+    <string name="pref_backup_watched_episodes">Back-up maken van bekeken afleveringen</string>
+    <string name="pref_restore_watched_episodes">Bekeken afleveringen herstellen</string>
     <string name="backup_path">Back-up maken naar \"%s\"</string>
-    <string name="restore_path">Back-up herstellen van \"%s\"</string>
+    <string name="restore_path">Herstellen van \"%s\"</string>
     <string name="backup_success">Back-up met succes gemaakt!</string>
     <string name="restore_success">Back-up met succes hersteld!</string>
     <string name="failed_to_backup">Back-up maken mislukt</string>
-    <string name="failed_to_restore">Back-up herstellen mislukt</string>
-    <string name="pref_resolve_all_links_immediately">Alle links direct gereedmaken</string>
-    <string name="pref_resolve_all_links_immediately_desc">Tijdens het laden alle links gereedmaken om direct te kunnen afspelen. Als deze optie uitgeschakeld is, dan maakt Terrarium TV alleen de link gereed die geselecteerd wordt. (Deze optie uitzetten bij app lagg!)</string>
+    <string name="failed_to_restore">Herstellen mislukt</string>
+    <string name="pref_resolve_all_links_immediately">Links gereedmaken voor direct afspelen</string>
+    <string name="pref_resolve_all_links_immediately_desc">Tijdens het laden alle links gereedmaken om direct te kunnen afspelen. Schakel deze optie uit als de app traag is of regelmatig crasht. Een Link wordt dan pas gereedgemaakt bij selecteren.</string>
     <string name="pref_sources_list_refresh_interval">Interval voor verversen lijst met links (in secondes)</string>
     <string name="pref_sources_list_refresh_interval_msg">Aanbevolen om deze waarde te verhogen als de app vastloopt tijdens het laden van links.</string>
     <string name="restart_to_see_the_difference">Herstart Terrarium TV om de aanpassingen te zien.</string>
@@ -188,7 +208,7 @@
     <string name="download_path_error">Downloadlocatie moet in de interne opslagruimte zijn. Kies een andere locatie.</string>
     <string name="copied_link">Link gekopieerd</string>
     <string name="link_must_be_played_in_app">Sorry… Deze link kan alleen worden afgespeeld in Terrarium TV…</string>
-    <string name="video_player_crashed_unexpectedly">Videospeler door onverwachte fout gestopt. Gebruik een andere videospeler.</string>
+    <string name="video_player_crashed_unexpectedly">Videospeler is door een onverwachte fout gestopt. Probeer een andere videospeler.</string>
     <string name="choose_subtitles_file">Ondertiteling selecteren…</string>
 
     <string name="update_title">Nieuwe versie beschikbaar : %s</string>
@@ -236,16 +256,31 @@
 
     <string name="tv_shows">TV-series</string>
     <string name="movies">Films</string>
+    <string name="downloads">Downloads</string>
+    <string name="tools">Tools</string>
 
     <string name="play_trailer">Trailer afspelen</string>
+    <string name="all">Alles</string>
+    <string name="tv_calendar">TV Gids</string>
 
     <string name="translators">Vertalers</string>
 
     <string name="pref_app_lang">Weergavetaal App</string>
 
     <string name="learn_more">Meer informatie</string>
+    <string name="choose_a_correct_date">Kies een geldige datum alstublieft</string>
+    <string name="cache_cleared">Cache geleegd!</string>
 
     <string name="new_episode">Nieuwe aflevering: %s</string>
+    <string name="default_value">Standaard: %s</string>
+    <string name="value_must_be_positive">Waarde moet positief zijn</string>
+
+    <string name="try_it">Probeer het!</string>
+    <string name="click_play_button_on_your_rc">Klik op de "Afspeelknop" of houdt "Enter" ingedrukt op de afstandbediening om direct af te spelen!</string>
+
+    <string name="in_progress">In behandeling</string>
+    <string name="finished">Voltooid</string>
+    <string name="file_not_found">Kan bestand niet vinden!</string>
 
     <string name="resolving">Gereedmaken</string>
     <string name="resolving_links">Links gereedmaken…</string>
@@ -254,9 +289,14 @@
     <string name="link_cant_be_resolved">Sorry… Deze link kan niet gereedgemaakt worden…</string>
 
     <string name="low_end_device_detected">Low-end apparaat gedetecteerd</string>
-    <string name="resolve_all_links_immediately_disabled">Het lijkt erop dat je Terrarium TV gebruikt op een low-end apparaat. Om de prestatie en gebruikerservaring te verbeteren, zijn \"Alle links direct gereedmaken\" en andere opties standaard uitgeschakeld. Het betekent dat voor sommige links geen bestandsgrootte wordt getoond en dat de app minder zal crashen of laggen. Om bestandsgrootte weer te tonen, ga naar \"Instellingen\" en schakel deze opties weer in.</string>
+    <string name="resolve_all_links_immediately_disabled">Het lijkt erop dat je Terrarium TV gebruikt op een low-end apparaat. Om de prestatie en gebruikerservaring te verbeteren, zijn \"Links gereedmaken voor direct afspelen\" en andere opties standaard uitgeschakeld. Voor sommige links zal daarom geen bestandsgrootte weergegeven worden. In de \"Instellingen\" zijn deze opties weer in te schakelen.</string>
 
-    <string name="media_route_menu_title">Afspelen…</string>
+    <string name="like_us_on_facebook_title">Like ons op Facebook!</string>
+    <string name="like_us_on_facebook_message">Vind je de app fijn? Like ons dan op Facebook om je waardering te laten blijken!</string>
+    <string name="like_us_on_facebook_yes">Vind ik leuk!</string>
+    <string name="dont_ask_again_checkbox">Niet opnieuw vragen</string>
+
+    <string name="media_route_menu_title">Cast to Chromecast</string>
     <string name="chromecast_available">Chromecast beschikbaar</string>
     <string name="chromecast_not_connected">Chromecast niet verbonden</string>
     <string name="chromecast_resume_failed">Video hervatten mislukt</string>
@@ -265,7 +305,16 @@
     <string name="google_play_services_not_installed">Google Play Services is niet geïnstalleerd</string>
     <string name="cant_cast_on_tv">Kan niet casten naar de Chromecast op Android TV</string>
 
-    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Een onverwachte fout heeft zich voorgedaan en is gemeld aan de ontwikkelaar.\nSorry voor het ongemak.\n\nAls de app vaker uitvalt, schakel dan bepaalde opties uit onder \"Prestaties\" in de \"Instellingen\".</string>
+    <string name="ttv_switch_season">Wissel tussen seizoenen met één klik</string>
+    <string name="ttv_switch_season_desc">Klik op deze knop om het menu weer te geven. Wissel naar een ander seizoen met één klik.</string>
+    <string name="ttv_switch_subtitles_provider">Wissel tussen ondertitelingsaanbieders</string>
+    <string name="ttv_switch_subtitles_provider_desc">Niet een juiste ondertiteling gevonden? Klik op deze knop om een andere ondertitelingsaanbieder te kiezen.</string>
+    <string name="ttv_set_episode_as_watched">Houd je bekeken afleveringen bij</string>
+    <string name="ttv_set_episode_as_watched_desc">Klik op dit vierkantje om een aflevering als bekeken te markeren. Klik opnieuw om als niet bekeken te markeren. Simpel, slim en snel!</string>
+    <string name="ttv_watch_now">Nu kijken!</string>
+    <string name="ttv_watch_now_desc">Klik op deze afspeelknop en kijk in HD kwaliteit!</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Een onverwachte fout heeft zich voorgedaan en is gemeld aan de ontwikkelaar.\nExcuses voor het ongemak.\n\nAls de app traag is of regelmatig crasht, schakel dan bepaalde opties uit onder \"Prestaties\" in de \"Instellingen\".</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Onbekende uitzondering</string>
     <string name="customactivityoncrash_error_activity_restart_app">Terrarium TV herstarten</string>
     <string name="customactivityoncrash_error_activity_close_app">Terrarium TV sluiten</string>
@@ -275,11 +324,4 @@
     <string name="customactivityoncrash_error_activity_error_details_copy">Naar klembord kopiëren</string>
     <string name="customactivityoncrash_error_activity_error_details_copied">Naar klembord gekopieerd</string>
     <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Foutinformatie</string>
-
-    <!-- DO NOT EDIT THE STRINGS BELOW -->
-    <string name="app_name" translatable="false">Terrarium TV</string>
-    <string name="about_app_title" translatable="false">About Terrarium TV</string>
-    <string name="about_app_message" translatable="false">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
-    <string name="official_website" translatable="false">https://terrariumtv.com</string>
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8258064054338881/3882561855</string>
 </resources>

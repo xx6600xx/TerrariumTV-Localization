@@ -7,22 +7,32 @@
     <string name="action_settings">Instillinger</string>
 
     <string name="no_data">Ingen data</string>
+    <string name="no_links_available">Ingen linker tilgjengelig</string>
     <string name="no_internet">Ingen Internett forbindelse</string>
     <string name="loading">Laster</string>
     <string name="loading_more">Laster mer…</string>
     <string name="action_search">Søk</string>
     <string name="action_bookmark">Bokmerk</string>
     <string name="action_add_to_bookmark">Legg til bokmerke</string>
-    <string name="action_refresh">Oppdater</string>
+    <string name="action_remove_from_bookmark">Fjern bokmerke</string>
+    <string name="action_refresh">Refresh</string>
     <string name="action_stop">Stopp</string>
+    <string name="action_next_episode">Neste episode</string>
     <string name="action_reverse">Baklengs</string>
     <string name="action_set_watched">Legg til som sett</string>
     <string name="action_remove_watched">Fjern fra sett</string>
+    <string name="action_share_app">Del app</string>
+    <string name="action_remove">Fjern</string>
+    <string name="action_remove_all">Fjern alle</string>
+    <string name="action_select_date">Velg dato</string>
+    <string name="show_all">Vis alle</string>
+    <string name="show_favorites_only">Bare vis favoritter</string>
+    <string name="sync_in_progress">Synk pågår…</string>
     <string name="hint_tv_show_name">TV seriens navn</string>
     <string name="hint_movie_name">Filmtittel</string>
     <string name="subtitle">Undertekst</string>
     <string name="unknown">Ukjent</string>
-    <string name="download_count">Nedlastingsteller :</string>
+    <string name="download_count">Nedlastningsteller: </string>
 
     <string name="season">Sesong %1$d</string>
     <string name="episode">Episode %1$d</string>
@@ -33,15 +43,15 @@
     <string name="downloading_subtitle_toast">Henter undertekst… Vennligst vent…</string>
     <string name="ready_to_play_toast">Videoen starter om et øyeblikk…</string>
     <string name="searching_media">Søker…</string>
-    <string name="subtitle_language">Undertekstspråk : </string>
+    <string name="subtitle_language">Undertekstspråk: </string>
     <string name="subtitle_download_failed">Hentning av undertekst feilet… Vennligst prøv en annen undertekst-fil…</string>
     <string name="subtitle_extract_failed">Utpakking av undertekst feilet… Vennligst prøv en annen undertekst-fil…</string>
     <string name="permission_grant_toast">Vennligst trykk \"Tillat\" for å gi tillatelse og prøv igen</string>
     <string name="sorry">Unnskyld…</string>
-    <string name="cant_be_opened_by_other_players">Denne kilden kan ikke bli åpnet eller avpilt av andre avspillere. Beklager det inntrufne.This source can\'t be opened or played by other video players.</string>
+    <string name="cant_be_opened_by_other_players">Denne kilden kan ikke bli åpnet eller avpilt av andre avspillere. Beklager det inntrufne.</string>
 
     <string name="ok">OK</string>
-    <string name="cancel">Annuller</string>
+    <string name="cancel">Avbryt</string>
     <string name="close">Lukk</string>
     <string name="install">Installer</string>
     <string name="close_ad_to_play">Vennligst lukk reklamen først for at avspille videoen</string>
@@ -66,6 +76,7 @@
     <string name="on_the_air">På TV i dag</string>
     <string name="top_rated">Høyeste karakter</string>
     <string name="now_playing">På kino</string>
+    <string name="new_hd_releases">Nye HD lanseringer</string>
 
     <string name="genre_tv_action_adventure">Action &amp; Adventure</string>
     <string name="genre_tv_sci_fantasy">Sci-Fi &amp; Fantasy</string>
@@ -73,63 +84,121 @@
     <string name="genre_tv_drama">Drama</string>
     <string name="genre_tv_comedy">Komedie</string>
     <string name="genre_tv_family">Familie</string>
+    <string name="genre_tv_western">Western</string>
     <string name="genre_tv_war_politics">Krig &amp; Politikk</string>
     <string name="genre_tv_reality">Reality</string>
     <string name="genre_tv_documentary">Dokumentar</string>
+    <string name="genre_tv_kids">Barn</string>
+    <string name="genre_tv_animation">Animasjon</string>
 
     <string name="genre_movie_action">Action</string>
     <string name="genre_movie_adventure">Adventure</string>
     <string name="genre_movie_thriller">Thriller</string>
     <string name="genre_movie_sci">Sci-Fi</string>
-    <string name="genre_movie_fantasy">Fantasy</string>
+    <string name="genre_movie_fantasy">Fantasi</string>
     <string name="genre_movie_mystery">Mysterie</string>
-    <string name="genre_movie_horror">Horror</string>
-    <string name="genre_movie_crime">Kriminalitet</string>
+    <string name="genre_movie_horror">Skrekk</string>
+    <string name="genre_movie_crime">Krim</string>
     <string name="genre_movie_drama">Drama</string>
     <string name="genre_movie_romance">Romantikk</string>
     <string name="genre_movie_comedy">Komedie</string>
     <string name="genre_movie_family">Familie</string>
     <string name="genre_movie_animation">Animasjon</string>
+    <string name="genre_movie_western">Western</string>
     <string name="genre_movie_history">Historie</string>
     <string name="genre_movie_war">Krig</string>
     <string name="genre_movie_documentary">Dokumentar</string>
     <string name="genre_movie_music">Musikk</string>
 
+    <string name="list_tv_netflix">Netflix</string>
+
+    <string name="list_movie_oscars_winners">Oscars vinnere</string>
+    <string name="list_movie_christmas">Jul</string>
+    <string name="list_movie_marvels">Marvel\'s</string>
+    <string name="list_movie_disney_classics">Disney klassikere</string>
+
+    <string name="filter_year">Sorter etter år</string>
+
     <string name="pref_general">Generelt</string>
+    <string name="pref_performance">Ytelse</string>
+    <string name="pref_new_episode_notification">Ny episode varsel</string>
+    <string name="pref_new_movie_release_notification">Ny filmlansering varsel</string>
     <string name="pref_ui">Brukerflate</string>
     <string name="pref_sources_and_resolvers">Kilder og resolvere</string>
     <string name="pref_subtitle">Undertekstspråk på OpenSubtitles og Subscene</string>
     <string name="pref_subtitle_chin">Undertekstspråk på SubHD, Makedie og Zimuku</string>
+    <string name="pref_chromecast_subtitles">Chromecast undertekst</string>
+    <string name="pref_backup_and_restore">Sikkerhetskopi og gjenopprett</string>
     <string name="pref_others">Andre</string>
 
-    <string name="pref_sub_down_path">Underteksters nedlastings-sti</string>
-    <string name="pref_sub_down_path_des">Undertekster blir nedlastet og lagt til denne sti.</string>
-    <string name="pref_media_down_path">Medie nedlastings-sti (Kun for Androids interne nedlastings-håndtering)</string>
+    <string name="pref_sub_down_path">Underteksters nedlastings-mappe</string>
+    <string name="pref_sub_down_path_des">Undertekster blir nedlastet og lagt til denne mappen.</string>
+    <string name="pref_media_down_path">Medie nedlastings-mappe (Kun for Androids interne nedlastings-håndtering)</string>
     <string name="pref_choose_media_down_manager">Velg standard nedlastings-håndtering…</string>
     <string name="pref_auto_check_update">Sjekk for oppdateringer automatisk</string>
+    <string name="pref_clear_cache">Tøm cache</string>
+    <string name="pref_auto_mark_episode_as_watched">Automarker episoder som sett</string>
     <string name="pref_filter_out_non_english_shows">Filtrer ut ikke-engelske TV serier</string>
     <string name="pref_filter_out_dead_sources">Filtrer ut døde kilder </string>
     <string name="pref_filter_out_dead_sources_desc">Det vil føre til lengre innlastingstid for kilder</string>
+    <string name="pref_filter_out_cam_version_links">Filtrer ut CAM versjon linker</string>
+    <string name="pref_filter_out_cam_version_links_desc">Filtrer ut dårlig kvalitet linker automatisk</string>
+    <string name="pref_enable_new_episode_notification">Aktiver ny episode varsler</string>
+    <string name="pref_check_new_episode_frequency">Sjekk etter nye episoder (timer)</string>
+    <string name="pref_enable_new_movie_release_notification">Aktiver nylanserte film varsler</string>
+    <string name="pref_check_new_movie_release_frequency">Sjekk etter nylanserte filmer (timer)</string>
     <string name="pref_hide_unaired_season">Skjul ikke viste sesonger</string>
     <string name="pref_hide_unaired_episode">Skjul ikke viste episoder</string>
     <string name="pref_subtitles_filter">Filtrer ut ikke matchede undertekster </string>
     <string name="pref_subtitles_choose_lang">Velg undertekstspråk…</string>
+    <string name="pref_hide_poster_thumb">Skjul poster miniatyrbilder</string>
     <string name="pref_hide_season_image">Skjul sesong miniatyrbilder</string>
     <string name="pref_hide_episode_image">Skjul episode miniatyrbilder</string>
-    <string name="pref_show_menu_source">Vis kontekst meny ved enkeltklik på listen over kilder</string>
-    <string name="pref_poster_size">Medieplakat størrelse</string>
-    <string name="pref_parallel_loading_sources">Parallell kildeinnlasting</string>
-    <string name="pref_parallel_loading_sources_desc">Sterkt anbefalt å slå på. Gør innastingen av kilder 5x hurtigere. Det kan dog forårsake nedbrudd på hardware med begrenset ytelse.</string>
+    <string name="pref_hide_episode_synopsis">Skjul episode synopsis</string>
+    <string name="pref_show_menu_source">Vis meny med enkelt klikk i kilde listen</string>
+    <string name="pref_poster_size">Media poster størrelse</string>
+    <string name="pref_parallel_loading_sources">Parallel kilder laster</string>
+    <string name="pref_parallel_loading_sources_desc">Sterkt foreslått å aktivere. Fremskynde kilder lasting hastighet med 5x. Det kan imidlertid føre til at FC eller krasj på noen lav-ytelse enheter.</string>
+    <string name="pref_simple_scrolling_on_tv">Enkel scrolling på Android TV</string>
+    <string name="simple_scrolling_is_enabled">Enkel scrolling er aktiver. Du kan deaktivere den i Innstillinger.</string>
     <string name="pref_choose_default_nav">Velg standard navigering…</string>
     <string name="pref_choose_default_category_tv_shows">Velg standard TV serie kategori eller sjanger…</string>
     <string name="pref_choose_default_category_movies">Velg standard film kategori eller sjanger…</string>
-    <string name="pref_enabled_tv_shows_providers">Velg hvilke TV serie tilbydere som skal slås på…</string>
-    <string name="pref_enabled_movies_providers">Velg hvilke film tilbydere som skal slås på…</string>
-    <string name="pref_enabled_resolvers">Velg resolvere som slås på…</string>
-    <string name="pref_modern_ui">Bruk moderne UI</string>
+    <string name="pref_enabled_tv_shows_providers">Velg TV serie leverandører som skal aktiveres…</string>
+    <string name="pref_enabled_movies_providers">Velg film leverandører som skal aktiveres…</string>
+    <string name="pref_enabled_resolvers">Velg linkløser som skal aktiveres…</string>
+    <string name="pref_modern_ui">Bruk moderne brukerflate</string>
     <string name="pref_modern_ui_desc">Vis medieplakater i stedet for bannere</string>
     <string name="pref_choose_default_play_action">Velg standard avspillingshandling…</string>
-    <string name="restart_to_see_the_difference">Restart venligst Terrarium TV for at se endringen.</string>
+    <string name="pref_force_tv_mode">Tving Android TV modus</string>
+    <string name="pref_force_tv_mode_desc">Vis Android TV-layout med tvang</string>
+    <string name="pref_force_landscape_mode_on_tv">Tving Landscape Mode på Android TV</string>
+    <string name="pref_choose_default_player">Velg standard videospiller…</string>
+    <string name="pref_show_hd_sources_only">Vis kun HD-linker</string>
+    <string name="pref_show_season_special">Vis sesongspesial</string>
+    <string name="pref_auto_backup_before_update">Automatisk sikkerhetskopier før oppdatering</string>
+    <string name="pref_cc_subs_font_scale">Skriftstørrelse skala</string>
+    <string name="pref_cc_subs_font_color">Skift farge</string>
+    <string name="pref_cc_subs_bg_color">Bakgrunn farge</string>
+    <string name="pref_backup_settings">Sikkerhetskopier instillinger</string>
+    <string name="pref_restore_settings">Gjenopprett instillinger</string>
+    <string name="pref_backup_favorites">Sikkerhetskopier favoritter</string>
+    <string name="pref_restore_favorites">Gjenopprett favoritter</string>
+    <string name="pref_backup_watched_episodes">Sikkerhetskopier sette episodelogg</string>
+    <string name="pref_restore_watched_episodes">Gjenopprett sette episodelogg</string>
+    <string name="backup_path">Sikkerhetkopier til \"%s\"</string>
+    <string name="restore_path">Gjenopprett fra \"%s\"</string>
+    <string name="backup_success">Ferdig sikkerhetskopiert!</string>
+    <string name="restore_success">Ferdig gjenopprett!</string>
+    <string name="failed_to_backup">Kunne ikke sikkerhetskopiere</string>
+    <string name="failed_to_restore">Kunne ikke gjenopprettes</string>
+    <string name="pref_resolve_all_links_immediately">Løs opp alle linker umiddelbart</string>
+    <string name="pref_resolve_all_links_immediately_desc">Løs opp alle linker til direkte avspillingslinker umiddelbart. Hvis dette alternativet er deaktivert, vil Terrarium TV bare løse linken når brukeren klikker på den. (Skru denne av når appen hakker!)</string>
+    <string name="pref_auto_resolve_hd_links_only">Løs opp HD-linker automatisk</string>
+    <string name="pref_sources_list_refresh_interval">Kildeliste oppdateringsintervall (sekunder)</string>
+    <string name="pref_sources_list_refresh_interval_msg">Hvis appen fryser mens du laster inn for koblinger, må du øke verdien.</string>
+    <string name="restart_to_see_the_difference">Vennligst start på på nytt Terrarium TV for å se forskjellen.</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"Løs opp alle linker umiddelbart\" er deaktivert</string>
 
     <string name="download_manager_internal">Android interne nedlastingshåndtering</string>
     <string name="download_manager_external">Eksterne nedlastingshåndtering(er)</string>
@@ -143,11 +212,13 @@
     <string name="choose_player">Velg en video avspiller…</string>
     <string name="no_player_was_found">Ingen video avspiller ble funnet</string>
     <string name="choose_external_download_manager">Velg en ekstern nedlastingshåndtering…</string>
-    <string name="no_external_download_manager_was_found">Ingen eksterne nedlastingshåndteringer fundet. Vennligst bruk Androids interne nedlastingshåndtering eller installer en fra Play Butikken</string>
+    <string name="no_external_download_manager_was_found">Ingen eksterne nedlastingshåndteringer funnet. Vennligst bruk Androids interne nedlastingshåndtering eller installer en fra Play Butikk</string>
     <string name="download_started">Nedlasting startet…</string>
-    <string name="download_path_error">Nedlastings sti skal være på det interne minnet. Vennligst bruk en annen sti.</string>
+    <string name="download_path_error">Nedlastings mappen skal være på det interne minnet. Vennligst bruk en annen mappe.</string>
     <string name="copied_link">Kopierte strøm-bare link</string>
     <string name="link_must_be_played_in_app">Beklager… Denne linken kan kun spilles av i Terrarium TV…</string>
+    <string name="video_player_crashed_unexpectedly">Spilleren krasjet uventet. Prøv å bruke en annen videospiller for å spille av videoen.</string>
+    <string name="choose_subtitles_file">Velg undertekst fil…</string>
 
     <string name="update_title">Ny versjon funnet : %s</string>
     <string name="update_message">Version %s : </string>
@@ -155,21 +226,24 @@
     <string name="update_downloading">Laster ned oppdatering %s</string>
     <string name="update_failed">Oppdatering feilet eller ble avbrutt</string>
 
-    <string name="subtitle_name">Undertekst navn : </string>
+    <string name="subtitle_name">Undertekst navn: </string>
 
     <string name="facebook_page">Facebookside</string>
+    <string name="official_website_menuitem">Offisiell nettside</string>
 
     <string name="changelog">Endringslogg</string>
     <string name="choose_browser">Velg en browser</string>
+    <string name="choose_app">Velg en app…</string>
 
     <string name="disclaimer">Ansvarsfraskrivelse</string>
     <string name="accept">Aksepter</string>
     <string name="decline">Avvis</string>
 
+    <string name="cant_open_youtube">Kan ikke åpne YouTube. Prøv igjen senere.</string>
     <string name="error">Ukjent feil. Vennligst prøv på nytt.</string>
     <string name="please_wait">Vennligst vent…</string>
 
-    <string name="recaptcha_verify">Du skal verifisere en reCaptcha for at få kilder fra %s</string>
+    <string name="recaptcha_verify">Du må verifisere en reCaptcha for at få kilder fra %s</string>
     <string name="verify">Verifiser</string>
 
     <string name="size_large">Stor</string>
@@ -180,6 +254,7 @@
     <string name="show_details_season">SESONG</string>
     <string name="media_suggestion">Se også</string>
     <string name="no_synopsis">Ingen synopsis</string>
+    <string name="synopsis_is_hidden">Synopsis er skjult</string>
     <string name="loading_ratings">Laster ratings…</string>
     <string name="no_ratings">Ingen ratings</string>
     <string name="meta_in_production">Under Produsjon</string>
@@ -191,19 +266,76 @@
 
     <string name="tv_shows">TV serier</string>
     <string name="movies">Filmer</string>
+    <string name="downloads">Nedlastninger</string>
+    <string name="tools">Verktøy</string>
 
     <string name="play_trailer">Spill av trailer</string>
+    <string name="all">Alle</string>
+    <string name="tv_calendar">TV Kalender</string>
+    <string name="always_ask">Spør alltid</string>
 
     <string name="translators">Oversettere</string>
 
     <string name="pref_app_lang">App Språk</string>
 
-    <string name="learn_more">Learn More</string>
+    <string name="learn_more">Lær mer</string>
+    <string name="choose_a_correct_date">Velg riktig dato</string>
+    <string name="cache_cleared">Cache tømt!</string>
 
-    <!-- DO NOT EDIT THE STRINGS BELOW -->
-    <string name="app_name">Terrarium TV</string>
-    <string name="about_app_title">About Terrarium TV</string>
-    <string name="about_app_message">Terrarium TV (Version : %s)\nMade by Peter Chan (NitroXenon) | All Copyright Reserved\n\nOfficial Website : https://terrariumtv.com\n\nOfficial Facebook Page : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nTerrarium is absolutely legal and contain only links to other sites on the Internet (SezonlukDizi, Dizimag, TheVideo, ZStream, etc). It does not host or upload any videos, films or media files. Terrarium simply aggregates links in a convenient, user-friendly interface. Terrarium is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. If you have any legal issues, please contact the appropriate media file owners or host sites. Any legal issues regarding the free online tv shows and movies on this application should be taken up with the actual file hosts and providers themselves, as we\'re not affiliated with them.\n\nIn case of copyright infringement, please directly contact the responsible parties. Terrarium TV operates as a search engine of TV shows and movies content found publicly available on the internet, in principle conducting in the same way as Google. However, Terrarium TV strongly believes in the protection of intellectual property and would be willing to assist when possible and applicable. Terrarium TV does not accept respons or content hoste on third party websites, nor do we upload videos ourselves or encourage others to do so. The videos are streamed directly from the third-party video sharing services mentioned above. All other trademarks, logos, and images are the property of their respective and rightful owners.\n\nUse Terrarium TV at your own risk.</string>
-    <string name="official_website">https://terrariumtv.com</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8258064054338881/3882561855</string>
+    <string name="new_episode">Ny episode: %s</string>
+    <string name="default_value">Standard: %s</string>
+    <string name="value_must_be_positive">Verdi må vær positiv</string>
+
+    <string name="try_it">Prøv det!</string>
+    <string name="click_play_button_on_your_rc">Trykk på "Play"-knappen eller trykk lenge på "Enter"-knappen på fjernkontrollen for å spille av umiddelbart!</string>
+    <string name="press_back_again_to_exit">Trykk TILBAKE for å avslutte</string>
+    <string name="in_progress">Pågår…</string>
+    <string name="finished">Ferdig</string>
+    <string name="file_not_found">Fil ikke funnet!</string>
+
+    <string name="resolving">Løser opp</string>
+    <string name="resolving_links">Løser opp linker…</string>
+    <string name="failed_to_resolve_link">Kunne ikke løse denne linken. Vennligst prøv en annen link i stedet.</string>
+    <string name="no_streamlink_is_available">Feil… Ingen strøm-link er tilgjengelig nå…</string>
+    <string name="link_cant_be_resolved">Feil… Denne linken kan ikke løses…</string>
+
+    <string name="low_end_device_detected">Lav-ytelse enhet oppdaget</string>
+    <string name="resolve_all_links_immediately_disabled">Det ser ut til at du bruker Terrarium TV på en lav-ytelse-enhet. På grunn av ytelsesforbedring og forbedring av brukeropplevelsen, \"Løs opp alle koblinger umiddelbart\" og funksjoner er deaktivert som standard. Du vil ikke se filstørrelse for noen linker nå, men appen vil ikke krasje og lagre igjen. Hvis du vil se filstørrelsen på alle linkene på nytt, kan du gå til siden \"Innstillinger\" og aktivere disse alternativene.</string>
+
+    <string name="android_download_manager_is_disabled">Android Download Manager er deaktivert</string>
+    <string name="android_download_manager_is_disabled_msg">For å laste ned filer må du aktivere den interne Android Download Manager først. Klikk på "OK" for å fortsette.</string>
+
+    <string name="like_us_on_facebook_title">Lik oss på Facebook!</string>
+    <string name="like_us_on_facebook_message">Tror du at denne appen er nyttig? Lik oss på Facebook for å vise din støtte!</string>
+    <string name="like_us_on_facebook_yes">Lik!</string>
+    <string name="dont_ask_again_checkbox">Ikke spør igjen</string>
+
+    <string name="media_route_menu_title">Spill av…</string>
+    <string name="chromecast_available">Chromecast tilgjengelig</string>
+    <string name="chromecast_not_connected">Chromecast ikke tilkoblet</string>
+    <string name="chromecast_resume_failed">Gjenoppta videoavspilling mislyktes</string>
+    <string name="chromecast_failed_to_play">Kunne ikke spille av video</string>
+    <string name="video_cant_be_casted">Denne videoen kan ikke kastes til Chromecast</string>
+    <string name="google_play_services_not_installed">Google Play tjenester ikke installert</string>
+    <string name="cant_cast_on_tv">Kan ikke kaste til Chromecast på Android TV-enheter</string>
+
+    <string name="ttv_switch_season">Bytt sesong med ett klikk</string>
+    <string name="ttv_switch_season_desc">Bare klikk på denne knappen for å få ned rullegardinmenyen. Bytt til en annen sesong med bare ett klikk.</string>
+    <string name="ttv_switch_subtitles_provider">Bytt undertekst-leverandør</string>
+    <string name="ttv_switch_subtitles_provider_desc">Fant det ikke noen passende undertekster? Klikk på det og velg en annen undertekst-leverandør.</string>
+    <string name="ttv_set_episode_as_watched">Sett episoden som sett</string>
+    <string name="ttv_set_episode_as_watched_desc">Klikk denne boksen for å angi denne episoden som sett. Klikk igjen for å angi det som usett. Enkel, smart og rask!</string>
+    <string name="ttv_watch_now">Se nå!</string>
+    <string name="ttv_watch_now_desc">Klikk på denne avspillingsknappen og se i HD gratis!</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">En uventet feil oppstod, og det har blitt rapportert til utvikleren. Hvis appen fortsetter å krasje, må du justere innstillingene \"Ytelse\" på siden \"Innstillinger\".</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Ukjent unntak</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">Steng Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error detaljer</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Feil detaljer</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Steng</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Kopiere til utklippstavle</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Kopiert til utklippstavlen</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Feil informasjon</string>
 </resources>
