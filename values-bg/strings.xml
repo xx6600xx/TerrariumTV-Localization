@@ -17,12 +17,14 @@
     <string name="action_remove_from_bookmark">Премахване от любими</string>
     <string name="action_refresh">Опресняване</string>
     <string name="action_stop">Спиране</string>
+    <string name="action_switch_player">Промяна на плейъра</string>
     <string name="action_next_episode">Следващ епизод</string>
     <string name="action_reverse">Обратно</string>
     <string name="action_set_watched">Означаване като гледан</string>
     <string name="action_remove_watched">Означаване като не гледан</string>
     <string name="action_share_app">Споделяне на приложението</string>
     <string name="action_remove">Премахване</string>
+    <string name="action_remove_with_files">Премахване с файловете</string>
     <string name="action_remove_all">Премахване на всички</string>
     <string name="action_select_date">Избор на дата</string>
     <string name="show_all">Показване на всички</string>
@@ -42,7 +44,11 @@
     <string name="getting_subtitle">Получаване на субтитри… Please wait…</string>
     <string name="downloading_subtitle_toast">Изтегляне на субтитри… Моля, изчакайте…</string>
     <string name="ready_to_play_toast">Филмът ще започне след секунди…</string>
+    <string name="search_something">Търсене на нещо…</string>
     <string name="searching_media">Търсене…</string>
+    <string name="no_tv_shows_found">Не са открити сериали</string>			
+	<string name="no_movies_found">Не са открити филми</string>			
+	<string name="no_favorite_shows_airing_that_day">В този ден не излъчват любими сериали</string>
     <string name="subtitle_language">Език на субтитрите: </string>
     <string name="subtitle_download_failed">Неуспешно изтегляне на субтитри… Моля, опитайте с други субтитри…</string>
     <string name="subtitle_extract_failed">Неуспешно извличане на субтитри… Моля, опитайте с други субтитри…</string>
@@ -67,7 +73,7 @@
     <string name="vlc_player_unable_to_start_message">VLC плейър не може да стартира. Моля, преинсталирайте го и опитайте отново.</string>
 
     <string name="trending">Налагащи се</string>
-    <string name="most_popular">Най-известни</string>
+    <string name="most_popular">Най-популярни</string>
     <string name="most_played">Най-пускани</string>
     <string name="most_watched">Най-гледани</string>
     <string name="recently_updated">Последно актуализирани</string>
@@ -81,11 +87,13 @@
     <string name="genre_tv_action_adventure">Екшън и приключенски</string>
     <string name="genre_tv_sci_fantasy">Научна фантастика и фентъзи</string>
     <string name="genre_tv_mystery">Мистерия</string>
+    <string name="genre_tv_crime">Криминални</string>
     <string name="genre_tv_drama">Драма</string>
     <string name="genre_tv_comedy">Комедия</string>
     <string name="genre_tv_family">Семейни</string>
     <string name="genre_tv_western">Уестърн</string>
     <string name="genre_tv_war_politics">Военни и политически</string>
+    <string name="genre_tv_soap">Сапунени опери</string>
     <string name="genre_tv_reality">Риалити</string>
     <string name="genre_tv_documentary">Документални</string>
     <string name="genre_tv_kids">Детски</string>
@@ -110,12 +118,11 @@
     <string name="genre_movie_documentary">Документални</string>
     <string name="genre_movie_music">Музикални</string>
 
-    <string name="list_tv_netflix">Netflix</string>
-
+    <string name="list_stand_up_comedy">Стендъп комедии</string>
     <string name="list_movie_oscars_winners">Печелили Оскар</string>
     <string name="list_movie_christmas">Коледни</string>
     <string name="list_movie_marvels">Marvel</string>
-    <string name="list_movie_disney_classics">Класики да Дисни</string>
+    <string name="list_movie_disney_classics">Класики на Дисни</string>
 
     <string name="filter_year">Филтър по година</string>
 
@@ -123,6 +130,7 @@
     <string name="pref_performance">Производителност</string>
     <string name="pref_new_episode_notification">Известия за нови епизоди</string>
     <string name="pref_new_movie_release_notification">Известия за нови филмови издания</string>
+    <string name="pref_playback">Възпроизвеждане</string>
     <string name="pref_ui">Потребителски интерфейс</string>
     <string name="pref_sources_and_resolvers">Доставчици и ризолвъри</string>
     <string name="pref_subtitle">Език на субтитрите от OpenSubtitles и Subscene</string>
@@ -152,9 +160,11 @@
     <string name="pref_subtitles_choose_lang">Избор на език (езици) на субтитрите…</string>
     <string name="pref_synopsis_choose_lang">Избор на език на резюмето…</string>
     <string name="pref_hide_poster_thumb">Скриване миниатюрите на плакатите</string>
+    <string name="pref_hide_title_and_year_under_posters">Скриване на заглавието и годината под плакатите</string>
     <string name="pref_hide_season_image">Скриване миниатюрите на сезоните</string>
     <string name="pref_hide_episode_image">Скриване миниатюрите на епизодите</string>
     <string name="pref_hide_episode_synopsis">Скриване резюмето на епизодите</string>
+    <string name="pref_hide_recaptcha_verification_message">Скриване на съобщението за проверка с reCaptcha</string>
     <string name="pref_show_menu_source">Показване на менюто с едно докосване в списъка с източници</string>
     <string name="pref_poster_size">Размер на плаката на медията</string>
     <string name="pref_parallel_loading_sources">Паралелно зареждане на източниците</string>
@@ -169,7 +179,8 @@
     <string name="pref_enabled_resolvers">Избор на ризолвъри…</string>
     <string name="pref_modern_ui">Използване на модерен интерфейс</string>
     <string name="pref_modern_ui_desc">Показване на медийни плакати вместо банери</string>
-    <string name="pref_choose_default_play_action">Избор на действие по подразб. за възпроизвеждане…</string>
+    <string name="pref_choose_default_play_action">Избор на действие за възпр. по подразб. …</string>
+    <string name="pref_default_continue_playback_option">Избор на опция за продълж. на възпр. по подразб.…</string>
     <string name="pref_force_tv_mode">Принудителен режим Android TV</string>
     <string name="pref_force_tv_mode_desc">Принудит. показв. оформлението за Android TV</string>
     <string name="pref_force_landscape_mode_on_tv">Принудит. пейзажен режим на Android TV</string>
@@ -202,13 +213,19 @@
 
     <string name="download_manager_internal">Вътрешен мениджър за изтегляне на Android</string>
     <string name="download_manager_external">Външен мениджър(и) за изтегляне</string>
+    
+    <string name="option_player_default">Стандартно за плейъра</string>
+    <string name="option_always_ask">Винаги да се пита</string>
+    <string name="option_start_over">Стартиране отначало</string>
+    <string name="option_resume">Възобновяване</string>
+    <string name="do_you_wish_to_resume">Искате ли да продължите от там, откъдето сте спрели?</string>
 
     <string name="action_play">Възпроизвеждане</string>
     <string name="action_play_with_subs">Възпроизвеждане със субтитри</string>
     <string name="action_download">Изтегляне</string>
     <string name="action_download_with_subs">Изтегляне със субтитри</string>
     <string name="action_copy_link">Копиране на връзката към потока</string>
-    <string name="action_play_via_other_players">Отваряне с…</string>
+    <string name="action_play_via_other_players">Възпроизвеждане с…</string>
     <string name="choose_player">Избор на видео плейър…</string>
     <string name="no_player_was_found">Не е намерен видео плейър</string>
     <string name="choose_external_download_manager">Избор на външен мениджър за изтегляне…</string>
@@ -235,7 +252,7 @@
     <string name="choose_browser">Изберете браузър</string>
     <string name="choose_app">Избор на приложение…</string>
 
-    <string name="disclaimer">Отказ от права</string>
+    <string name="disclaimer">Отказ от отговорност</string>
     <string name="accept">Приемам</string>
     <string name="decline">Отказвам</string>
 
@@ -243,7 +260,7 @@
     <string name="error">Неизвестна грешка. Моля, опитайте отново.</string>
     <string name="please_wait">Моля, изчакайте…</string>
 
-    <string name="recaptcha_verify">Необходимо е да изпълните reCaptcha, за да получите източници от %s</string>
+    <string name="recaptcha_verify">Трябва да изпълните reCaptcha, за да получите източници от %s</string>
     <string name="verify">Проверка</string>
 
     <string name="size_large">Голям</string>
@@ -281,6 +298,7 @@
     <string name="learn_more">Научете повече</string>
     <string name="choose_a_correct_date">Моля, изберете правилна дата</string>
     <string name="cache_cleared">Кешът е изчистен!</string>
+    <string name="error_details">Грешка: %s</string>
 
     <string name="new_episode">Нов епизод: %s</string>
     <string name="default_value">По подразбиране: %s</string>
@@ -311,14 +329,16 @@
     <string name="like_us_on_facebook_yes">Харесвам!</string>
     <string name="dont_ask_again_checkbox">Не питай отново</string>
 
-    <string name="media_route_menu_title">Cast to Chromecast</string>
+    <string name="media_route_menu_title">Предаване към Chromecast…</string>
     <string name="chromecast_available">Налице е Chromecast</string>
     <string name="chromecast_not_connected">Chromecast не е свързан</string>
     <string name="chromecast_resume_failed">Неуспешно възобновяване на възпроизвеждането</string>
     <string name="chromecast_failed_to_play">Неуспешно възпроизвеждане на видео</string>
     <string name="video_cant_be_casted">Този видеоклип не може да бъде пуснат в Chromecast</string>
+    <string name="cant_be_casted_message">Тази връзка не може да бъде предадена чрез вградената функция за Chromecast, поради някои технически ограничения. Моля, използвайте LocalCast или AllCast, за да предавате тази връзка.</string>
     <string name="google_play_services_not_installed">„Услуги на Google Play“ не е инсталирано</string>
     <string name="cant_cast_on_tv">Не може да се предава в Chromecast на устройства с Android TV</string>
+    <string name="preparing_to_cast">Подготовка за предаване…</string>
 
     <string name="ttv_switch_season">Сменете сезона с едно докосване</string>
     <string name="ttv_switch_season_desc">Просто натиснете този бутон, за да се отвори падащото меню. Превключете към друг сезон само с едно докосване.</string>
@@ -326,8 +346,35 @@
     <string name="ttv_switch_subtitles_provider_desc">Не намерихте подходящи субтитри? Натиснете върху тях и изберете друг доставчик на субтитри.</string>
     <string name="ttv_set_episode_as_watched">Маркиране на епизода като гледан</string>
     <string name="ttv_set_episode_as_watched_desc">Натиснете върху това поле, за да маркирате този епизод като гледан. Натиснете отново, за да го маркирате като не гледан. Просто, интелигентно и бързо!</string>
-    <string name="ttv_watch_now">Гледане сега!</string>
+    <string name="ttv_watch_now">Гледайте сега!</string>
     <string name="ttv_watch_now_desc">Натиснете бутона за възпроизвеждане и гледайте в HD безплатно!</string>
+    <string name="ttv_watch_new_movies_now">Гледайте %1$d нови филма сега!</string>
+    
+    <string name="exo_player_resize_mode">Режим на преоразмеряване</string>
+    <string name="exo_player_fit_to_screen">Побиране в екрана</string>
+    <string name="exo_player_stretch">Разпъване</string>
+    <string name="exo_player_crop">Изрязване</string>
+    <string name="exo_player_fixed_width">Побиране по ширина</string>
+    <string name="exo_player_fixed_height">Побиране по височина</string>
+
+    <string name="exo_player_disabled">Изключен</string>
+    <string name="exo_player_default">По подразбиране</string>
+    <string name="exo_player_volume">Сила на звука: %s</string>
+    <string name="exo_player_brightness">Яркост: %s</string>
+    <string name="exo_player_sound_tracks">Звукови потоци</string>
+    <string name="exo_player_error_unable_to_set_subs_style">Не може да се зададе стил на субтитрите</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">Медийният файл съдържа видео потоци, но никой от тях не може да се възпроизведе от това устройство</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">Медийният файл съдържа видео потоци, но никой от тях не може да се възпроизведе от това устройство</string>
+    <string name="exo_player_error_unable_to_parse_subs">Не може да се анализират субтитрите</string>
+    <string name="exo_player_error_unable_to_render_subs">Това устройство не може да показва субтитри</string>
+    <string name="exo_player_error_unable_to_query_decoders">Не може да се заявят декодери на устройството</string>
+    <string name="exo_player_error_no_decoder">Това устройство не осигурява декодер за %s</string>
+    <string name="exo_player_error_no_secure_decoder">Това устройство не осигурява защитен декодер за %s</string>
+    <string name="exo_player_error_unable_to_init_decoder">Невъзможно е да се създаде декодер %s</string>
+    <string name="exo_player_error_too_many_requests">Твърде много заявки. Моля, опитайте да не превъртате напред или назад, иначе видеоклипът ще спре</string>
+    <string name="exo_player_error">Грешка на плейъра: %s</string>
+    <string name="exo_player_error_http">HTTP грешка: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">Източникът на мултимедия не съществува</string>
 
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Възникна неочаквана грешка и бе съобщена на програмиста.\nСъжаляваме за неудобството.\n\nАко приложението продължава да се срива, моля променете настройките „Производителност“ на страницата „Настройки“.</string>
     <string name="customactivityoncrash_error_activity_unknown_exception">Неизвестно изключение</string>
