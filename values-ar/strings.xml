@@ -1,202 +1,404 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="language_zh_tw">صينية تقليدية</string>
-    <string name="language_zh_cn">صينية مبسطة</string>
-    <string name="language_en">انكليزية</string>
+    <string name="language_zh_tw">الصينية التقليدية</string>
+    <string name="language_zh_cn">الصينية المبسطة</string>
+    <string name="language_en">الإنجليزية</string>
 
     <string name="action_settings">الإعدادات</string>
 
-    <string name="no_data">لا يوجد بيانات</string>
-    <string name="no_internet">لا اتصال بالانترنت</string>
+    <string name="no_data">لايوجد بيانات</string>
+    <string name="no_links_available">لا يتوفر أي روابط</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
     <string name="loading">جاري التحميل</string>
-    <string name="loading_more">جاري تحميل المزيد… </string>
-    <string name="action_search">بحث</string>
-    <string name="action_bookmark">المفضلات</string>
-    <string name="action_add_to_bookmark">أضف إلى المفضلات</string>
+    <string name="loading_more">جاري تحميل المزيد...</string>
+    <string name="action_search">البحث</string>
+    <string name="action_bookmark">المفضلة</string>
+    <string name="action_add_to_bookmark">إضافة إلى المفضلة</string>
+    <string name="action_remove_from_bookmark">إزالة المفضلة</string>
     <string name="action_refresh">تحديث</string>
     <string name="action_stop">إيقاف</string>
+    <string name="action_switch_player">تغيير المشغل</string>
+    <string name="action_next_episode">الحلقة التالية</string>
     <string name="action_reverse">عكس</string>
-    <string name="action_set_watched">شوهد</string>
-    <string name="action_remove_watched">لم يشاهد</string>
+    <string name="action_set_watched">حدد كمشاهد</string>
+    <string name="action_remove_watched">إزاله من المشاهدة</string>
+    <string name="action_share_app">مشاركة التطبيق</string>
+    <string name="action_remove">إزالة</string>
+    <string name="action_remove_with_files">إزالة مع الملفات</string>
+    <string name="action_remove_all">إزالة الكل</string>
+    <string name="action_select_date">حدد التاريخ</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="show_favorites_only">عرض المفضلة فقط</string>
+    <string name="sync_in_progress">المزامنة قيد التقدم…</string>
     <string name="hint_tv_show_name">اسم المسلسل</string>
-    <string name="hint_movie_name">اسم الفيلم</string>
-    <string name="subtitle">الترجمة</string>
-    <string name="unknown">غير معروف</string>
-    <string name="download_count">عدد التحميلات: </string>
+    <string name="hint_movie_name">اسم الفلم</string>
+    <string name="subtitle">الترجمات</string>
+    <string name="unknown">مجهول</string>
+    <string name="download_count">إجمالي التنزيل:</string>
 
     <string name="season">الموسم %1$d</string>
     <string name="episode">الحلقة %1$d</string>
-    <string name="season_episode">%1$s - Season %2$d Episode %3$d</string>
-    <string name="season_special">حلقة خاصة</string>
+    <string name="season_episode">%1$s - الموسم %2$d الحلقة %3$d</string>
+    <string name="season_special">الموسم الخاص</string>
     <string name="search_result_of">نتائج البحث عن \"%s\"</string>
-    <string name="getting_subtitle">… جاري الحصول على الترجمات… انتظر قليلا</string>
-    <string name="downloading_subtitle_toast">… جاري تحميل الترجمة… انتظر قليلا. </string>
-    <string name="ready_to_play_toast">سيبدأ خلال ثوانٍ</string>
-    <string name="searching_media">جاري البحث</string>
-    <string name="subtitle_language">لغات الترجمة: </string>
-    <string name="subtitle_download_failed">فشل تحميل الترجمة… اختر ترجمة أخرى</string>
-    <string name="subtitle_extract_failed">فشل فك ضغط الترجمة.. اختر ترجمة أخرى</string>
-    <string name="permission_grant_toast">رجاء اكبس "سماح" وحاول مجدداً</string>
-    <string name="sorry">عذراً… </string>
-    <string name="cant_be_opened_by_other_players">لا يمكن تشغيل هذا المصدر بمشغل خارجي</string>
+    <string name="getting_subtitle">الحصول على الترجمات… الرجاء الانتظار…</string>
+    <string name="downloading_subtitle_toast">تنزيل الترجمات… الرجاء الانتظار…</string>
+    <string name="ready_to_play_toast">سيتم تشغيل الفيديو خلال ثواني…</string>
+    <string name="search_something">البحث عن شيء…</string>
+    <string name="searching_media">البحث…</string>
+    <string name="no_tv_shows_found">لم يعثر على مسلسلات</string>
+    <string name="no_movies_found">لم يعثر على أفلام</string>
+    <string name="no_favorite_shows_airing_that_day">لايوجد بث للمسلسلات المفضلة في ذلك اليوم </string>
+    <string name="subtitle_language">لغة الترجمة : </string>
+    <string name="subtitle_download_failed">فشل تنزيل الترجمات… الرجاء تجربة ترجمات أخرى…</string>
+    <string name="subtitle_extract_failed">فشل استخراج الترجمات… الرجاء تجربة ترجمات أخرى…</string>
+    <string name="permission_grant_toast">الرجاء الضغط على \"السماح\" لمنح الإذن والمحاولة مرة أخرى</string>
+    <string name="sorry">معذرة…</string>
+    <string name="cant_be_opened_by_other_players">لا يمكن فتح أو تشغيل هذا المصدر من قبل مشغلات الفيديو الأخرى. آسف للإزعاج.</string>
 
     <string name="ok">موافق</string>
     <string name="cancel">إلغاء</string>
     <string name="close">إغلاق</string>
-    <string name="install">تنزيل</string>
-    <string name="close_ad_to_play">أغلق الاعلان ليبدأ الفيديو</string>
+    <string name="install">تثبيت</string>
+    <string name="close_ad_to_play">الرجاء إغلاق الإعلان أولاً من أجل تشغيل الفيديو</string>
 
-    <string name="mxplayer_not_installed">ليس لديك MX Player</string>
-    <string name="mxplayer_not_installed_message">قم بتنزيل MX Player</string>
-    <string name="mxplayer_unable_to_start">غير قادر على تشغيل MX Player</string>
-    <string name="mxplayer_unable_to_start_message">قم بتنزيل MX Player مجدداً</string>
+    <string name="mxplayer_not_installed">MX Player غير مثبت</string>
+    <string name="mxplayer_not_installed_message">MX Player غير مثبت على جهازك. Terrarium TV يحتاج MX Player لتشغيل الوسائط. انقر على "تثبيت" لتثبيت MX Player.</string>
+    <string name="mxplayer_unable_to_start">MX Player تعذر تشغيل</string>
+    <string name="mxplayer_unable_to_start_message">يتعذر بدء تشغيل MX Player. الرجاء إعادة تثبيته وإعادة المحاولة.</string>
 
-    <string name="vlc_player_not_installed">ليس لديك VLC Player</string>
-    <string name="vlc_player_not_installed_message">قم بتنزيل VLC Player</string>
-    <string name="vlc_player_unable_to_start">غير قادر على تشغيل VLC Player</string>
-    <string name="vlc_player_unable_to_start_message">قم بتنزيل VLC Player مجدداً</string>
+    <string name="vlc_player_not_installed">VLC Player غير مثبت</string>
+    <string name="vlc_player_not_installed_message">VLC Player غير مثبت على جهازك. Terrarium TV يحتاج VLC Player لتشغيل الوسائط. انقر على "تثبيت" لتثبيت VLC Player.</string>
+    <string name="vlc_player_unable_to_start">VLC Player تعذر تشغيل</string>
+    <string name="vlc_player_unable_to_start_message">يتعذر بدء تشغيل VLC Player. الرجاء إعادة تثبيته وإعادة المحاولة.</string>
 
-    <string name="trending">الأكثر تداولا</string>
+    <string name="trending">الشائع</string>
     <string name="most_popular">الأكثر شعبية</string>
-    <string name="most_played">الأكثر تشغيلا</string>
+    <string name="most_played">الأكثر تشغيل</string>
     <string name="most_watched">الأكثر مشاهدة</string>
-    <string name="recently_updated">حدث مؤخرا</string>
-    <string name="new_shows">مسلسلات جديدة</string>
-    <string name="premieres">افتتاحيات</string>
-    <string name="on_the_air">يبث حاليا</string>
+    <string name="recently_updated">تم تحديثه مؤخرا</string>
+    <string name="new_shows">عروض جديدة</string>
+    <string name="premieres">العرض الأول</string>
+    <string name="on_the_air">يبث حالياً</string>
     <string name="top_rated">الأعلى تقييما</string>
-    <string name="now_playing">في المسارح</string>
+    <string name="now_playing">في السينما</string>
+    <string name="new_hd_releases">إصدارات جديدة HD</string>
 
-    <string name="genre_tv_action_adventure">أكشن ومغامرة</string>
-    <string name="genre_tv_sci_fantasy">خيال علمي وخيال</string>
+    <string name="genre_tv_action_adventure">حركة و مغامرة</string>
+    <string name="genre_tv_sci_fantasy">خيال علمي و خيال</string>
     <string name="genre_tv_mystery">غموض</string>
+    <string name="genre_tv_crime">جريمه</string>
     <string name="genre_tv_drama">دراما</string>
     <string name="genre_tv_comedy">كوميديا</string>
     <string name="genre_tv_family">عائلي</string>
-    <string name="genre_tv_war_politics">حرب وسياسة</string>
+    <string name="genre_tv_western">غربي</string>
+    <string name="genre_tv_war_politics">حرب و سياسة</string>
+    <string name="genre_tv_soap">عرض درامي</string>
     <string name="genre_tv_reality">واقعي</string>
     <string name="genre_tv_documentary">وثائقي</string>
+    <string name="genre_tv_kids">اطفال</string>
+    <string name="genre_tv_animation">رسوم متحركة</string>
 
-    <string name="genre_movie_action">أكشن</string>
+    <string name="genre_movie_action">حركة</string>
     <string name="genre_movie_adventure">مغامرة</string>
-    <string name="genre_movie_thriller">تشويق</string>
+    <string name="genre_movie_thriller">إثارة</string>
     <string name="genre_movie_sci">خيال علمي</string>
     <string name="genre_movie_fantasy">خيال</string>
     <string name="genre_movie_mystery">غموض</string>
-    <string name="genre_movie_horror">رعب</string>
-    <string name="genre_movie_crime">جريمة</string>
+    <string name="genre_movie_horror">مرعب</string>
+    <string name="genre_movie_crime">جريمه</string>
     <string name="genre_movie_drama">دراما</string>
     <string name="genre_movie_romance">رومانسي</string>
     <string name="genre_movie_comedy">كوميديا</string>
     <string name="genre_movie_family">عائلي</string>
-    <string name="genre_movie_animation">إنميشن</string>
+    <string name="genre_movie_animation">رسوم متحركة</string>
+    <string name="genre_movie_western">غربي</string>
     <string name="genre_movie_history">تاريخ</string>
     <string name="genre_movie_war">حرب</string>
     <string name="genre_movie_documentary">وثائقي</string>
-    <string name="genre_movie_music">موسيقا</string>
+    <string name="genre_movie_music">موسيقى</string>
+
+    <string name="list_stand_up_comedy">كوميديا ​​ارتجالية</string>
+    <string name="list_movie_oscars_winners">حاصل على الأوسكار</string>
+    <string name="list_movie_christmas">عيد الميلاد</string>
+    <string name="list_movie_marvels">مارفل</string>
+    <string name="list_movie_disney_classics">ديزني كلاسيك</string>
+
+    <string name="filter_year">فلتره بالسنه</string>
 
     <string name="pref_general">عام</string>
+    <string name="pref_performance">الأداء</string>
+    <string name="pref_new_episode_notification">إشعار الحلقة الجديدة</string>
+    <string name="pref_new_movie_release_notification">إشعار بإصدار الفلم الجديد</string>
+    <string name="pref_playback">إعادة تشغيل</string>
     <string name="pref_ui">واجهة المستخدم</string>
     <string name="pref_sources_and_resolvers">المصادر والمزودات</string>
-    <string name="pref_subtitle">لغات الترجمة في موقع OpenSubtitles وSubscene</string>
-    <string name="pref_subtitle_chin">لغات الترجمة في بقية المواقع</string>
-    <string name="pref_others">غير ذلك</string>
+    <string name="pref_subtitle">لغة الترجمات لموقع OpenSubtitles و Subscene</string>
+    <string name="pref_subtitle_chin">لغةالترجمات لموقع SubHD و Makedie و Zimuku</string>
+    <string name="pref_subtitles_style">نمط الترجمات</string>
+    <string name="pref_backup_and_restore">النسخ الاحتياطي والاستعادة</string>
+    <string name="pref_others">آخرى</string>
 
-    <string name="pref_sub_down_path">مسار تحميل الترجمات</string>
-    <string name="pref_sub_down_path_des">ستحفظ الترجمات في هذا المسار</string>
-    <string name="pref_media_down_path">مسار تحميل الأفلام والمسلسلات في حال استخدام مدير التحميل الداخلي</string>
-    <string name="pref_choose_media_down_manager">اختر مدير التحميل الافتراضي</string>
-    <string name="pref_auto_check_update">تحقق من وجود تحديثات تلقائياً</string>
-    <string name="pref_filter_out_non_english_shows">لا تظهر المسلسلات الغير أجنبية</string>
-    <string name="pref_filter_out_dead_sources">لا تظهر المصادر التي لا تعمل</string>
-    <string name="pref_filter_out_dead_sources_desc">قد يطول الوقت اللازم لتحميل المصادر </string>
-    <string name="pref_hide_unaired_season">أخفِ المواسم التي لم تبث</string>
-    <string name="pref_hide_unaired_episode">أخفِ الحلقات التي لم تبث</string>
-    <string name="pref_subtitles_filter">لا تظهر الترجمات غير المتطابقة</string>
-    <string name="pref_subtitles_choose_lang">اختر لغات الترجمة</string>
-    <string name="pref_hide_season_image">أخفِ صور المواسم</string>
-    <string name="pref_hide_episode_image">أخفِ صور الحلقات</string>
-    <string name="pref_show_menu_source">أظهر قائمة الخيارات بضغطة واحدة</string>
-    <string name="pref_poster_size">حجم البوستر</string>
-    <string name="pref_parallel_loading_sources">تحميل قائمة المصادر بتوازٍ</string>
-    <string name="pref_parallel_loading_sources_desc">يزيد من سرعة تحميل قائمة المصادر، ولكنه قد يسبب مشاكل في الاجهزة ضعيفة المواصفات</string>
-    <string name="pref_choose_default_nav">اختر الصفحة الرئيسية</string>
-    <string name="pref_choose_default_category_tv_shows">اختر صنف أو صفحة المسلسلات الرئيسية </string>
-    <string name="pref_choose_default_category_movies">اختر صنف أو صفحة الأفلام الرئيسية</string>
-    <string name="pref_enabled_tv_shows_providers">اختر مصادر المسلسلات</string>
-    <string name="pref_enabled_movies_providers">اختر مصادر الأفلام</string>
-    <string name="pref_enabled_resolvers">اختر المصادر والمزودات</string>
-    <string name="pref_modern_ui">استخدم الشكل الجديد</string>
-    <string name="pref_modern_ui_desc">اعرض بوستر المسلسل بدل الموسم</string>
-    <string name="pref_choose_default_play_action">اختر الخيار الافتراضي</string>
-    <string name="restart_to_see_the_difference">أعد تشغيل البرنامج لتطبيق التغييرات</string>
+    <string name="pref_sub_down_path">مكان تنزيل الترجمات</string>
+    <string name="pref_sub_down_path_des">سيتم تنزيل الترجمات وحفظها في هذا المكان.</string>
+    <string name="pref_media_down_path">مكان تنزيل الوسائط (فقط لمدير التنزيل الداخلي للأندرويد)</string>
+    <string name="pref_choose_media_down_manager">اختيار مدير التنزيل الافتراضي…</string>
+    <string name="pref_auto_check_update">تحقق من التحديث تلقائياُ</string>
+    <string name="pref_clear_cache">تفريغ الذاكرة المؤقتة</string>
+    <string name="pref_auto_mark_episode_as_watched">تعليم تلقائي للحلقات كمشاهدة</string>
+    <string name="pref_filter_out_non_english_shows">تصفية المسلسلات غير الإنجليزية</string>
+    <string name="pref_filter_out_dead_sources">تصفية المصادر الميتة</string>
+    <string name="pref_filter_out_dead_sources_desc">قد يطول الوقت اللازم لتحميل المصادر</string>
+    <string name="pref_filter_out_cam_version_links">تصفية روابط نسخة CAM</string>
+    <string name="pref_filter_out_cam_version_links_desc">تصفية الروابط ذات الجودة الرديئة تلقائياً</string>
+    <string name="pref_enable_new_episode_notification">تمكين إشعار الحلقة الجديدة</string>
+    <string name="pref_check_new_episode_frequency">تحقق من تكرار الحلقة الجديدة (بالساعات)</string>
+    <string name="pref_enable_new_movie_release_notification">تمكين إشعار إصدار الفيلم الجديد</string>
+    <string name="pref_check_new_movie_release_frequency">تحقق من تكرار إصدار الفيلم الجديد (بالساعات)</string>
+    <string name="pref_hide_unaired_season">إخفاء الموسم الذي لم يبث</string>
+    <string name="pref_hide_unaired_episode">إخفاء الحلقة الذي لم يبث</string>
+    <string name="pref_subtitles_filter">تصفية الترجمات غير المتطابقة</string>
+    <string name="pref_subtitles_choose_lang">اختيار لغة (لغات) الترجمات...</string>
+    <string name="pref_synopsis_choose_lang">اختيار لغة الموجز...</string>
+    <string name="pref_hide_poster_thumb">إخفاء الملصقات</string>
+    <string name="pref_hide_title_and_year_under_posters">إخفاء العنوان والعام تحت الملصقات</string>
+    <string name="pref_hide_season_image">إخفاء الصور المصغرة للموسم</string>
+    <string name="pref_hide_episode_image">إخفاء الصور المصغرة للحلقة</string>
+    <string name="pref_hide_episode_synopsis">إخفاء موجز الحلقة</string>
+    <string name="pref_hide_recaptcha_verification_message">إخفاء رسالة تحقق reCaptcha</string>
+    <string name="pref_show_menu_source">عرض القائمة بنقرة واحدة في قائمة المصدر</string>
+    <string name="pref_poster_size">حجم ملصق الوسائط</string>
+    <string name="pref_parallel_loading_sources">تحميل مصادر موازية</string>
+    <string name="pref_parallel_loading_sources_desc">ينصح بشدة لتمكينه. لتسريع تحميل المصادر بنسبة 5 سرعات. ومع ذلك قد يؤدي إلى الإغلاق الإجباري أو تعطل على بعض الأجهزة منخفضة المواصفات.</string>
+    <string name="pref_simple_scrolling_on_tv">التمرير البسيط على  تلفزيون أندرويد</string>
+    <string name="simple_scrolling_is_enabled">تم تمكين التمرير البسيط. يمكنك تعطيله من الإعدادات.</string>
+    <string name="pref_choose_default_nav">اختيار الواجهة الافتراضية...</string>
+    <string name="pref_choose_default_category_tv_shows">اختيار فئة أو نوع المسلسلات الافتراضية...</string>
+    <string name="pref_choose_default_category_movies">اختيار فئة أو نوع الأفلام الافتراضية...</string>
+    <string name="pref_enabled_tv_shows_providers">اختيار مزودي المسلسلات لتفعيلها...</string>
+    <string name="pref_enabled_movies_providers">اختيار مزودي الأفلام لتفعيلها...</string>
+    <string name="pref_enabled_resolvers">اختر المصادر والمزودات…</string>
+    <string name="pref_modern_ui">استخدام واجهة المستخدم الحديثة</string>
+    <string name="pref_modern_ui_desc">عرض البوستر بديلاً عن البنر</string>
+    <string name="pref_choose_default_play_action">اختيار إجراء التشغيل الافتراضي...</string>
+    <string name="pref_default_continue_playback_option">اختيار خيار متابعه التشغيل الافتراضي...</string>
+    <string name="pref_force_tv_mode">فرض وضع تلفزيون أندرويد</string>
+    <string name="pref_force_tv_mode_desc">عرض تخطيط تلفزيون أندرويد بالقوة</string>
+    <string name="pref_force_landscape_mode_on_tv">فرض الوضع الأفقي على تلفزيون أندرويد</string>
+    <string name="pref_choose_default_player">اختيار مشغل الفيديو الافتراضي...</string>
+    <string name="pref_show_hd_sources_only">إظهار الروابط عاليه الدقة فقط</string>
+    <string name="pref_show_season_special">عرض الموسم خاص</string>
+    <string name="pref_auto_backup_before_update">النسخ الاحتياطي التلقائي قبل التحديث</string>
+    <string name="pref_cc_subs_font_scale">مقياس حجم الخط</string>
+    <string name="pref_cc_subs_font_color">لون الخط</string>
+    <string name="pref_cc_subs_bg_color">لون الخلفية</string>
+    <string name="pref_backup_settings">إعدادات النسخ الاحتياطي</string>
+    <string name="pref_restore_settings">إعدادات الإستعادة</string>
+    <string name="pref_backup_favorites">النسخ الاحتياطي للمفضلة</string>
+    <string name="pref_restore_favorites">استعادة المفضلة</string>
+    <string name="pref_backup_watched_episodes">النسخ الاحتياطي لسجلات الحلقات المشاهدة</string>
+    <string name="pref_restore_watched_episodes">الإستعادة لسجلات الحلقات المشاهدة</string>
+    <string name="backup_path">النسخ الاحتياطي إلى \"%s\"</string>
+    <string name="restore_path">الإستعادة من \"%s\"</string>
+    <string name="backup_success">تم الاحتفاظ بنسخة احتياطية بنجاح!</string>
+    <string name="restore_success">تمت الإستعادة بنجاح!</string>
+    <string name="failed_to_backup">فشل النسخ الاحتياطي</string>
+    <string name="failed_to_restore">فشل في الإستعادة</string>
+    <string name="pref_resolve_all_links_immediately">حل جميع الروابط على الفور</string>
+    <string name="pref_resolve_all_links_immediately_desc">حل جميع الروابط إلى روابط التشغيل المباشرة على الفور. إذا تم تعطيل هذا الخيار، Terrarium TV سوف يحل الرابط فقط عند نقر المستخدم عليه. (إيقاف هذا عندما يتأخر التطبيق!)</string>
+    <string name="pref_auto_resolve_hd_links_only">حل تلقائي لروابط جودة HD فقط</string>
+    <string name="pref_sources_list_refresh_interval">الفاصل الزمني لتحديث قائمة المصادر (بالثواني)</string>
+    <string name="pref_sources_list_refresh_interval_msg">إذا استمر التطبيق في التجمد اثناء التحميل للروابط، الرجاء زيادة القيمة.</string>
+    <string name="restart_to_see_the_difference">الرجاء أعاده تشغيل Terrarium TV لرؤية الفرق.</string>
+    <string name="resolve_all_links_immediately_is_disabled">\"حل جميع الروابط على الفور\" معطل</string>
 
-    <string name="download_manager_internal">مدير التحميل الأساسي</string>
-    <string name="download_manager_external">مدير تحميل خارجي</string>
+    <string name="download_manager_internal">مدير التنزيل الداخلي للأندرويد</string>
+    <string name="download_manager_external">مدير التنزيل الخارجي</string>
 
-    <string name="action_play">مشاهدة</string>
-    <string name="action_play_with_subs">تظهر مع الترجمة</string>
-    <string name="action_download">تحميل</string>
-    <string name="action_download_with_subs">تحميل مع ترجمة</string>
-    <string name="action_copy_link">انسخ الرابط</string>
-    <string name="action_play_via_other_players">…فتح باستخدام</string>
-    <string name="choose_player">اختر برنامجاً</string>
-    <string name="no_player_was_found">لم نجد مشغلاً</string>
-    <string name="choose_external_download_manager">اختر مدير تحميل خارجي</string>
-    <string name="no_external_download_manager_was_found">ليس لديك مدير تحميل خارجي</string>
-    <string name="download_started">بدء التحميل</string>
-    <string name="download_path_error">يجب أن يكون مسار التحميل في الذاكرة الداخلية، اختر مسارا آخر</string>
-    <string name="copied_link">تم نسخ الرابط</string>
-    <string name="link_must_be_played_in_app">عذراً… لا يمكن تشغيل هذا المصدر</string>
+    <string name="option_player_default">الأفتراضي للمشغل</string>
+    <string name="option_always_ask">أسال دائماً</string>
+    <string name="option_start_over">ابدأ من جديد</string>
+    <string name="option_resume">إستئناف</string>
+    <string name="do_you_wish_to_resume">هل ترغب في الاستئناف من حيث توقفت؟</string>
 
-    <string name="update_title">نسخة جديدة: \"%s\"</string>
-    <string name="update_message">النسخة: %s</string>
+	<string name="exit">خروج</string>
+    <string name="exit_confirm">هل أنت متأكد؟</string>
+	
+    <string name="action_play">تشغيل</string>
+    <string name="action_cast">إرسال</string>
+	<string name="action_play_with_subs">تشغيل مع الترجمة</string>
+    <string name="action_cast_with_subs">إرسال مع الترجمات</string>
+	<string name="action_download">تنزيل</string>
+    <string name="action_download_with_subs">تنزيل مع الترجمة</string>
+    <string name="action_copy_link">نسخ رابط البث</string>
+    <string name="action_play_via_other_players">تشغيل بواسطة...</string>
+    <string name="choose_player">اختيار مشغل الفيديو...</string>
+    <string name="no_player_was_found">لم يتم العثور على مشغل الفيديو</string>
+    <string name="choose_external_download_manager">اختيار مدير التنزيل الخارجي...</string>
+    <string name="no_external_download_manager_was_found">لم يتم العثور على مدير تنزيل خارجي. يرجى تنزيله من متجر Play أو استخدام مدير التنزيل الداخلي للأندرويد</string>
+    <string name="download_started">بدأ التنزيل...</string>
+    <string name="download_path_error">يجب أن يكون مسار التنزيل في وحدة التخزين الداخلية. الرجاء اختيار مسار آخر.</string>
+    <string name="copied_link">تم نسخ رابط البث!</string>
+    <string name="link_must_be_played_in_app">عذراً… لا يمكن تشغيل هذا الرابط إلا في Terrarium TV…</string>
+    <string name="video_player_crashed_unexpectedly">أنهار المشغل بشكل غير متوقع. الرجاء محاولة استخدام مشغل فيديو آخر لتشغيل الفيديو.</string>
+    <string name="choose_subtitles_file">اختيار ملف الترجمة...</string>
+
+    <string name="update_title">عثر على الإصدار الجديد : %s</string>
+    <string name="update_message">الإصدار %s : </string>
     <string name="update_button">تحديث</string>
-    <string name="update_downloading">%s جاري تحميل التحديث</string>
-    <string name="update_failed">فشل التحميل أو ألغي</string>
+    <string name="update_downloading">تنزيل التحديث %s</string>
+    <string name="update_failed">فشل التحديث أو تم إلغائه</string>
 
-    <string name="subtitle_name">اسم الترجمة </string>
+    <string name="subtitle_name">اسم الترجمة : </string>
 
-    <string name="facebook_page">صفحتنا على الفايسبوك</string>
+    <string name="facebook_page">صفحة الفيسبوك</string>
+    <string name="official_website_menuitem">الموقع الرسمي</string>
 
-    <string name="changelog">سجل التغييرات</string>
-    <string name="choose_browser">اختر متصفحاً</string>
+    <string name="changelog">سجل التغيير</string>
+    <string name="choose_browser">اختيار متصفح</string>
+    <string name="choose_app">اختيار تطبيق...</string>
 
-    <string name="disclaimer">إخلاء مسؤولية</string>
+    <string name="disclaimer">إخلاء المسئولية</string>
     <string name="accept">قبول</string>
     <string name="decline">رفض</string>
 
-    <string name="error">خطأ غير معروف، حاول مجدداً</string>
-    <string name="please_wait">رجاءً انتظر</string>
+    <string name="cant_open_youtube">لا يمكن فتح يوتوب. الرجاء إعادة المحاولة لاحقا.</string>
+    <string name="error">خطأ مجهول. حاول مرة اخرى.</string>
+    <string name="please_wait">الرجاء الانتظار…</string>
 
-    <string name="recaptcha_verify">%s اكتب ما تراه حتى تستطيع التحميل من</string>
+    <string name="recaptcha_verify">تحتاج إلى التحقق من reCaptcha للحصول على مصادر من %s</string>
     <string name="verify">تحقق</string>
 
     <string name="size_large">كبير</string>
-    <string name="size_normal">متوسط</string>
+    <string name="size_normal">عادي</string>
     <string name="size_small">صغير</string>
 
     <string name="show_details_overview">نظرة عامة</string>
-    <string name="show_details_season">المواسم</string>
+    <string name="show_details_season">الموسم</string>
     <string name="media_suggestion">شاهد أيضاً</string>
     <string name="no_synopsis">لا يوجد ملخص</string>
-    <string name="loading_ratings">جاري تحميل التقييم</string>
-    <string name="no_ratings">لا يوجد تقييم</string>
-    <string name="meta_in_production">قيد الانتاج</string>
-    <string name="meta_returning_series">مسلسل عائد</string>
-    <string name="meta_ended">منتهٍ</string>
+    <string name="synopsis_is_hidden">الملخص مخفي</string>
+    <string name="loading_ratings">جار تحميل التقييمات...</string>
+    <string name="no_ratings">بدون تقييم</string>
+    <string name="meta_in_production">في الانتاج</string>
+    <string name="meta_returning_series">مسلسلات معادة</string>
+    <string name="meta_ended">انتهى</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
 
     <string name="tv_shows">المسلسلات</string>
     <string name="movies">الأفلام</string>
+    <string name="downloads">التنزيلات</string>
+    <string name="tools">الأدوات</string>
 
-    <string name="play_trailer">شاهد الاعلان</string>
+    <string name="play_trailer">تشغيل المقطع الدعائي</string>
+    <string name="all">الكل</string>
+    <string name="tv_calendar">التقويم التلفزيوني</string>
+    <string name="always_ask">أسال دائماً</string>
 
-    <string name="translators">المترجمون</string>
+    <string name="translators">المترجمين</string>
 
-    <string name="pref_app_lang">لغة البرنامج</string>
+    <string name="pref_app_lang">لغة التطبيق</string>
 
-    <string name="learn_more">Learn More</string>
+    <string name="learn_more">معرفة المزيد</string>
+    <string name="choose_a_correct_date">الرجاء اختيار تاريخ صحيح</string>
+    <string name="cache_cleared">تم مسح الذاكرة المؤقته!</string>
+    <string name="error_details">خطأ: %s</string>
+
+    <string name="new_episode">حلقة جديدة: %s</string>
+    <string name="default_value">افتراضي: %s</string>
+    <string name="value_must_be_positive">يجب أن تكون القيمة إيجابية</string>
+
+    <string name="try_it">جربها!</string>
+    <string name="click_play_button_on_your_rc">اضغط على زر "تشغيل" أو الضغط لفترة طويلة على زر "إدخال" على جهاز التحكم عن بعد للتشغيل على الفور!</string>
+    <string name="press_back_again_to_exit">اضغط رجوع مره أخرى للخروج</string>
+
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="finished">منتهي</string>
+    <string name="file_not_found">الملف غير موجود!</string>
+
+    <string name="resolving">تحليل</string>
+    <string name="resolving_links">تحليل الرواب...</string>
+    <string name="failed_to_resolve_link">أخفق تحليل هذا الرابط. الرجاء محاولة رابط آخر بدلا من ذلك.</string>
+    <string name="no_streamlink_is_available">عذراً… لا يتوفر رابط بث حالياَ…</string>
+    <string name="link_cant_be_resolved">عذراً… لا يمكن تحليل هذا الرابط…</string>
+
+    <string name="low_end_device_detected">تم اكتشاف جهاز منخفض المواصفات</string>
+    <string name="resolve_all_links_immediately_disabled">يبدو أنك تستخدم Terrarium TV على جهاز منخفض المواصفات. بسبب تحسين الأداء وتحسين تجربة المستخدم، \"حل جميع الروابط على الفور\" يتم تعطيل الميزات بشكل افتراضي. لن ترى حجم الملف لبعض الروابط الآن ولكن التطبيق لن يتعطل ويتأخر مرة أخرى. ذا كنت تريد أن ترى حجم الملف من جميع الروابط مرة أخرى، يمكنك الذهاب إلى صفحة \"الإعدادات\" وتمكين تلك الخيارات</string>
+
+    <string name="android_download_manager_is_disabled">تم تعطيل مدير تنزيل الأندرويد</string>
+    <string name="android_download_manager_is_disabled_msg">من أجل تنزيل الملفات، تحتاج إلى تمكين مدير تنزيل الأندرويد الداخلي أولاً. انقر على "موافق" للمتابعة.</string>
+
+    <string name="like_us_on_facebook_title">اعجب بنا على الفيسبوك!</string>
+    <string name="like_us_on_facebook_message">هل تعتقد أن هذا التطبيق مفيد؟ اعجب بنا على الفيسبوك لإظهار دعمك!</string>
+    <string name="like_us_on_facebook_yes">إعجاب!</string>
+    <string name="dont_ask_again_checkbox">لا تسأل مرة أخرى</string>
+
+    <string name="media_route_menu_title">إرسال إلى Chromecast</string>
+    <string name="chromecast_available">Chromecast متوفر</string>
+    <string name="chromecast_not_connected">Chromecast غير متصل</string>
+    <string name="chromecast_resume_failed">أخفق استئناف تشغيل الفيديو</string>
+    <string name="chromecast_failed_to_play">أخفق تشغيل الفيديو</string>
+    <string name="video_cant_be_casted">لا يمكن إرسال هذا الفيديو إلى Chromecast</string>
+    <string name="cant_be_casted_message">لا يمكن إرسال هذا الرابط باستخدام وظيفة Chromecast المضمنة بسبب بعض القيود التقنية. يرجى استخدام LocalCast أو AllCast لإرسال هذا الرابط بدلا من ذلك.</string>
+    <string name="google_play_services_not_installed">لم يتم تثبيت خدمات Google Play</string>
+    <string name="cant_cast_on_tv">لا يمكن إرسالها إلى جهاز Chromecast على أجهزة Android TV</string>
+    <string name="preparing_to_cast">التحضير للإرسال...</string>
+
+    <string name="ttv_switch_season">تبديل الموسم بنقرة واحدة</string>
+    <string name="ttv_switch_season_desc">ببساطة انقر على هذا الزر لاستدعاء القائمة المنسدلة. التبديل إلى موسم آخر بنقرة واحدة فقط.</string>
+    <string name="ttv_switch_subtitles_provider">تبديل مزود الترجمة</string>
+    <string name="ttv_switch_subtitles_provider_desc">لم تجد أي ترجمات مناسبة؟ اضغط عليه واختر مزود ترجمات أخرى.</string>
+    <string name="ttv_set_episode_as_watched">تعيين الحلقة كمشاهدة</string>
+    <string name="ttv_set_episode_as_watched_desc">انقر على هذا المربع لتعيين هذه الحلقة كمشاهدة. انقر مرة أخرى لتعيينها كغير مشاهدة. بسيط وذكي وسريع!</string>
+    <string name="ttv_watch_now">شاهد الآن!</string>
+    <string name="ttv_watch_now_desc">انقر على زر التشغيل هذا وشاهد بدقة عالية مجانا!</string>
+    <string name="ttv_watch_new_movies_now">شاهد %1$d من الأفلام الجديدة الآن!</string>
+    <string name="ttv_switch_video_player">تبديل مشغل الفيديو</string>
+    <string name="ttv_switch_video_player_desc">انقر على هذا الزر لمشاهدة الفيديو مع مشغل فيديو آخر!</string>
+    
+	<string name="exo_player_resize_mode">وضع تغيير الحجم</string>
+    <string name="exo_player_fit_to_screen">ملائمة للشاشة</string>
+    <string name="exo_player_stretch">تمدد</string>
+    <string name="exo_player_crop">اقتصاص</string>
+    <string name="exo_player_fixed_width">العرض المناسب</string>
+    <string name="exo_player_fixed_height">الارتفاع المناسب</string>
+
+    <string name="exo_player_disabled">معطل</string>
+    <string name="exo_player_default">افتراضي</string>
+    <string name="exo_player_volume">الصوت: %s</string>
+    <string name="exo_player_brightness">السطوع: %s</string>
+    <string name="exo_player_sound_tracks">المقاطع الصوتية</string>
+    <string name="exo_player_error_unable_to_set_subs_style">تعذر تعيين نمط الترجمات</string>
+    <string name="exo_player_error_none_video_tracks_are_playable">تتضمن الوسائط مقاطع فيديو، ولكن لا يمكن تشغيل أي منها بواسطة هذا الجهاز</string>
+    <string name="exo_player_error_none_audio_tracks_are_playable">تتضمن الوسائط مسارات صوتية، ولكن لا يمكن تشغيل أي منها بواسطة هذا الجهاز</string>
+    <string name="exo_player_error_unable_to_parse_subs">يتعذر تحليل الترجمات</string>
+    <string name="exo_player_error_unable_to_render_subs">يتعذر على هذا الجهاز تقديم الترجمات</string>
+    <string name="exo_player_error_unable_to_query_decoders">تعذر الاستعلام عن أجهزة فك تشفير الجهاز</string>
+    <string name="exo_player_error_no_decoder">لا يوفر هذا الجهاز وحده فك ترميز لـ %s</string>
+    <string name="exo_player_error_no_secure_decoder">لا يوفر هذا الجهاز وحده فك ترميز أمنه لـ %s</string>
+    <string name="exo_player_error_unable_to_init_decoder">غير قادر علي إنشاء مثيل لوحده فك الترميز %s</string>
+    <string name="exo_player_error_too_many_requests">طلبات كثيره جدا. الرجاء محاولة عدم التقديم السريع أو الترجيع أو قد يتوقف الفيديو</string>
+    <string name="exo_player_error">خطأ في المشغل: %s</string>
+    <string name="exo_player_error_http">خطأ HTTP: %s</string>
+    <string name="exo_player_error_media_source_does_not_exist">مصدر الوسائط غير موجود</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">حدث خطأ غير متوقع، وقد تم إبلاغ المطور.\nنأسف للإزعاج.\n\nإذا ظل التطبيق ينهار الرجاء قم بضبط  \"الأداء\" إعدادات في \"لإعدادات\" صفحة.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">استثناء غير معروف</string>
+    <string name="customactivityoncrash_error_activity_restart_app">إعادة تشغيل Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_close_app">أغلاق Terrarium TV</string>
+    <string name="customactivityoncrash_error_activity_error_details">تفاصيل الخطأ</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">تفاصيل الخطأ</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">إغلاق</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">نسخ إلى الحافظة</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">تم النسخ إلى الحافظة</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">معلومات الخطأ</string>
+
+    <!-- DO NOT EDIT THE STRINGS BELOW -->
+    <string name="app_name" translatable="false">Terrarium TV</string>
+    <string name="privacy_policy" translatable="false">سياسة الخصوصية</string>
+    <string name="about_app_title" translatable="false">حول Terrarium TV</string>
+    <string name="about_app_message" translatable="false">Terrarium TV (الإصدار : %s)\nصنع بوسطة Peter Chan (NitroXenon) | جميع الحقوق محفوظة\n\nالموقع الرسمي : https://terrariumtv.com\n\nصفحه الفيسبوك الرسمية : https://fb.com/terrariumtv\n\nReddit : /r/TerrariumTV\n\nسياسة الخصوصية : https://www.iubenda.com/privacy-policy/8128391\n\nDMCA Takedown - Contact : nx@terrariumtv.com\n\nخدمه الترجمه بدعم من www.OpenSubtitles.org\n\nأنت تقبل سياسة الخصوصية عند النقر على "قبول". من خلال الوصول إلى أو استخدام أي من الخدمات، أنت تقبل وتوافق على الممارسات الموضحة في سياسة الخصوصية.\n\nTerrarium TV يحتوي على روابط فقط إلى مواقع أخرى على شبكة الإنترنت. انه لايستظيف أو يحمل اي فديوهات أو أفلام أو ملفات وسائط. انه لايخزن اي روابط بث للوسائط علي الخادم الخاص به. Terrarium TV ببساطة تجميع الروابط في واجهة مريحة وسهلة الاستخدام. Terrarium TV غير مسئول عن الدقة والامتثال وحقوق المؤلف، والشرعية، والآداب، أو أي جانب آخر من محتوى المواقع المرتبطة الأخرى. إذا كانت لديك أية مشكلات قانونية، الرجاء الاتصال بمالكي ملفات الوسائط المناسبة أو المواقع المستضيفة. أي قضايا قانونية بشأن المسلسلات والأفلام المجانية عبر الإنترنت على هذا التطبيق ينبغي تناولها مع المستضيفين للملف الفعلي والمقدمين أنفسهم، ونحن لسنا تابعين لهم..\n\nفي حالة انتهاك حقوق الطبع والنشر، الرجاء الاتصال مباشرة بالأطراف المسؤولة أو مواقع البث. Terrarium TV يعمل كمحرك بحث لمحتوى المسلسلات والأفلام الموجودة والمتاحة للجمهور على شبكة الإنترنت، من حيث مبدأ الإجراء بنفس طريقة بحث جوجل. ومع ذلك ، Terrarium TV  يؤمن بقوة في حماية الملكية الفكرية، وسيكون على استعداد للمساعدة عندما يكون ذلك ممكنا وقابلا للتطبيق. يتم بث مقاطع الفيديو مباشرة من خدمات مشاركة الفيديو من جهة خارجية. جميع العلامات التجارية الأخرى، والشعارات، والصور هي ملك لأصحابها وأصحابها الشرعيين.\n\nاستخدام Terrarium TV على مسؤوليتك الخاصة.</string>
+    <string name="official_website" translatable="false">https://terrariumtv.com</string>
 </resources>
